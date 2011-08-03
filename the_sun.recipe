@@ -1,0 +1,49 @@
+import re
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import Tag
+
+class AdvancedUserRecipe1268409464(BasicNewsRecipe):
+    title = u'The Sun'
+    __author__ = 'Chaz Ralph'
+    description = 'News from The Sun'
+    oldest_article = 1
+    max_articles_per_feed = 100
+    language = 'en'
+    no_stylesheets = True
+    extra_css = '.headline {font-size: x-large;} \n .fact { padding-top: 10pt }'
+    encoding= 'iso-8859-1'
+    remove_javascript = True
+
+    keep_only_tags = [
+            dict(id='column-print')
+    ]
+
+    remove_tags = [
+        dict(name='div', attrs={'class':[
+            'clear text-center small padding-left-right-5 text-999 padding-top-5 padding-bottom-10 grey-solid-line',
+            'clear width-625 bg-fff padding-top-10'
+            ]}),
+        dict(name='video'),
+    ]
+
+    def preprocess_html(self, soup):
+        h1 = soup.find('h1')
+        if h1 is not None:
+            text = self.tag_to_string(h1)
+            nh = Tag(soup, 'h1')
+            nh.insert(0, text)
+            h1.replaceWith(nh)
+
+        return soup
+
+
+    feeds = [(u'News', u'http://www.thesun.co.uk/sol/homepage/feeds/rss/article312900.ece')
+,(u'Sport', u'http://www.thesun.co.uk/sol/homepage/feeds/rss/article247732.ece')
+,(u'Football', u'http://www.thesun.co.uk/sol/homepage/feeds/rss/article247739.ece')
+,(u'Gizmo', u'http://www.thesun.co.uk/sol/homepage/feeds/rss/article247829.ece')
+,(u'Bizarre', u'http://www.thesun.co.uk/sol/homepage/feeds/rss/article247767.ece')]
+
+    def print_version(self, url):
+        return re.sub(r'\?OTC-RSS&ATTR=[-a-zA-Z]+', '?print=yes', url)
+
+

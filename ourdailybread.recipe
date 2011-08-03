@@ -1,0 +1,59 @@
+__license__   = 'GPL v3'
+__copyright__ = '2009-2010, Darko Miletic <darko.miletic at gmail.com>'
+'''
+odb.org
+'''
+
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class OurDailyBread(BasicNewsRecipe):
+    title                 = 'Our Daily Bread'
+    __author__            = 'Darko Miletic and Sujata Raman'
+    description           = "Our Daily Bread is a daily devotional from RBC Ministries which helps readers spend time each day in God's Word."
+    oldest_article        = 15
+    language              = 'en'
+    max_articles_per_feed = 100
+    no_stylesheets        = True
+    use_embedded_content  = False
+    category              = 'ODB, Daily Devotional, Bible, Christian Devotional, Devotional, RBC Ministries, Our Daily Bread, Devotionals, Daily Devotionals, Christian Devotionals, Faith, Bible Study, Bible Studies, Scripture, RBC, religion'
+    encoding              = 'utf-8'
+
+    conversion_options = {
+                             'comments'         : description
+                            ,'tags'             : category
+                            ,'language'         : language
+                            ,'linearize_tables' : True
+                         }
+
+    keep_only_tags    = [dict(attrs={'class':'module-content'})]
+    remove_tags       = [
+                           dict(attrs={'id':'article-zoom'})
+                          ,dict(attrs={'class':'listen-now-box'})
+                        ]
+    remove_tags_after = dict(attrs={'class':'readable-area'})
+
+    extra_css = '''
+                .text{font-family:Arial,Helvetica,sans-serif;font-size:x-small;}
+                .devotionalTitle{font-family:Arial,Helvetica,sans-serif; font-size:large; font-weight: bold;}
+                .devotionalDate{font-family:Arial,Helvetica,sans-serif; font-size:xx-small;}
+                .devotionalVerse{font-family:Arial,Helvetica,sans-serif; font-size:xx-small; }
+                a{color:#000000;font-family:Arial,Helvetica,sans-serif; font-size:x-small;}
+                '''
+
+    feeds          = [(u'Our Daily Bread', u'http://odb.org/feed/')]
+
+    def preprocess_html(self, soup):
+        return self.adeify_images(soup)
+
+    def get_cover_url(self):
+
+        href =  'http://www.rbc.org/index.aspx'
+
+        soup = self.index_to_soup(href)
+        a = soup.find('a',attrs={'id':'ctl00_hlTodaysDevotionalImage'})
+
+        if a :
+           cover_url = a.img['src']
+
+        return cover_url
+

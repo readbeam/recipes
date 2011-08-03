@@ -1,0 +1,94 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+import re
+
+class EntrepeneurMagRecipe(BasicNewsRecipe):
+    __license__  = 'GPL v3'
+    __author__ = 'kwetal'
+    language = 'en'
+    version = 1
+
+    title = u'Entrepeneur Magazine'
+    publisher = u'Entrepreneur Media, Inc'
+    category = u'Business'
+    description = u'Online magazine on business, small business, management and economy'
+
+    encoding = 'utf-8'
+
+    no_stylesheets = True
+    remove_javascript = True
+
+    keep_only_tags = []
+    keep_only_tags.append(dict(name = 'div', attrs = {'id': 'printbody'}))
+
+    remove_tags = []
+    remove_tags.append(dict(name = 'base'))
+    remove_tags.append(dict(name = 'a', attrs = {'id': 'ctl00_privacyPolicyLink'}))
+
+    remove_attributes = ['style']
+
+    INDEX = 'http://www.entrepeneur.com'
+
+    extra_css = '''
+                body{font-family:verdana,arial,helvetica,geneva,sans-serif;}
+                img {float: left; margin-right: 0.5em;}
+                a, a[href] {text-decoration: none; color: blue;}
+                div#ctl00_bodyContentPlaceHolder_articleHeader_divHeaderText {font-weight: bold;
+                    font-size: medium;}
+                h1 {font-size: xx-large; font-weight: bold;}
+                div.byline {font-size: small; color: #696969; font-weight: normal;}
+                a.h2 {font-size: medium; font-weight: bold; color: #666666; text-decoration: none;
+                    margin-bottom: 0em;}
+                '''
+
+    conversion_options = {'comments': description, 'language': 'en',
+                          'publisher': publisher}
+
+    def parse_index(self):
+        soup = self.index_to_soup('http://www.entrepreneur.com/magazine/entrepreneur/index.html')
+        answer = []
+
+        div = soup.find('div', attrs = {'id': 'magfeature'})
+        if div:
+            a = div.find('a', attrs = {'class': 'headline'})
+            if a:
+                title = self.tag_to_string(a)
+                url = self.INDEX + a['href']
+                description = a.findNextSibling(text = True)
+
+                articles = [{'title': title, 'date': None, 'url': url, 'description': description}]
+                answer.append(('Cover Story', articles))
+
+        for div in soup.findAll('div', attrs = {'class': 'subhead-special'}):
+            articles = []
+            for tag in div.findNextSiblings(['a', 'div'], attrs = {'class': ['h2', 'subhead-special']}):
+                if tag.name == 'div' and tag['class'] == 'subhead-special':
+                    break
+                if tag.name == 'a' and tag['class'] == 'h2':
+                    title = self.tag_to_string(tag)
+                    url = tag['href']
+                    description = tag.findNextSibling(text = True)
+                    articles.append({'title': title, 'date': None, 'url': url, 'description': description})
+            answer.append((self.tag_to_string(div), articles))
+
+        return answer
+
+
+    def print_version(self, url):
+        id = url.rpartition('/')[2]
+
+        return 'http://www.entrepreneur.com/article/printthis/' + id
+
+    def preprocess_html(self, soup):
+        div = soup.find('div', attrs = {'id': 'printbody'})
+        if div:
+            a = div.find(lambda tag: tag.name == 'a' and len(tag.attrs) == 1)
+            if a:
+                txt = a.findPreviousSibling(text = re.compile('URL:.*'))
+                if txt:
+                    txt.extract()
+                for br in a.findNextSiblings('br'):
+                    br.extract()
+                a.extract()
+
+        return soup
+

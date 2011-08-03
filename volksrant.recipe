@@ -1,0 +1,86 @@
+# vim:fileencoding=UTF-8:ts=4:sw=4:sta:et:sts=4:ai
+from __future__ import with_statement
+
+__license__   = 'GPL v3'
+__copyright__ = '2009, Kovid Goyal <kovid@kovidgoyal.net>'
+__docformat__ = 'restructuredtext en'
+
+'''
+ Modified by Tony Stegall
+ on 10/10/10 to include function to grab print version of articles
+'''
+
+from datetime import date
+from calibre.web.feeds.news import BasicNewsRecipe
+'''
+added by Tony Stegall
+'''
+#######################################################
+from calibre.ptempfile import PersistentTemporaryFile
+#######################################################
+
+class AdvancedUserRecipe1249039563(BasicNewsRecipe):
+    title          = u'De Volkskrant'
+    __author__     = 'acidzebra'
+    oldest_article = 7
+    max_articles_per_feed = 100
+    no_stylesheets = True
+    language = 'nl'
+
+    extra_css      = '''
+                        body{font-family:Arial,Helvetica,sans-serif;font-size:small;}
+                        h1{font-size:large;}
+                     '''
+    '''
+      Change Log:
+        Date:       10/10/10  - Modified code to include obfuscated to get the print version
+        Author:   Tony Stegall
+
+        Date:       01/01/11  - Modified for better results around December/January.
+        Author:   Martin Tarenskeen
+    '''
+   #######################################################################################################
+    temp_files = []
+    articles_are_obfuscated = True
+
+    def get_obfuscated_article(self, url):
+        br = self.get_browser()
+        print 'THE CURRENT URL IS: ', url
+        br.open(url)
+        year = date.today().year
+
+        try:
+            response = br.follow_link(url_regex='.*?(%d)(\\/)(article)(\\/)(print)(\\/)'%year, nr = 0)
+            html = response.read()
+        except:
+            year = year-1
+            try:
+                response = br.follow_link(url_regex='.*?(%d)(\\/)(article)(\\/)(print)(\\/)'%year, nr = 0)
+                html = response.read()
+            except:
+                response = br.open(url)
+                html = response.read()
+
+
+        self.temp_files.append(PersistentTemporaryFile('_fa.html'))
+        self.temp_files[-1].write(html)
+        self.temp_files[-1].close()
+        return self.temp_files[-1].name
+
+   ###############################################################################################################
+
+    '''
+      Change Log:
+       Date: 10/15/2010
+       Feeds updated by Martin Tarenskeen
+    '''
+
+    feeds          = [
+                      (u'Laatste Nieuws', u'http://www.volkskrant.nl/rss/laatstenieuws.rss'),
+                      (u'Binnenland', u'http://www.volkskrant.nl/rss/nederland.rss'),
+                      (u'Buitenland', u'http://www.volkskrant.nl/rss/internationaal.rss'),
+                      (u'Economie', u'http://www.volkskrant.nl/rss/economie.rss'),
+                      (u'Sport', u'http://www.volkskrant.nl/rss/sport.rss'),
+                      (u'Cultuur', u'http://www.volkskrant.nl/rss/kunst.rss'),
+                      (u'Gezondheid & Wetenschap', u'http://www.volkskrant.nl/rss/wetenschap.rss'),
+                      (u'Internet & Media', u'http://www.volkskrant.nl/rss/media.rss') ]

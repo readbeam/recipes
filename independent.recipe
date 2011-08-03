@@ -1,0 +1,70 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import BeautifulSoup
+
+class TheIndependent(BasicNewsRecipe):
+    title          = u'The Independent'
+    language       = 'en_GB'
+    __author__     = 'Krittika Goyal'
+    oldest_article = 1 #days
+    max_articles_per_feed = 30
+    encoding = 'latin1'
+
+    no_stylesheets = True
+    #remove_tags_before = dict(name='h1', attrs={'class':'heading'})
+    #remove_tags_after  = dict(name='td', attrs={'class':'newptool1'})
+    remove_tags = [
+       dict(name='iframe'),
+       dict(name='div', attrs={'class':'related-articles'}),
+       dict(name='div', attrs={'id':['qrformdiv', 'inSection', 'alpha-inner']}),
+       dict(name='ul', attrs={'class':'article-tools'}),
+       dict(name='ul', attrs={'class':'articleTools'}),
+    ]
+
+    feeds          = [
+            ('UK',
+            'http://www.independent.co.uk/news/uk/rss'),
+            ('World',
+            'http://www.independent.co.uk/news/world/rss'),
+            ('Business',
+            'http://www.independent.co.uk/news/business/rss'),
+            ('People',
+            'http://www.independent.co.uk/news/people/rss'),
+            ('Science',
+            'http://www.independent.co.uk/news/science/rss'),
+            ('Media',
+            'http://www.independent.co.uk/news/media/rss'),
+            ('Education',
+            'http://www.independent.co.uk/news/education/rss'),
+            ('Obituaries',
+            'http://www.independent.co.uk/news/obituaries/rss'),
+
+            ('Opinion',
+            'http://www.independent.co.uk/opinion/rss'),
+
+            ('Environment',
+            'http://www.independent.co.uk/environment/rss'),
+
+            ('Sport',
+            'http://www.independent.co.uk/sport/rss'),
+
+            ('Life and Style',
+            'http://www.independent.co.uk/life-style/rss'),
+
+            ('Arts and Entertainment',
+            'http://www.independent.co.uk/arts-entertainment/rss'),
+
+            ('Travel',
+            'http://www.independent.co.uk/travel/rss'),
+
+            ('Money',
+            'http://www.independent.co.uk/money/rss'),
+    ]
+
+    def preprocess_html(self, soup):
+        story = soup.find(name='div', attrs={'id':'mainColumn'})
+        #td = heading.findParent(name='td')
+        #td.extract()
+        soup = BeautifulSoup('<html><head><title>t</title></head><body></body></html>')
+        body = soup.find(name='body')
+        body.insert(0, story)
+        return soup

@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='utf-8'?>
+<recipe_collection xmlns="http://calibre-ebook.com/recipe_collection" count="988">
+  <recipe description="Macedonian news portal" language="mk" author="Darko Spasovski" title="+info" needs_subscription="no" id="builtin:plus_info"/>
+  <recipe description="A 168 óra friss hírei" language="hu" author="István Papp" title="168 óra" needs_subscription="no" id="builtin:h1"/>
+  <recipe description="Noticias de Uruguay" language="es_UY" author="Gustavo Azambuja" title="180.com.uy" needs_subscription="no" id="builtin:180"/>
+  <recipe description="Diario de informacion general y local mas leido de Espania, noticias de ultima hora de Espania, el mundo, local, deportes, noticias curiosas y mas" language="es" author="Darko Miletic" title="20 Minutos" needs_subscription="no" id="builtin:20minutos"/>
+  <recipe description="Free spanish newspaper" language="es" author="Luis Hernandez" title="20 Minutos new" needs_subscription="no" id="builtin:20_minutos"/>
+  <recipe description="News Portal from Croatia" language="hr" author="Darko Miletic" title="24 Sata - Hr" needs_subscription="no" id="builtin:24sata"/>
+  <recipe description="24 sata portal vesti iz Srbije" language="sr" author="Darko Miletic" title="24 Sata - Sr" needs_subscription="no" id="builtin:24sata_rs"/>
+  <recipe description="Revista Argentina" language="es_AR" author="Darko Miletic" title="7 dias" needs_subscription="no" id="builtin:7dias"/>
+  <recipe description="" language="cs" author="Funthomas" title="ABC Linuxu" needs_subscription="no" id="builtin:abc"/>
+  <recipe description="News from Australia" language="en_AU" author="Dean Cording" title="ABC News" needs_subscription="no" id="builtin:abc_au"/>
+  <recipe description="Noticias de Paraguay y el resto del mundo" language="es_PY" author="Darko Miletic" title="ABC digital" needs_subscription="no" id="builtin:abc_py"/>
+  <recipe description="Noticias de Spain y el mundo" language="es" author="Ricardo Jurado" title="ABC.es" needs_subscription="no" id="builtin:abc_es"/>
+  <recipe description="News and Sports from the Netherlands" language="nl" author="kwetal" title="AD" needs_subscription="no" id="builtin:ad"/>
+  <recipe description="AKTER - nedeljni politicki magazin savremene Srbije" language="sr" author="Darko Miletic" title="AKTER" needs_subscription="no" id="builtin:akter"/>
+  <recipe description="" language="hu" author="Ezmegaz" title="ATV" needs_subscription="no" id="builtin:h2"/>
+  <recipe description="The Arizona Republic is Arizona's leading provider of news and information, and has published a daily newspaper in Phoenix for more than 110 years" language="en" author="Jim Olo" title="AZRepublic" needs_subscription="no" id="builtin:arizona_republic"/>
+  <recipe description="" language="de" author="schuster" title="Aachener Nachrichten" needs_subscription="no" id="builtin:aachener_nachrichten"/>
+  <recipe description="Tagma cum laude" language="ro" author="Silviu Cotoară" title="Academia Caţavencu" needs_subscription="no" id="builtin:catavencu"/>
+  <recipe description="business news" language="en" author="Darko Miletic" title="Accountancy Age" needs_subscription="no" id="builtin:accountancyage"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Adevărul" needs_subscription="no" id="builtin:adevarul"/>
+  <recipe description="News agency" language="it" author="Gabriele Marini" title="Adnkronos" needs_subscription="no" id="builtin:adnkronos"/>
+  <recipe description="Adventure games portal" language="en" author="Darko Miletic" title="Adventure Gamers" needs_subscription="no" id="builtin:adventuregamers"/>
+  <recipe description="Norske nyheter" language="no" author="davotibarna" title="Aftenposten" needs_subscription="no" id="builtin:aftenposten"/>
+  <recipe description="Agenţia de ştiri Moldova" language="ro" author="Silviu Cotoară" title="Agenţia de ştiri Moldova" needs_subscription="no" id="builtin:newsmoldova"/>
+  <recipe description="Politicki nekorektan blog." language="sr" author="Darko Miletic" title="Agro Gerila" needs_subscription="no" id="builtin:agrogerila"/>
+  <recipe description="The next generation internet trends in Japan and Asia" language="en" author="Hiroshi Miura" title="Ajiajin blog" needs_subscription="no" id="builtin:ajiajin"/>
+  <recipe description="Haftalık haber dergisi " language="tr" author="thomass" title="Aksiyon Dergisi" needs_subscription="no" id="builtin:aksiyon_derigisi"/>
+  <recipe description="News from Middle East" language="en" author="Darko Miletic" title="Al Jazeera in English" needs_subscription="no" id="builtin:al_jazeera"/>
+  <recipe description="News from Egypt in Arabic." language="ar" author="Hassan Williamson" title="Al-Ahram" needs_subscription="no" id="builtin:al_ahram"/>
+  <recipe description="Mire sin compromiso y si le gusta vuelva" language="es" author="Darko Miletic" title="Alberto Montt en dosis diarias" needs_subscription="no" id="builtin:dosisdiarias"/>
+  <recipe description="News Portal from Serbia" language="sr" author="Darko Miletic" title="Alo!" needs_subscription="no" id="builtin:alo_novine"/>
+  <recipe description="Nyheder fra Herning om omegn" language="da" author="Rasmus Lauritsen" title="Alt om Herning" needs_subscription="no" id="builtin:alt_om_herning"/>
+  <recipe description="News magazine and online community" language="en" author="rty" title="Alternet" needs_subscription="no" id="builtin:alternet"/>
+  <recipe description="Informacion Libre las 24 horas" language="es_AR" author="Darko Miletic" title="Ambito Financiero" needs_subscription="optional" id="builtin:ambito_financiero"/>
+  <recipe description="Ambito.com con noticias del Diario Ambito Financiero de Buenos Aires" language="es_AR" author="Darko Miletic" title="Ambito.com" needs_subscription="no" id="builtin:ambito"/>
+  <recipe description="" language="en" author="Michael Heinz" title="American Prospect" needs_subscription="no" id="builtin:aprospect"/>
+  <recipe description="American Thinker is a daily internet publication devoted to the thoughtful exploration of issues of importance to Americans." language="en" author="Walt Anthony" title="American Thinker" needs_subscription="no" id="builtin:american_thinker"/>
+  <recipe description="" language="ga" author="David O'Callaghan" title="An Druma Mór" needs_subscription="no" id="builtin:an_druma_mor"/>
+  <recipe description="comprehensive Hardware Tests" language="en" author="Oliver Niesner" title="Anandtech" needs_subscription="no" id="builtin:anandtech"/>
+  <recipe description="'Alaska's Newspaper" language="en" author="rty" title="Anchorage Daily News" needs_subscription="no" id="builtin:anchorage_daily"/>
+  <recipe description="Noticias Políticas" language="es_MX" author="leamsi" title="Animal Político" needs_subscription="no" id="builtin:animal_politico"/>
+  <recipe description="Italian News Agency" language="it" author="Gabriele Marini" title="Ansa" needs_subscription="no" id="builtin:Ansa"/>
+  <recipe description="Italian daily newspaper" language="it" author="Marini Gabriele" title="Apcom" needs_subscription="no" id="builtin:apcom"/>
+  <recipe description="Comprehensive Guide to Middle East Business &amp; Gulf Industry News including,Banking &amp; Finance,Construction,Energy,Media &amp; Marketing,Real Estate,Transportation,Travel,Technology,Politics,Healthcare,Lifestyle,Jobs &amp; UAE guide.Top Gulf &amp; Dubai Business News." language="en" author="Darko Miletic" title="Arabian Business" needs_subscription="no" id="builtin:arabian_business"/>
+  <recipe description="Nyheter från Arbetaren" language="sv" author="Joakim Lindskog" title="Arbetaren" needs_subscription="no" id="builtin:arbetaren"/>
+  <recipe description="Family Friendly Comics - Customize for more days/comics: Defaults to 7 days, 25 comics - 20 general, 5 editorial." language="en" author="Starson17" title="Arcamax" needs_subscription="no" id="builtin:arcamax"/>
+  <recipe description="News from Russia" language="ru" author="Darko Miletic" title="Arguments &amp; Facts - Russian" needs_subscription="no" id="builtin:aif_ru"/>
+  <recipe description="news from Arizona" language="en" author="Darko Miletic" title="Arizona  Daily Star" needs_subscription="yes" id="builtin:azstarnet"/>
+  <recipe description="The art of technology" language="en" author="Darko Miletic, Sujata Raman, Alexis Rohou" title="Ars Technica" needs_subscription="no" id="builtin:ars_technica"/>
+  <recipe description="News from Singapore Press Holdings Portal" language="en_SG" author="Bruce" title="AsiaOne" needs_subscription="no" id="builtin:asia_one"/>
+  <recipe description="Global news" language="en" author="Kovid Goyal and Sujata Raman" title="Associated Press" needs_subscription="no" id="builtin:ap"/>
+  <recipe description="Astronomy Pictures" language="en" author="Starson17" title="Astronomy Picture of the Day" needs_subscription="no" id="builtin:apod"/>
+  <recipe description="Greece in English since 1952" language="en_GR" author="Darko Miletic" title="Athens News" needs_subscription="no" id="builtin:athens_news"/>
+  <recipe description="Auto and Formula 1" language="it" author="Gabriele Marini" title="Auto" needs_subscription="no" id="builtin:auto"/>
+  <recipe description="Auto" language="ro" author="Silviu Cotoară" title="Auto Bild" needs_subscription="no" id="builtin:autobild"/>
+  <recipe description="Auto industry news" language="en" author="Welovelucy" title="Auto Blog" needs_subscription="no" id="builtin:auto_blog"/>
+  <recipe description="Auto and Formula 1" language="it" author="Gabriele Marini" title="Auto Prove" needs_subscription="no" id="builtin:auto_prove"/>
+  <recipe description="IT-nieuws van Automatiseringgids" language="nl" author="DrMerry" title="Automatiseringgids IT" needs_subscription="no" id="builtin:automatiseringgids"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Avantaje" needs_subscription="no" id="builtin:avantaje"/>
+  <recipe description="Aventuri La Pescuit" language="ro" author="Silviu Cotoară" title="Aventuri La Pescuit" needs_subscription="no" id="builtin:aventurilapescuit"/>
+  <recipe description="Za avtomobilistiÄne frike, poznavalce in nedeljske Å¡oferje." language="sl" author="BlonG" title="Avto Magazin" needs_subscription="no" id="builtin:avto-magazin"/>
+  <recipe description="Axxon, Ciencia Ficcion en Bits" language="es_AR" author="Darko Miletic" title="Axxon noticias" needs_subscription="no" id="builtin:axxon_news"/>
+  <recipe description="Najnovije vesti iz Srbije, regiona i sveta, aktuelne teme iz sveta politike, ekonomije, drustva, foto galerija, kolumne" language="sr" author="Darko Miletic" title="B92" needs_subscription="no" id="builtin:b92"/>
+  <recipe description="BBC news in Chinese" language="zh" author="rty" title="BBC Chinese" needs_subscription="no" id="builtin:bbc_chinese"/>
+  <recipe description="BBC World for spanish readers" language="es" author="Luis Hernandez" title="BBC Mundo" needs_subscription="no" id="builtin:bbc_es"/>
+  <recipe description="News from UK. " language="en_GB" author="Darko Miletic, Starson17" title="BBC News" needs_subscription="no" id="builtin:bbc"/>
+  <recipe description="Visit BBC News for up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news as well as local and regional perspectives. Also entertainment, business, science, technology and health news." language="en_GB" author="Darko Miletic, Starson17" title="BBC News (fast)" needs_subscription="no" id="builtin:bbc_fast"/>
+  <recipe description="Sports news from UK. A fast version that does not download pictures" language="en_GB" author="limawhiskey, Darko Miletic, Starson17" title="BBC Sport" needs_subscription="no" id="builtin:bbc_sport"/>
+  <recipe description="Vietnam news and current affairs from the British Broadcasting Corporation" language="vi" author="Huan Komrade T" title="BBC Vietnamese" needs_subscription="no" id="builtin:bbcvietnamese"/>
+  <recipe description="Novinska Agencija" language="sr" author="Darko Miletic" title="BETA" needs_subscription="no" id="builtin:beta"/>
+  <recipe description="Serbian news agency" language="en" author="Darko Miletic" title="BETA - English" needs_subscription="no" id="builtin:beta_en"/>
+  <recipe description="De la părinte la părinte" language="ro" author="Silviu Cotoară" title="Baby Online" needs_subscription="no" id="builtin:babyonline"/>
+  <recipe description="Get exclusive news and in depth information on business, politics, events and lifestyle in the Balkans. Free and exclusive premium content." language="en" author="Darko Miletic" title="Balkan Insight" needs_subscription="no" id="builtin:balkaninsight"/>
+  <recipe description="" language="th" author="Anat R." title="Bangkok Biz News" needs_subscription="no" id="builtin:bangkok_biz"/>
+  <recipe description="The world's window to Thailand" language="en_TH" author="kwetal" title="Bangkok Post" needs_subscription="no" id="builtin:bangkokpost"/>
+  <recipe description="Weekly publication for investors from the publisher of the Wall Street Journal" language="en" author="Kovid Goyal and Sujata Raman" title="Barron's" needs_subscription="yes" id="builtin:barrons"/>
+  <recipe description="News from Denmark" language="da" author="Darko Miletic" title="Berlingske Tidende" needs_subscription="no" id="builtin:berlingske_dk"/>
+  <recipe description="Political news from the USA" language="en" author="kwetal" title="Big Government" needs_subscription="no" id="builtin:biggovernment"/>
+  <recipe description="News and articles from the media world" language="en" author="Darko Miletic" title="Big Hollywood" needs_subscription="no" id="builtin:bighollywood"/>
+  <recipe description="Recipes for the Foodie in us all. Registration is free. A fake username and password just gives smaller photos." language="en" author="Starson17" title="BigOven" needs_subscription="yes" id="builtin:big_oven"/>
+  <recipe description="" language="de" author="schuster" title="Bild.de" needs_subscription="no" id="builtin:bild_de"/>
+  <recipe description="Articles from Bill O'Reilly's website and his Fox New's website" language="en" author="Rob Lammert - rob.lammert[at]gmail.com" title="Bill O'Reilly" needs_subscription="no" id="builtin:billorielly"/>
+  <recipe description="This is a recipe of BizPortal.co.il." language="he" author="marbs" title="BizPortal" needs_subscription="no" id="builtin:biz_portal"/>
+  <recipe description="Blic.rs online verzija najtiraznije novine u Srbiji donosi najnovije vesti iz Srbije i sveta, komentare, politicke analize, poslovne i ekonomske vesti, vesti iz regiona, intervjue, informacije iz kulture, reportaze, pokriva sve sportske dogadjaje, detaljan tv program, nagradne igre, zabavu, fenomenalni Blic strip, dnevni horoskop, arhivu svih dogadjaja" language="sr" author="Darko Miletic" title="Blic" needs_subscription="no" id="builtin:blic"/>
+  <recipe description="Posts do Blog VioMundo" language="pt_BR" author="Diniz Bortolotto" title="Blog VioMundo" needs_subscription="no" id="builtin:vio_mundo"/>
+  <recipe description="Posts do Blog da Cidadania" language="pt_BR" author="Diniz Bortolotto" title="Blog da Cidadania" needs_subscription="no" id="builtin:blog_da_cidadania"/>
+  <recipe description="blog sobre leyes, p2p y copyright" language="es" author="Luis Hernández" title="Blog de David Bravo" needs_subscription="no" id="builtin:dbb"/>
+  <recipe description="Blog o e-papierze i e-bookach" language="pl" author="Mori" title="Blog eClicto" needs_subscription="no" id="builtin:eclicto"/>
+  <recipe description="Dnevne novine Borba Online" language="sr" author="Darko Miletic" title="Borba Online" needs_subscription="no" id="builtin:borba"/>
+  <recipe description="" language="de" author="schuster" title="Brigitte.de" needs_subscription="no" id="builtin:brigitte_de"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Bucataras" needs_subscription="no" id="builtin:bucataras"/>
+  <recipe description="Learn how to cook all those outdoor varments" language="en" author="TonytheBookworm &amp; Starson17" title="BuckMasters In The Kitchen" needs_subscription="no" id="builtin:buckmasters"/>
+  <recipe description="Diario BAE es el diario economico-politico con mas influencia en la Argentina. Fuente de empresarios y politicos del pais y el exterior. El pozo estaria aportando en periodos breves un volumen equivalente a 800m3 diarios. Pero todavia deben efectuarse otras perforaciones adicionales." language="es_AR" author="Darko Miletic" title="Buenos Aires Economico" needs_subscription="no" id="builtin:buenosaireseconomico"/>
+  <recipe description="" language="en" author="ChappyOnIce" title="Buffalo News" needs_subscription="no" id="builtin:buffalo_news"/>
+  <recipe description="Noticias de Argentina y el resto del mundo" language="en" author="Darko Miletic" title="Business Insider" needs_subscription="no" id="builtin:business_insider"/>
+  <recipe description="Australian Business News &amp; commentary delivered the way you want it." language="en_AU" author="Dean Cording" title="Business Spectator" needs_subscription="no" id="builtin:business_spectator"/>
+  <recipe description="India's most respected business daily" language="en_IN" author="Darko Miletic" title="Business Standard" needs_subscription="no" id="builtin:business_standard"/>
+  <recipe description="Business News, Stock Market and Financial Advice" language="en" author="ChuckEggDotCom and Sujata Raman" title="Business Week" needs_subscription="no" id="builtin:business_week"/>
+  <recipe description="Read the latest international business news &amp; stock market news. Get updated company profiles, financial advice, global economy and technology news." language="en" author="Kovid Goyal and Darko Miletic" title="Business Week" needs_subscription="no" id="builtin:bwmagazine"/>
+  <recipe description="News from India" language="en_IN" author="Darko Miletic" title="Business World Magazine" needs_subscription="no" id="builtin:businessworldin"/>
+  <recipe description="" language="de" author="schuster" title="Börse-online" needs_subscription="no" id="builtin:borse_online"/>
+  <recipe description="" language="en" author="jonmisurda" title="CACM" needs_subscription="yes" id="builtin:cacm"/>
+  <recipe description="" language="en_CA" author="rty" title="CBC Canada" needs_subscription="no" id="builtin:cbc_canada"/>
+  <recipe description="CIO is the leading information brand for today's busy chief information officer." language="en" author="Lorenzo Vigentini" title="CIO " needs_subscription="no" id="builtin:cio"/>
+  <recipe description="" language="zh" author="Derek Liang" title="CND" needs_subscription="no" id="builtin:cnd"/>
+  <recipe description="" language="ja" author="Hiroshi Miura" title="CNET Japan" needs_subscription="no" id="builtin:cnetjapan"/>
+  <recipe description="" language="ja" author="Hiroshi Miura" title="CNET Japan Digital" needs_subscription="no" id="builtin:cnetjapan_digital"/>
+  <recipe description="" language="ja" author="Hiroshi Miura" title="CNET Japan release" needs_subscription="no" id="builtin:cnetjapan_release"/>
+  <recipe description="Tech news and business reports by CNET News. Focused on information technology, core topics include computers, hardware, software, networking, and Internet media." language="en" author="Darko Miletic" title="CNET News" needs_subscription="no" id="builtin:cnetnews"/>
+  <recipe description="Global news" language="en" author="Kovid Goyal" title="CNN" needs_subscription="no" id="builtin:cnn"/>
+  <recipe description="Bi-weekly Finance and Economics Review. Founded in 1998, the fortnightly CAIJING&#10;                 Magazine has firmly established itself as a news authority and leading voice for&#10;                 business and financial issues in China.&#10;                 CAIJING Magazine closely tracks the most important aspects of China's economic reforms,&#10;                 developments and policy changes, as well as major events in the capital markets. It also&#10;                 offers a broad international perspective through first-hand reporting on international&#10;                 political and economic issues.&#10;                 CAIJING Magazine is China's most widely read business and finance magazine, with a&#10;                 circulation of 225,000 per issue. It boasts top-level readers from government, business&#10;                 and academic circles. " language="zh" author="Eric Chen" title="Caijing Magazine" needs_subscription="yes" id="builtin:caijing"/>
+  <recipe description="This is a recipe of Calcalist.co.il. The recipe downloads the article page to not hurt the sites advertising income." language="he" author="marbs" title="Calcalist" needs_subscription="no" id="builtin:calcalist"/>
+  <recipe description="News from Calgary, AB" language="en_CA" author="Nick Redding" title="Calgary Herald" needs_subscription="no" id="builtin:calgary_herald"/>
+  <recipe description="" language="fr" author="zorgluf" title="CanardPC" needs_subscription="no" id="builtin:canardpc"/>
+  <recipe description="The Capes n Babes comic Blog" language="en" author="skyhawker" title="Capes n Babes" needs_subscription="no" id="builtin:capes_n_babes"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Capital" needs_subscription="no" id="builtin:capital"/>
+  <recipe description="" language="de" author="schuster" title="Capital.de" needs_subscription="no" id="builtin:capital_de"/>
+  <recipe description="" language="pt_BR" author="Pablo Aldama" title="Caros Amigos" needs_subscription="no" id="builtin:caros_amigos"/>
+  <recipe description="News about electronic publishing" language="de" author="Oliver Niesner" title="Carta" needs_subscription="no" id="builtin:carta"/>
+  <recipe description="" language="en" author="Jetkey" title="Catholic News Agency" needs_subscription="no" id="builtin:catholic_news_agency"/>
+  <recipe description="Ce se întâmplă doctore?" language="ro" author="Silviu Cotoară" title="Ce se întâmplă doctore?" needs_subscription="no" id="builtin:csid"/>
+  <recipe description="Filmski blog" language="sr" author="Darko Miletic" title="Chetnixploitation" needs_subscription="no" id="builtin:cetnixploitation"/>
+  <recipe description="Breaking News from Chicago" language="en" author="Darko Miletic" title="Chicago Breaking News" needs_subscription="no" id="builtin:chicago_breaking_news"/>
+  <recipe description="Politics, local and business news from Chicago" language="en" author="Kovid Goyal and Sujata Raman" title="Chicago Tribune" needs_subscription="no" id="builtin:chicago_tribune"/>
+  <recipe description="Chinadaily.com.cn is the largest English portal in China, providing news, business information, BBS, learning materials." language="en_CN" author="Darko Miletic" title="China Daily" needs_subscription="no" id="builtin:chinadaily"/>
+  <recipe description="China Economic Net Magazine" language="zh_CN" author="rty" title="China Economic Net" needs_subscription="no" id="builtin:china_economic_net"/>
+  <recipe description="Overseas Chinese Network Newspaper in the USA" language="zh" author="rty" title="China Press USA" needs_subscription="no" id="builtin:china_press"/>
+  <recipe description="Chip Online" language="ro" author="Silviu Cotoară" title="Chip Online" needs_subscription="no" id="builtin:chipro"/>
+  <recipe description="Ideas &amp; Identities of South Asia" language="en_IN" author="kwetal" title="Chowk" needs_subscription="no" id="builtin:chowk"/>
+  <recipe description="Providing context and clarity on national and international news, peoples and cultures" language="en" author="Kovid Goyal" title="Christian Science Monitor" needs_subscription="no" id="builtin:chr_mon"/>
+  <recipe description="Magazin für politische Kultur" language="de" author="mad@sharktooth.de" title="Cicero" needs_subscription="no" id="builtin:cicero"/>
+  <recipe description="" language="en" author="Joseph Kitzmiller and Sujata Raman" title="Cincinnati Enquirer" needs_subscription="no" id="builtin:cincinnati_enquirer"/>
+  <recipe description="spanish web about money and bussiness, free edition" language="es" author="Luis Hernandez" title="Cinco Dias" needs_subscription="no" id="builtin:cinco_dias"/>
+  <recipe description="Cinema news from Belgium in French" language="fr" author="Lionel Bergeret" title="Cinebel" needs_subscription="no" id="builtin:cinebel_be"/>
+  <recipe description="Noticias de Argentina y mundo" language="es_AR" author="Darko Miletic" title="Clarin" needs_subscription="no" id="builtin:clarin"/>
+  <recipe description="" language="en" author="cr4zyd" title="Clarion Ledger" needs_subscription="no" id="builtin:clarion_ledger"/>
+  <recipe description="" language="pt" author="arvoredo" title="ClicRBS" needs_subscription="no" id="builtin:clic_rbs"/>
+  <recipe description="An insider's view of climate science, politics and solutions" language="en" author="Darko Miletic" title="Climate Progress" needs_subscription="no" id="builtin:climate_progress"/>
+  <recipe description="programming and human factors - Jeff Atwood" language="en" author="Darko Miletic" title="Coding Horror" needs_subscription="no" id="builtin:coding_horror"/>
+  <recipe description="News about journalism." language="en" author="Xanthan Gum" title="Columbia Journalism Review" needs_subscription="no" id="builtin:cjr"/>
+  <recipe description="Comics from comics.com. You should customize this recipe to fetch only the comics you are interested in" language="en" author="Starson17" title="Comics.com" needs_subscription="no" id="builtin:comics_com"/>
+  <recipe description="Progressive news and views" language="en" author="XanthanGum" title="Common Dreams" needs_subscription="no" id="builtin:common_dreams"/>
+  <recipe description="Computeractive publishes new downloads, reviews, news stories, step-by-step guides and answers to PC problems every day." language="en" author="DrMerry" title="Computer act!ve" needs_subscription="no" id="builtin:computer_active"/>
+  <recipe description="Consumerist, Shoppers Bite Back." language="en" author="NA" title="Consumerist" needs_subscription="no" id="builtin:consumerist"/>
+  <recipe description="As noticias de Portugal e do Mundo" language="pt" author="jmst" title="Correio da Manha - Portugal" needs_subscription="no" id="builtin:cm_journal"/>
+  <recipe description="News from Sweden" language="sv" author="Jonas Svensson" title="Corren" needs_subscription="no" id="builtin:corren2"/>
+  <recipe description="Revista Cosmopolitan, Edicion Espanola" language="es" author="Gustavo Azambuja" title="Cosmopolitan" needs_subscription="no" id="builtin:cosmopolitan"/>
+  <recipe description="" language="de" author="schuster" title="Cosmopolitan.de" needs_subscription="no" id="builtin:cosmopolitan_de"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Cotidianul" needs_subscription="no" id="builtin:cotidianul"/>
+  <recipe description="Daily political opinion from www.Counterpunch.com" language="en" author="O. Emmerson" title="Counterpunch" needs_subscription="no" id="builtin:counterpunch"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Courier Press" needs_subscription="no" id="builtin:courrier"/>
+  <recipe description="Global news in french from international newspapers" language="fr" author="Mathieu Godlewski &lt;mathieu at godlewski.fr&gt;" title="Courrier International" needs_subscription="no" id="builtin:courrierinternational"/>
+  <recipe description="America's Only HumorSite since 1958" language="en" author="UnWeave" title="Cracked.com" needs_subscription="no" id="builtin:cracked_com"/>
+  <recipe description="A discussion on credit and bankruptcy" language="en" author="zotzot" title="Credit Slips.org" needs_subscription="no" id="builtin:credit_slips"/>
+  <recipe description="Contra el Terorismo Mediatico" language="es_CU" author="Darko Miletic" title="CubaDebate" needs_subscription="no" id="builtin:cubadebate"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Curierul Naţional" needs_subscription="no" id="builtin:curierulnational"/>
+  <recipe description="Canadian news in French" language="fr" author="balok and Sujata Raman" title="Cyberpresse" needs_subscription="no" id="builtin:cyberpresse"/>
+  <recipe description="News from Cyprus" language="en_CY" author="kwetal" title="Cyprus News Live" needs_subscription="no" id="builtin:cynewslive"/>
+  <recipe description="News from Cyprus" language="en_CY" author="kwetal" title="Cyprus Weekly" needs_subscription="no" id="builtin:cyprus_weekly"/>
+  <recipe description="Mumbai news, India news, World news, breaking news" language="en_IN" author="Kovid Goyal" title="DNA India" needs_subscription="no" id="builtin:dna"/>
+  <recipe description="Myndighederne indfører nu eskorte af brandbiler og ambulancer i Ishøj af frygt for hærværk." language="da" author="Darko Miletic" title="DR Nyheder" needs_subscription="no" id="builtin:dr_dk"/>
+  <recipe description="Economy news from Sweden" language="sv" author="Jonas Svensson" title="Dagens Industri" needs_subscription="no" id="builtin:dagens_industri"/>
+  <recipe description="News from Sweden" language="sv" author="Darko Miletic" title="Dagens Nyheter" needs_subscription="no" id="builtin:dn_se"/>
+  <recipe description="Daily Telegraph News" language="en_AU" author="Adrian G." title="Daily Telegraph" needs_subscription="no" id="builtin:daily_telegraph"/>
+  <recipe description="News from Croatia" language="en_HR" author="Darko Miletic" title="Daily tportal.h" needs_subscription="no" id="builtin:dailytportal"/>
+  <recipe description="Dnevne novine sa vestima iz sveta, politike, ekonomije, kulture, sporta, Beograda, Novog Sada i cele Srbije." language="sr" author="Darko Miletic" title="Danas" needs_subscription="no" id="builtin:danas"/>
+  <recipe description="On line izdanje najutjecajnijeg bosanskohercegovackog magazina" language="bs" author="Darko Miletic" title="Dani" needs_subscription="yes" id="builtin:dani"/>
+  <recipe description="Leading English Newspaper of Pakistan covering national &amp; international news" language="en_PK" author="kwetal" title="Dawn" needs_subscription="no" id="builtin:dawn"/>
+  <recipe description="Daytona Beach, Florida, Newspaper" language="en" author="BRGriff" title="Daytona Beach News Journal" needs_subscription="no" id="builtin:daytona_beach"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="De Gentenaar" needs_subscription="no" id="builtin:degentenaar"/>
+  <recipe description="O gratuíto galego" language="gl" author="Susana Sotelo Docío" title="De Luns a Venres (RSS)" needs_subscription="no" id="builtin:luns_a_venres"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="De Morgen" needs_subscription="no" id="builtin:demorgen_be"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="De Standaard" needs_subscription="no" id="builtin:de_standaard"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="De Tijd" needs_subscription="no" id="builtin:tijd"/>
+  <recipe description="" language="nl" author="acidzebra" title="De Volkskrant" needs_subscription="no" id="builtin:volksrant"/>
+  <recipe description="Volkskrant" language="nl" author="Selcal" title="De Volkskrant (subscription)" needs_subscription="yes" id="builtin:volksrant_sub"/>
+  <recipe description="Deadspin, Sports News without Access, Favor, or Discretion." language="en" author="NA" title="Deadspin" needs_subscription="no" id="builtin:deadspin"/>
+  <recipe description="" language="es" author="Gerardo Diez" title="Deia" needs_subscription="no" id="builtin:deia"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Denver Post" needs_subscription="no" id="builtin:denver_post"/>
+  <recipe description="Der Spiegel, Printed Edition. Access to paid content." language="de" author="Nikolas Mangold" title="Der Spiegel" needs_subscription="yes" id="builtin:der_spiegel"/>
+  <recipe description="" language="de" author="Ingo Paschke" title="Der Tagesspiegel" needs_subscription="no" id="builtin:tagesspiegel"/>
+  <recipe description="" language="de" author="malfi" title="Deredactie.be" needs_subscription="no" id="builtin:deredactie"/>
+  <recipe description="E lumea ta" language="ro" author="Silviu Cotoară" title="Descoperă" needs_subscription="no" id="builtin:descopera"/>
+  <recipe description="" language="en" author="DTM" title="Detroit News" needs_subscription="no" id="builtin:detroit_news"/>
+  <recipe description="Noticias desde Alemania y mundo" language="pt" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_pt"/>
+  <recipe description="Noticias desde Alemania y mundo" language="de_ES" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_es"/>
+  <recipe description="Vijesti iz Njemacke i svijeta" language="bs" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_bs"/>
+  <recipe description="Vesti iz Njemacke i svijeta" language="hr" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_hr"/>
+  <recipe description="News from Germany and World" language="en" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_en"/>
+  <recipe description="Vesti iz Nemacke i sveta" language="sr" author="Darko Miletic" title="Deutsche Welle" needs_subscription="no" id="builtin:deutsche_welle_sr"/>
+  <recipe description="Toutes les news du site Developpez.com" language="fr" author="louhike" title="Developpez.com" needs_subscription="no" id="builtin:developpez"/>
+  <recipe description="El nuevo diario de La Plata" language="es_AR" author="Darko Miletic" title="Diagonales" needs_subscription="no" id="builtin:diagonales"/>
+  <recipe description="News Cordoba" language="es" author="Francisco" title="Diario Cordoba" needs_subscription="no" id="builtin:diario_cordoba"/>
+  <recipe description="Organo oficial del Comite Central del Partido Comunista de Cuba" language="es_CU" author="Darko Miletic" title="Diario Granma" needs_subscription="no" id="builtin:granma"/>
+  <recipe description="Todas las noticias del Barça y del mundo del deporte en general" language="es" author="Jefferson Frantz" title="Diario Sport" needs_subscription="no" id="builtin:diario_sport"/>
+  <recipe description="Noticias de pais Vasco y el resto del mundo" language="es" author="Darko Miletic" title="Diario Vasco" needs_subscription="no" id="builtin:diariovasco"/>
+  <recipe description="Principal periodico de las islas Pitiusas, Ibiza y Formentera (Espanya) - v1.06 (29/04/2011)" language="es" author="Joan Tur, cullet" title="Diario de Ibiza digital" needs_subscription="no" id="builtin:diario_ibiza"/>
+  <recipe description="Das EPUB Abo der Zeit (needs subscription)" language="de" author="Steffen Siebert, revised by Tobias Isenberg (with some code by Kovid Goyal)" title="Die Zeit" needs_subscription="yes" id="builtin:zeitde_sub"/>
+  <recipe description="Aktuality a články z DigiZone.cz" language="cs" author="Tomas Latal" title="DigiZone" needs_subscription="no" id="builtin:digizone"/>
+  <recipe description="Digital Arts - comprehensive coverage of the art of graphic design, 3D, animation, video, effects, web and interactive design, in print and online." language="en" author="Lorenzo Vigentini" title="Digital Arts Magazine  " needs_subscription="no" id="builtin:digital_arts"/>
+  <recipe description="A Global Citizen Journalism News Network" language="en" author="Darko Miletic" title="Digital Journal" needs_subscription="no" id="builtin:digitaljournal"/>
+  <recipe description="Entertainment news about the biggest TV shows, films and celebrities, updated around the clock." language="en_GB" author="Darko Miletic" title="Digital Spy - UK Edition" needs_subscription="no" id="builtin:digitalspy_uk"/>
+  <recipe description="Dilbert" language="en" author="Darko Miletic and Starson17" title="Dilbert" needs_subscription="no" id="builtin:dilbert"/>
+  <recipe description="&quot;Sint vechi, domnule!&quot; (I.L. Caragiale)" language="ro" author="song2" title="Dilema Veche" needs_subscription="no" id="builtin:dilemaveche"/>
+  <recipe description="Science, Technology and the Future" language="en" author="Starson17" title="Discover Magazine" needs_subscription="no" id="builtin:discover_magazine"/>
+  <recipe description="Coafuri, frizuri, tunsori .." language="ro" author="Silviu Cotoară" title="Diva Hair" needs_subscription="no" id="builtin:divahair"/>
+  <recipe description="Latest news from Bosnia" language="bs" author="Darko Miletic" title="Dnevni Avaz" needs_subscription="no" id="builtin:dnevni_avaz"/>
+  <recipe description="Vijesti iz Hrvatske" language="hr" author="Darko Miletic" title="Dnevnik - Hr" needs_subscription="no" id="builtin:dnevnik_cro"/>
+  <recipe description="Daily Macedonian newspaper" language="mk" author="Darko Spasovski" title="Dnevnik - mk" needs_subscription="no" id="builtin:dnevnik_mk"/>
+  <recipe description="Dnevnik je časnik z več kot polstoletno zgodovino.&#10;  Pod sloganom »Življenje ima besedo« na svojih straneh prinaša&#10;  bralcem bogastvo informacij, komentarjev in kolumen in raznovrstnost&#10;  pogledov, zaznamovanih z odgovornostjo do posameznika in širše&#10;  družbe." language="sl" author="BlonG" title="Dnevnik.si" needs_subscription="no" id="builtin:dnevnik"/>
+  <recipe description="Tecnologia y Comunicacion Audiovisual" language="es" author="Federico Escalada" title="Dotpod" needs_subscription="no" id="builtin:dotpod"/>
+  <recipe description="" language="en_IN" author="sexymax15" title="Down To Earth" needs_subscription="no" id="builtin:down_to_earth"/>
+  <recipe description="Drawings of recipes!" language="en" author="Starson17" title="DrawAndCook" needs_subscription="no" id="builtin:DrawAndCook"/>
+  <recipe description="Nieuws uit Noord Nederland" language="nl" author="Reijndert" title="DvhN" needs_subscription="no" id="builtin:dvhn"/>
+  <recipe description="Internet w życiu i biznesie. Porady, wywiady, interwencje, bezpieczeństwo w Sieci, technologia." language="pl" author="Mori" title="Dziennik Internautow" needs_subscription="no" id="builtin:di"/>
+  <recipe description="News from Serbia" language="sr" author="Darko Miletic" title="E-Novine" needs_subscription="no" id="builtin:e_novine"/>
+  <recipe description="News and Analysis from the English Premier League" language="en" author="rylsfan" title="EPL Talk" needs_subscription="no" id="builtin:epl_talk"/>
+  <recipe description="Sports news" language="en" author="Kovid Goyal and Sujata Raman" title="ESPN" needs_subscription="yes" id="builtin:espn"/>
+  <recipe description="EcoGeek - Technology for the Environment Blog Feed" language="en" author="Darko Miletic" title="EcoGeek" needs_subscription="no" id="builtin:ecogeek"/>
+  <recipe description="News about newspapers and journalism." language="en" author="elsuave (modified from Xanthan Gum)" title="Editor and Publisher" needs_subscription="no" id="builtin:editor_and_publisher"/>
+  <recipe description="News from Edmonton, AB" language="en_CA" author="Nick Redding" title="Edmonton Journal" needs_subscription="no" id="builtin:edmonton_journal"/>
+  <recipe description="Daily business news from Serbia." language="en" author="Darko Miletic" title="Ekonom:east News" needs_subscription="no" id="builtin:emg_en"/>
+  <recipe description="Vasa dnevna doza poslovnih informacija iz Srbije, regiona i sveta. Vesti, Berze, Dogadaji, Casopisi." language="sr" author="Darko Miletic" title="Ekonom:east Vesti" needs_subscription="no" id="builtin:emg_rs"/>
+  <recipe description="Nyheter från Ekot" language="sv" author="Joakim Lindskog" title="Ekot" needs_subscription="no" id="builtin:ekot"/>
+  <recipe description="Gizmodo, the gadget guide. So much in love with shiny new toys, it's unnatural." language="es_EC" author="Darko Miletic" title="El Comercio " needs_subscription="no" id="builtin:elcomercio"/>
+  <recipe description="Daily newspaper from Biscay" language="es" author="desUBIKado" title="El Correo" needs_subscription="no" id="builtin:el_correo"/>
+  <recipe description="El Cronista Comercial es el Diario economico-politico mas valorado. Es la fuente mas confiable de informacion en temas de economia, finanzas y negocios enmarcados politicamente." language="es_AR" author="Darko Miletic" title="El Cronista Comercial" needs_subscription="no" id="builtin:elcronista"/>
+  <recipe description="Noticias de Vigo" language="es" author="Jefferson Frantz" title="El Faro de Vigo" needs_subscription="no" id="builtin:el_faro"/>
+  <recipe description="El sitio de noticias online de Chile" language="es_CL" author="Darko Miletic" title="El Mercurio online" needs_subscription="no" id="builtin:el_mercurio_chile"/>
+  <recipe description="Lider de informacion en espaniol" language="es_ES" author="Darko Miletic" title="El Mundo" needs_subscription="no" id="builtin:elmundo"/>
+  <recipe description="Main daily newspaper from Spain" language="es" author="Kovid Goyal &amp; Lorenzo Vigentini &amp; Jordi Balcells" title="El Pais" needs_subscription="no" id="builtin:el_pais"/>
+  <recipe description="el periodico global en Castellano" language="es" author="Darko Miletic" title="El Pais" needs_subscription="no" id="builtin:elpais_impreso"/>
+  <recipe description="Noticias de Uruguay y el resto del mundo" language="es_UY" author="Gustavo Azambuja" title="El Pais - Uruguay" needs_subscription="no" id="builtin:el_pais_uy"/>
+  <recipe description="El Pais Babelia" language="es" author="oneillpt" title="El Pais Babelia" needs_subscription="no" id="builtin:el_pais_babelia"/>
+  <recipe description="Revista semanal de diario El Pais" language="es" author="Darko Miletic" title="El Pais semanal" needs_subscription="no" id="builtin:elpais_semanal"/>
+  <recipe description="Noticias desde Aragon" language="es" author="desUBIKado" title="El Periodico de Aragon" needs_subscription="no" id="builtin:el_periodico"/>
+  <recipe description="Noticies des de Catalunya" language="ca" author="Jordi Balcells/Darko Miletic" title="El Periodico de Catalunya" needs_subscription="no" id="builtin:elperiodico_catalan"/>
+  <recipe description="Noticias desde Catalunya" language="es" author="Jordi Balcells/Darko Miletic" title="El Periodico de Catalunya" needs_subscription="no" id="builtin:elperiodico_spanish"/>
+  <recipe description="Noticias de Honduras y mundo" language="es_HN" author="Darko Miletic" title="El Tiempo - Honduras" needs_subscription="no" id="builtin:eltiempo_hn"/>
+  <recipe description="Noticias de Venezuela" language="es_VE" author="Darko Miletic" title="El Universal" needs_subscription="no" id="builtin:eluniversal_ve"/>
+  <recipe description="News from Mexico" language="es_MX" author="Darko Miletic and Sujata Raman" title="El Universal" needs_subscription="no" id="builtin:el_universal"/>
+  <recipe description="News from Mexico" language="es_MX" author="kwetal" title="El Universal (Edición Impresa)" needs_subscription="no" id="builtin:eluniversalimpresa"/>
+  <recipe description="Noticias del Ecuador y el resto del mundo" language="es_EC" author="Darko Miletic" title="El Universo - Ecuador" needs_subscription="no" id="builtin:eluniverso_ec"/>
+  <recipe description="El Club del eBook, es la primera fuente de informacion sobre ebooks de Argentina. Aca vas a encontrar noticias, tips, tutoriales, recursos y opiniones sobre el mundo de los libros electronicos." language="es_AR" author="Darko Miletic" title="El club del ebook" needs_subscription="no" id="builtin:elclubdelebook"/>
+  <recipe description="Informacion Libre las 24 horas" language="es_AR" author="Darko Miletic" title="ElArgentino.com" needs_subscription="no" id="builtin:elargentino"/>
+  <recipe description="Dezvăluie ceea ce eşti" language="ro" author="Silviu Cotoară" title="Ele" needs_subscription="no" id="builtin:ele"/>
+  <recipe description="News from Holland" language="nl" author="Darko Miletic" title="Elsevier.nl" needs_subscription="no" id="builtin:elsevier"/>
+  <recipe description="" language="ja" author="Hiroshi Miura" title="Endgadget日本版" needs_subscription="no" id="builtin:endgadget_ja"/>
+  <recipe description="Tech news" language="en" author="Starson17" title="Engadget" needs_subscription="no" id="builtin:endgadget"/>
+  <recipe description="Online magazine on business, small business, management and economy" language="en" author="kwetal" title="Entrepeneur Magazine" needs_subscription="no" id="builtin:entrepeneur"/>
+  <recipe description="Food and Recipes from Epicurious" language="en" author="Starson17" title="Epicurious" needs_subscription="no" id="builtin:epicurious"/>
+  <recipe description="Monthly magazine" language="pl" author="matek09" title="Esensja" needs_subscription="no" id="builtin:esenja"/>
+  <recipe description="Esquire: Man at His Best" language="en" author="Darko Miletic" title="Esquire" needs_subscription="no" id="builtin:esquire"/>
+  <recipe description="Brazilian news from Estadão" language="pt" author="Euler Alves" title="Estadão" needs_subscription="no" id="builtin:estadao"/>
+  <recipe description="spanish news agency" language="es" author="calibre" title="Europa Press" needs_subscription="no" id="builtin:europa_press"/>
+  <recipe description="News in Spanish" language="es" author="Darko Miletic" title="Europa Sur" needs_subscription="no" id="builtin:europasur"/>
+  <recipe description="" language="en" author="malfi" title="European Voice" needs_subscription="no" id="builtin:european_voice"/>
+  <recipe description="" language="de" author="Bobus" title="Evangelizo.org" needs_subscription="no" id="builtin:evangelizo"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Evenimentul Zilei" needs_subscription="no" id="builtin:evz.ro"/>
+  <recipe description="" language="en" author="77ja65" title="Everett Herald" needs_subscription="no" id="builtin:everett_herald"/>
+  <recipe description="Mankind's only alternative since 1997 - Formerly known as The eXile" language="en" author="Darko Miletic" title="Exiled Online" needs_subscription="no" id="builtin:exiled"/>
+  <recipe description="" language="es" author="Gerardo Diez" title="Expansion.com" needs_subscription="no" id="builtin:expansion_spanish"/>
+  <recipe description="Explosm" language="en" author="Andromeda Rabbit" title="Explosm Rotated" needs_subscription="no" id="builtin:explosm"/>
+  <recipe description="" language="de" author="schuster" title="Express.de" needs_subscription="no" id="builtin:express_de"/>
+  <recipe description="All the news from the weblog of F-Secure" language="en" author="louhike" title="F-Secure Weblog" needs_subscription="no" id="builtin:f_secure"/>
+  <recipe description="Frankfurter Allgemeine Zeitung" language="de" author="Kovid Goyal, Darko Miletic" title="FAZ.NET" needs_subscription="no" id="builtin:faznet"/>
+  <recipe description="Pentru că noi putem" language="ro" author="Silviu Cotoară" title="FHM Ro" needs_subscription="no" id="builtin:fhmro"/>
+  <recipe description="Breaking News from FOX" language="en" author="Darko Miletic" title="FOX News" needs_subscription="no" id="builtin:foxnews"/>
+  <recipe description="Financial Times Deutschland" language="de" author="Oliver Niesner" title="FTD" needs_subscription="no" id="builtin:ftd"/>
+  <recipe description="" language="en" author="Michael Heinz" title="Factcheck" needs_subscription="no" id="builtin:factcheck"/>
+  <recipe description="Baseball statistical analysis, graphs, and projections." language="en" author="David Appelman" title="FanGraphs" needs_subscription="no" id="builtin:fan_graphs"/>
+  <recipe description="Where ideas and people meet" language="en" author="Darko Miletic" title="Fast Company" needs_subscription="no" id="builtin:fastcompany"/>
+  <recipe description="Hunting and Fishing and Gun Talk" language="en" author="Starson17 and Tonythebookworm" title="Field and Stream" needs_subscription="no" id="builtin:fstream"/>
+  <recipe description="Uncommon News &amp; Views for the Wise Investor" language="en" author="Darko Miletic" title="Financial Sense" needs_subscription="no" id="builtin:financialsense"/>
+  <recipe description="The Financial Times (FT) is one of the world's leading business news and information organisations, recognised internationally for its authority, integrity and accuracy." language="en" author="Darko Miletic" title="Financial Times" needs_subscription="yes" id="builtin:financial_times"/>
+  <recipe description="The Financial Times (FT) is one of the world's leading business news and information organisations, recognised internationally for its authority, integrity and accuracy." language="en_GB" author="Darko Miletic" title="Financial Times - UK printed edition" needs_subscription="yes" id="builtin:financial_times_uk"/>
+  <recipe description="FIN.ro" language="ro" author="Silviu Cotoară" title="Financiarul" needs_subscription="no" id="builtin:financiarul"/>
+  <recipe description="Fleshbot, Pure Filth." language="en" author="NA" title="Fleshbot" needs_subscription="no" id="builtin:fleshbot"/>
+  <recipe description="Pictures Blog" language="es" author="Ricardo Jurado" title="Flickr Blog" needs_subscription="no" id="builtin:flickr_es"/>
+  <recipe description="Pictures Blog" language="en" author="Ricardo Jurado" title="Flickr Blog" needs_subscription="no" id="builtin:flickr"/>
+  <recipe description="" language="de" author="Anonymous" title="Focus (DE)" needs_subscription="no" id="builtin:focus_de"/>
+  <recipe description="Popular Dutch daily cartoon Fokke en Sukke" language="nl" author="kwetal" title="Fokke en Sukke" needs_subscription="no" id="builtin:fokkeensukke"/>
+  <recipe description="Brazilian news from Folha de São Paulo" language="pt" author="Euler Alves" title="Folha de São Paulo" needs_subscription="no" id="builtin:folhadesaopaulo"/>
+  <recipe description="Business and Financial News" language="en" author="Darko Miletic" title="Forbes" needs_subscription="no" id="builtin:forbes"/>
+  <recipe description="India Edition Forbes" language="en_IN" author="rty" title="Forbes India" needs_subscription="no" id="builtin:forbes_india"/>
+  <recipe description="The leading forum for serious discussion of American foreign policy and international affairs." language="en" author="kwetal" title="Foreign Affairs (Subcription or (free) Registration)" needs_subscription="yes" id="builtin:foreignaffairs"/>
+  <recipe description="International News" language="en" author="Darko Miletic" title="Foreign Policy" needs_subscription="no" id="builtin:foreign_policy"/>
+  <recipe description="Nachrichten aus D und aller Welt" language="de" author="maccs" title="Frankfurter Rundschau" needs_subscription="no" id="builtin:fr_online"/>
+  <recipe description="" language="de" author="schuster" title="Frankfurter Rundschau" needs_subscription="no" id="builtin:frankfurter_rundschau"/>
+  <recipe description="The Hidden side of everything" language="en" author="Starson17" title="Freakonomics Blog" needs_subscription="no" id="builtin:freakonomics"/>
+  <recipe description="Nyheter från Fria Tidningen" language="sv" author="Joakim Lindskog" title="Fria Tidningen" needs_subscription="no" id="builtin:fria"/>
+  <recipe description="Portal poświęcony - Infformacje" language="pl" author="Tomasz Długosz" title="Fronda.pl" needs_subscription="no" id="builtin:fronda"/>
+  <recipe description="India's national magazine" language="en_IN" author="Darko Miletic" title="Frontline" needs_subscription="no" id="builtin:frontlineonnet"/>
+  <recipe description="Tech news" language="en" author="Starson17" title="Fudzilla" needs_subscription="no" id="builtin:fudzilla"/>
+  <recipe description="Near-future science fiction and fact since 2001" language="en" author="Darko Miletic" title="Futurismic" needs_subscription="no" id="builtin:futurismic"/>
+  <recipe description="Unha fiestra de información aberta a todos" language="gl" author="Susana Sotelo Docío" title="Galicia Confidencial (RSS)" needs_subscription="no" id="builtin:galicia_confidential"/>
+  <recipe description="The Art and Business of Making Games" language="en" author="Darko Miletic" title="Gamasutra Featured articles" needs_subscription="no" id="builtin:gamasutra_fa"/>
+  <recipe description="The Art and Business of Making Games" language="en" author="Darko Miletic" title="Gamasutra News" needs_subscription="no" id="builtin:gamasutra_news"/>
+  <recipe description="review articles from gamespot.com" language="en" author="Marc Tönsing" title="Gamespot.com Reviews" needs_subscription="no" id="builtin:gamespot"/>
+  <recipe description="Gawker, Gossip from Manhattan and the Beltway to Hollywood and the Valley." language="en" author="NA" title="Gawker" needs_subscription="no" id="builtin:gawker"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="Gazet van Antwerpen" needs_subscription="no" id="builtin:gva_be"/>
+  <recipe description="Kujawy i Pomorze - wiadomości" language="pl" author="Richard z forum.eksiazki.org" title="Gazeta Pomorska" needs_subscription="no" id="builtin:gazeta_pomorska"/>
+  <recipe description="Polski dziennik gospodarczy" language="pl" author="Vroo" title="Gazeta Prawna" needs_subscription="no" id="builtin:gazeta-prawna-calibre-v1"/>
+  <recipe description="Gazeta Sporturilor" language="ro" author="Silviu Cotoară" title="Gazeta Sporturilor" needs_subscription="no" id="builtin:gsp"/>
+  <recipe description="Geek and Poke Cartoons" language="en" author="DrMerry" title="Geek and Poke" needs_subscription="no" id="builtin:geek_poke"/>
+  <recipe description="Gizmodo, the gadget guide. So much in love with shiny new toys, it's unnatural." language="en" author="Darko Miletic" title="Gizmodo" needs_subscription="no" id="builtin:gizmodo"/>
+  <recipe description="" language="en" author="Anonymous" title="Glamour (US)" needs_subscription="no" id="builtin:glamour"/>
+  <recipe description="Glas javnosti - Mi ne ulepsavamo stvarnost" language="sr" author="Darko Miletic" title="Glas Javnosti" needs_subscription="no" id="builtin:glasjavnosti"/>
+  <recipe description="Latest news from republika srpska" language="sr" author="Darko Miletic" title="Glas Srpske" needs_subscription="no" id="builtin:glas_srpske"/>
+  <recipe description="" language="en_GB" author="Kovid Goyal" title="Glasgow Herald" needs_subscription="no" id="builtin:glasgow_herald"/>
+  <recipe description="The fusion of entertainment and enlightenment" language="en" author="kwetal" title="Glenn Beck" needs_subscription="no" id="builtin:glennbeck"/>
+  <recipe description="" language="en" author="malfi" title="Global Times" needs_subscription="no" id="builtin:globaltimes"/>
+  <recipe description="" language="en_CA" author="Kovid Goyal" title="Globe &amp; Mail" needs_subscription="no" id="builtin:globe_and_mail"/>
+  <recipe description="This is Globes.co.il." language="he" author="marbs" title="Globes" needs_subscription="no" id="builtin:globes_co_il"/>
+  <recipe description="200+ Comics - Customize for more days/comics: Defaults to 7 days, 25 comics - 20 general, 5 editorial." language="en" author="Starson17" title="GoComics" needs_subscription="no" id="builtin:go_comics"/>
+  <recipe description="" language="de" author="schuster" title="Golem.de" needs_subscription="no" id="builtin:golem_de"/>
+  <recipe description="" language="en" author="Anonymous" title="Good House Keeping" needs_subscription="no" id="builtin:good_house_keeping"/>
+  <recipe description="" language="en_GB" author="Anonymous" title="Good to Know (uk)" needs_subscription="no" id="builtin:good_to_know"/>
+  <recipe description="This recipe fetches from your Google Reader account unread Starred items and unread Feeds you have placed in a folder via the manage subscriptions feature." language="und" author="davec, rollercoaster, Starson17" title="Google Reader" needs_subscription="yes" id="builtin:greader"/>
+  <recipe description="Fetches all feeds from your Google Reader account including the uncategorized items." language="und" author="davec, rollercoaster, Starson17" title="Google Reader uber" needs_subscription="yes" id="builtin:greader_uber"/>
+  <recipe description="News from Greensboro, North Carolina" language="en" author="Walt Anthony" title="Greensboro News &amp; Record" needs_subscription="no" id="builtin:greensboro_news_and_record"/>
+  <recipe description="News from United Arab Emirrates, persian gulf and rest of the world" language="en" author="Darko Miletic" title="Gulf News" needs_subscription="no" id="builtin:gulfnews"/>
+  <recipe description="News from Germany" language="de" author="posativ" title="Gulli" needs_subscription="no" id="builtin:gulli"/>
+  <recipe description="Cotidian Online" language="ro" author="Silviu Cotoară" title="Gândul" needs_subscription="no" id="builtin:gandul"/>
+  <recipe description="IT" language="ro" author="Silviu Cotoară" title="HIT" needs_subscription="no" id="builtin:hitro"/>
+  <recipe description="local news from Hessen/Germany" language="de" author="Oliver Niesner" title="HNA" needs_subscription="no" id="builtin:hna"/>
+  <recipe description="Noticias desde Extremadura" language="es" author="Fco Javier Nieto" title="HOY" needs_subscription="no" id="builtin:hoy"/>
+  <recipe description="News from Croatia" language="hr" author="Darko Miletic" title="HRT: Vesti" needs_subscription="no" id="builtin:hrt"/>
+  <recipe description="Friss hírek a HVG-től" language="hu" author="István Papp" title="HVG.HU" needs_subscription="no" id="builtin:hvg"/>
+  <recipe description="Haaretz.com is the world's leading English-language Website for real-time news and analysis of Israel and the Middle East." language="en_IL" author="Darko Miletic" title="Haaretz - print edition" needs_subscription="no" id="builtin:haaretz_en"/>
+  <recipe description="" language="nl" author="Reijndert" title="Hallo Assen" needs_subscription="no" id="builtin:hallo_assen"/>
+  <recipe description="" language="de" author="malfi" title="Handelsblatt" needs_subscription="no" id="builtin:handelsblatt"/>
+  <recipe description="" language="de" author="Artemis" title="Hannoversche Allgemeine Zeitung" needs_subscription="no" id="builtin:hannoversche_zeitung"/>
+  <recipe description="Harper's Magazine: Founded June 1850." language="en" author="Darko Miletic" title="Harper's Magazine" needs_subscription="no" id="builtin:harpers"/>
+  <recipe description="Harper's Magazine: Founded June 1850." language="en" author="Darko Miletic" title="Harper's Magazine - articles from printed edition" needs_subscription="yes" id="builtin:harpers_full"/>
+  <recipe description="To subscribe go to http://hbr.harvardbusiness.org" language="en" author="Kovid Goyal and Sujata Raman" title="Harvard Business Review" needs_subscription="yes" id="builtin:hbr"/>
+  <recipe description="To subscribe go to http://hbr.harvardbusiness.org" language="en" author="Kovid Goyal, enhanced by BrianG" title="Harvard Business Review Blogs" needs_subscription="yes" id="builtin:hbr_blogs"/>
+  <recipe description="Opensource news from Germany" language="de" author="Anton Gillert" title="Heise Open" needs_subscription="no" id="builtin:heise_open"/>
+  <recipe description="News vom Heise-Verlag" language="de" author="schuster" title="Heise-online" needs_subscription="no" id="builtin:heise_online"/>
+  <recipe description="" language="fi" author="oneillpt" title="Helsingin Sanomat" needs_subscription="no" id="builtin:helsingin_sanomat"/>
+  <recipe description="Daily newspaper from Aragon" language="es" author="desUBIKado" title="Heraldo de Aragon" needs_subscription="no" id="builtin:heraldo"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic and Sujata Raman" title="Het Belang Van Limburg" needs_subscription="no" id="builtin:hln"/>
+  <recipe description="" language="nl" author="marvin_2" title="Het Financieele Dagblad" needs_subscription="no" id="builtin:financieele_dagblad"/>
+  <recipe description="News from Belgium in Dutch" language="nl_BE" author="Darko Miletic" title="Het Laatste Nieuws" needs_subscription="no" id="builtin:hln_be"/>
+  <recipe description="Artykuly historyczne i publicystyczne" language="pl" author="matek09" title="Histmag" needs_subscription="no" id="builtin:histmag"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Historia" needs_subscription="no" id="builtin:historiaro"/>
+  <recipe description="diario de actualidad, moda y belleza." language="es" author="bmsleight" title="Hola" needs_subscription="no" id="builtin:hola"/>
+  <recipe description="Latest national and local Hawaii sports news" language="en" author="Darko Miletic" title="Honolulu Star Advertiser" needs_subscription="no" id="builtin:staradvertiser"/>
+  <recipe description="Katonahírek" language="hu" author="Devilinside" title="Honvedelem.hu" needs_subscription="no" id="builtin:honvedelem"/>
+  <recipe description="The world's first, full-service conservative Internet broadcast network" language="en" author="Walt Anthony" title="Hot Air" needs_subscription="no" id="builtin:hotair"/>
+  <recipe description="Cultura urbană feminină" language="ro" author="Silviu Cotoară" title="Hotcity" needs_subscription="no" id="builtin:hotcity"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Hotnews" needs_subscription="no" id="builtin:hotnews"/>
+  <recipe description="Daily Computer Tips and Tricks" language="en" author="TonytheBookworm" title="How To Geek" needs_subscription="no" id="builtin:howtogeek"/>
+  <recipe description="" language="hu" author="Ezmegaz" title="Hírszerző" needs_subscription="no" id="builtin:h3"/>
+  <recipe description="IDG.se" language="se" author="zapt0" title="IDG" needs_subscription="no" id="builtin:idg_se"/>
+  <recipe description="Posts do IDG Now!" language="pt_BR" author="Diniz Bortolotto" title="IDG Now!" needs_subscription="no" id="builtin:idg_now"/>
+  <recipe description="Electronics News from IEEE" language="en" author="Franco Venturi" title="IEEE Spectrum" needs_subscription="no" id="builtin:ieeespectrum"/>
+  <recipe description="" language="hu" author="Ezmegaz" title="INDEX.HU" needs_subscription="no" id="builtin:index_hu"/>
+  <recipe description="Italian daily newspaper" language="it" author="Lorenzo Vigentini, based on Darko Miletic, Gabriele Marini" title="Il Corriere della sera" needs_subscription="no" id="builtin:corriere_della_sera_it"/>
+  <recipe description="Italian daily newspaper (english version)" language="en" author="calibre" title="Il Corriere della sera (english) " needs_subscription="no" id="builtin:corriere_della_sera_en"/>
+  <recipe description="Italian daily newspaper" language="it" author="Gabriele Marini" title="Il Corriere dello Sport" needs_subscription="no" id="builtin:corriere_dello_sport"/>
+  <recipe description="" language="it" author="egilh" title="Il Fatto Quotidiano" needs_subscription="no" id="builtin:il_fatto"/>
+  <recipe description="Italian daily newspaper" language="it" author="Marini Gabriele" title="Il Giornale" needs_subscription="no" id="builtin:il_giornale"/>
+  <recipe description="Italian News" language="it" author="Gabriele Marini" title="Il Messaggero" needs_subscription="no" id="builtin:il_messaggero"/>
+  <recipe description="Italian financial daily newspaper" language="it" author="Marco Saraceno" title="Il Sole 24 Ore" needs_subscription="no" id="builtin:ilsole24ore"/>
+  <recipe description="Călătorii" language="ro" author="Silviu Cotoară" title="Imperator Travel" needs_subscription="no" id="builtin:imperatortravel"/>
+  <recipe description="" language="de" author="schuster" title="Impulse.de" needs_subscription="no" id="builtin:impulse_de"/>
+  <recipe description="Handbook of the American Entrepeneur" language="en" author="kwetal" title="Inc Magazine" needs_subscription="no" id="builtin:inc"/>
+  <recipe description="" language="en_IN" author="Krittika Goyal" title="Indian Express" needs_subscription="no" id="builtin:indian_express"/>
+  <recipe description="" language="en" author="Owen Kelly" title="Indianapolis Star" needs_subscription="no" id="builtin:indy_star"/>
+  <recipe description="Infobae.com es el sitio de noticias con mayor actualizacion de Latinoamérica. Noticias actualizadas las 24 horas, los 365 días del año." language="es_AR" author="Darko Miletic and Sujata Raman" title="Infobae.com" needs_subscription="no" id="builtin:infobae"/>
+  <recipe description="" language="it" author="calibre" title="Infomotori" needs_subscription="no" id="builtin:infomotori"/>
+  <recipe description="News from Denmark" language="da" author="Darko Miletic" title="Information - Denmark" needs_subscription="no" id="builtin:information_dk"/>
+  <recipe description="news" language="en" author="Rick Kellogg" title="Infoworld.com" needs_subscription="no" id="builtin:infoworld"/>
+  <recipe description="News from Philipines" language="en" author="Darko Miletic" title="Inquirer.net" needs_subscription="no" id="builtin:inquirer_net"/>
+  <recipe description="" language="und" author="Darko Miletic" title="Instapaper" needs_subscription="yes" id="builtin:instapaper"/>
+  <recipe description="" language="en" author="calibre" title="Intelligencer" needs_subscription="no" id="builtin:intelligencer"/>
+  <recipe description="Fakty ze strony interia.pl" language="pl" author="Tomasz Długosz" title="Interia.pl - Fakty" needs_subscription="no" id="builtin:interia_fakty"/>
+  <recipe description="Sport ze strony interia.pl" language="pl" author="Tomasz Długosz" title="Interia.pl - Sport" needs_subscription="no" id="builtin:interia_sport"/>
+  <recipe description="Tech blog by Ted Neward" language="en" author="Darko Miletic" title="Interoperability Happens" needs_subscription="no" id="builtin:tedneward"/>
+  <recipe description="Irish and World news from Irelands Bestselling Daily Broadsheet" language="en_IE" author="Neil Grogan" title="Irish Independent" needs_subscription="no" id="builtin:irish_independent"/>
+  <recipe description="officespace.blog.hu" language="hu" author="Zsolt Botykai" title="Irodai patkényok" needs_subscription="no" id="builtin:office_space"/>
+  <recipe description="News from Russia" language="ru" author="Darko Miletic" title="Izvestia" needs_subscription="no" id="builtin:izvestia"/>
+  <recipe description="Japan Business Press New articles (using small print version)" language="ja" author="Ado Nishimura" title="JBPress" needs_subscription="yes" id="builtin:jbpress"/>
+  <recipe description="Indonesian Newspaper in English from Jakarta Post Online Edition" language="en_ID" author="Adrian Gunawan" title="Jakarta Post" needs_subscription="no" id="builtin:jakarta_post"/>
+  <recipe description="Jalopnik, Obsessed With The Cult of Cars." language="en" author="NA" title="Jalopnik" needs_subscription="no" id="builtin:jalopnik"/>
+  <recipe description="news" language="en" author="Rick Kellogg" title="Javalobby" needs_subscription="no" id="builtin:javalobby"/>
+  <recipe description="News from Israel and the Middle East" language="en" author="Kovid Goyal" title="Jerusalem Post" needs_subscription="no" id="builtin:jpost"/>
+  <recipe description="The Jerusalem Post (in French)" language="fr" author="TonytheBookworm" title="Jerusalem post" needs_subscription="no" id="builtin:jpost_fr"/>
+  <recipe description="Jezebel, Celebrity, Sex, Fashion for Women. Without Airbrushing." language="en" author="NA" title="Jezebel" needs_subscription="no" id="builtin:jezebel"/>
+  <recipe description="Painless Software Management" language="en" author="Darko Miletic" title="Joel on Software" needs_subscription="no" id="builtin:joelonsoftware"/>
+  <recipe description="Political blog from the Netherlands" language="nl" author="kwetal" title="Joop" needs_subscription="no" id="builtin:joop"/>
+  <recipe description="News from Brasil" language="pt" author="Darko Miletic" title="Jornal Brasileiro Online" needs_subscription="no" id="builtin:jb_online"/>
+  <recipe description="" language="en" author="cynvision" title="Journal Gazette Ft. Wayne IN" needs_subscription="no" id="builtin:journalgazette"/>
+  <recipe description="Publication of the American Institute of Certified Public Accountants" language="en" author="kwetal" title="Journal of Accountancy" needs_subscription="no" id="builtin:journalofaccountancy"/>
+  <recipe description="Medical news" language="en" author="Kovid Goyal" title="Journal of Hospital Medicine" needs_subscription="yes" id="builtin:johm"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Journal of the American Society of Nephrology" needs_subscription="yes" id="builtin:kidney"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Jurnalul Naţional" needs_subscription="no" id="builtin:jurnalulnational"/>
+  <recipe description="Hrvatski portal" language="hr" author="Darko Miletic" title="Jutarnji" needs_subscription="no" id="builtin:jutarnji"/>
+  <recipe description="Diario de la Juventud Cubana" language="es_CU" author="Darko Miletic" title="Juventud Rebelde" needs_subscription="no" id="builtin:juventudrebelde"/>
+  <recipe description="The newspaper of Cuban Youth" language="en" author="Darko Miletic" title="Juventud Rebelde in english" needs_subscription="no" id="builtin:juventudrebelde_english"/>
+  <recipe description="News from Denmark" language="da" author="Darko Miletic" title="Jyllands-Posten" needs_subscription="no" id="builtin:jp_dk"/>
+  <recipe description="Nachrichten aus Karlsruhe, Deutschland und der Welt." language="de" author="tfeld" title="KA-News.de" needs_subscription="no" id="builtin:karlsruhe"/>
+  <recipe description="" language="en" author="Riccardo Iaconelli" title="KDE News" needs_subscription="no" id="builtin:planet_kde"/>
+  <recipe description="Photo News from Sweden" language="sv" author="Darko Miletic" title="Kamera &amp; Bild" needs_subscription="no" id="builtin:kamerabild"/>
+  <recipe description="Săptămânal scăpat de sub control" language="ro" author="Silviu Cotoară" title="Kamikaze" needs_subscription="no" id="builtin:kamikaze"/>
+  <recipe description="www.kansascity.com feed" language="en" author="TonytheBookworm" title="Kansascity Star" needs_subscription="no" id="builtin:kstar"/>
+  <recipe description="News from Greece" language="el" author="Pan" title="Kathimerini" needs_subscription="no" id="builtin:kathemerini"/>
+  <recipe description="Blogs of the Kellog School of Management Faculty" language="en" author="Kovid Goyal" title="Kellog Faculty Blogs" needs_subscription="no" id="builtin:kellog_faculty"/>
+  <recipe description="Articles from the Kellog School of Management" language="en" author="Kovid Goyal and Sujata Raman" title="Kellog Insight" needs_subscription="no" id="builtin:kellog_insight"/>
+  <recipe description="News from Kitsap County" language="en" author="Darko Miletic" title="Kitsap Sun" needs_subscription="no" id="builtin:kitsapun"/>
+  <recipe description="Nachrichten aus Österreich" language="de_AT" author="kwetal" title="Kleine Zeitung" needs_subscription="no" id="builtin:kleinezeitung"/>
+  <recipe description="Komchadluek News" language="th" author="ballsaii and Chotechai" title="KomChadLuek" needs_subscription="no" id="builtin:komchadluek"/>
+  <recipe description="News from Russia" language="ru" author="Darko Miletic" title="Kommersant" needs_subscription="no" id="builtin:kommersant"/>
+  <recipe description="Indonesian News from Kompas Online Edition" language="id" author="Adrian Gunawan" title="Kompas" needs_subscription="no" id="builtin:kompas"/>
+  <recipe description="Ciekawostki ze świata nauki i techniki" language="pl" author="Attis" title="Kopalnia Wiedzy" needs_subscription="no" id="builtin:kopalniawiedzy"/>
+  <recipe description="Korea Herald News articles" language="en" author="Seongkyoun Yoo" title="KoreaHerald" needs_subscription="no" id="builtin:korea_herald"/>
+  <recipe description="Centrum wolnorynkowe - serwis ludzi wolnych" language="pl" author="Attis" title="Korespondent.pl" needs_subscription="no" id="builtin:korespondent"/>
+  <recipe description="Kotaku, the Gamer's Guide." language="en" author="NA" title="Kotaku" needs_subscription="no" id="builtin:kotaku"/>
+  <recipe description="Dnevne vesti iz Srbije i sveta" language="sr" author="Darko Miletic" title="Krstarica - Vesti" needs_subscription="no" id="builtin:krstarica"/>
+  <recipe description="News from Serbia and world" language="en" author="Darko Miletic" title="Krstarica - news in english" needs_subscription="no" id="builtin:krstarica_en"/>
+  <recipe description="Revistă pentru femei" language="ro" author="Silviu Cotoară" title="Kudika" needs_subscription="no" id="builtin:kudika"/>
+  <recipe description="KUKUBURI by RamÃ³n PÃ©rez" language="en" author="Mori" title="Kukuburi" needs_subscription="no" id="builtin:kukuburi"/>
+  <recipe description="News from Austria" language="de_AT" author="Darko Miletic" title="Kurier" needs_subscription="no" id="builtin:kurier"/>
+  <recipe description="News from Belgium in French" language="fr" author="Lionel Bergeret" title="L'Avenir" needs_subscription="no" id="builtin:lavenir_be"/>
+  <recipe description="Italian weekly magazine" language="it" author="Lorenzo Vigentini, Gabriele Marini" title="L'Espresso " needs_subscription="no" id="builtin:l_espresso"/>
+  <recipe description="Quiornale quotidiano, politico, religioso del Vaticano" language="it" author="Darko Miletic" title="L'Osservatore Romano" needs_subscription="no" id="builtin:losservatoreromano_it"/>
+  <recipe description="Weekly summary of what has happened in the free software world." language="en" author="Davide Cavalca" title="LWN.net Weekly Edition" needs_subscription="optional" id="builtin:lwn_weekly"/>
+  <recipe description="La Cuarta Cibernetica: El Diario popular" language="es_CL" author="Darko Miletic" title="La Cuarta" needs_subscription="no" id="builtin:la_cuarta"/>
+  <recipe description="News from Belgium in French" language="fr" author="Lionel Bergeret" title="La Derniere Heure" needs_subscription="no" id="builtin:dhnet_be"/>
+  <recipe description="Noticias de Uruguay" language="es_UY" author="Gustavo Azambuja" title="La Diaria" needs_subscription="no" id="builtin:la_diaria"/>
+  <recipe description="Sport news from the most read sport newspaper in Italy" language="it" author="Lorenzo Vigentini" title="La Gazzetta dello Sport " needs_subscription="no" id="builtin:la_gazzeta_dello_sport"/>
+  <recipe description="Noticias del diario mexicano La Jornada" language="es_MX" author="Darko Miletic/Rogelio Domínguez" title="La Jornada (Mexico)" needs_subscription="no" id="builtin:la_jornada"/>
+  <recipe description="News from Belgium in French" language="fr" author="Lionel Bergeret" title="La Libre Belgique" needs_subscription="no" id="builtin:lalibre_be"/>
+  <recipe description="News from Belgium in French" language="fr" author="Lionel Bergeret" title="La Meuse" needs_subscription="no" id="builtin:lameuse_be"/>
+  <recipe description="Cultura de otra manera" language="es_AR" author="Darko Miletic" title="La Mujer de mi Vida" needs_subscription="no" id="builtin:lamujerdemivida"/>
+  <recipe description="lanacion.com - Informacion actualizada las 24 horas, con noticias de Argentina y del mundo" language="es_AR" author="Darko Miletic" title="La Nacion" needs_subscription="no" id="builtin:lanacion"/>
+  <recipe description="El sitio de noticias online de Chile" language="es_CL" author="Darko Miletic" title="La Nacion Chile" needs_subscription="no" id="builtin:lanacion_chile"/>
+  <recipe description="Diario independiente de Asturias" language="es" author="Luis Hernandez" title="La Nueva España" needs_subscription="no" id="builtin:la_nueva"/>
+  <recipe description="Informacion Libre las 24 horas" language="es_AR" author="Darko Miletic and Sujata Raman" title="La Prensa" needs_subscription="no" id="builtin:laprensa"/>
+  <recipe description="Noticias de Honduras y mundo" language="es_HN" author="Darko Miletic" title="La Prensa - Honduras" needs_subscription="no" id="builtin:laprensa_hn"/>
+  <recipe description="LA PRENSA - EL Diario de los Nicaraguenses" language="es_NI" author="Darko Miletic" title="La Prensa - Nicaragua" needs_subscription="no" id="builtin:laprensa_ni"/>
+  <recipe description="El diario nacional de Bolivia" language="es_BO" author="Darko Miletic" title="La Razón - Bolivia" needs_subscription="no" id="builtin:la_razon_bo"/>
+  <recipe description="Italian daily newspaper" language="it" author="Lorenzo Vigentini, Gabriele Marini" title="La Repubblica" needs_subscription="no" id="builtin:la_republica"/>
+  <recipe description="Noticias de La Rioja y el resto del mundo" language="es" author="Arturo Martinez Nieves" title="La Rioja" needs_subscription="no" id="builtin:la_rioja"/>
+  <recipe description="El sitio de noticias online de Chile" language="es_CL" author="Darko Miletic" title="La Segunda" needs_subscription="no" id="builtin:la_segunda"/>
+  <recipe description="" language="it" author="Gabriele Marini" title="La Stampa" needs_subscription="no" id="builtin:la_stampa"/>
+  <recipe description="El sitio de noticias online de Chile" language="es" author="Darko Miletic" title="La Tercera" needs_subscription="no" id="builtin:la_tercera"/>
+  <recipe description="Noticias de Honduras y mundo" language="es_HN" author="Darko Miletic" title="La Tribuna - Honduras" needs_subscription="no" id="builtin:latribuna"/>
+  <recipe description="Varios diarios locales del grupo PROMECAL" language="es_ES" author="Luis Hernández" title="La Tribuna de" needs_subscription="no" id="builtin:la_tribuna"/>
+  <recipe description="Noticias desde España" language="es" author="Darko Miletic" title="La Vanguardia Digital" needs_subscription="no" id="builtin:lavanguardia"/>
+  <recipe description="" language="en" author="Kovid Goyal" title="Las Vegas Review Journal" needs_subscription="no" id="builtin:las_vegas_review"/>
+  <recipe description="Canadian Paper. A subscription is optional, with it you get more content" language="fr" author="calibre" title="Le Devoir" needs_subscription="optional" id="builtin:ledevoir"/>
+  <recipe description="Le Journal de Montreal" language="fr" author="Luciano Furtado" title="Le Journal de Montreal" needs_subscription="no" id="builtin:le_journal"/>
+  <recipe description="Actualités" language="fr" author="veezh" title="Le Monde" needs_subscription="no" id="builtin:le_monde"/>
+  <recipe description="Le Monde diplomatique is the place you go when you want to know what's really happening. This is a major international paper that is truly independent, that sees the world in fresh ways, that focuses on places no other publications reach. We offer a clear, considered view of the conflicting interests and complexities of a modern global world. LMD in English is a concise version of the Paris-based parent edition, publishing all the major stories each month, expertly translated, and with some London-based commissions too. We offer a taster of LMD quality on our website where a selection of articles are available each month." language="en" author="Darko Miletic" title="Le Monde diplomatique - English edition" needs_subscription="yes" id="builtin:lemonde_dip"/>
+  <recipe description="News from Belgium in French" language="fr" author="Lionel Bergeret" title="Le Soir" needs_subscription="no" id="builtin:lesoir_be"/>
+  <recipe description="French news. Needs a subscription from http://www.letemps.ch" language="fr" author="Kovid Goyal" title="Le Temps" needs_subscription="yes" id="builtin:le_temps"/>
+  <recipe description="Provides news from central Alberta, Canada.  This is a&#10; weekly publication that provides coverage from the Cities of Leduc and&#10; Wetaskiwin, including news from two complete counties, plus the towns and&#10; villages within.  The counties of Leduc and Wetaskiwin provide news&#10; coverage of agriculture, sports, government, family, events and opinion.&#10; This publication updated weekly every Thursday." language="en_CA" author="Brian Hahn" title="Leduc - Wetaskiwin Pipestone Flyer" needs_subscription="no" id="builtin:leduc"/>
+  <recipe description="Wszystko, co chcielibyście wiedzieć o prawie, ale wstydzicie się zapytać" language="pl" author="Mori" title="Lege Artis" needs_subscription="no" id="builtin:legeartis"/>
+  <recipe description="Italian Free daily newspaper" language="it" author="Gabriele Marini" title="Leggo.it" needs_subscription="no" id="builtin:leggo_it"/>
+  <recipe description="Ежедневная интернет-газета. Новости со всего мира на русском языке" language="ru" author="Nikolai Kotchetkov" title="Lenta.ru: Новости" needs_subscription="no" id="builtin:lenta_ru"/>
+  <recipe description="El Mercantil Valenciano" language="es" author="kwetal" title="Levante" needs_subscription="no" id="builtin:levante"/>
+  <recipe description="News from France" language="fr" author="Darko Miletic" title="Liberation" needs_subscription="no" id="builtin:liberation"/>
+  <recipe description="Italian daily newspaper" language="it" author="Marini Gabriele" title="Libero " needs_subscription="no" id="builtin:libero"/>
+  <recipe description="Tips, tricks, and downloads for getting things done." language="en" author="Euler Alves" title="LifeHacker" needs_subscription="no" id="builtin:lifehacker"/>
+  <recipe description="Linux news" language="en" author="Darko Miletic" title="Linux Magazine" needs_subscription="no" id="builtin:linux_magazine"/>
+  <recipe description="News about Linux driven Hardware" language="en" author="Oliver Niesner" title="Linuxdevices" needs_subscription="no" id="builtin:linuxdevices"/>
+  <recipe description="&#10;    Catch the latest buzz in the digital world with Living Digital. Enjoy&#10;    reviews, news, features and recommendations on a wide range of consumer&#10;    technology products - from smartphones to flat panel TVs, netbooks to&#10;    cameras, and many more consumer lifestyle gadgets. To subscribe, visit&#10;    &lt;a href=&quot;http://news.calibre-ebook.com/periodical/living-digital&quot;&gt;calibre&#10;    Periodicals&lt;/a&gt;.&#10;    " language="en_IN" author="calibre Periodicals" title="Living Digital" needs_subscription="yes" id="builtin:living_digital"/>
+  <recipe description="Ontario Canada Newspaper" language="en_CA" author="rty" title="London Free Press" needs_subscription="no" id="builtin:london_free_press"/>
+  <recipe description="Subscription content. Literary review publishing essay-length book reviews and topical articles on politics, literature, history, philosophy, science and the arts by leading writers and thinkers" language="en_GB" author="Darko Miletic" title="London Review of Books" needs_subscription="yes" id="builtin:lrb_payed"/>
+  <recipe description="Literary review publishing essay-length book reviews and topical articles on politics, literature, history, philosophy, science and the arts by leading writers and thinkers" language="en_GB" author="Darko Miletic" title="London Review of Books (free)" needs_subscription="no" id="builtin:lrb"/>
+  <recipe description="Noticias de Mendoza, Argentina y el resto del mundo" language="es_AR" author="Darko Miletic" title="Los Andes" needs_subscription="no" id="builtin:losandes"/>
+  <recipe description="The Los Angeles Times is a leading source of news on Southern California, entertainment, movies, television, music, politics, business, health, technology, travel, sports, environment, economics, autos, jobs, real estate and other topics affecting California" language="en" author="Darko Miletic" title="Los Angeles Times" needs_subscription="no" id="builtin:latimes"/>
+  <recipe description="El periódico de mayor circulación en la ciudad de Cochabamba, Bolivia" language="es_BO" author="Darko Miletic" title="Los Tiempos - Bolivia" needs_subscription="no" id="builtin:los_tiempos_bo"/>
+  <recipe description="Zprávičky a články z Lupa.cz" language="cs" author="Tomas Latal" title="Lupa" needs_subscription="no" id="builtin:lupa"/>
+  <recipe description="Prvi interaktivni multimedijski portal, MMC RTV Slovenija" language="sl" author="BlonG" title="MMC RTV Slovenija" needs_subscription="no" id="builtin:mmc_rtv"/>
+  <recipe description="The Microsoft Journal for Developers" language="en" author="Darko Miletic" title="MSDN Magazine" needs_subscription="no" id="builtin:msdnmag_en"/>
+  <recipe description="Products release from Japan" language="ja" author="Hiroshi Miura" title="MSN産経ニュース(新商品)" needs_subscription="no" id="builtin:msnsankei"/>
+  <recipe description="Macworld is an independent journal not affiliated with Apple Computer." language="en" author="Lorenzo Vigentini" title="Mac World " needs_subscription="no" id="builtin:mac_world"/>
+  <recipe description="Macworld is a publication of IDG Communication in the UK specifically on the Apple Mac." language="en_GB" author="Lorenzo Vigentini" title="Mac World UK " needs_subscription="no" id="builtin:mac_world_uk"/>
+  <recipe description="MacVideo is an independent journal not affiliated with Apple Computer, It is a publication of IDG Communication focusing on video production and editing." language="en" author="Lorenzo Vigentini" title="MacVideo " needs_subscription="no" id="builtin:mac_video"/>
+  <recipe description="" language="en_CA" author="sexymax15" title="Macleans Magazine" needs_subscription="no" id="builtin:macleans"/>
+  <recipe description="" language="en_ZA" author="77ja65" title="Mail &amp; Guardian ZA News" needs_subscription="no" id="builtin:mail_and_guardian"/>
+  <recipe description="The Pulse of the Nation" language="en" author="Tonythebookworm" title="MalaysianMirror" needs_subscription="no" id="builtin:malaysian_mirror"/>
+  <recipe description="Marc Toensings Visionen" language="de" author="Marc Toensing" title="Marc Toensings Visionen" needs_subscription="no" id="builtin:marctv"/>
+  <recipe description="Noticias deportivas" language="es_ES" author="Darko Miletic" title="Marca" needs_subscription="no" id="builtin:marca"/>
+  <recipe description="Marietta Ga and Metro Atlanta News" language="en" author="Tony Stegall" title="Marietta Daily Journal" needs_subscription="no" id="builtin:mdj"/>
+  <recipe description="" language="th" author="Anat R." title="Matichon" needs_subscription="no" id="builtin:matichon"/>
+  <recipe description="" language="de" author="schuster" title="Max-Planck-Inst." needs_subscription="no" id="builtin:max_planck"/>
+  <recipe description="Maximum PC" language="en" author="rty" title="Maximum PC" needs_subscription="no" id="builtin:maximum_pc"/>
+  <recipe description="Traieste urban, cool, sexy" language="ro" author="Silviu Cotoară" title="Mayra" needs_subscription="no" id="builtin:mayra"/>
+  <recipe description="Nursing News" language="en" author="Tony Stegall" title="MedScape" needs_subscription="yes" id="builtin:medscape"/>
+  <recipe description="Indonesian Media Indonesia newsportal" language="id" author="bakthariq" title="Media Indonesia" needs_subscription="no" id="builtin:mediaindonesia"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Mediafax" needs_subscription="no" id="builtin:mediafax"/>
+  <recipe description="Global news in french from online newspapers" language="fr" author="Mathieu Godlewski" title="Mediapart" needs_subscription="yes" id="builtin:mediapart"/>
+  <recipe description="Periódico con información de Menorca, España" language="es" author="M. Sintes" title="Menorca" needs_subscription="no" id="builtin:menorca"/>
+  <recipe description="" language="en" author="Anonymous" title="Mens Health (US)" needs_subscription="no" id="builtin:mens_health"/>
+  <recipe description="Metro Nederland" language="nl" author="DrMerry" title="Metro Nieuws NL" needs_subscription="no" id="builtin:metro_news_nl"/>
+  <recipe description="News as provide by The Metro -UK" language="en_GB" author="Dave Asbury" title="Metro UK" needs_subscription="no" id="builtin:metro_uk"/>
+  <recipe description="Get your dose of the latest news, views and fun - from the&#10;        world of politics, sports and Bollywood to the cartoons, comics and games of&#10;        the entertainment section - India’s leading tabloid has it all. To subscribe&#10;        visit &lt;a href=&quot;http://news.calibre-ebook.com/periodical/midday&quot;&gt;calibre&#10;        Periodicals&lt;/a&gt;." language="en_IN" author="calibre Periodicals" title="MiDDay" needs_subscription="yes" id="builtin:midday"/>
+  <recipe description="Michelle Malkin's take on events, a mother, wife, blogger, conservative syndicated columnist, author, and Fox News Channel contributor." language="en" author="Walt Anthony" title="Michelle Malkin" needs_subscription="no" id="builtin:michellemalkin"/>
+  <recipe description="Milenio-diario" language="es_MX" author="Bmsleight" title="Milenio-diario" needs_subscription="no" id="builtin:milenio"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Milwaukee Journal Sentinel" needs_subscription="no" id="builtin:jsonline"/>
+  <recipe description="Hong Kong Chinese Newspaper (http://news.mingpao.com)" language="zh" author="Eddie Lau" title="Ming Pao - Hong Kong" needs_subscription="no" id="builtin:ming_pao"/>
+  <recipe description="Toronto Chinese Newspaper (http://www.mingpaotor.com)" language="zh" author="Eddie Lau" title="Ming Pao - Toronto" needs_subscription="no" id="builtin:ming_pao_toronto"/>
+  <recipe description="Vancouver Chinese Newspaper (http://www.mingpaovan.com)" language="zh" author="Eddie Lau" title="Ming Pao - Vancouver" needs_subscription="no" id="builtin:ming_pao_vancouver"/>
+  <recipe description="Revista Argentina" language="es_AR" author="Darko Miletic" title="Miradas al Sur" needs_subscription="no" id="builtin:miradasalsur"/>
+  <recipe description="Thoughts on the global economy, housing, gold, silver, interest rates, oil, energy, China, commodities, the  dollar, Euro, Renminbi, Yen, inflation, deflation, stagflation, precious metals, emerging markets, and policy decisions that affect the global markets." language="en" author="Darko Miletic" title="Mish's Global Economic Trend Analysis" needs_subscription="no" id="builtin:ecotrend"/>
+  <recipe description="Modoros.blog.hu" language="hu" author="Zsolt Botykai" title="Modoros Blog" needs_subscription="no" id="builtin:modoros"/>
+  <recipe description="Moldova pe internet" language="ro" author="Silviu Cotoară" title="Moldova Azi" needs_subscription="no" id="builtin:moldovaazi"/>
+  <recipe description="science news" language="fr" author="Darko Miletic" title="Monde durable" needs_subscription="no" id="builtin:mondedurable"/>
+  <recipe description="Artişti, interviuri, concerte.. MUZICĂ" language="ro" author="Silviu Cotoară" title="Monden" needs_subscription="no" id="builtin:monden"/>
+  <recipe description="Financial news from India" language="en_IN" author="kwetal" title="Money Control" needs_subscription="no" id="builtin:moneycontrol"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Money Ro" needs_subscription="no" id="builtin:moneyro"/>
+  <recipe description="Financial news worldwide" language="en" author="Darko Miletic" title="Moneynews.com" needs_subscription="no" id="builtin:moneynews"/>
+  <recipe description="News from Montenegro" language="sr" author="Darko Miletic" title="Monitor online" needs_subscription="no" id="builtin:monitor"/>
+  <recipe description="Noticias de Uruguay" language="es_UY" author="Gustavo Azambuja" title="Montevideo COMM" needs_subscription="no" id="builtin:montevideo_com"/>
+  <recipe description="News from Montreal, QC" language="en_CA" author="Nick Redding" title="Montreal Gazette" needs_subscription="no" id="builtin:montreal_gazette"/>
+  <recipe description="Independent investigative, political, and social justice reporting. Takes no prisoners, cleaves to no dogma, and tells it like it is." language="en" author="kwetal" title="Mother Jones" needs_subscription="no" id="builtin:motherjones"/>
+  <recipe description="Le quotidien le plus branch� sur le monde" language="fr" author="Jerry Clapperton" title="Métro Montréal" needs_subscription="no" id="builtin:metro_montreal"/>
+  <recipe description="Zprávičky a články z Mesec.cz" language="cs" author="Tomas Latal" title="Měšec" needs_subscription="no" id="builtin:mesec"/>
+  <recipe description="News from NASA" language="en" author="Scott Wxby &amp; David Chen" title="NASA" needs_subscription="no" id="builtin:nasa"/>
+  <recipe description="Olympics 2010" language="en" author="Starson17" title="NBC Olympics 2010" needs_subscription="no" id="builtin:winter_olympics"/>
+  <recipe description="" language="de" author="schuster" title="NGZ-online" needs_subscription="no" id="builtin:ngz"/>
+  <recipe description="Nedeljne Informativne Novine" language="sr" author="Darko Miletic" title="NIN online" needs_subscription="yes" id="builtin:nin"/>
+  <recipe description="NOAA" language="en" author="Darko Miletic" title="NOAA Online" needs_subscription="no" id="builtin:noaa"/>
+  <recipe description="" language="en" author="cix3" title="NPR Music Blogs" needs_subscription="no" id="builtin:npr_music_blogs"/>
+  <recipe description="News from Netherlands" language="nl" author="Darko Miletic" title="NRC" needs_subscription="no" id="builtin:nrc.nl"/>
+  <recipe description="De ePaper-versie van NRC" language="nl" author="Snaab" title="NRC Handelsblad" needs_subscription="yes" id="builtin:nrc-nl-epub"/>
+  <recipe description="Magazine dedicated to political theory and sociological research" language="en" author="Darko Miletic" title="NSPM in English" needs_subscription="no" id="builtin:nspm_int"/>
+  <recipe description="Laufend aktualisierte Nachrichten, Analysen und Hintergruende zu Politik, Wirtschaft, Kultur und Sport" language="de" author="Darko Miletic" title="NZZ Online" needs_subscription="no" id="builtin:nzz_ger"/>
+  <recipe description="" language="es" author="Arturo Martinez Nieves" title="NacionRed.com" needs_subscription="no" id="builtin:nacionred"/>
+  <recipe description="news from Croatia" language="hr" author="Darko Miletic" title="Nacional - Hr" needs_subscription="no" id="builtin:nacional_cro"/>
+  <recipe description="Commentary on current economic and financial news." language="en" author="Darko Miletic" title="Naked Capitalism" needs_subscription="no" id="builtin:nakedcapitalism"/>
+  <recipe description="Inspiring people to care about the planet since 1888" language="en" author="gagsays" title="National Geographic" needs_subscription="no" id="builtin:natgeo"/>
+  <recipe description="" language="de" author="Anonymous" title="National Geographic (DE)" needs_subscription="no" id="builtin:national_geographic_de"/>
+  <recipe description="" language="en" author="calibre" title="National Geographic News" needs_subscription="no" id="builtin:nationalgeographic"/>
+  <recipe description="legenda wśród magazynów z historią sięgającą 120 lat" language="pl" author="Marcin Urban 2011" title="National Geographic PL" needs_subscription="no" id="builtin:national_geographic_pl"/>
+  <recipe description="Să avem grijă de planetă" language="ro" author="Silviu Cotoară" title="National Geographic RO" needs_subscription="no" id="builtin:nationalgeoro"/>
+  <recipe description="Canadian national newspaper" language="en_CA" author="Krittika Goyal" title="National Post" needs_subscription="no" id="builtin:national_post"/>
+  <recipe description="" language="en" author="onyxrev" title="National Public Radio" needs_subscription="no" id="builtin:npr"/>
+  <recipe description="National Review is America's most widely read and influential magazine and web site for Republican/conservative news, commentary, and opinion." language="en" author="Walt Anthony" title="National Review Online" needs_subscription="no" id="builtin:nationalreviewonline"/>
+  <recipe description="" language="en" author="Krittika Goyal, Starson17" title="Nature News" needs_subscription="no" id="builtin:freenature"/>
+  <recipe description="Neal Boortz Show Radio Notes" language="en" author="TonytheBookworm" title="Nealz Nuze" needs_subscription="no" id="builtin:boortz"/>
+  <recipe description="News from IT" language="en" author="Darko Miletic" title="Neowin.net" needs_subscription="no" id="builtin:neowin"/>
+  <recipe description="" language="de" author="Kovid Goyal" title="Netzpolitik" needs_subscription="no" id="builtin:netzpolitik"/>
+  <recipe description="Medical news" language="en" author="Kovid Goyal" title="New England Journal of Medicine" needs_subscription="yes" id="builtin:nejm"/>
+  <recipe description="The open-access journal for physics" language="en" author="Chema Cortés" title="New Journal of Physics" needs_subscription="no" id="builtin:njp"/>
+  <recipe description="State, local and business news from New London, CT" language="en_GB" author="Being" title="New London Day" needs_subscription="no" id="builtin:new_london_day"/>
+  <recipe description="" language="en" author="scissors" title="New Musical Express Magazine" needs_subscription="no" id="builtin:nme"/>
+  <recipe description="Science news and science articles from New Scientist." language="en" author="Darko Miletic" title="New Scientist - Online News w. subscription" needs_subscription="optional" id="builtin:new_scientist"/>
+  <recipe description="Learning Curve, Sunday People, New Straits Times from Malaysia" language="en" author="Darko Miletic" title="New Straits Times from Malaysia" needs_subscription="no" id="builtin:newsstraitstimes"/>
+  <recipe description="Food, culture, arts and entertainment in New York" language="en" author="Kovid Goyal" title="New York Magazine" needs_subscription="no" id="builtin:nymag"/>
+  <recipe description="Daily newspaper" language="en" author="Darko Miletic" title="New York Post" needs_subscription="no" id="builtin:nypost"/>
+  <recipe description="Book reviews" language="en" author="Kovid Goyal" title="New York Review of Books" needs_subscription="yes" id="builtin:new_york_review_of_books"/>
+  <recipe description="Book reviews" language="en" author="Kovid Goyal" title="New York Review of Books (no subscription)" needs_subscription="no" id="builtin:new_york_review_of_books_no_sub"/>
+  <recipe description="Today's New York Times. Needs subscription from http://www.nytimes.com" language="en" author="GRiker/Kovid Goyal/Nick Redding/Ben Collier" title="New York Times" needs_subscription="yes" id="builtin:nytimes_sub"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="New York Times Book Review" needs_subscription="no" id="builtin:nytimesbook"/>
+  <recipe description="Headlines from the New York Times. Needs a subscription from http://www.nytimes.com" language="en" author="GRiker/Kovid Goyal/Nick Redding" title="New York Times Headlines" needs_subscription="optional" id="builtin:nytimes"/>
+  <recipe description="Indepth sports from the New York Times" language="en" author="rylsfan" title="New York Times Sports Beat" needs_subscription="no" id="builtin:nytimes_sports"/>
+  <recipe description="The latest in technology from David Pogue" language="en" author="David Pogue" title="New York Times Technology Beat" needs_subscription="no" id="builtin:nytimes_tech"/>
+  <recipe description="Daily news" language="en_NZ" author="Kovid Goyal" title="New Zealand Herald" needs_subscription="no" id="builtin:nzherald"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="News And Observer" needs_subscription="no" id="builtin:newsobs"/>
+  <recipe description="Revista dedicada a politica" language="es_AR" author="Darko Miletic" title="NewsWeek Argentina" needs_subscription="no" id="builtin:newsweek_argentina"/>
+  <recipe description="news from USA" language="en" author="Darko Miletic" title="Newstimes" needs_subscription="no" id="builtin:news_times"/>
+  <recipe description="Weekly news and current affairs in the US" language="en" author="Kovid Goyal" title="Newsweek" needs_subscription="no" id="builtin:newsweek"/>
+  <recipe description="Weekly magazine" language="pl" author="matek09" title="Newsweek Polska" needs_subscription="no" id="builtin:newsweek_polska"/>
+  <recipe description="SF, Fantasy, Books, Knjige" language="sr" author="Darko Miletic" title="Nightflier's Bookspace" needs_subscription="no" id="builtin:nightflier"/>
+  <recipe description="Nikkei Business Online.注：ユーザー名にemailアドレスとユーザー名をセミコロンで区切って入れてください。例：email@address.jp;username . PLEASE NOTE: You need to put your email address and username into username filed separeted by ; (semi-colon)." language="ja" author="Ado Nishimura" title="Nikkei Business Online" needs_subscription="yes" id="builtin:nbonline"/>
+  <recipe description="Iscasene vesti iz Srbije, regiona i sveta" language="sr" author="Darko Miletic" title="Njuz.net" needs_subscription="no" id="builtin:njuz_net"/>
+  <recipe description="Daily newspaper from Spain" language="es" author="calibre" title="NorteCastilla " needs_subscription="no" id="builtin:nortecastilla"/>
+  <recipe description="George R.R. Martin" language="en" author="Darko Miletic" title="Not A Blog - George R.R. Martin" needs_subscription="no" id="builtin:grrm"/>
+  <recipe description="Noticias Portal R7" language="pt_BR" author="Diniz Bortolotto" title="Noticias R7" needs_subscription="no" id="builtin:noticias_r7"/>
+  <recipe description="Noticias da UnB" language="pt_BR" author="Diniz Bortolotto" title="Noticias UnB" needs_subscription="no" id="builtin:noticias_unb"/>
+  <recipe description="Casopis za politicku teoriju i drustvena istrazivanja" language="sr" author="Darko Miletic" title="Nova srpska politicka misao" needs_subscription="no" id="builtin:nspm"/>
+  <recipe description="" language="ru" author="muwa" title="Novaya Gazeta" needs_subscription="no" id="builtin:novaya_gazeta"/>
+  <recipe description="NoviStandard - energija je neunistiva!" language="sr" author="Darko Miletic" title="Novi Standard" needs_subscription="optional" id="builtin:novistandard"/>
+  <recipe description="News from server Novinky.cz" language="cs" author="Tomas Latal" title="Novinky" needs_subscription="no" id="builtin:novinky"/>
+  <recipe description="Now Toronto" language="en_CA" author="Starson17" title="Now Toronto" needs_subscription="no" id="builtin:now_toronto"/>
+  <recipe description="Dutch News" language="nl" author="Rob Hankel" title="Nu.nl" needs_subscription="no" id="builtin:nu"/>
+  <recipe description="Nursing practice, NHS and health care news" language="en_GB" author="Darko Miletic" title="Nursing Times" needs_subscription="yes" id="builtin:nursingtimes"/>
+  <recipe description="News from Brasil" language="pt" author="Darko Miletic and Sujata Raman" title="O Globo" needs_subscription="no" id="builtin:o_globo"/>
+  <recipe description="OSnews.pl jest społecznościowym serwisem informacyjnym poświęconym oprogramowaniu, systemom operacyjnym i światowi IT" language="pl" author="Mori &amp; Tomasz Długosz" title="OSnews.pl" needs_subscription="no" id="builtin:osnews_pl"/>
+  <recipe description="Oakland North" language="en" author="noah" title="Oakland North" needs_subscription="no" id="builtin:oakland_north"/>
+  <recipe description="Noticias de Uruguay" language="es_UY" author="yrvn" title="Observa Digital" needs_subscription="no" id="builtin:el_observador"/>
+  <recipe description="Noticias desde Uruguay" language="es_UY" author="2010, Gustavo Azambuja &lt;hola at gazambuja.com&gt;" title="Observa Digital" needs_subscription="no" id="builtin:observa_digital"/>
+  <recipe description="Spiritul critic in acţiune&#10;" language="ro" author="song2" title="Observatorul cultural" needs_subscription="no" id="builtin:observatorul_cultural"/>
+  <recipe description="The nr. 1 source for Oil Price Information" language="en" author="Darko Miletic" title="Oil Price" needs_subscription="no" id="builtin:oilprice"/>
+  <recipe description="Progressive American commentary on current events" language="en" author="Xanthan Gum" title="Open Left" needs_subscription="no" id="builtin:open_left"/>
+  <recipe description="News from the Orange county" language="en" author="calibre" title="Orange County Register" needs_subscription="no" id="builtin:oc_register"/>
+  <recipe description="Portal legitymistyczny" language="pl" author="Tomasz Długosz" title="Organizacja Monarchistów Polskich" needs_subscription="no" id="builtin:legitymizm"/>
+  <recipe description="News from HK" language="zh" author="Larry Chan" title="Oriental Dailly" needs_subscription="no" id="builtin:oriental_daily"/>
+  <recipe description="Orlando, Florida, Newspaper" language="en" author="rty" title="Orlando Sentinel" needs_subscription="no" id="builtin:orlando_sentinel"/>
+  <recipe description="" language="es" author="Darko Miletic" title="Orsai" needs_subscription="no" id="builtin:orsai"/>
+  <recipe description="News from Ottawa, ON" language="en_CA" author="Nick Redding" title="Ottawa Citizen" needs_subscription="no" id="builtin:ottawa_citizen"/>
+  <recipe description="Our Daily Bread is a daily devotional from RBC Ministries which helps readers spend time each day in God's Word." language="en" author="Darko Miletic and Sujata Raman" title="Our Daily Bread" needs_subscription="no" id="builtin:ourdailybread"/>
+  <recipe description="Weekly news and current affairs in India" language="en_IN" author="Kovid Goyal and Sujata Raman" title="Outlook India" needs_subscription="no" id="builtin:outlook_india"/>
+  <recipe description="Articles from PC Lab website" language="pl" author="ravcio - rlelusz[at]gmail.com" title="PC Lab" needs_subscription="no" id="builtin:pc_lab"/>
+  <recipe description="PCMag (www.pcmag.com) delivers authoritative, labs-based comparative reviews of computing and Internet products to highly engaged technology buyers." language="en" author="Lorenzo Vigentini" title="PC Magazine" needs_subscription="no" id="builtin:pc_mag"/>
+  <recipe description="IT" language="ro" author="Silviu Cotoară" title="PC World" needs_subscription="no" id="builtin:pcworldro"/>
+  <recipe description="&#10;    Buying a tech product? Seeking a tech solution? Consult PCQuest, India's&#10;    market-leading selection and implementation guide for the latest&#10;    technologies: servers, business apps, security, open source, gadgets and&#10;    more. To subscribe visit, &lt;a&#10;    href=&quot;http://news.calibre-ebook.com/periodical/pc-quest-india&quot;&gt;calibre&#10;    Periodicals&lt;/a&gt;.&#10;    " language="en_IN" author="calibre Periodicals" title="PCQuest" needs_subscription="yes" id="builtin:pc_quest_india"/>
+  <recipe description="" language="hu" author="Ezmegaz" title="PCWORLD.HU" needs_subscription="no" id="builtin:pcworld_hu"/>
+  <recipe description="PC World and Macworld consistently deliver editorial excellence through award-winning content and trusted product reviews." language="en" author="Lorenzo Vigentini" title="PCWorld " needs_subscription="no" id="builtin:pc_world"/>
+  <recipe description="" language="en" author="Rafardeon" title="PHD Comics" needs_subscription="no" id="builtin:phd_comics"/>
+  <recipe description="Noticias de Argentina y el resto del mundo" language="es_AR" author="Darko Miletic" title="Pagina - 12" needs_subscription="no" id="builtin:pagina12"/>
+  <recipe description="Provides exclusive news and opinion for forty countries." language="en" author="Krittika Goyal" title="Pajamas Media" needs_subscription="no" id="builtin:pajama"/>
+  <recipe description="Italian weekly magazine" language="it" author="Lorenzo Vigentini, based on Darko Miletic" title="Panorama " needs_subscription="no" id="builtin:panorama"/>
+  <recipe description="PC Advisor delivers expert advice you can trust to business and home PC users who want to buy the best-value equipment and make the most out of the equipment they already own." language="en" author="Lorenzo Vigentini" title="Pc Advisor " needs_subscription="no" id="builtin:pc_advisor"/>
+  <recipe description="Internet portal slobodne Srbije" language="sr" author="Darko Miletic" title="Pecat" needs_subscription="no" id="builtin:pecat"/>
+  <recipe description="People Daily Newspaper" language="zh" author="rty" title="People Daily - China" needs_subscription="no" id="builtin:people_daily"/>
+  <recipe description="Headlines from People and US Magazine" language="en" author="BrianG" title="People/US Magazine Mashup" needs_subscription="no" id="builtin:people_us_mashup"/>
+  <recipe description="Noticias de Argentina y el resto del mundo" language="es_AR" author="Darko Miletic" title="Perfil" needs_subscription="no" id="builtin:perfil"/>
+  <recipe description="Pescanik" language="sr" author="Darko Miletic" title="Pescanik" needs_subscription="no" id="builtin:pescanik"/>
+  <recipe description="Economic commentary" language="en" author="Darko Miletic" title="Peter Schiff's Economic Commentary" needs_subscription="no" id="builtin:peterschiff"/>
+  <recipe description="Daily news from the Philadelphia Inquirer" language="en" author="sexymax15" title="Philadelphia Inquirer" needs_subscription="no" id="builtin:philly"/>
+  <recipe description="Physics Today magazine" language="en" author="Hypernova" title="Physicstoday" needs_subscription="yes" id="builtin:physics_today"/>
+  <recipe description="News from the world of physics" language="en" author="Hypernova" title="Physicsworld" needs_subscription="yes" id="builtin:physics_world"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Pilot Online" needs_subscription="no" id="builtin:pilot"/>
+  <recipe description="News from Montenegro" language="sr" author="Darko Miletic" title="Pobjeda Online" needs_subscription="no" id="builtin:pobjeda"/>
+  <recipe description="Aktuality a články z Podnikatel.cz" language="cs" author="Tomas Latal" title="Podnikatel" needs_subscription="no" id="builtin:podnikatel"/>
+  <recipe description="Political news from USA" language="en" author="Darko Miletic and Sujata Raman" title="Politico" needs_subscription="no" id="builtin:politico"/>
+  <recipe description="" language="en" author="Michael Heinz" title="Politifact" needs_subscription="no" id="builtin:politifact"/>
+  <recipe description="Najstariji dnevni list na Balkanu" language="sr" author="Darko Miletic" title="Politika Online" needs_subscription="no" id="builtin:politika"/>
+  <recipe description="News from Denmark" language="da" author="Darko Miletic" title="Politiken.dk" needs_subscription="no" id="builtin:politiken_dk"/>
+  <recipe description="Weekly magazine. Last archive issue" language="pl" author="matek09" title="Polityka" needs_subscription="no" id="builtin:polityka"/>
+  <recipe description="Tagesaktuelle &quot;Polizeiberichte&quot; aus ganz Deutschland (bis auf Ortsebene).Um deinen Ort/Stadt/Kreis usw. einzubinden, gehe auf &quot;http://www.presseportal.de/polizeipresse/&quot; und suche im oberen &quot;Suchfeld&quot; nach dem Namen.Oberhalb der Suchergebnisse (Folgen:) auf den üblichen link zu den RSS-Feeds klicken und den RSS-link im Rezept unter &quot;feeds&quot; eintragen wie üblich.Die Auswahl von Orten kann vereinfacht werden wenn man den Suchbegriff wie folgt eingibt:&quot;Stadt-Ort&quot;." language="de" author="schuster" title="Polizeipresse - Deutschland" needs_subscription="no" id="builtin:polizeipress_de"/>
+  <recipe description="Popular Science" language="en" author="TonytheBookworm" title="Popular Science" needs_subscription="no" id="builtin:popscience"/>
+  <recipe description="Conde Nast Portfolio: For the businessman." language="en" author="JTravers" title="Portfolio" needs_subscription="no" id="builtin:portfolio"/>
+  <recipe description="" language="th" author="Chotechai P." title="Post Today" needs_subscription="no" id="builtin:post_today"/>
+  <recipe description="" language="en" author="weebl" title="Poughkeepsie Journal" needs_subscription="no" id="builtin:poughkeepsie_journal"/>
+  <recipe description="Czech news in English" language="en" author="Darko Miletic" title="Prague Daily Monitor" needs_subscription="no" id="builtin:praguemonitor"/>
+  <recipe description="News from Slovakia" language="sk" author="kwetal" title="Pravda" needs_subscription="no" id="builtin:pravda"/>
+  <recipe description="Press Online portal dnevnih novina Press.Najnovije vesti iz Srbije i sveta,Sport,Dzet Set,Politika,Hronika,Komenteri,Zabava,Slike,Video,Horoskop,Nagradne igre,Kvizovi,Igrice" language="sr" author="Darko Miletic" title="Press Online" needs_subscription="no" id="builtin:pressonline"/>
+  <recipe description="Ghost of democracy in the media machine" language="en" author="Darko Miletic" title="PressThink" needs_subscription="no" id="builtin:pressthink"/>
+  <recipe description="" language="de" author="malfi" title="Pressemitteilungen der Bundesregierung" needs_subscription="no" id="builtin:german_gov"/>
+  <recipe description="" language="de" author="malfi" title="Pressemitteilungen der EU Kommission pro Politikbereich" needs_subscription="no" id="builtin:eu_commission"/>
+  <recipe description="" language="de" author="schuster" title="Pro Physik" needs_subscription="no" id="builtin:pro_physik"/>
+  <recipe description="Independent investigative journalism in the public interest." language="en" author="kwetal" title="Pro Publica" needs_subscription="no" id="builtin:propublica"/>
+  <recipe description="" language="de" author="Bobus" title="Pro-Linux.de" needs_subscription="no" id="builtin:pro_linux_de"/>
+  <recipe description="Ghid TV" language="ro" author="Silviu Cotoară" title="ProTv Magazin" needs_subscription="no" id="builtin:protvmagazin"/>
+  <recipe description="Auto-moto" language="ro" author="Silviu Cotoară" title="Promotor" needs_subscription="no" id="builtin:promotor"/>
+  <recipe description="Știri Sportive din România" language="ro" author="Silviu Cotoară" title="Prosport" needs_subscription="no" id="builtin:prosport"/>
+  <recipe description="Seattle soccer with a European accent. News, features, and match reports." language="en" author="rylsfan" title="Prost Amerika" needs_subscription="no" id="builtin:prostamerika"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Providence Journal" needs_subscription="no" id="builtin:projo"/>
+  <recipe description="Psihologie şi Dezvoltare Personală.." language="ro" author="Silviu Cotoară" title="Psychologies" needs_subscription="no" id="builtin:psychologies"/>
+  <recipe description="" language="en" author="calibre" title="Psychology Today" needs_subscription="no" id="builtin:psych"/>
+  <recipe description="Jornal português" language="pt" author="calibre" title="Publico.PT" needs_subscription="no" id="builtin:publico"/>
+  <recipe description="" language="es" author="Gerardo Diez" title="Publico.es" needs_subscription="no" id="builtin:el_publico"/>
+  <recipe description="Ştiri din Moldova" language="ro" author="Silviu Cotoară" title="Publika" needs_subscription="no" id="builtin:publika"/>
+  <recipe description="Punto Informatico: Internet dal 1996" language="it" author="Gabriele Marini" title="Punto Informatico " needs_subscription="no" id="builtin:punto_informatico"/>
+  <recipe description="Libros, Novedades en libros, Criticas, Noticias libro" language="es" author="Darko Miletic" title="Que Leer" needs_subscription="no" id="builtin:queleer"/>
+  <recipe description="Italian News Agency" language="it" author="Lorenzo Vigentini, based on Darko Miletic" title="Quotidiano Net " needs_subscription="no" id="builtin:quotidiano"/>
+  <recipe description="Российское информационное агентство «РосБизнесКонсалтинг» (РБК) - ленты новостей политики, экономики и финансов, аналитические материалы, комментарии и прогнозы, тематические статьи" language="ru" author="A. Chewi" title="RBC.ru" needs_subscription="no" id="builtin:rbc_ru"/>
+  <recipe description="Hockey News" language="en_CA" author="Nexus" title="RDS" needs_subscription="no" id="builtin:rds"/>
+  <recipe description="E-Zeitung aus RSS-Artikeln zusammengestellt." language="de" author="Werner Gerard" title="RGA Online - German" needs_subscription="no" id="builtin:rga"/>
+  <recipe description="News from Russia" language="ru" author="Darko Miletic" title="RIA Novosti - Russian" needs_subscription="no" id="builtin:ria_ru"/>
+  <recipe description="" language="de" author="schuster" title="RP-online" needs_subscription="no" id="builtin:rheinische_post"/>
+  <recipe description="" language="en_IE" author="Robin Phillips" title="RTE News" needs_subscription="no" id="builtin:rte"/>
+  <recipe description="News from Serbia" language="sr" author="Darko Miletic" title="RTS: Vesti" needs_subscription="no" id="builtin:rts"/>
+  <recipe description="News from Turkey" language="tr" author="Darko Miletic" title="Radikal - Turkey" needs_subscription="no" id="builtin:radikal_tr"/>
+  <recipe description="News and information from and about The Czech republic. " language="en_CZ" author="Francois Pellicaan" title="Radio Praha" needs_subscription="no" id="builtin:radio_prague"/>
+  <recipe description="Česká oficiální mezinárodní vysílací stanice." language="cs" author="Francois Pellicaan" title="Radio Praha" needs_subscription="no" id="builtin:radio_praha"/>
+  <recipe description="News from Raleigh, North Carolina" language="en" author="Krittika Goyal updated by Walt Anthony" title="Raleigh News &amp; Observer" needs_subscription="no" id="builtin:observer"/>
+  <recipe description="Personalized news feeds. Go to readitlaterlist.com to&#10;                               setup up your news. Fill in your account&#10;                               username, and optionally you can add password." language="und" author="Darko Miletic" title="Read It Later" needs_subscription="yes" id="builtin:readitlater"/>
+  <recipe description="Readers Digest Feeds" language="en" author="BrianG" title="Readers Digest" needs_subscription="no" id="builtin:readers_digest"/>
+  <recipe description="Știri din România" language="ro" author="Silviu Cotoară" title="Realitatea" needs_subscription="no" id="builtin:realitatea"/>
+  <recipe description="Guia de ocio desde Aragon" language="es" author="desUBIKado" title="RedAragon" needs_subscription="no" id="builtin:red_aragon"/>
+  <recipe description="News from Regina, SK" language="en_CA" author="Nick Redding" title="Regina Leader-Post" needs_subscription="no" id="builtin:regina_leader_post"/>
+  <recipe description="Oferă vedetelor dreptul la replică" language="ro" author="Silviu Cotoara" title="Replica Vedetelor" needs_subscription="no" id="builtin:replicavedetelor"/>
+  <recipe description="cada vez que te haces acupuntura, tu muñeco vudú sufre en algún lado" language="es_AR" author="Darko Miletic" title="Reptantes" needs_subscription="no" id="builtin:reptantes"/>
+  <recipe description="Glasilo gradjanskog samooslobadjanja. Protiv stihije straha, mrznje i nasilja" language="sr" author="Darko Miletic" title="Republika" needs_subscription="no" id="builtin:republika"/>
+  <recipe description="Global news" language="en" author="Kovid Goyal and Sujata Raman" title="Reuters" needs_subscription="no" id="builtin:reuters"/>
+  <recipe description="Global news in Japanese" language="ja" author="Hiroshi Miura" title="Reuters(Japan)" needs_subscription="no" id="builtin:reuters_ja"/>
+  <recipe description="Axxon, Ciencia Ficcion en Bits" language="es_AR" author="Darko Miletic" title="Revista Axxon" needs_subscription="no" id="builtin:axxon_magazine"/>
+  <recipe description="Moda | Uruguay" language="es_UY" author="Gustavo Azambuja" title="Revista Bla" needs_subscription="no" id="builtin:revista_bla"/>
+  <recipe description="Revista de cultura" language="es" author="Jefferson Frantz" title="Revista El Cultural" needs_subscription="no" id="builtin:el_cultural"/>
+  <recipe description="O revistă pentru sufletul tău" language="ro" author="Silviu Cotoară" title="Revista Felicia" needs_subscription="no" id="builtin:felicia"/>
+  <recipe description="Revista de divulgacion" language="es" author="Jefferson Frantz" title="Revista Muy Interesante" needs_subscription="no" id="builtin:revista_muy"/>
+  <recipe description="News from Russia in English" language="en" author="Darko Miletic" title="Ria Novosti" needs_subscription="no" id="builtin:rian_eng"/>
+  <recipe description="Noticias desde Russia en Castellano" language="es" author="Darko Miletic" title="Ria Novosti" needs_subscription="no" id="builtin:rian_spa"/>
+  <recipe description="Ekonomia, sport, kultura i nauka ze strony rmf24.pl" language="pl" author="Tomasz Długosz" title="Rmf24.pl - Ekonomia Sport Kultura Nauka" needs_subscription="no" id="builtin:rmf24_ESKN"/>
+  <recipe description="Fakty ze strony rmf24.pl" language="pl" author="Tomasz Długosz" title="Rmf24.pl - Fakty" needs_subscription="no" id="builtin:rmf24_fakty"/>
+  <recipe description="Blogi, wywiady i komentarze ze strony rmf24.pl" language="pl" author="Tomasz Długosz" title="Rmf24.pl - Opinie" needs_subscription="no" id="builtin:rmf24_opinie"/>
+  <recipe description="Roger Ebert Movie Reviews" language="en" author="Shane Erstad" title="Roger Ebert" needs_subscription="no" id="builtin:roger_ebert_blog"/>
+  <recipe description="Roger Ebert Movie Reviews" language="en" author="Shane Erstad" title="Roger Ebert" needs_subscription="no" id="builtin:roger_ebert"/>
+  <recipe description="Rolling Stone Magazine features music, album and artist news, movie reviews, political, economic and pop culture commentary, videos, photos, and more." language="en" author="Darko Miletic" title="Rolling Stone Magazine - free content" needs_subscription="no" id="builtin:rollingstone"/>
+  <recipe description="Rolling Stones Mag" language="en" author="Tony Stegall" title="Rolling Stones Mag" needs_subscription="no" id="builtin:rstones"/>
+  <recipe description="România Liberă" language="ro" author="Silviu Cotoară" title="România Liberă" needs_subscription="no" id="builtin:romanialibera"/>
+  <recipe description="Zprávičky a články z Root.cz" language="cs" author="FunThomas" title="Root.cz" needs_subscription="no" id="builtin:root"/>
+  <recipe description="Popular free french news website" language="fr" author="Louis Gesbert" title="Rue89" needs_subscription="no" id="builtin:rue89"/>
+  <recipe description="Noticias de Russia en castellano" language="es" author="Darko Miletic" title="Rusia Hoy" needs_subscription="no" id="builtin:rusiahoy"/>
+  <recipe description="Newspaper" language="pl" author="kwetal and Tomasz Dlugosz" title="Rzeczpospolita OnLine" needs_subscription="no" id="builtin:rzeczpospolita"/>
+  <recipe description="More than 290 individual communities, each offering high quality year-round coverage and conversation led by fans who are passionate." language="en" author="rylsfan" title="SBNation" needs_subscription="no" id="builtin:sb_nation"/>
+  <recipe description="Last print version of the data security magazine" language="en" author="Tony Maro" title="SC Print Magazine" needs_subscription="yes" id="builtin:scprint"/>
+  <recipe description="Informatika és Tudomány" language="hu" author="davotibarna" title="SG.hu" needs_subscription="no" id="builtin:sg_hu"/>
+  <recipe description="Politicko-spoločenský týždenník" language="sk" author="Abelturd" title="SLOVO" needs_subscription="no" id="builtin:slovo"/>
+  <recipe description="News from Slovakia" language="sk" author="kwetal" title="SME" needs_subscription="no" id="builtin:sme"/>
+  <recipe description="" language="en" author="Quistopher" title="SPIN Magzine" needs_subscription="no" id="builtin:spin_magazine"/>
+  <recipe description="" language="tr" author="Deniz Oğuz" title="Sabah" needs_subscription="no" id="builtin:sabah"/>
+  <recipe description="Salon.com - Breaking news, opinion, politics, entertainment, sports and culture." language="en" author="cix3" title="Salon.com" needs_subscription="no" id="builtin:salon"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="San Francisco Bay Guardian" needs_subscription="no" id="builtin:sfbg"/>
+  <recipe description="San Francisco news" language="en" author="Darko Miletic and Sujata Raman" title="San Francisco Chronicle" needs_subscription="no" id="builtin:san_fran_chronicle"/>
+  <recipe description="News from San Jose" language="en" author="Darko Miletic" title="San Jose Mercury News" needs_subscription="no" id="builtin:sanjosemercurynews"/>
+  <recipe description="Sapte Seri" language="ro" author="Silviu Cotoară" title="Sapte Seri" needs_subscription="no" id="builtin:7seri"/>
+  <recipe description="Sarajevo-x.com - najposjeceniji bosanskohercegovacki internet portal" language="bs" author="Darko Miletic" title="Sarajevo-x.com" needs_subscription="no" id="builtin:sarajevo_x"/>
+  <recipe description="News from Saskatoon, SK" language="en_CA" author="Nick Redding" title="Saskatoon Star-Phoenix" needs_subscription="no" id="builtin:saskatoon_star_phoenix"/>
+  <recipe description="The best in science news, commentary, and research" language="en" author="Darko Miletic" title="Science AAAS" needs_subscription="yes" id="builtin:science_aas"/>
+  <recipe description="Exploring issues and controversies in the relationship between science and medicine" language="en" author="BuzzKill" title="Science Based Medicine" needs_subscription="no" id="builtin:science_based_medicine"/>
+  <recipe description="Science News is an award-winning weekly&#10;    newsmagazine covering the most important research in all fields of science.&#10;    Its 16 pages each week are packed with short, accurate articles that appeal&#10;    to both general readers and scientists. Published since 1922, the magazine&#10;    now reaches about 150,000 subscribers and more than 1 million readers.&#10;    These are the latest News Items from Science News. This recipe downloads&#10;    the last 30 days worth of articles." language="en" author="Darko Miletic, Sujata Raman and Starson17" title="Science News Recent Issues" needs_subscription="no" id="builtin:science_news_recent_issues"/>
+  <recipe description="Breaking science news and articles on global warming, extrasolar planets, stem cells, bird flu, autism, nanotechnology, dinosaurs, evolution -- the latest discoveries in astronomy, anthropology, biology, chemistry, climate &amp;amp; environment, computers, engineering, health &amp;amp; medicine, math, physics, psychology, technology, and more -- from the world's leading universities and research organizations." language="en" author="Darko Miletic" title="ScienceDaily" needs_subscription="no" id="builtin:sciencedaily"/>
+  <recipe description="Science News is an award-winning weekly newsmagazine covering the most important research in all fields of science. Its 16 pages each week are packed with short, accurate articles that appeal to both general readers and scientists. Published since 1922, the magazine now reaches about 150,000 subscribers and more than 1 million readers. These are the latest News Items from Science News." language="en" author="Darko Miletic and Sujata Raman" title="ScienceNews" needs_subscription="no" id="builtin:science_news"/>
+  <recipe description="Popular Science. Monthly magazine." language="en" author="Starson17" title="Scientific American" needs_subscription="no" id="builtin:scientific_american"/>
+  <recipe description="" language="de" author="JSuer" title="Scinexx.de" needs_subscription="no" id="builtin:scinexx"/>
+  <recipe description="Scott Hanselman's Thoughts on Programming, Technology, Fatherhood, and Life" language="en" author="Darko Miletic" title="Scott Hanselman's Computer Zen" needs_subscription="no" id="builtin:scott_hanselman"/>
+  <recipe description="Articles from Sean Hannity's website, www.hannity.com" language="en" author="Rob Lammert - rob.lammert[at]gmail.com" title="Sean Hannity Show" needs_subscription="no" id="builtin:seanhannity"/>
+  <recipe description="" language="en" author="Docbrown00" title="Shacknews" needs_subscription="no" id="builtin:shacknews"/>
+  <recipe description="Sinfest" language="en" author="nadid" title="Sinfest" needs_subscription="no" id="builtin:sinfest"/>
+  <recipe description="Toronto Canada Chinese Newspaper" language="zh" author="rty" title="Singtao Daily - Canada" needs_subscription="no" id="builtin:singtao_daily"/>
+  <recipe description="Chinese News" language="zh" author="Larry Chan, larry1chan" title="Singtao STNN" needs_subscription="no" id="builtin:stnn"/>
+  <recipe description="Multimedijski portal z aktualnimi vsebinami, intervjuji, komentarji iz Slovenije in sveta, sportal, trendi, avtomoto, blogos" language="sl" author="BlonG" title="Siol.net" needs_subscription="no" id="builtin:siol"/>
+  <recipe description="Tech news. WARNING: This recipe downloads a lot&#10;    of content and may result in your IP being banned from slashdot.org" language="en" author="floweros edited by Huan T" title="Slashdot.org" needs_subscription="no" id="builtin:slashdot"/>
+  <recipe description="A general-interest publication offering analysis and commentary about politics, news and culture." language="en" author="GRiker, Sujata Raman and Nick Redding" title="Slate (complete)" needs_subscription="no" id="builtin:slate"/>
+  <recipe description="" language="en" author="Jack Mason" title="Smarter Planet | Tumblr" needs_subscription="no" id="builtin:ibm_smarter_planet"/>
+  <recipe description="We smash you with the information that will make your life easier, really" language="en" author="Darko Miletic" title="Smashing Magazine" needs_subscription="no" id="builtin:smashing"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="Smithsonian Magazine" needs_subscription="no" id="builtin:smith"/>
+  <recipe description="Urban Legends" language="en" author="Starson17" title="Snopes" needs_subscription="no" id="builtin:snopes"/>
+  <recipe description="When in doubt, wear red" language="ro" author="Silviu Cotoara" title="Social Diva" needs_subscription="no" id="builtin:socialdiva"/>
+  <recipe description="The Official U.S. Army Magazine" language="en" author="Darko Miletic" title="Soldiers" needs_subscription="no" id="builtin:soldiers"/>
+  <recipe description="SCMP.com, Hong Kong's premier online English daily provides exclusive up-to-date news, audio video news, podcasts, RSS Feeds, Blogs, breaking news, top stories, award winning news and analysis on Hong Kong and China." language="en_CN" author="llam" title="South China Morning Post" needs_subscription="yes" id="builtin:scmp"/>
+  <recipe description="" language="de" author="schuster" title="Spektrum (der Wissenschaft)" needs_subscription="no" id="builtin:spektrum"/>
+  <recipe description="Immer die neueste Meldung auf dem Schirm, sekundenaktuell und uebersichtlich: Mit dem RSS-Angebot von SPIEGEL ONLINE entgeht Ihnen keine wichtige Meldung mehr, selbst wenn Sie keinen Internet-Browser geoeffnet haben. Sie koennen unsere Nachrichten-Feeds ganz einfach abonnieren - unkompliziert, kostenlos und nach Ihren persoenlichen Themen-Vorlieben." language="de" author="Darko Miletic" title="Spiegel Online - German" needs_subscription="no" id="builtin:spiegelde"/>
+  <recipe description="Daily news, analysis and opinion from Europe's leading newsmagazine and Germany's top news Web site" language="en_DE" author="Darko Miletic and Sujata Raman" title="Spiegel Online International" needs_subscription="no" id="builtin:spiegel_int"/>
+  <recipe description="Sports Illustrated" language="en" author="kwetal" title="Sports Illustrated" needs_subscription="no" id="builtin:sportsillustrated"/>
+  <recipe description="" language="en" author="kwetal" title="Sports Illustrated Columnists" needs_subscription="no" id="builtin:sportsillustrated_columnists"/>
+  <recipe description="" language="en" author="cisaak" title="St Louis Post-Dispatch" needs_subscription="no" id="builtin:st_louis_post_dispatch"/>
+  <recipe description="a programming community exploit" language="en" author="Darko Miletic" title="Stack Overflow - Blog" needs_subscription="no" id="builtin:stackoverflow"/>
+  <recipe description="Portal de Business" language="ro" author="Silviu Cotoară" title="Standard Money Ro" needs_subscription="no" id="builtin:standardmoney"/>
+  <recipe description="Strona autorska * felietony * artykuły * komentarze" language="pl" author="Tomasz Długosz" title="Stanisław Michalkiewicz" needs_subscription="no" id="builtin:michalkiewicz"/>
+  <recipe description="Austin Texas Daily Newspaper" language="en" author="rty" title="Statesman" needs_subscription="no" id="builtin:statesman"/>
+  <recipe description="Business magazine for senior business executives and the people who influence them.Go to http://www.strategy-business.com/registration to sign up for a free account" language="en" author="kwetal" title="Strategy+Business" needs_subscription="yes" id="builtin:strategy-business"/>
+  <recipe description="News from Germany. Access to paid content." language="de" author="Darko Miletic" title="Sueddeutche Zeitung" needs_subscription="yes" id="builtin:sueddeutschezeitung"/>
+  <recipe description="News from Kenia" language="en" author="Hans Donner" title="Sunday Nation" needs_subscription="no" id="builtin:nation_ke"/>
+  <recipe description="Superbebe" language="ro" author="Silviu Cotoară" title="Superbebe" needs_subscription="no" id="builtin:superbebe"/>
+  <recipe description="Paul Thurrott SuperSite for Windows" language="en" author="Hypernova" title="Supersite for Windows" needs_subscription="no" id="builtin:winsupersite"/>
+  <recipe description="News from Sweden" language="sv" author="Darko Miletic" title="Svenska Dagbladet" needs_subscription="no" id="builtin:svd_se"/>
+  <recipe description="Czytniki e-książek w Polsce. Jak wybrać, kupić i korzystać z Amazon Kindle i innych" language="pl" author="Tomasz Długosz" title="Swiat Czytnikow" needs_subscription="no" id="builtin:swiatkindle"/>
+  <recipe description="News from Germany" language="de" author="Oliver Niesner and Sujata Raman" title="Süddeutsche" needs_subscription="no" id="builtin:sueddeutsche"/>
+  <recipe description="SFIN" language="ro" author="Silviu Cotoară" title="Săptămâna Financiară" needs_subscription="no" id="builtin:sfin"/>
+  <recipe description="a Turkey based daily for national and international news in the fields of business, diplomacy, politics, culture, arts, sports and economics, in addition to commentaries, specials and features" language="tr" author="thomass" title="Sızıntı Dergisi" needs_subscription="no" id="builtin:sizinti_derigisi"/>
+  <recipe description="" language="en_CA" author="Nexus" title="TSN" needs_subscription="no" id="builtin:tsn"/>
+  <recipe description="Programe TV" language="ro" author="Silviu Cotoară" title="TVmania" needs_subscription="no" id="builtin:tvmania"/>
+  <recipe description="" language="el" author="Pan" title="Ta Nea" needs_subscription="no" id="builtin:tanea"/>
+  <recipe description="Cel mai curajos site de femei" language="ro" author="Silviu Cotoară" title="Tabu" needs_subscription="no" id="builtin:tabu"/>
+  <recipe description="tagesanzeiger.ch: Nichts verpassen" language="de" author="noxxx" title="Tagesanzeiger" needs_subscription="no" id="builtin:tagesan"/>
+  <recipe description="Nachrichten der ARD" language="de" author="Florian Andreas Pfaff" title="Tagesschau" needs_subscription="no" id="builtin:taggeschau_de"/>
+  <recipe description="Novinska agencija TANJUG - Dnevne vesti iz Srbije i sveta" language="sr" author="Darko Miletic" title="Tanjug" needs_subscription="no" id="builtin:tanjug"/>
+  <recipe description="Das EPUB DigiAbo der Taz" language="de" author="Lars Jacob" title="Taz Digiabo" needs_subscription="yes" id="builtin:taz"/>
+  <recipe description="" language="de" author="Alexander Schremmer" title="Taz.de (die tageszeitung) RSS Feed - German" needs_subscription="no" id="builtin:taz_rss"/>
+  <recipe description="IT News" language="en" author="Darko Miletic" title="TechCrunch" needs_subscription="no" id="builtin:techcrunch"/>
+  <recipe description="Az utóbbi 3 nap TechNet hírei" language="hu" author="Devilinside" title="TechNet" needs_subscription="no" id="builtin:huntechnet"/>
+  <recipe description="Techworld offers the latest breaking IT industry news, product reviews, enterprise software downloads, how-to articles and expert blogs for technical professionals and enterprise users in the UK" language="en" author="Lorenzo Vigentini" title="TechWorld" needs_subscription="no" id="builtin:tech_world"/>
+  <recipe description="Technology news from Germany" language="de" author="Anton Gillert" title="Technology Review" needs_subscription="no" id="builtin:tr"/>
+  <recipe description="" language="de" author="schuster" title="Technology Review" needs_subscription="no" id="builtin:technology_review_de"/>
+  <recipe description="MIT Technology Magazine" language="en" author="rty" title="Technology Review" needs_subscription="no" id="builtin:technology_review"/>
+  <recipe description="News from United Kingdom" language="en_GB" author="Darko Miletic and Sujata Raman" title="Telegraph.co.uk" needs_subscription="no" id="builtin:telegraph_uk"/>
+  <recipe description="Telepolis Artikel" language="de_AT" author="Gerhard Aigner" title="Telepolis (Artikel)" needs_subscription="no" id="builtin:telepolis_artikel"/>
+  <recipe description="News from Telepolis" language="de" author="syntaxis" title="Telepolis (News+Artikel)" needs_subscription="no" id="builtin:telepolis"/>
+  <recipe description="News &amp; views on e-books, libraries, publishing and related topics" language="en" author="Kovid Goyal" title="Teleread Blog" needs_subscription="no" id="builtin:teleread"/>
+  <recipe description="" language="th" author="Chotechai P." title="Thai Post Daily" needs_subscription="no" id="builtin:thai_post_daily"/>
+  <recipe description="" language="th" author="Anat R." title="Thairath" needs_subscription="no" id="builtin:thairath"/>
+  <recipe description="Vietnam news and current affairs from TNXM - the finest Vietnamese bulletin board." language="vi" author="Wasabi" title="Thanh Nien Xa Me" needs_subscription="no" id="builtin:tnxm"/>
+  <recipe description="paper.li page about climate" language="en" author="Hiroshi Miura" title="The #climate Daily - paperli" needs_subscription="no" id="builtin:paperli_topic"/>
+  <recipe description="News from Atlanta and USA" language="en" author="TonytheBookworm" title="The AJC" needs_subscription="no" id="builtin:ajc"/>
+  <recipe description="Business News, World News and Breaking News in Melbourne, Australia" language="en_AU" author="Matthew Briggs" title="The Age" needs_subscription="no" id="builtin:the_age"/>
+  <recipe description="News from USA" language="en" author="Darko Miletic" title="The American Spectator" needs_subscription="no" id="builtin:amspec"/>
+  <recipe description="Current affairs and politics focussed on the US" language="en" author="Kovid Goyal and Sujata Raman" title="The Atlantic" needs_subscription="no" id="builtin:atlantic"/>
+  <recipe description="National broadsheet newspaper from down under - colloquially known as The Oz" language="en_AU" author="Matthew Briggs and Sujata Raman" title="The Australian" needs_subscription="no" id="builtin:the_oz"/>
+  <recipe description="Politics, local and business news from Baltimore" language="en" author="Josh Hall" title="The Baltimore Sun" needs_subscription="no" id="builtin:baltimore_sun"/>
+  <recipe description="The Bay Citizen" language="en" author="noah" title="The Bay Citizen" needs_subscription="no" id="builtin:bay_citizen"/>
+  <recipe description="Macro perspective on capital markets, economy, technology and digital media" language="en" author="Welovelucy" title="The Big Picture" needs_subscription="no" id="builtin:big_picture"/>
+  <recipe description="News from Boston" language="en" author="Darko Miletic" title="The Boston Globe" needs_subscription="no" id="builtin:boston.com"/>
+  <recipe description="Saving your money since 2003" language="en" author="Darko Miletic" title="The Budget Fashionista" needs_subscription="no" id="builtin:the_budget_fashionista"/>
+  <recipe description="" language="en_IN" author="Dhiru" title="The Business Line" needs_subscription="no" id="builtin:hindu_business_line"/>
+  <recipe description="Homepage" language="en" author="sexymax15" title="The Christian Post" needs_subscription="no" id="builtin:christian_post"/>
+  <recipe description="Daily newspaper from central Ohio" language="en" author="kwetal" title="The Columbus Dispatch" needs_subscription="no" id="builtin:columbusdispatch"/>
+  <recipe description="Filmski blog" language="sr" author="Darko Miletic" title="The Cult of Ghoul" needs_subscription="no" id="builtin:thecultofghoul"/>
+  <recipe description="" language="en_GB" author="calibre" title="The Daily Mail" needs_subscription="no" id="builtin:daily_mail"/>
+  <recipe description="News as provide by The Daily Mirror -UK" language="en_GB" author="Dave Asbury" title="The Daily Mirror" needs_subscription="no" id="builtin:daily_mirror"/>
+  <recipe description="Worldwide business and financial news and articles" language="en" author="Darko Miletic" title="The Daily Reckoning - US edition" needs_subscription="no" id="builtin:dailyreckoning"/>
+  <recipe description="" language="en" author="calibre" title="The Dallas Morning News" needs_subscription="no" id="builtin:dallas"/>
+  <recipe description="Are You Prepared For The Coming Economic Collapse And The Next Great Depression?" language="en" author="Darko Miletic" title="The Economic Collapse" needs_subscription="no" id="builtin:theecocolapse"/>
+  <recipe description="Financial news from India" language="en_IN" author="Darko Miletic" title="The Economic Times India" needs_subscription="no" id="builtin:theeconomictimes_india"/>
+  <recipe description="Global news and current affairs from a European perspective. Best downloaded on Friday mornings (GMT)" language="en" author="Kovid Goyal" title="The Economist" needs_subscription="no" id="builtin:economist"/>
+  <recipe description="Global news and current affairs from a European perspective. Best downloaded on Friday mornings (GMT). Much slower than the print edition based version." language="en" author="Kovid Goyal" title="The Economist (RSS)" needs_subscription="no" id="builtin:economist_free"/>
+  <recipe description="Financial news from Singapore" language="en" author="Darko Miletic" title="The Edge Singapore" needs_subscription="no" id="builtin:thedgesingapore"/>
+  <recipe description="The Escapist Magazine" language="en" author="calibre" title="The Escapist Magazine" needs_subscription="no" id="builtin:the_escapist"/>
+  <recipe description="Financial news from India" language="en_IN" author="Darko Miletic" title="The Financial Express" needs_subscription="no" id="builtin:fe_india"/>
+  <recipe description="" language="en" author="Krittika Goyal" title="The Force" needs_subscription="no" id="builtin:starwars"/>
+  <recipe description="" language="en_GB" author="Seabound and Sujata Raman" title="The Guardian and The Observer" needs_subscription="no" id="builtin:guardian"/>
+  <recipe description="In association with Heise Online" language="en" author="Hiroshi Miura" title="The H" needs_subscription="no" id="builtin:the_h"/>
+  <recipe description="Politics, local and business news from Hartford" language="en" author="Being and Sujata Raman" title="The Hartford Courant" needs_subscription="no" id="builtin:hartford_courant"/>
+  <recipe description="" language="en_IN" author="Kovid Goyal" title="The Hindu" needs_subscription="no" id="builtin:hindu"/>
+  <recipe description="" language="en_CA" author="Nexus" title="The Hockey News" needs_subscription="no" id="builtin:thn"/>
+  <recipe description="News from Houston, Texas" language="en" author="Kovid Goyal" title="The Houston Chronicle" needs_subscription="no" id="builtin:houston_chronicle"/>
+  <recipe description="Political Blog" language="en" author="kwetal and Archana Raman" title="The Huffington Post" needs_subscription="no" id="builtin:huffingtonpost"/>
+  <recipe description="" language="en_GB" author="Krittika Goyal" title="The Independent" needs_subscription="no" id="builtin:independent"/>
+  <recipe description="" language="en_IE" author="Derry FitzGerald, Ray Kinsella, David O'Callaghan and Phil Burns" title="The Irish Times" needs_subscription="no" id="builtin:irish_times"/>
+  <recipe description="News from Japan" language="en" author="Darko Miletic" title="The Japan Times" needs_subscription="no" id="builtin:japan_times"/>
+  <recipe description="A photography news and information website in the form of a weblog with multiple authors who write on a variety of photography and art-photography related issues." language="en" author="Darko Miletic" title="The Luminous Landscape" needs_subscription="no" id="builtin:theluminouslandscape"/>
+  <recipe description="Commentary On The Capital Markets" language="en" author="Darko Miletic" title="The Market Ticker" needs_subscription="no" id="builtin:themarketticker"/>
+  <recipe description="Miami-Dade and Broward's source for the latest breaking local news on sports, weather, business, jobs, real estate, shopping, health, travel, entertainment, &amp; more." language="en" author="Darko Miletic and Sujata Raman" title="The Miami Herald" needs_subscription="no" id="builtin:miami_herald"/>
+  <recipe description="The Moscow Times is a daily English-language newspaper featuring objective, reliable news on business, politics, sports and culture in Moscow, in Russia and the former Soviet Union (CIS)." language="en" author="Darko Miletic and Sujata Raman" title="The Moscow Times" needs_subscription="no" id="builtin:moscow_times"/>
+  <recipe description="" language="en_TH" author="Anat R." title="The Nation" needs_subscription="no" id="builtin:the_nation_thai"/>
+  <recipe description="Unconventional Wisdom Since 1865" language="en" author="Darko Miletic" title="The Nation" needs_subscription="optional" id="builtin:the_nation"/>
+  <recipe description="Intelligent, stimulating and rigorous examination of American politics, foreign policy and culture" language="en" author="cix3" title="The New Republic" needs_subscription="no" id="builtin:the_new_republic"/>
+  <recipe description="The best of US journalism" language="en" author="Darko Miletic" title="The New Yorker" needs_subscription="no" id="builtin:new_yorker"/>
+  <recipe description="English Newspaper from Pakistan" language="en_PK" author="kwetal" title="The News" needs_subscription="no" id="builtin:thenews"/>
+  <recipe description="Be the ONE, not anyone .." language="ro" author="Silviu Cotoară" title="The ONE" needs_subscription="no" id="builtin:onemagazine"/>
+  <recipe description="" language="en_GB" author="jbambridge" title="The Observer" needs_subscription="no" id="builtin:observer_gb"/>
+  <recipe description="Food blog" language="en" author="Darko Miletic" title="The Old Foodie" needs_subscription="no" id="builtin:theoldfoodie"/>
+  <recipe description="Famous blog by Windows guru Raymond Chen" language="en" author="Darko Miletic" title="The Old New Thing" needs_subscription="no" id="builtin:oldnewthing"/>
+  <recipe description="America's finest news source" language="en" author="Darko Miletic" title="The Onion" needs_subscription="no" id="builtin:theonion"/>
+  <recipe description="Film, Television and Music Reviews" language="en" author="Stephen Williams" title="The Onion AV Club" needs_subscription="no" id="builtin:onionavclub"/>
+  <recipe description="A photography news and information website in the form of a weblog with multiple authors who write on a variety of photography and art-photography related issues." language="en" author="Darko Miletic" title="The Online Photographer" needs_subscription="no" id="builtin:theonlinephotographer"/>
+  <recipe description="Portland, Oregon local newspaper" language="en" author="Zotzot" title="The Oregonian" needs_subscription="no" id="builtin:oregonian"/>
+  <recipe description="Title says it all" language="en_GB" author="Darko Miletic" title="The Philosophers' Magazine" needs_subscription="no" id="builtin:tpm_uk"/>
+  <recipe description="" language="en" author="vgrama" title="The Register" needs_subscription="no" id="builtin:the_register"/>
+  <recipe description="News from Scotland" language="en_GB" author="Darko Miletic" title="The Scotsman" needs_subscription="no" id="builtin:the_scotsman"/>
+  <recipe description="News from Seattle and USA" language="en" author="Darko Miletic" title="The Seattle Times" needs_subscription="no" id="builtin:seattle_times"/>
+  <recipe description="Discussions with leading experts and investigation of fringe science and paranormal claims." language="en" author="Starson17" title="The Skeptic" needs_subscription="no" id="builtin:skeptic"/>
+  <recipe description="Investigation of fringe science and paranormal claims." language="en" author="Starson17" title="The Skeptical Inquirer" needs_subscription="no" id="builtin:skeptical_enquirer"/>
+  <recipe description="News from Russia" language="en" author="Darko Miletic" title="The St. Petersburg Times" needs_subscription="no" id="builtin:st_petersburg_times"/>
+  <recipe description="News from Kenia" language="en" author="Hans Donner" title="The Standard" needs_subscription="no" id="builtin:standardmedia_ke"/>
+  <recipe description="Singapore newspaper" language="en_SG" author="Darko Miletic" title="The Straits Times" needs_subscription="no" id="builtin:straitstimes"/>
+  <recipe description="News from The Sun" language="en" author="Chaz Ralph" title="The Sun" needs_subscription="no" id="builtin:the_sun"/>
+  <recipe description="news from United Kingdom and World" language="en_GB" author="Darko Miletic" title="The Sunday Times UK" needs_subscription="yes" id="builtin:sunday_times"/>
+  <recipe description="Breaking news from Sydney, Australia and the world. Features the latest business, sport, entertainment, travel, lifestyle, and technology news." language="en_AU" author="Darko Miletic" title="The Sydney Morning Herald - Printed edition" needs_subscription="no" id="builtin:smh"/>
+  <recipe description="Celeb Gossip and News" language="en" author="Tony Stegall" title="The TMZ" needs_subscription="no" id="builtin:tmz"/>
+  <recipe description="news from United Kingdom and World" language="en_GB" author="Darko Miletic" title="The Times UK" needs_subscription="yes" id="builtin:times_online"/>
+  <recipe description="Canada's largest daily newspaper" language="en_CA" author="Darko Miletic" title="The Toronto Star" needs_subscription="no" id="builtin:thestar"/>
+  <recipe description="News and current affairs" language="en" author="Kovid Goyal, Sujata Raman, and Joshua Oster-Morris" title="The Wall Street Journal" needs_subscription="yes" id="builtin:wsj"/>
+  <recipe description="national general interest magazine about Canada and its place in the world" language="en" author="TonytheBookworm" title="The Walrus Mag" needs_subscription="no" id="builtin:walrusmag"/>
+  <recipe description="Leading source for news, video and opinion on politics, business, world and national news, science, travel, entertainment and more. Our local coverage includes reporting on education, crime, weather, traffic, real estate, jobs and cars for DC, Maryland and Virginia. Offering award-winning opinion writing, entertainment information and restaurant reviews." language="en" author="Darko Miletic" title="The Washington Post" needs_subscription="no" id="builtin:wash_post"/>
+  <recipe description="Frederik Pohl's blog" language="en" author="Darko Miletic" title="The Way the Future Blogs" needs_subscription="no" id="builtin:twtfb"/>
+  <recipe description="The best of the US and international media.  Daily coverage of commentary and analysis of the day's events, as well as arts, entertainment, people and gossip, and political cartoons." language="en" author="Jim Olo" title="The Week Magazine" needs_subscription="no" id="builtin:the_week_magazine_free"/>
+  <recipe description="News from Australia" language="en_AU" author="Darko Miletic" title="The West Australian" needs_subscription="no" id="builtin:thewest_au"/>
+  <recipe description="News from UK" language="en_GB" author="Darko Miletic" title="The Wokingham Times" needs_subscription="no" id="builtin:the_workingham_times"/>
+  <recipe description="" language="en_IE" author="calibre" title="TheJournal.ie" needs_subscription="no" id="builtin:the_journal"/>
+  <recipe description="TheMarker Financial News in Hebrew" language="he" author="Marbs" title="TheMarker" needs_subscription="no" id="builtin:the_marker"/>
+  <recipe description="news" language="en" author="Rick Kellogg" title="TheServerSide.com" needs_subscription="no" id="builtin:serverside"/>
+  <recipe description="A compilation of progressive articles on social and economic justice, healthy communities,  media accountability, global and domestic security." language="en" author="Xanthan Gum" title="Think Progress" needs_subscription="no" id="builtin:think_progress"/>
+  <recipe description="Insightful news, reviews, and analysis of the Macintosh and Internet worlds" language="en" author="Darko Miletic" title="TidBITS: Mac News for the Rest of Us" needs_subscription="no" id="builtin:tidbits"/>
+  <recipe description="Posts do Blog Tijolaço.com" language="pt_BR" author="Diniz Bortolotto" title="Tijolaco.com" needs_subscription="no" id="builtin:tijolaco"/>
+  <recipe description="Weekly magazine" language="en" author="Kovid Goyal" title="Time" needs_subscription="no" id="builtin:time_magazine"/>
+  <recipe description="Cotidian independent de umor voluntar" language="ro" author="Silviu Cotoară" title="Times New Roman" needs_subscription="no" id="builtin:timesnewroman"/>
+  <recipe description="" language="en_IN" author="Kovid Goyal" title="Times of India" needs_subscription="no" id="builtin:toi"/>
+  <recipe description="" language="en_SG" author="rty" title="Today Online - Singapore" needs_subscription="no" id="builtin:today_online"/>
+  <recipe description="a Turkey based daily for national and international news in the fields of business, diplomacy, politics, culture, arts, sports and economics, in addition to commentaries, specials and features" language="en_TR" author="thomass" title="Todays Zaman" needs_subscription="no" id="builtin:todays_zaman"/>
+  <recipe description="Hardware reviews and News" language="en" author="Darko Miletic" title="Tom's Hardware US" needs_subscription="yes" id="builtin:tomshardware"/>
+  <recipe description="Japanese traditional economy and business magazine, only for advanced subscribers supported" language="ja" author="Hiroshi Miura" title="ToyoKeizai News" needs_subscription="yes" id="builtin:toyokeizai"/>
+  <recipe description="The Tri-City Herald Mid-Columbia." language="en" author="Laura Gjovaag" title="Tri-City Herald" needs_subscription="no" id="builtin:tri_city_herald"/>
+  <recipe description="Parodii si Pamflete" language="ro" author="Silviu Cotoară" title="Trombon" needs_subscription="no" id="builtin:trombon"/>
+  <recipe description="Trouw de Verdieping" language="nl" author="JvdW" title="Trouw" needs_subscription="no" id="builtin:trouw"/>
+  <recipe description="Find breaking news, local news, Oklahoma weather, sports, business, entertainment, lifestyle, opinion, government, movies, books, jobs, education, blogs, video &amp; multimedia." language="en" author="Darko Miletic" title="Tulsa World" needs_subscription="no" id="builtin:tulsaworld"/>
+  <recipe description="Sport daily news from Italy" language="it" author="calibre" title="Tuttosport" needs_subscription="no" id="builtin:tuttosport"/>
+  <recipe description="" language="nl" author="Kovid Goyal" title="Tweakers.net" needs_subscription="no" id="builtin:tweakers"/>
+  <recipe description="Twitch specializes in spreading the news on strange little films from around the world." language="en" author="Darko Miletic" title="Twitch Films" needs_subscription="no" id="builtin:twitchfilms"/>
+  <recipe description="News from USA and world" language="en" author="Darko Miletic" title="US &amp; World Report news" needs_subscription="no" id="builtin:usnews"/>
+  <recipe description="" language="en" author="Kovid Goyal" title="USA Today" needs_subscription="no" id="builtin:usatoday"/>
+  <recipe description="Noticias de Paraguay y el resto del mundo" language="es_PY" author="Darko Miletic" title="Ultima Hora" needs_subscription="no" id="builtin:ultimahora"/>
+  <recipe description="Uncrate is a web magazine for guys who love stuff. Our team digs up the best gadgets, clothes, cars, DVDs and more. New items are posted daily. Enjoy responsively." language="en" author="Darko Miletic" title="Uncrate" needs_subscription="no" id="builtin:uncrate"/>
+  <recipe description="Japanese famous Cat blog" language="ja" author="Hiroshi Miura" title="Uni secret base" needs_subscription="no" id="builtin:uninohimitu"/>
+  <recipe description="Asa cum esti tu" language="ro" author="Silviu Cotoară" title="Unica" needs_subscription="no" id="builtin:unica"/>
+  <recipe description="" language="en" author="calibre" title="United Press International" needs_subscription="no" id="builtin:upi"/>
+  <recipe description="News" language="en" author="Darko Miletic" title="Utne reader" needs_subscription="no" id="builtin:utne"/>
+  <recipe description="Daily Macedonian newspaper" language="mk" author="Darko Spasovski" title="Utrinski Vesnik" needs_subscription="no" id="builtin:utrinski"/>
+  <recipe description="News from Vancouver, BC" language="en_CA" author="Nick Redding" title="Vancouver Province" needs_subscription="no" id="builtin:vancouver_provice"/>
+  <recipe description="News from Vancouver, BC" language="en_CA" author="Nick Redding" title="Vancouver Sun" needs_subscription="no" id="builtin:vancouver_sun"/>
+  <recipe description="Breaking entertainment movie news, movie reviews, entertainment industry events, news and reviews from Cannes, Oscars, and Hollywood awards.  Featuring box office charts, archives and more." language="en" author="Darko Miletic" title="Variety" needs_subscription="no" id="builtin:variety"/>
+  <recipe description="U početku su bile istinske večernje novine - pokrenute u vreme Tršćanske krize, Italijansko-jugoslovenskog konflikta oko grada Trsta - ali su brzo izrasle u dnevni informativno-politički list, koji već godinama ima najveći tiraž u Srbiji." language="sr" author="Darko Miletic" title="Vecernje Novosti" needs_subscription="no" id="builtin:novosti"/>
+  <recipe description="Vecernji.hr je vodeci hrvatski news portal. Cilj je biti prvi u objavljivanju svih vijesti iz Hrvatske, svijeta, sporta, gospodarstva, showbiza i jos mnogo vise. Uz cjelodnevni rad, novinari objavljuju preko 300 raznih vijesti svakoga dana. Vecernji.hr prati sve vaznije dogadaje specijalnim izvjestajima, video specijalima i foto galerijama." language="hr" author="Darko Miletic" title="Vecernji List" needs_subscription="no" id="builtin:vecernji_list"/>
+  <recipe description="Revista Argentino dedicada a politica" language="es_AR" author="Darko Miletic" title="Veintitres" needs_subscription="no" id="builtin:veintitres"/>
+  <recipe description="IT News" language="da" author="Rasmus Lauritsen" title="Version2.dk" needs_subscription="no" id="builtin:version2"/>
+  <recipe description="News from Victoria, BC" language="en_CA" author="Nick Redding" title="Victoria Times Colonist" needs_subscription="no" id="builtin:vic_times"/>
+  <recipe description="News from Montenegro" language="sr" author="Darko Miletic" title="Vijesti" needs_subscription="no" id="builtin:vijesti"/>
+  <recipe description="The adventures of Orion and Jack, making games they'd never play for people they don't like." language="en" author="Darko Miletic" title="Virtual Shackles" needs_subscription="no" id="builtin:virtualshackles"/>
+  <recipe description="Aktuality a články z Vitalia.cz" language="cs" author="Tomas Latal" title="Vitalia" needs_subscription="no" id="builtin:vitalia"/>
+  <recipe description="Vedete si evenimente" language="ro" author="Silviu Cotoară" title="Viva" needs_subscription="no" id="builtin:viva"/>
+  <recipe description="Vietnam news and current affairs from the Food Production Technology Corporation" language="vi" author="Huan Komrade T" title="VnExpress" needs_subscription="no" id="builtin:vnexpress"/>
+  <recipe description="Politicki Nedeljnik Srbije" language="sr" author="Darko Miletic" title="Vreme" needs_subscription="yes" id="builtin:vreme"/>
+  <recipe description="Weekly opinion magazine from the Netherlands" language="nl" author="kwetal" title="Vrij Nederland" needs_subscription="no" id="builtin:vrijnederland"/>
+  <recipe description="" language="de" author="calibre" title="WOZ Die Wochenzeitung" needs_subscription="no" id="builtin:woz_die"/>
+  <recipe description="A look at Major League Soccer (MLS) through the eyes of a MLS writer and fan." language="en" author="rylsfan" title="WV Hooligan" needs_subscription="no" id="builtin:wvhooligan"/>
+  <recipe description="Waco, Texas, Newspaper" language="en" author="rty" title="Waco Tribune Herald" needs_subscription="no" id="builtin:waco_tribune"/>
+  <recipe description="" language="ro" author="Silviu Cotoară" title="Wall Street" needs_subscription="no" id="builtin:wallstreetro"/>
+  <recipe description="News and current affairs. This recipe only fetches complete&#10;    versions of the articles that are available free on the wsj.com website.&#10;    To get the rest of the articles, subscribe to the WSJ and use the other WSJ&#10;    recipe." language="en" author="Kovid Goyal, Sujata Raman, Joshua Oster-Morris, Starson17" title="Wall Street Journal (free)" needs_subscription="no" id="builtin:wsj_free"/>
+  <recipe description="The WallaNews." language="he" author="marbs" title="Walla" needs_subscription="no" id="builtin:walla"/>
+  <recipe description="Cartoons from the Washington Post" language="en" author="kwetal" title="Washington Post Cartoons" needs_subscription="no" id="builtin:wapo_cartoons"/>
+  <recipe description="" language="en" author="Kos Semonski" title="Washington Times" needs_subscription="no" id="builtin:wash_times"/>
+  <recipe description="Global opinion about the United States" language="en" author="kwetal" title="Watching America" needs_subscription="no" id="builtin:watchingamerica"/>
+  <recipe description="Weblogs colectivos dedicados a seguir la actualidad sobre tecnologia, entretenimiento, estilos de vida, motor, deportes y economia." language="es" author="desUBIKado" title="Weblogs SL (Xataka, Genbeta, VidaExtra, Blog de Cine y otros)" needs_subscription="no" id="builtin:weblogs_sl"/>
+  <recipe description="" language="de" author="schuster" title="Welt der Physik" needs_subscription="no" id="builtin:welt_der_physik"/>
+  <recipe description="german newspaper" language="de" author="Oliver Niesner" title="Weltonline" needs_subscription="no" id="builtin:welt"/>
+  <recipe description="Westhawaiitoday.com" language="en" author="Tony Stegall, fixed by HK" title="West Hawaii Today" needs_subscription="no" id="builtin:hawaii"/>
+  <recipe description="Daily news from the Wichita Eagle" language="en" author="Jason Cameron" title="Wichita Eagle" needs_subscription="no" id="builtin:wichita_eagle"/>
+  <recipe description="News from wikipedia" language="en" author="Darko Miletic" title="Wikinews" needs_subscription="no" id="builtin:wikinews_en"/>
+  <recipe description="News from Windsor, ON" language="en_CA" author="Nick Redding" title="Windsor Star" needs_subscription="no" id="builtin:windows_star"/>
+  <recipe description="News from Winnipeg, Manitoba, Canada" language="en_CA" author="buyo" title="Winnipeg Free Press" needs_subscription="no" id="builtin:winnipeg_free_press"/>
+  <recipe description="Winnipeg Newspaper" language="en_CA" author="rty" title="Winnipeg Sun" needs_subscription="no" id="builtin:winnipeg_sun"/>
+  <recipe description="Technology news" language="en" author="Kovid Goyal" title="Wired Daily Edition" needs_subscription="no" id="builtin:wired_daily"/>
+  <recipe description="Gaming news" language="en" author="Darko Miletic" title="Wired Magazine" needs_subscription="no" id="builtin:wired"/>
+  <recipe description="Gaming news" language="en_GB" author="Starson17" title="Wired Magazine - UK edition" needs_subscription="no" id="builtin:wired_uk"/>
+  <recipe description="" language="en" author="sexymax15" title="Words Without Borders" needs_subscription="no" id="builtin:words_without_borders"/>
+  <recipe description="Socialist news and analysis" language="en" author="urslnx" title="Workers World" needs_subscription="no" id="builtin:workers_world"/>
+  <recipe description="Weekly magazine" language="pl" author="matek09" title="Wprost" needs_subscription="no" id="builtin:wprost"/>
+  <recipe description="Yahoo-Science" language="en" author="Starson17" title="Yahoo News" needs_subscription="no" id="builtin:yahoo_news"/>
+  <recipe description="The Yakima Herald-Republic." language="en" author="Laura Gjovaag" title="Yakima Herald-Republic" needs_subscription="no" id="builtin:yakima_herald"/>
+  <recipe description="Award winning weekly from Yemen, promoting press freedom, professional journalism and the defense of human rights." language="en_YE" author="kwetal" title="Yemen Times" needs_subscription="no" id="builtin:yementimes"/>
+  <recipe description="This is a recipe of Ynet.co.il. The recipe opens the article page and clicks on an advertisement to not hurt the sites advertising income." language="he" author="marbs" title="Ynet" needs_subscription="no" id="builtin:ynet"/>
+  <recipe description="Japanese traditional newspaper Yomiuri Online News" language="ja" author="Hiroshi Miura" title="Yomiuri Online (Latest)" needs_subscription="no" id="builtin:yomiuri"/>
+  <recipe description="Japanese traditional newspaper Yomiuri Online News/world news" language="ja" author="Hiroshi Miura" title="Yomiuri Online (World)" needs_subscription="no" id="builtin:yomiuri_world"/>
+  <recipe description="" language="tr" author="thomass" title="ZAMAN Gazetesi" needs_subscription="no" id="builtin:zaman"/>
+  <recipe description="Najčítanejší denník opočítačoch, IT a internete. " language="sk" author="Abelturd" title="ZIVE.sk" needs_subscription="no" id="builtin:ZIVE.sk"/>
+  <recipe description="Zeit Online" language="de" author="Martin Pitt, Sujata Raman, Ingo Paschke and Marc Toensing" title="Zeit Online" needs_subscription="no" id="builtin:zeitde"/>
+  <recipe description="On a long enough timeline the survival rate for everyone drops to zero" language="en" author="Darko Miletic" title="Zero Hedge" needs_subscription="no" id="builtin:zerohedge"/>
+  <recipe description="Știri din Business" language="ro" author="Silviu Cotoară" title="Ziarul Financiar" needs_subscription="no" id="builtin:ziarulfinanciar"/>
+  <recipe description="Cotidian online" language="ro" author="Silviu Cotoară" title="Ziua Veche" needs_subscription="no" id="builtin:ziuaveche"/>
+  <recipe description="Noticias de Uruguay" language="es_UY" author="Gustavo Azambuja" title="bitacora.com.uy" needs_subscription="no" id="builtin:bitacora"/>
+  <recipe description="Wirtschaftsmagazin" language="de" author="Constantin Hofstetter" title="brand eins" needs_subscription="optional" id="builtin:brand_eins"/>
+  <recipe description="Japanese popular dog blog" language="ja" author="Hiroshi Miura" title="chou chou blog" needs_subscription="no" id="builtin:chouchoublog"/>
+  <recipe description="Ethical hacking and security news" language="en" author="Oliver Niesner" title="darknet" needs_subscription="no" id="builtin:darknet"/>
+  <recipe description="Nachrichten aus ??sterreich" language="de" author="Gerhard Aigner and Sujata Raman" title="derStandard" needs_subscription="no" id="builtin:der_standard"/>
+  <recipe description="DiePresse.com - Die Online-Ausgabe der Österreichischen Tageszeitung Die Presse." language="de" author="Gerhard Aigner" title="diePresse" needs_subscription="no" id="builtin:diepresse"/>
+  <recipe description="A blog by Mike Abrahams" language="en" author="Krittika Goyal" title="drivelry.com" needs_subscription="no" id="builtin:drivelry"/>
+  <recipe description="Reinventează plăcerea de a găti" language="ro" author="Silviu Cotoară" title="eCuisine" needs_subscription="no" id="builtin:ecuisine"/>
+  <recipe description="Twoje centrum wiedzy o ePapierze i eBookach" language="pl" author="Tomasz Długosz" title="eKsiazki.org" needs_subscription="no" id="builtin:eksiazki"/>
+  <recipe description="Necesar pentru tine" language="ro" author="Silviu Cotoară" title="egirl" needs_subscription="no" id="builtin:egirl"/>
+  <recipe description="Twój Vortal Technologiczny" language="pl" author="Tomasz Długosz" title="frazpc.pl" needs_subscription="no" id="builtin:frazpc"/>
+  <recipe description="Revista Freeway, Montevideo, Uruguay" language="es_UY" author="Gustavo Azambuja" title="freeway.com.uy" needs_subscription="no" id="builtin:freeway"/>
+  <recipe description="Gadgeturi, Lifestyle, Tehnologie" language="ro" author="Silviu Cotoară" title="go4it" needs_subscription="no" id="builtin:go4it"/>
+  <recipe description="Computernews from Germany" language="de" author="Oliver Niesner" title="heise" needs_subscription="no" id="builtin:heise"/>
+  <recipe description="iDNES.cz Zprávy, Technet, Komiksy a další" language="cs" author="FunThomas" title="iDnes.cz" needs_subscription="no" id="builtin:idnes"/>
+  <recipe description="iEco, el suplemento economico de Clarin. Las ultimas noticias de Empresas y Negocios, Mercados y Finanzas, Economia y Tecnologia de la Argentina y el mundo." language="es_AR" author="Darko Miletic" title="iEco Clarin" needs_subscription="no" id="builtin:ieco"/>
+  <recipe description="Zprávy z iHNed.cz" language="cs" author="Karel Bílek" title="iHNed" needs_subscription="no" id="builtin:ihned"/>
+  <recipe description="O LITERATUŘE V CELÉM SVĚTĚ A DOMA" language="cs" author="Abelturd" title="iLiteratura.cz" needs_subscription="no" id="builtin:iliteratura_cz"/>
+  <recipe description="Las ultimas noticias sobre profesionales" language="es_AR" author="Darko Miletic" title="iProfesional.com" needs_subscription="no" id="builtin:iprofesional"/>
+  <recipe description="Chinese Weekly Tabloid" language="zh" author="rty" title="infzm - China Southern Weekly" needs_subscription="no" id="builtin:ifzm"/>
+  <recipe description="io9, We Come From the Future." language="en" author="NA" title="io9" needs_subscription="no" id="builtin:io9"/>
+  <recipe description="News from Portugal" language="pt" author="Darko Miletic" title="ionline - Portugal" needs_subscription="no" id="builtin:ionline_pt"/>
+  <recipe description="Katholische Nachrichten" language="de" author="Bobus" title="kath.net" needs_subscription="no" id="builtin:kath_net"/>
+  <recipe description="Monthly Italian edition of Scientific American" language="it" author="Lorenzo Vigentini, Gabriele Marini" title="le Scienze" needs_subscription="no" id="builtin:lescienze"/>
+  <recipe description="Linux Weekly News" language="en" author="Oliver Niesner" title="lwn" needs_subscription="yes" id="builtin:lwn"/>
+  <recipe description="A Fuller Spectrum of News" language="en" author="Darko Miletic" title="msnbc.com" needs_subscription="no" id="builtin:msnbc"/>
+  <recipe description="Dutch newsblog from the Dutch daily newspaper nrcnext." language="nl" author="kwetal" title="nrcnext" needs_subscription="no" id="builtin:ncrnext"/>
+  <recipe description="security news" language="en" author="Oliver Niesner" title="securitywatch" needs_subscription="no" id="builtin:security_watch"/>
+  <recipe description="" language="en_NZ" author="Krittika Goyal" title="stuff.co.nz" needs_subscription="no" id="builtin:dominion"/>
+  <recipe description="computer news in german" language="de" author="Oliver Niesner" title="tomshardware" needs_subscription="no" id="builtin:tomshardware_de"/>
+  <recipe description="A conservative weekly magazine. The latest free issue" language="sk" author="zemiak" title="tyzden" needs_subscription="no" id="builtin:tyzden"/>
+  <recipe description="" language="zh" author="Derek Liang" title="wenxuecity - znjy" needs_subscription="no" id="builtin:wenxuecity-znjy"/>
+  <recipe description="Superesportes - Not√≠cias do esporte no Brasil e no mundo" language="pt" author="Luciano Furtado" title="www.superesportes.com.br" needs_subscription="no" id="builtin:superesportes"/>
+  <recipe description="A webcomic of romance and math humor." language="en" author="Martin Pitt" title="xkcd" needs_subscription="no" id="builtin:xkcd"/>
+  <recipe description="zdnet security" language="en" author="Oliver Niesner" title="zdnet" needs_subscription="no" id="builtin:zdnet"/>
+  <recipe description="Petrece ziua cu stil, află ce e nou între fete" language="ro" author="Silviu Cotoară" title="Între fete" needs_subscription="no" id="builtin:intrefete"/>
+  <recipe description="Știință şi Tehnică" language="ro" author="Silviu Cotoară" title="Știință şi Tehnică" needs_subscription="no" id="builtin:stiintasitehnica"/>
+  <recipe description="Ежедневная деловая газета" language="ru" author="Nikolai Kotchetkov" title="Ведомости" needs_subscription="no" id="builtin:vedomosti"/>
+  <recipe description="Компьютерра: все новости про компьютеры, железо, новые технологии, информационные технологии" language="ru" author="Vadim Dyadkin (edited by A. Chewi)" title="Компьютерра" needs_subscription="no" id="builtin:kompiutierra"/>
+  <recipe description="" language="ru" author="Vadim Dyadkin" title="Троицкий вариант" needs_subscription="no" id="builtin:trv"/>
+  <recipe description="" language="und" author="calibre" title="ナショナル・ジオグラフィックニュース" needs_subscription="no" id="builtin:nationalgeographicjp"/>
+  <recipe description="China Times (Taiwan)" language="zh" author="einstuerzende, updated by Eddie Lau" title="中時電子報" needs_subscription="no" id="builtin:china_times"/>
+  <recipe description="日経電子版による日本経済新聞。朝刊・夕刊は取得時間により切り替わります。要購読" language="ja" author="Ado Nishimura" title="日本経済新聞（朝刊・夕刊）" needs_subscription="yes" id="builtin:nikkei_news"/>
+  <recipe description="News and current market affairs from Japan, no subscription and getting max feed." language="ja" author="Hiroshi Miura" title="日経新聞電子版(Free, MAX)" needs_subscription="no" id="builtin:nikkei_free"/>
+  <recipe description="News and current market affairs from Japan, gather MAX articles" language="ja" author="Hiroshi Miura" title="日経新聞電子版(MAX)" needs_subscription="yes" id="builtin:nikkei_sub"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(Social)" needs_subscription="yes" id="builtin:nikkei_sub_shakai"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(スポーツ)" needs_subscription="yes" id="builtin:nikkei_sub_sports"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(生活)" needs_subscription="yes" id="builtin:nikkei_sub_life"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(産業)" needs_subscription="yes" id="builtin:nikkei_sub_industry"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(経済)" needs_subscription="yes" id="builtin:nikkei_sub_economy"/>
+  <recipe description="News and current market affairs from Japan" language="ja" author="Hiroshi Miura" title="日経新聞電子版(総合)" needs_subscription="yes" id="builtin:nikkei_sub_main"/>
+  <recipe description="World News from Jiji Press" language="ja" author="Hiroshi Miura" title="時事通信" needs_subscription="no" id="builtin:jijinews"/>
+  <recipe description="Japanese traditional newspaper Mainichi Daily News" language="ja" author="Hiroshi Miura" title="毎日新聞" needs_subscription="no" id="builtin:mainichi"/>
+  <recipe description="Japanese traditional newspaper Mainichi Daily News - IT and electronics" language="ja" author="Hiroshi Miura" title="毎日新聞(IT&amp;家電)" needs_subscription="no" id="builtin:mainichi_it_news"/>
+  <recipe description="Tohoku regional news paper in Japan" language="ja" author="Hiroshi Miura" title="河北新報" needs_subscription="no" id="builtin:kahokushinpo"/>
+  <recipe description="News from zaobao.com" language="zh" author="Pu Bo" title="联合早报网 zaobao.com" needs_subscription="no" id="builtin:zaobao"/>
+  <recipe description="United Daily (Taiwan)" language="zh_TW" author="Eddie Lau" title="聯合新聞網" needs_subscription="no" id="builtin:united_daily"/>
+  <recipe description="Liberty Times (Taiwan)" language="zh" author="einstuerzende, updated by Eddie Lau" title="自由電子報" needs_subscription="no" id="builtin:liberty_times"/>
+  <recipe description="蘋果日報" language="zh_TW" author="蘋果日報" title="蘋果日報" needs_subscription="no" id="builtin:apple_daily"/>
+  <recipe description="Articles from media.daum.net" language="ko" author="trustin" title="미디어 다음 오늘의 주요 뉴스" needs_subscription="no" id="builtin:daum_net"/>
+</recipe_collection>

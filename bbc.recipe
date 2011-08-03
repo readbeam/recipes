@@ -1,0 +1,60 @@
+__license__   = 'GPL v3'
+__copyright__ = '2010, Darko Miletic <darko.miletic at gmail.com>'
+'''
+news.bbc.co.uk
+'''
+import re
+from calibre.web.feeds.recipes import BasicNewsRecipe
+
+class BBC(BasicNewsRecipe):
+    title                  = 'BBC News'
+    __author__             = 'Darko Miletic, Starson17'
+    description            = 'News from UK. '
+    oldest_article         = 2
+    max_articles_per_feed  = 100
+    no_stylesheets         = True
+    #delay                  = 1
+    use_embedded_content   = False
+    encoding               = 'utf8'
+    publisher              = 'BBC'
+    category               = 'news, UK, world'
+    language               = 'en_GB'
+    publication_type       = 'newsportal'
+    extra_css              = ' body{ font-family: Verdana,Helvetica,Arial,sans-serif } .introduction{font-weight: bold} .story-feature{display: block; padding: 0; border: 1px solid; width: 40%; font-size: small} .story-feature h2{text-align: center; text-transform: uppercase} '
+    preprocess_regexps     = [(re.compile(r'<!--.*?-->', re.DOTALL), lambda m: '')]
+    conversion_options = {
+                             'comments'        : description
+                            ,'tags'            : category
+                            ,'language'        : language
+                            ,'publisher'       : publisher
+                            ,'linearize_tables': True
+                         }
+
+    keep_only_tags    = [
+                       dict(name='div', attrs={'class':['layout-block-a layout-block']})
+                       ,dict(attrs={'class':['story-body','storybody']})
+                        ]
+
+    remove_tags = [
+                       dict(name='div', attrs={'class':['story-feature related narrow', 'share-help', 'embedded-hyper', \
+                       'story-feature wide ', 'story-feature narrow']})
+                        ]
+
+    remove_attributes = ['width','height']
+
+    feeds          = [
+                      ('News Front Page', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml'),
+                      ('Science/Nature', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/science/nature/rss.xml'),
+                      ('Technology', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml'),
+                      ('Entertainment', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/entertainment/rss.xml'),
+                      ('Magazine', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/uk_news/magazine/rss.xml'),
+                      ('Business', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/business/rss.xml'),
+                      ('Health', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/health/rss.xml'),
+                      ('Americas', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/americas/rss.xml'),
+                      ('Europe', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/europe/rss.xml'),
+                      ('South Asia', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/south_asia/rss.xml'),
+                      ('UK', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/uk_news/rss.xml'),
+                      ('Asia-Pacific', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/asia-pacific/rss.xml'),
+                      ('Africa', 'http://newsrss.bbc.co.uk/rss/newsonline_world_edition/africa/rss.xml'),
+                    ]
+

@@ -1,0 +1,103 @@
+#!/usr/bin/env  python
+
+__license__   = 'GPL v3'
+__copyright__ = '2008, Kovid Goyal <kovid at kovidgoyal.net>'
+'''
+theatlantic.com
+'''
+import re
+
+from calibre.web.feeds.news import BasicNewsRecipe
+from calibre.ebooks.BeautifulSoup import Tag, NavigableString
+
+class TheAtlantic(BasicNewsRecipe):
+
+    title      = 'The Atlantic'
+    __author__ = 'Kovid Goyal and Sujata Raman'
+    description = 'Current affairs and politics focussed on the US'
+    INDEX = 'http://www.theatlantic.com/magazine/toc/0/'
+    language = 'en'
+
+    remove_tags_before = dict(name='div', id='articleHead')
+    remove_tags_after  = dict(id='copyright')
+    remove_tags        = [dict(id=['header', 'printAds', 'pageControls'])]
+    no_stylesheets = True
+
+    preprocess_regexps = [(re.compile(r'<!--.*?-->', re.DOTALL), lambda m: '')]
+
+
+    def print_version(self, url):
+        return url.replace('/archive/', '/print/')
+
+    def parse_index(self):
+        articles = []
+
+        soup = self.index_to_soup(self.INDEX)
+        ts = soup.find(id='magazineTopStories')
+        ds = self.tag_to_string(ts.find('h1')).split(':')[-1]
+        self.timefmt = ' [%s]'%ds
+
+        cover = soup.find('img', src=True, attrs={'class':'cover'})
+        if cover is not None:
+            self.cover_url = cover['src']
+
+        feeds = []
+        seen_titles = set([])
+        for section in soup.findAll('div', attrs={'class':'magazineSection'}):
+            section_title = self.tag_to_string(section.find('h2'))
+            self.log('Found section:', section_title)
+            articles = []
+            for post in section.findAll('div', attrs={'class':lambda x : x and
+                'post' in x}):
+                h = post.find(['h3', 'h4'])
+                title = self.tag_to_string(h)
+                if title in seen_titles:
+                    continue
+                seen_titles.add(title)
+                a = post.find('a', href=True)
+                url = a['href']
+                if url.startswith('/'):
+                    url = 'http://www.theatlantic.com'+url
+                p = post.find('p', attrs={'class':'dek'})
+                desc = None
+                self.log('\tFound article:', title, 'at', url)
+                if p is not None:
+                    desc = self.tag_to_string(p)
+                    self.log('\t\t', desc)
+                articles.append({'title':title, 'url':url, 'description':desc,
+                    'date':''})
+            if articles:
+                feeds.append((section_title, articles))
+
+        poems = []
+        self.log('Found section: Poems')
+        pd = soup.find('h2', text='Poetry').parent.parent
+        for poem in pd.findAll('h4'):
+            title = self.tag_to_string(poem)
+            url   = poem.find('a')['href']
+            if url.startswith('/'):
+                url = 'http://www.theatlantic.com' + url
+            self.log('\tFound article:', title, 'at', url)
+            poems.append({'title':title, 'url':url, 'description':'',
+                    'date':''})
+        if poems:
+            feeds.append(('Poems', poems))
+
+        return feeds
+
+    def postprocess_html(self, soup, first):
+        for table in soup.findAll('table', align='right'):
+            img = table.find('img')
+            if img is not None:
+                img.extract()
+                caption = self.tag_to_string(table).strip()
+                div = Tag(soup, 'div')
+                div['style'] = 'text-align:center'
+                div.insert(0, img)
+                div.insert(1, Tag(soup, 'br'))
+                if caption:
+                    div.insert(2, NavigableString(caption))
+                table.replaceWith(div)
+
+        return soup
+

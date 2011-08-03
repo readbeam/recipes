@@ -1,0 +1,25 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class SanFranciscoBayGuardian(BasicNewsRecipe):
+    title = u'San Francisco Bay Guardian'
+    language = 'en'
+    __author__ = 'Krittika Goyal'
+    oldest_article = 31 #days
+    max_articles_per_feed = 25
+
+    no_stylesheets = True
+    remove_tags = [
+        dict(name='iframe'),
+    ]
+
+
+    feeds = [
+        ('sfbg', 'http://www.sfbg.com/rss.xml'),
+        ('politics', 'http://www.sfbg.com/politics/rss.xml'),
+        ('blogs', 'http://www.sfbg.com/blog/rss.xml'),
+        ('pixel_vision', 'http://www.sfbg.com/pixel_vision/rss.xml'),
+        ('bruce', 'http://www.sfbg.com/bruce/rss.xml'),
+    ]
+
+
+
