@@ -11,10 +11,10 @@ class Slashdot(BasicNewsRecipe):
     title          = u'Slashdot.org'
     description    = '''Tech news. WARNING: This recipe downloads a lot
     of content and may result in your IP being banned from slashdot.org'''
-    oldest_article = 7
     simultaneous_downloads = 1
-    delay = 3
-    max_articles_per_feed = 100
+    oldest_article         = 1
+    max_articles_per_feed  = 50
+    delay                  = 2
     language = 'en'
 
     __author__ = 'floweros edited by Huan T'

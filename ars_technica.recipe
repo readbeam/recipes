@@ -15,8 +15,9 @@ class ArsTechnica(BasicNewsRecipe):
     description           = 'The art of technology'
     publisher             = 'Ars Technica'
     category              = 'news, IT, technology'
-    oldest_article        = 5
-    max_articles_per_feed = 100
+    oldest_article         = 1
+    max_articles_per_feed  = 50
+    delay                  = 2
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

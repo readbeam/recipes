@@ -21,8 +21,10 @@ class Guardian(BasicNewsRecipe):
     __author__ = 'Seabound and Sujata Raman'
     language = 'en_GB'
 
-    oldest_article = 7
-    max_articles_per_feed = 100
+    oldest_article         = 1
+    max_articles_per_feed  = 50
+    delay                  = 2
+
     remove_javascript = True
 
     # List of section titles to ignore

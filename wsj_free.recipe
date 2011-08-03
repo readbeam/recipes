@@ -16,7 +16,9 @@ class WallStreetJournal(BasicNewsRecipe):
     recipe.'''
     language = 'en'
     cover_url           = 'http://dealbreaker.com/images/thumbs/Wall%20Street%20Journal%20A1.JPG'
-    max_articles_per_feed = 1000
+    oldest_article         = 1
+    max_articles_per_feed  = 50
+    delay                  = 2
     timefmt  = ' [%a, %b %d, %Y]'
     no_stylesheets = True
 
