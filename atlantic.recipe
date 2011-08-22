@@ -18,9 +18,6 @@ class TheAtlantic(BasicNewsRecipe):
     INDEX = 'http://www.theatlantic.com/magazine/toc/0/'
     language = 'en'
 
-    oldest_article         = 1
-    delay                  = 2
-
     remove_tags_before = dict(name='div', id='articleHead')
     remove_tags_after  = dict(id='copyright')
     remove_tags        = [dict(id=['header', 'printAds', 'pageControls'])]
