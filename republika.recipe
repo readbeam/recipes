@@ -19,8 +19,8 @@ class Republika(BasicNewsRecipe):
     language = 'sr'
 
     lang                  = 'sr-Latn-RS'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'cp1250'
     use_embedded_content  = False

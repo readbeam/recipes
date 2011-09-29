@@ -12,8 +12,8 @@ class DeutscheWelle_es(BasicNewsRecipe):
     description           = 'Noticias desde Alemania y mundo'
     publisher             = 'Deutsche Welle'
     category              = 'news, politics, Germany'
-    oldest_article        = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content  = False
     no_stylesheets        = True
     language              = 'de_ES'

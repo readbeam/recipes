@@ -14,9 +14,9 @@ class Ele(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Dezv\u0103luie ceea ce e\u015fti'
     publisher             = u'Ele'
-    oldest_article        = 25
+    oldest_article = 7
     language              = 'ro'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'Ziare,Femei'

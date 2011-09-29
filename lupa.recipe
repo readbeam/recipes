@@ -9,8 +9,8 @@ class LupaCZ(BasicNewsRecipe):
     __version__             = '1.0'
     __date__                = '30 April 2011'
     description             = u'Zpr\xe1vi\u010dky a \u010dl\xe1nky z Lupa.cz'
-    oldest_article          = 2
-    max_articles_per_feed   = 10
+    oldest_article = 7
+    max_articles_per_feed = 20
     encoding                = 'utf8'
     publisher               = 'Internet Info s.r.o.'
     category                = 'IT,news,CZ'

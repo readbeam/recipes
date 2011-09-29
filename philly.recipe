@@ -6,7 +6,7 @@ class AdvancedUserRecipe1308312288(BasicNewsRecipe):
     __author__ = 'sexymax15'
     language = 'en'
     description = 'Daily news from the Philadelphia Inquirer'
-    oldest_article = 15
+    oldest_article = 7
     max_articles_per_feed = 20
     use_embedded_content = False
     remove_empty_feeds = True

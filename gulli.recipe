@@ -6,7 +6,7 @@ class AdvancedUserRecipe1259599587(BasicNewsRecipe):
     language = 'de'
     __author__ = 'posativ'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     feeds          = [(u'gulli:news', u'http://ticker.gulli.com/rss/')]

@@ -12,8 +12,8 @@ class t20Minutos(BasicNewsRecipe):
     description           = 'Diario de informacion general y local mas leido de Espania, noticias de ultima hora de Espania, el mundo, local, deportes, noticias curiosas y mas'
     publisher             = '20 Minutos Online SL'
     category              = 'news, politics, Spain'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = True

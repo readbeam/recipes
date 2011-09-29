@@ -12,9 +12,9 @@ class Axxon_news(BasicNewsRecipe):
     description           = 'Axxon, Ciencia Ficcion en Bits'
     publisher             = 'Revista Axxon - Ciencia Ficcion'
     category              = 'SF, Argentina'
-    oldest_article        = 31
-    delay                 = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    delay = 1
+    max_articles_per_feed = 20
     no_stylesheets        = False
     use_embedded_content  = False
     language              = 'es_AR'

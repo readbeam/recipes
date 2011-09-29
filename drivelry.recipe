@@ -6,8 +6,8 @@ class drivelrycom(BasicNewsRecipe):
     language       = 'en'
     description    = 'A blog by Mike Abrahams'
     __author__     = 'Krittika Goyal'
-    oldest_article = 60 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 20
     #encoding = 'latin1'
 
     remove_stylesheets = True

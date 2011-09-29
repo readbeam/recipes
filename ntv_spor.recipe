@@ -6,8 +6,8 @@ class AdvancedUserRecipe1313512459(BasicNewsRecipe):
     description           = 'News from Turkey'
     publisher             = 'NTVSpor.net'
     category              = 'sports, Turkey'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     masthead_url          = 'http://www.ntvspor.net/HTML/r/i/l.png'

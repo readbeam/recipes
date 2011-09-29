@@ -6,8 +6,8 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
 
     __author__ = 'Dave Asbury'
     no_stylesheets = True
-    oldest_article = 1
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 20
     remove_empty_feeds = True
     remove_javascript     = True
 

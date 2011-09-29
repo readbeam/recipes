@@ -4,8 +4,8 @@ class IndianExpress(BasicNewsRecipe):
     title          = u'Indian Express'
     language       = 'en_IN'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 20
     encoding = 'cp1252'
 
     no_stylesheets = True

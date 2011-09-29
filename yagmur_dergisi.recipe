@@ -6,10 +6,10 @@ class Yagmur(BasicNewsRecipe):
     title          = u'Yagmur Dergisi'
     __author__            = u'thomass'
     description            = 'Üç Aylık Dil, Kültür ve Edebiyat Dergisi'
-    oldest_article         = 90
-    max_articles_per_feed  =100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets         = True
-    #delay                  = 1
+    #delay = 1
     #use_embedded_content   = False
 
     #publisher              = '  '

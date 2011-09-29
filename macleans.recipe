@@ -5,8 +5,8 @@ class AdvancedUserRecipe1308306308(BasicNewsRecipe):
     title          = u'Macleans Magazine'
     language = 'en_CA'
     __author__ = 'sexymax15'
-    oldest_article = 30
-    max_articles_per_feed = 12
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     use_embedded_content = False
 

@@ -20,8 +20,8 @@ class IlSole24Ore(BasicNewsRecipe):
     language       = 'it'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content  = False
     extra_css      = '.headline {font-size: x-large;} \n .fact { padding-top: 10pt  }'
 

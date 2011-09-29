@@ -21,8 +21,8 @@ class KukuburiRecipe(BasicNewsRecipe):
     no_stylesheets = True
     remove_javascript = True
 
-    oldest_article = 100
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     feeds = [
         (u'Kukuburi', u'http://feeds2.feedburner.com/Kukuburi')

@@ -21,8 +21,8 @@ class Kompas(BasicNewsRecipe):
     description    = u'Indonesian News from Kompas Online Edition'
     category       = 'local news, international, business, Indonesia'
     language       = 'id'
-    oldest_article = 5
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     no_stylesheets        = True
     use_embedded_content  = False

@@ -3,7 +3,7 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class AdvancedUserRecipe1278063072(BasicNewsRecipe):
     title          = u'Singtao Daily - Canada'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     __author__            = 'rty'
     description           = 'Toronto Canada Chinese Newspaper'
     publisher             = 'news.singtao.ca'

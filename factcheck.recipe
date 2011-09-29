@@ -5,7 +5,7 @@ class FactCheckOrg(BasicNewsRecipe):
     __author__     = u'Michael Heinz'
     language = 'en'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     recursion = 0
 
     publication_type = 'magazine'

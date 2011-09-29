@@ -17,8 +17,8 @@ class DnevniAvaz(BasicNewsRecipe):
     description           = 'Latest news from Bosnia'
     publisher             = 'Dnevni Avaz'
     category              = 'news, politics, Bosnia and Herzegovina'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

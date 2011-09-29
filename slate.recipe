@@ -15,10 +15,10 @@ class Slate(BasicNewsRecipe):
     # Method variables for customizing downloads
     description             = 'A general-interest publication offering analysis and commentary about politics, news and culture.'
     __author__              = 'GRiker, Sujata Raman and Nick Redding'
-    max_articles_per_feed   = 100
-    oldest_article          = 14
+    max_articles_per_feed = 20
+    oldest_article = 7
     recursions              = 0
-    delay                   = 0
+    delay = 1
     simultaneous_downloads  = 5
     timeout                 = 120.0
     timefmt                 = ''

@@ -16,7 +16,7 @@ class BusinessWeek(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 7
-    max_articles_per_feed = 10
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     recursions = 1

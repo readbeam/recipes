@@ -2,12 +2,12 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class TheDailyMail(BasicNewsRecipe):
     title          = u'The Daily Mail'
-    oldest_article = 2
+    oldest_article = 7
     language = 'en_GB'
 
     author = 'RufusA and Sujata Raman'
     simultaneous_downloads= 1
-    max_articles_per_feed = 50
+    max_articles_per_feed = 20
 
     extra_css = '''#js-article-text{font-family:Arial,Helvetica,sans-serif;}
                     h1{font-size:x-large; font-weight:bold;}

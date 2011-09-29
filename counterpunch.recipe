@@ -11,7 +11,7 @@ class Counterpunch(BasicNewsRecipe):
     language = 'en'
     __author__ = 'O. Emmerson'
     keep_only_tags = [dict(name='td', attrs={'width': '522'})]
-    max_articles_per_feed = 10
+    max_articles_per_feed = 20
 
     def parse_index(self):
         feeds = []

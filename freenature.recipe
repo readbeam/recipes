@@ -6,9 +6,9 @@ class NatureNews(BasicNewsRecipe):
     title          = u'Nature News'
     language       = 'en'
     __author__     = 'Krittika Goyal, Starson17'
-    oldest_article = 31 #days
+    oldest_article = 7
     remove_empty_feeds    = True
-    max_articles_per_feed = 50
+    max_articles_per_feed = 20
 
     no_stylesheets = True
     keep_only_tags = [dict(name='div', attrs={'id':'content'})]

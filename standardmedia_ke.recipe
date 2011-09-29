@@ -26,8 +26,8 @@ class StandardMediaKeRecipe(BasicNewsRecipe):
     cover_img_url = 'http://www.standardmedia.co.ke/images/easLogoOther.gif'
     masthead_url = cover_img_url
 
-    max_articles_per_feed = 200
-    oldest_article = 3
+    max_articles_per_feed = 20
+    oldest_article = 7
 
     use_embedded_content = False
     remove_empty_feeds = True

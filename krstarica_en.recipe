@@ -14,8 +14,8 @@ class Krstarica_en(BasicNewsRecipe):
     description           = 'News from Serbia and world'    
     publisher             = 'Krstarica'
     category              = 'news, politics, Serbia'
-    oldest_article        = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     remove_javascript     = True

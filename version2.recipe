@@ -14,8 +14,8 @@ class version2(BasicNewsRecipe):
     description          = 'IT News'
     publisher             = 'version2.dk'
     category              = 'news, IT, hardware, software, Denmark'
-    oldest_article       = 14
-    max_articles_per_feed = 50
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets      = True
     remove_empty_feeds    = True
     use_embedded_content  = False

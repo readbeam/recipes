@@ -15,7 +15,7 @@ class Frontlineonnet(BasicNewsRecipe):
     publisher            = 'Frontline'
     category             = 'news, politics, India'
     no_stylesheets       = True
-    delay                = 1
+    delay = 1
     INDEX                = 'http://frontlineonnet.com/'
     use_embedded_content = False
     encoding             = 'cp1252'

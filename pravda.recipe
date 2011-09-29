@@ -11,8 +11,8 @@ class PravdaSlovakiaRecipe(BasicNewsRecipe):
     category = u'News, Newspaper'
     description = u'News from Slovakia'
 
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content = False
     remove_empty_feeds = True
 

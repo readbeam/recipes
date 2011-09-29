@@ -5,8 +5,8 @@ class TheRegister(BasicNewsRecipe):
     __author__     = 'vgrama'
     language = 'en'
 
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content = False
           
     feeds          = [(u'Register', u'http://www.theregister.co.uk/headlines.atom')]

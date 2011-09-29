@@ -7,8 +7,8 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'Marietta Ga and Metro Atlanta News'
     publisher = 'MDJ'
     category = 'news,politics,Georgia,USA'
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_javascript = True
 

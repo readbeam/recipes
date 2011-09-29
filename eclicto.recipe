@@ -18,7 +18,7 @@ class BlogeClictoRecipe(BasicNewsRecipe):
 	publisher = u'Blog eClicto'
 	description = u'Blog o e-papierze i e-bookach'
 
-	max_articles_per_feed = 100
+	max_articles_per_feed = 20
 	cover_url = 'http://blog.eclicto.pl/wordpress/wp-content/themes/blog_eclicto/g/logo.gif'
 	
 	no_stylesheets = True

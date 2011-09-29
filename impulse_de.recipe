@@ -3,8 +3,8 @@ class AdvancedUserRecipe1305470859(BasicNewsRecipe):
     title                 = u'Impulse.de'
     language              = 'de'
     __author__            = 'schuster'
-    oldest_article        =14
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     remove_javascript     = True
     use_embedded_content  = False

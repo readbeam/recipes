@@ -16,7 +16,7 @@ class Carta(BasicNewsRecipe):
     use_embedded_content   = False
     timefmt = ' [%a %d %b %Y]'
     oldest_article = 7
-    max_articles_per_feed = 50
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_javascript = True
     #html2epub_options = 'linearize_tables = True\nbase_font_size2=14'

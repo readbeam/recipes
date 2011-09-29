@@ -16,7 +16,7 @@ class AdvancedUserRecipe1307301031(BasicNewsRecipe):
     category              = 'news, politics, USA, AZ, Arizona'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     remove_empty_feeds = True
     no_stylesheets         = True
     remove_javascript      = True

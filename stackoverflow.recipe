@@ -14,10 +14,10 @@ class StackOverflowBlog(BasicNewsRecipe):
     description           = 'a programming community exploit'
     category              = 'blog, programming'
     publisher             = 'StackOverflow team'
-    oldest_article        = 30
+    oldest_article = 7
     language = 'en'
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = True
     encoding              = 'utf-8'

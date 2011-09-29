@@ -8,7 +8,7 @@ class TheBayCitizen(BasicNewsRecipe):
     publisher             = 'The Bay Citizen'
     INDEX                 = u'http://www.baycitizen.org'
     category              = 'news'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 20
     no_stylesheets        = True
     masthead_url          = 'http://media.baycitizen.org/images/layout/logo1.png'

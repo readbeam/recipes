@@ -10,11 +10,11 @@ class BigOven(BasicNewsRecipe):
     publisher           = 'Starson17'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article      = 24
+    oldest_article = 7
     remove_javascript   = True
     remove_empty_feeds    = True
     cover_url           = 'http://www.software.com/images/products/BigOven%20Logo_177_216.JPG'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     needs_subscription = True
 
     conversion_options = {'linearize_tables'  : True

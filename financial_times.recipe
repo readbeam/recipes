@@ -13,9 +13,9 @@ class FinancialTimes_rss(BasicNewsRecipe):
     description           = "The Financial Times (FT) is one of the world's leading business news and information organisations, recognised internationally for its authority, integrity and accuracy."
     publisher             = 'The Financial Times Ltd.'
     category              = 'news, finances, politics, World'
-    oldest_article        = 2
+    oldest_article = 7
     language              = 'en'
-    max_articles_per_feed = 250
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     needs_subscription    = True

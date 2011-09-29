@@ -13,8 +13,8 @@ class TheWest(BasicNewsRecipe):
     description           = 'News from Australia'
     publisher             = 'thewest.com.au'
     category              = 'news, politics, Australia'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

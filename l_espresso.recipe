@@ -23,8 +23,8 @@ class Espresso(BasicNewsRecipe):
 #    encoding       = 'cp1252'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article        = 16
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content  = False
     recursion             = 10
 

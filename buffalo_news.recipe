@@ -12,7 +12,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class AdvancedUserRecipe1298680852(BasicNewsRecipe):
     title          = u'Buffalo News'
-    oldest_article = 2
+    oldest_article = 7
     language = 'en'
     __author__ = 'ChappyOnIce'
     max_articles_per_feed = 20

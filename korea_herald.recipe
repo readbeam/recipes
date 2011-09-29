@@ -10,9 +10,9 @@ class KoreaHerald(BasicNewsRecipe):
     language = 'en'
     description = u'Korea Herald News articles'
     __author__	= 'Seongkyoun Yoo'
-    oldest_article = 10
+    oldest_article = 7
     recursions = 3
-    max_articles_per_feed = 10
+    max_articles_per_feed = 20
     no_stylesheets         = True
     keep_only_tags    = [
 						dict(id=['contentLeft', '_article'])

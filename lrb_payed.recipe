@@ -13,10 +13,10 @@ class LondonReviewOfBooksPayed(BasicNewsRecipe):
     description           = 'Subscription content. Literary review publishing essay-length book reviews and topical articles on politics, literature, history, philosophy, science and the arts by leading writers and thinkers'
     category              = 'news, literature, UK'
     publisher             = 'LRB Ltd.'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     language              = 'en_GB'
     no_stylesheets        = True
-    delay                 = 1
+    delay = 1
     use_embedded_content  = False
     encoding              = 'utf-8'
     INDEX                 = 'http://www.lrb.co.uk'

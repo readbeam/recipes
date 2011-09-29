@@ -11,8 +11,8 @@ class NotABlog(BasicNewsRecipe):
     title                 = 'Not A Blog - George R.R. Martin'
     __author__            = 'Darko Miletic'
     description           = 'George R.R. Martin'
-    oldest_article        = 15
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     language              = 'en'
     encoding              = 'utf-8'
     no_stylesheets        = True

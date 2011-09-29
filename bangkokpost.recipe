@@ -12,7 +12,7 @@ class BangkokPostRecipe(BasicNewsRecipe):
     description = u'The world\'s window to Thailand'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
 
     no_stylesheets = True
     remove_javascript = True

@@ -10,9 +10,9 @@ class AdvancedUserRecipe1311450855(BasicNewsRecipe):
     description           = 'Economy news from Sweden'
     publisher             = 'DI'
     category              = 'news, politics, Sweden'
-    oldest_article        = 2
-    delay                 = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    delay = 1
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

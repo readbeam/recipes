@@ -11,7 +11,7 @@ class Reuters(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'en'
 
-    max_articles_per_feed = 10
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_javascript = True
 

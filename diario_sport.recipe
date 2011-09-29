@@ -2,8 +2,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class DiarioSport(BasicNewsRecipe):
     title          = u'Diario Sport'
-    oldest_article = 2
-    max_articles_per_feed = 75
+    oldest_article = 7
+    max_articles_per_feed = 20
     __author__  = 'Jefferson Frantz'
     description = 'Todas las noticias del Barça y del mundo del deporte en general'
     timefmt = ' [%d %b, %Y]'

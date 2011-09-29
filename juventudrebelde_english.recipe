@@ -14,8 +14,8 @@ class Juventudrebelde_english(BasicNewsRecipe):
     description           = 'The newspaper of Cuban Youth'
     publisher             = 'Juventud Rebelde'
     category              = 'news, politics, Cuba'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'iso-8859-1'

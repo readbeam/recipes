@@ -5,13 +5,13 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
     description = u'Metro Nieuws - NL'
 # Version 1.2, updated cover image to match the changed website.
 # added info date on title
-    oldest_article = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     __author__     = u'DrMerry'
     description    = u'Metro Nederland'
     language       = u'nl'
     simultaneous_downloads = 5
-    delay          = 1
+    delay = 1
 #    timefmt        = ' [%A, %d %B, %Y]'
     timefmt        = ' [%A, %d %b %Y]'
     no_stylesheets = True

@@ -6,9 +6,9 @@ class AdvancedUserRecipe1278049615(BasicNewsRecipe):
     description           = 'Austin Texas Daily Newspaper'
     category              = 'News, Austin, Texas'
     __author__            = 'rty'
-    oldest_article = 3
+    oldest_article = 7
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
 
     feeds          = [(u'News',
         u'http://www.statesman.com/section-rss.do?source=news&includeSubSections=true'),

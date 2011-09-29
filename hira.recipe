@@ -6,10 +6,10 @@ class Hira(BasicNewsRecipe):
     title                  = 'Hira'
     __author__             = 'thomass'
     description            = 'مجلة حراء مجلة علمية ثقافية فكرية تصدر كل شهرين، تعنى بالعلوم الطبيعية والإنسانية والاجتماعية وتحاور أسرار النفس البشرية وآفاق الكون الشاسعة بالمنظور القرآني الإيماني في تآلف وتناسب بين العلم والإيمان، والعقل والقلب، والفكر والواقع.'
-    oldest_article         = 63
-    max_articles_per_feed  = 50
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets         = True
-    #delay                 = 1
+    #delay = 1
     use_embedded_content   = False
     encoding               = 'utf-8'
     publisher              = 'thomass'

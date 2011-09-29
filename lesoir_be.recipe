@@ -15,7 +15,7 @@ class LeSoirBe(BasicNewsRecipe):
     description           = u'News from Belgium in French'
     publisher             = u'lesoir.be'
     category              = 'news, Belgium'
-    oldest_article        = 3
+    oldest_article = 7
     language              = 'fr'
     masthead_url          = 'http://pdf.lesoir.be/pdf/images/SOIR//logo.gif'
 

@@ -12,10 +12,10 @@ class aoh_dk(BasicNewsRecipe):
     description           = 'Nyheder fra Herning om omegn'
     publisher             = 'Mediehuset Herning Folkeblad'
     category              = 'news, local, Denmark'
-    oldest_article        = 14
-    max_articles_per_feed = 50
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
-    delay                 = 1
+    delay = 1
     encoding              = 'utf8'
     use_embedded_content  = False
     language              = 'da'

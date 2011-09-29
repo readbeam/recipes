@@ -10,8 +10,8 @@ class AdvancedUserRecipe1311799898(BasicNewsRecipe):
     remove_tags_before = dict(id='contenidoArt')
     remove_tags_after  = [dict(name='div', attrs={'class':'articulo-mas'})]
     keep_only_tags = [dict(name='div', id='contenidoArt')]
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     remove_javascript = True
     no_stylesheets        = True
     use_embedded_content  = False

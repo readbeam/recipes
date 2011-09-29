@@ -15,8 +15,8 @@ class Diagonales(BasicNewsRecipe):
     description           = 'El nuevo diario de La Plata'
     publisher             = 'ElArgentino.com'
     category              = 'news, politics, Argentina, La Plata'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

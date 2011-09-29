@@ -15,8 +15,8 @@ class Engadget(BasicNewsRecipe):
     __date__              = '02, July 2011'
     description           = 'Tech news'
     language              = 'en'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     remove_javascript     = True

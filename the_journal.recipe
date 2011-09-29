@@ -10,8 +10,8 @@ class TheJournal(BasicNewsRecipe):
 
     __author_              = 'Phil Burns'
     title                  = u'TheJournal.ie'
-    oldest_article         = 1
-    max_articles_per_feed  = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     encoding               = 'utf8'
     language               = 'en_IE'
     timefmt                = ' (%A, %B %d, %Y)'

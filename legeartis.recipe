@@ -17,7 +17,7 @@ class LegeArtisRecipe(BasicNewsRecipe):
 	publisher = u'Olgierd Rudak'
 	description = u'Wszystko, co chcieliby\u015bcie wiedzie\u0107 o prawie, ale wstydzicie si\u0119 zapyta\u0107'
 
-	max_articles_per_feed = 100
+	max_articles_per_feed = 20
 	
 	no_stylesheets = True
 	remove_javascript = True

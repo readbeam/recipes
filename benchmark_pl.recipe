@@ -7,8 +7,8 @@ class Benchmark_pl(BasicNewsRecipe):
     cover_url      = 'http://www.ieaddons.pl/benchmark/logo_benchmark_new.gif'
     category       = 'IT'
     language       = 'pl'
-    oldest_article = 8
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets=True
     preprocess_regexps = [(re.compile(ur'\bWięcej o .*</body>', re.DOTALL|re.IGNORECASE), lambda match: '</body>')]
     keep_only_tags=[dict(name='div', attrs={'class':['m_zwykly', 'gallery']})]

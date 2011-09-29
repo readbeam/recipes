@@ -5,7 +5,7 @@ class AdvancedUserRecipe1289990851(BasicNewsRecipe):
     language = 'en_CA'
     __author__ = 'Nexus'
     oldest_article = 7
-    max_articles_per_feed = 25
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_tags = [dict(name='div', attrs={'class':'article_info'}),
                           dict(name='div', attrs={'class':'photo_details'}),

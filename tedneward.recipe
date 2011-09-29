@@ -11,8 +11,8 @@ class InteroperabilityHappens(BasicNewsRecipe):
     title                 = 'Interoperability Happens'
     __author__            = 'Darko Miletic'
     description           = 'Tech blog by Ted Neward'
-    oldest_article        = 15
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     language              = 'en'
     encoding              = 'utf-8'
     no_stylesheets        = True

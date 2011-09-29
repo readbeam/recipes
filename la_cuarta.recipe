@@ -14,8 +14,8 @@ class LaCuarta(BasicNewsRecipe):
     description           = 'La Cuarta Cibernetica: El Diario popular'
     publisher             = 'CODISA, Consorcio Digital S.A.'
     category              = 'news, politics, entertainment, Chile'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'cp1252'

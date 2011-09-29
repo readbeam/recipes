@@ -20,8 +20,8 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'News from Atlanta and USA'
     publisher = 'The Atlanta Journal'
     category = 'news, politics, USA'
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     masthead_url = 'http://gawand.org/wp-content/uploads/2010/06/ajc-logo.gif'

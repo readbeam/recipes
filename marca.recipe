@@ -13,11 +13,11 @@ class Marca(BasicNewsRecipe):
     description           = 'Noticias deportivas'
     publisher             = 'marca.com'
     category              = 'news, sports, Spain'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
-    delay                 = 1
+    delay = 1
     encoding              = 'iso-8859-15'
     language              = 'es'
     publication_type      = 'newsportal'

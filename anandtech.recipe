@@ -16,7 +16,7 @@ class anan(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'en'
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 40
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_javascript = True
     encoding = 'utf-8'

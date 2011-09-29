@@ -4,7 +4,7 @@ class AdvancedUserRecipe1253477125(BasicNewsRecipe):
     title          = u'Sabah'
     __author__ = u'Deniz O\u011fuz'
     language = 'tr'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 20
     cover_url = 'http://www.sabah.com.tr/c/sb/i/sabah_logo.gif'
     no_stylesheets = True

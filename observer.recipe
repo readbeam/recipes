@@ -5,8 +5,8 @@ class NewsandObserver(BasicNewsRecipe):
     description = 'News from Raleigh, North Carolina'
     language       = 'en'
     __author__     = 'Krittika Goyal updated by Walt Anthony'
-    oldest_article = 3 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 20
     summary_length = 150
 
     no_stylesheets    = True

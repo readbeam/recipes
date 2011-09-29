@@ -16,7 +16,7 @@ class TechnologyReviewDe(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'de'
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 40
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     feeds =  [ ('Technology Review', 'http://www.heise.de/tr/news-atom.xml') ]

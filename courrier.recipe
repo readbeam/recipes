@@ -5,8 +5,8 @@ class CourierPress(BasicNewsRecipe):
     title          = u'Courier Press'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     remove_stylesheets = True
     remove_tags = [

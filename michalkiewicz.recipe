@@ -16,7 +16,7 @@ class michalkiewicz(BasicNewsRecipe):
     __author__     = u'Tomasz D\u0142ugosz'
     language       = 'pl'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     keep_only_tags = [dict(name='div', attrs={'class':'modul_srodek'})]

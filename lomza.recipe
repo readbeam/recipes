@@ -6,9 +6,9 @@ class Lomza(BasicNewsRecipe):
     description   = u'4Łomża - regional site'
     cover_url      = 'http://www.4lomza.pl/i/logo4lomza_m.jpg'
     language       = 'pl' 
-    oldest_article = 15
+    oldest_article = 7
     no_styleseets=True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     remove_tags=[dict(name='div', attrs={'class':['bxbanner', 'drukuj', 'wyslijznajomemu']})]
     keep_only_tags=[dict(name='div', attrs={'class':'wiadomosc'})]
     feeds          = [(u'Łomża', u'http://feeds.feedburner.com/4lomza.pl')]

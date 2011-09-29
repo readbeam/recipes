@@ -15,8 +15,8 @@ class ScientificAmerican(BasicNewsRecipe):
     publisher             = 'Nature Publishing Group'
     remove_empty_feeds    = True
     remove_javascript     = True
-    oldest_article        = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     conversion_options = {'linearize_tables'  : True
                         , 'comment'           : description

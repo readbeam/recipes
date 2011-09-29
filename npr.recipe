@@ -5,7 +5,7 @@ class AdvancedUserRecipe1257302745(BasicNewsRecipe):
     oldest_article = 7
     language = 'en'
     __author__ = 'onyxrev'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets = True
 
     remove_tags_before = {'class':'storytitle'}

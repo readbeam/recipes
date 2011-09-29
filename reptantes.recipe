@@ -11,8 +11,8 @@ class Reptantes(BasicNewsRecipe):
     title                 = 'Reptantes'
     __author__            = 'Darko Miletic'
     description           = u"cada vez que te haces acupuntura, tu muñeco vudú sufre en algún lado"
-    oldest_article        = 130
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     language              = 'es_AR'
     encoding              = 'utf-8'
     no_stylesheets        = True

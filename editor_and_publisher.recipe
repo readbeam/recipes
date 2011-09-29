@@ -10,7 +10,7 @@ class EandP(BasicNewsRecipe):
     publisher             = 'Editor and Publisher'
     category              = 'news, journalism, industry'
     language = 'en'
-    max_articles_per_feed = 25
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf8'

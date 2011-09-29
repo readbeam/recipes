@@ -11,13 +11,13 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     remove_javascript     = True
     timefmt        = '[%a, %d %b, %Y]'
     remove_empty_feeds = True
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     remove_attributes = ['width']
     simultaneous_downloads = 5
   #  keep_only_tags =dict(name='div', attrs={'id':'articleContainer'})
     remove_tags = [dict(name='img', attrs={'scr':['images/bizlogo_nl.gif']})]
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     #preprocess_regexps = [
   #      (re.compile(r'<p>&nbsp;</p>', re.DOTALL|re.IGNORECASE), lambda match: '')
 #        ]

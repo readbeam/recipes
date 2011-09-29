@@ -10,9 +10,9 @@ class OurDailyBread(BasicNewsRecipe):
     title                 = 'Our Daily Bread'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = "Our Daily Bread is a daily devotional from RBC Ministries which helps readers spend time each day in God's Word."
-    oldest_article        = 15
+    oldest_article = 7
     language              = 'en'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'ODB, Daily Devotional, Bible, Christian Devotional, Devotional, RBC Ministries, Our Daily Bread, Devotionals, Daily Devotionals, Christian Devotionals, Faith, Bible Study, Bible Studies, Scripture, RBC, religion'

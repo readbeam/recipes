@@ -13,8 +13,8 @@ class MSDNMagazine_en(BasicNewsRecipe):
     description           = 'The Microsoft Journal for Developers'
     publisher             = 'Microsoft Press'
     category              = 'news, IT, Microsoft, programming, windows'
-    oldest_article        = 31
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

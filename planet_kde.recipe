@@ -4,8 +4,8 @@ class BasicUserRecipe1300864518(AutomaticNewsRecipe):
     title          = u'KDE News'
     language = 'en'
     __author__ = 'Riccardo Iaconelli'
-    oldest_article = 10
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
 
     feeds          = [(u'Planet KDE', u'http://planetkde.org/rss20.xml'), (u'Got the Dot?', u'http://dot.kde.org/rss.xml')]
 

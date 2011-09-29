@@ -15,7 +15,7 @@ class cdnet(BasicNewsRecipe):
     __author__ = 'Oliver Niesner'
     use_embedded_content   = False
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 50
+    max_articles_per_feed = 20
     no_stylesheets = True
     encoding = 'utf-8'
     language = 'de'

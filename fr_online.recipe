@@ -22,8 +22,8 @@ class FROnlineRecipe(BasicNewsRecipe):
   use_embedded_content   = False
   remove_javascript      = True
   no_stylesheets         = True
-  oldest_article         = 1   # Increase this number if you're interested in older articles
-  max_articles_per_feed  = 50  # Seems a reasonable number to me
+  oldest_article = 7
+  max_articles_per_feed = 20
   extra_css              = '''
                             body { font-family: "arial", "verdana", "geneva", sans-serif; font-size: 12px; margin: 0px; background-color: #ffffff;}
                             .imgSubline{background-color: #f4f4f4; font-size: 0.8em;}

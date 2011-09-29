@@ -18,7 +18,7 @@ class DziennikInternautowRecipe(BasicNewsRecipe):
 	publisher = u'Dziennik Internaut\u00f3w Sp. z o.o.'
 	description = u'Internet w \u017cyciu i biznesie. Porady, wywiady, interwencje, bezpiecze\u0144stwo w Sieci, technologia.'
 
-	max_articles_per_feed = 100
+	max_articles_per_feed = 20
 	oldest_article = 7
 	cover_url = 'http://di.com.pl/pic/logo_di_norm.gif'
 	

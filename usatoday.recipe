@@ -13,9 +13,9 @@ class USAToday(BasicNewsRecipe):
     title = 'USA Today'
     __author__ = 'Kovid Goyal'
     timefmt  = ''
-    oldest_article         = 1
-    max_articles_per_feed  = 50
-    delay                  = 2
+    oldest_article = 7
+    max_articles_per_feed = 20
+    delay = 1
     language = 'en'
     no_stylesheets = True
     extra_css = '.headline      {text-align:    left;}\n    \

@@ -11,7 +11,7 @@ class GamespotCom(BasicNewsRecipe):
     __author__ = u'Marc T\xf6nsing'
 
     oldest_article = 7
-    max_articles_per_feed = 40
+    max_articles_per_feed = 20
     remove_empty_feeds = True
     no_stylesheets = True
     no_javascript = True

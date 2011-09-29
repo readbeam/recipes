@@ -21,8 +21,8 @@ class Estadao(BasicNewsRecipe):
     publisher             = u'Estad\xe3o'
     category              = 'news, rss'
 
-    oldest_article        = 4
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     summary_length        = 1000
 
     remove_javascript     = True

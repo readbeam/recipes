@@ -7,10 +7,10 @@ class Trouw(BasicNewsRecipe):
     __author__     = u'JvdW'
     description    = u'Trouw de Verdieping'
     oldest_article = 7
-    max_articles_per_feed = 25
+    max_articles_per_feed = 20
     language       = u'nl'
     simultaneous_downloads = 1
-    delay          = 1
+    delay = 1
 #    timefmt        = ' [%A, %d %B, %Y]'
     timefmt        = ''
     no_stylesheets = True

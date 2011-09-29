@@ -17,7 +17,7 @@ class AdvancedUserRecipe1313693926(BasicNewsRecipe):
     __author__ = 'Armin Geller' # 2011-08-19
 
     oldest_article = 7
-    max_articles_per_feed = 50
+    max_articles_per_feed = 20
 
 
     remove_tags = [

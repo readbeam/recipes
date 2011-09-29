@@ -19,8 +19,8 @@ class weblogssl(BasicNewsRecipe):
     category       = 'Gadgets, Tech news, Product reviews, mobiles, science, cinema, entertainment, culture, tv, food, recipes, life style, motor, F1, sports, economy'
     language       = 'es'
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     encoding       = 'utf-8'
     use_embedded_content  = False
     remove_empty_feeds    = True

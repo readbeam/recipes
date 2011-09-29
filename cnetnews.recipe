@@ -13,8 +13,8 @@ class CnetNews(BasicNewsRecipe):
     description           = 'Tech news and business reports by CNET News. Focused on information technology, core topics include computers, hardware, software, networking, and Internet media.'
     publisher             = 'CNET'
     category              = 'news, IT, USA'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

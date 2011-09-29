@@ -23,8 +23,8 @@ class PuntoInformatico(BasicNewsRecipe):
     language       = 'it'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 15
-    max_articles_per_feed = 50
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content  = False
 
     remove_javascript  = True

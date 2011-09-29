@@ -15,8 +15,8 @@ class Tanjug(BasicNewsRecipe):
     description           = 'Novinska agencija TANJUG - Dnevne vesti iz Srbije i sveta'
     publisher             = 'Tanjug'
     category              = 'news, politics, Serbia'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     use_embedded_content  = True
     encoding              = 'utf-8'
     lang                  = 'sr-Latn-RS'

@@ -13,8 +13,8 @@ class Danas(BasicNewsRecipe):
     description           = 'Novinska Agencija'
     publisher             = 'Beta'
     category              = 'news, politics, Serbia'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = False
     use_embedded_content  = True
     language              = 'sr'

@@ -12,8 +12,8 @@ class LaRioja(BasicNewsRecipe):
     description           = 'Noticias de La Rioja y el resto del mundo'
     publisher             = 'La Rioja'
     category              = 'news, politics, Spain'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

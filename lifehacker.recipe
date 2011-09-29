@@ -20,7 +20,7 @@ class LifeHacker(BasicNewsRecipe):
     author                = u'Adam Pash & Kevin Purdy & Adam Dachis & Whitson Gordon & Gina Trapani'
     category              = 'news, rss'
 
-    oldest_article        = 4
+    oldest_article = 7
     max_articles_per_feed = 20
     summary_length        = 1000
 

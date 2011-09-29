@@ -5,8 +5,8 @@ class AdvancedUserRecipe1294938721(BasicNewsRecipe):
      language = 'en'
      __author__ = 'Jason Cameron'
      description  = 'Daily news from the Wichita Eagle'
-     oldest_article = 1
-     max_articles_per_feed = 30
+     oldest_article = 7
+     max_articles_per_feed = 20
      keep_only_tags = [dict(name='div', attrs={'id':'wide'})]
      feeds          = [
                                  (u'Local News',

@@ -17,10 +17,10 @@ class CNN(BasicNewsRecipe):
 
     no_stylesheets = True
     use_embedded_content   = False
-    oldest_article        = 15
+    oldest_article = 7
     #recursions = 1
     #match_regexps = [r'http://sportsillustrated.cnn.com/.*/[1-9].html']
-    max_articles_per_feed = 25
+    max_articles_per_feed = 20
 
     preprocess_regexps = [
         (re.compile(r'<!--\[if.*if\]-->', re.DOTALL), lambda m: ''),
