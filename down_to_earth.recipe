@@ -3,9 +3,9 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class AdvancedUserRecipe1307834113(BasicNewsRecipe):
 
     title          = u'Down To Earth'
-    oldest_article = 7
+    oldest_article = 300
     __author__ = 'sexymax15'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript     = True
     remove_attributes = ['width','height']

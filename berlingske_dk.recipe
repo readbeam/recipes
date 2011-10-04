@@ -13,8 +13,8 @@ class Berlingske_dk(BasicNewsRecipe):
     description           = 'News from Denmark'
     publisher             = 'berlingske.dk'
     category              = 'news, politics, Denmark'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     remove_empty_feeds    = True
     use_embedded_content  = False

@@ -12,7 +12,7 @@ class MSNSankeiNewsProduct(BasicNewsRecipe):
     __author__      = 'Hiroshi Miura'
     description     = 'Products release from Japan'
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     encoding       = 'utf-8'
     language       = 'ja'
     cover_url       = 'http://sankei.jp.msn.com/images/common/sankeShinbunLogo.jpg'

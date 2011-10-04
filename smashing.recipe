@@ -12,9 +12,9 @@ class SmashingMagazine(BasicNewsRecipe):
     title                 = 'Smashing Magazine'
     __author__            = 'Darko Miletic'
     description           = 'We smash you with the information that will make your life easier, really'
-    oldest_article = 7
+    oldest_article        = 20
     language              = 'en'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     publisher             = 'Smashing Magazine'

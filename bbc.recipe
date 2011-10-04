@@ -10,10 +10,10 @@ class BBC(BasicNewsRecipe):
     title                  = 'BBC News'
     __author__             = 'Darko Miletic, Starson17'
     description            = 'News from UK. '
-    oldest_article = 7
-    max_articles_per_feed = 20
-    delay = 1
+    oldest_article         = 2
+    max_articles_per_feed  = 100
     no_stylesheets         = True
+    #delay                  = 1
     use_embedded_content   = False
     encoding               = 'utf8'
     publisher              = 'BBC'
@@ -36,8 +36,9 @@ class BBC(BasicNewsRecipe):
                         ]
 
     remove_tags = [
-                       dict(name='div', attrs={'class':['story-feature related narrow', 'share-help', 'embedded-hyper', \
-                       'story-feature wide ', 'story-feature narrow']})
+                       dict(name='div', attrs={'class':['story-feature related narrow', 'share-help', 'embedded-hyper',
+                                                    'story-feature wide ', 'story-feature narrow']}),
+                       dict(id=['hypertab', 'comment-form']),
                         ]
 
     remove_attributes = ['width','height']

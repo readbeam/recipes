@@ -6,10 +6,10 @@ class Gry_online_pl(BasicNewsRecipe):
     description   = 'Gry-Online.pl - computer games'
     category       = 'games'
     language       = 'pl'
-    oldest_article = 7
+    oldest_article = 13
     INDEX= 'http://www.gry-online.pl/'
     cover_url='http://www.gry-online.pl/img/1st_10/1st-gol-logo.png'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets= True
     extra_css              = 'p.wn1{font-size:22px;}'
     remove_tags_after= [dict(name='div', attrs={'class':['tresc-newsa']})]

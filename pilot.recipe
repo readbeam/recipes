@@ -4,8 +4,8 @@ class PilotOnline(BasicNewsRecipe):
     title          = u'Pilot Online'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 120 #days
+    max_articles_per_feed = 25
 
 
     no_stylesheets = True

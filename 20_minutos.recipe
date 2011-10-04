@@ -19,8 +19,8 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     description           = 'Free spanish newspaper'
     cover_url     = 'http://estaticos.20minutos.es/mmedia/especiales/corporativo/css/img/logotipos_grupo20minutos.gif'
 
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 2
+    max_articles_per_feed = 100
 
     remove_javascript = True
     no_stylesheets        = True

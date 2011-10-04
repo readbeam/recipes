@@ -11,8 +11,8 @@ class MichelleMalkin(BasicNewsRecipe):
     __author__     = 'Walt Anthony'
     publisher             = 'Michelle Malkin LLC'
     category              = 'news, politics, USA'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 7 #days
+    max_articles_per_feed = 50
     summary_length        = 150
     language              = 'en'
 

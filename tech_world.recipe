@@ -25,8 +25,8 @@ class techworld(BasicNewsRecipe):
     language       = 'en'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 7
+    max_articles_per_feed = 15
     use_embedded_content  = False
     recursion             = 10
 

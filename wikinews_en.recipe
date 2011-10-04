@@ -13,8 +13,8 @@ class WikiNews(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     description           = 'News from wikipedia'
     category              = 'news, world'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 7
+    max_articles_per_feed = 100
     publisher             = 'Wiki'
     no_stylesheets        = True
     use_embedded_content  = False

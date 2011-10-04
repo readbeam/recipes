@@ -11,8 +11,8 @@ class NursingTimes(BasicNewsRecipe):
     title                  = 'Nursing Times'
     __author__             = 'Darko Miletic'
     description            = 'Nursing practice, NHS and health care news'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article         = 8
+    max_articles_per_feed  = 100
     no_stylesheets         = True
     use_embedded_content   = False
     encoding               = 'utf-8'

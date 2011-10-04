@@ -20,7 +20,7 @@ class MalaysianMirror(BasicNewsRecipe):
     category            = 'news'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article = 7
+    oldest_article      = 24
 
     remove_javascript   = True
     remove_empty_feeds  = True
@@ -39,7 +39,7 @@ class MalaysianMirror(BasicNewsRecipe):
     #######################################################################################################################
 
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 10
 
     '''
     Make a variable that will hold the url for the main site because our links do not include the index

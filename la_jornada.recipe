@@ -14,8 +14,8 @@ class LaJornada_mx(BasicNewsRecipe):
     description           = 'Noticias del diario mexicano La Jornada'
     publisher             = 'DEMOS, Desarrollo de Medios, S.A. de C.V.'
     category              = 'news, Mexico'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 2
+    max_articles_per_feed = 200
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

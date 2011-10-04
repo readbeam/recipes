@@ -21,7 +21,7 @@ class ProstAmerika(BasicNewsRecipe):
     category = 'Sports'
 
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
 
     cover_url = 'http://img17.imageshack.us/img17/9498/prostamerika.jpg'
     masthead_url = 'http://www.prostamerika.com/soundersfc/wp-content/uploads/2011/02/PASoccer_taglinewhole.jpg'

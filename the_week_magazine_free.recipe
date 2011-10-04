@@ -15,8 +15,8 @@ class TheWeek(BasicNewsRecipe):
     masthead_url           = 'http://test.theweek.com/images/logo_theweek.gif'
     cover_url              = masthead_url
     category              = 'news, politics, USA'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

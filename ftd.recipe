@@ -16,7 +16,7 @@ class FTDe(BasicNewsRecipe):
     use_embedded_content   = False
     timefmt = ' [%d %b %Y]'
     language = 'de'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 40
     no_stylesheets = True
 
     remove_tags = [dict(id='navi_top'),

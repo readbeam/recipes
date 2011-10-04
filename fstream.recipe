@@ -10,13 +10,13 @@ class FIELDSTREAM(BasicNewsRecipe):
     category            = 'food recipes, hunting, fishing, guns'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article = 7
+    oldest_article      = 24
     remove_javascript   = True
     remove_empty_feeds  = True
     masthead_url        = 'http://www.fieldandstream.com/sites/all/themes/fs/logo.png'
     cover_url           = 'http://www.arrowheadflyangler.com/Portals/1/Articles/FieldStream/Field%20and%20Stream%20March%20Fishing%20Edition%20Article%20Cover.jpg'
     # recursions          = 0
-    max_articles_per_feed = 20
+    max_articles_per_feed = 10
     INDEX = 'http://www.fieldandstream.com'
 
     keep_only_tags     = [dict(name='div', attrs={'class':['interior-main']})

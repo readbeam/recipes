@@ -19,8 +19,8 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     description           = 'BBC World for spanish readers'
 
     cover_url     = 'http://1.bp.blogspot.com/_NHiOjk_uZwU/TEYy7IJAdAI/AAAAAAAABP8/coAE-pJ7_5E/s1600/bbcmundo_h.png'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 2
+    max_articles_per_feed = 100
 
     remove_javascript = True
     no_stylesheets        = True

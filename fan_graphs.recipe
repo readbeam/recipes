@@ -10,8 +10,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class FanGraphs(BasicNewsRecipe):
     title = u'FanGraphs'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 21
+    max_articles_per_feed = 100
     no_stylesheets = True
     #delay = 1
     use_embedded_content = False

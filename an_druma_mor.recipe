@@ -4,7 +4,7 @@ class AnDrumaMor(BasicNewsRecipe):
     title          = u'An Druma M\xf3r'
     __author__ = "David O'Callaghan"
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     language = 'ga'
     use_embedded_content = True
 

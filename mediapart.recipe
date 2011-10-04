@@ -15,7 +15,7 @@ class Mediapart(BasicNewsRecipe):
     language = 'fr'
     needs_subscription = True
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 50
     no_stylesheets = True
 
     cover_url = 'http://www.mediapart.fr/sites/all/themes/mediapart/mediapart/images/annonce.jpg'

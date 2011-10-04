@@ -10,14 +10,14 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     simultaneous_downloads = 5
     remove_javascript     = True
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 7
+    oldest_article = 1
     keep_only_tags =dict(name='div', attrs={'id':'content'})
     remove_attributes = ['width','float','margin-left']
     no_stylesheets        = True
     remove_tags = [dict(name='div', attrs={'class':['social-nav article-social-nav','prsnlArticleEnvelope','cb']}) ,
                             dict(name='a', attrs={'href':['/misc/mobile']})  ,
                             dict(name='span', attrs={'class':['post-summ']}) ]
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     extra_css='body{direction: rtl;} .article_description{direction: rtl; } a.article{direction: rtl; } .calibre_feed_description{direction: rtl; }'
     feeds          = [(u'Head Lines', u'http://www.themarker.com/cmlink/1.144'),
                       (u'TA Market', u'http://www.themarker.com/cmlink/1.243'),

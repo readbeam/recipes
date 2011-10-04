@@ -10,9 +10,9 @@ class AdvancedUserRecipe1311446032(BasicNewsRecipe):
     description           = 'News from Sweden'
     publisher             = 'Corren'
     category              = 'news, politics, Sweden'
-    oldest_article = 7
-    delay = 1
-    max_articles_per_feed = 20
+    oldest_article        = 2
+    delay                 = 1
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'iso-8859-1'

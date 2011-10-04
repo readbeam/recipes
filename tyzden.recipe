@@ -33,8 +33,8 @@ class TyzdenRecipe(BasicNewsRecipe):
     base_url_path = 'http://www.tyzden.sk/casopis/' + str(year) + '/' + str(weeknum)
     base_url = base_url_path + '.html'
 
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 20
+    max_articles_per_feed = 100
     remove_javascript = True
 
     use_embedded_content    = False

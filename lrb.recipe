@@ -13,8 +13,8 @@ class LondonReviewOfBooks(BasicNewsRecipe):
     description           = 'Literary review publishing essay-length book reviews and topical articles on politics, literature, history, philosophy, science and the arts by leading writers and thinkers'
     category              = 'news, literature, UK'
     publisher             = 'LRB ltd.'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 15
+    max_articles_per_feed = 100
     language              = 'en_GB'
     no_stylesheets        = True
     use_embedded_content  = False

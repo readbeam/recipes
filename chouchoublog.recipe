@@ -10,7 +10,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class SakuraBlog(BasicNewsRecipe):
     title          = u'chou chou blog'
     __author__     = 'Hiroshi Miura'
-    oldest_article = 7
+    oldest_article = 4
     publication_type = 'blog'
     max_articles_per_feed = 20
     description    = 'Japanese popular dog blog'

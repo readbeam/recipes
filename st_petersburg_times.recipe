@@ -15,7 +15,7 @@ class PetersburgTimes(BasicNewsRecipe):
     description           = 'News from Russia'
     publisher             = 'sptimes.ru'
     category              = 'news, politics, Russia'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets        = True
     remove_javascript     = True
     encoding              = 'cp1251'

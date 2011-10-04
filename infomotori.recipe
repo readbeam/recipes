@@ -14,8 +14,8 @@ class infomotori(BasicNewsRecipe):
     author         = 'Gabriele Marini'
     title          = u'Infomotori'
     cover          = 'http://www.infomotori.com/content/files/anniversario_01.gif'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 31
+    max_articles_per_feed = 100
     recursion             = 100
     use_embedded_content  = False
 

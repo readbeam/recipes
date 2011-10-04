@@ -15,8 +15,8 @@ class MiradasAlSur(BasicNewsRecipe):
     description           = 'Revista Argentina'
     publisher             = 'ElArgentino.com'
     category              = 'news, politics, Argentina'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

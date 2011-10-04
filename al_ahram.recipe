@@ -10,10 +10,10 @@ class AlAhram(BasicNewsRecipe):
     title                  = 'Al-Ahram'
     __author__             = 'Hassan Williamson'
     description            = 'News from Egypt in Arabic.'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article         = 7
+    max_articles_per_feed  = 100
     no_stylesheets         = True
-    #delay = 1
+    #delay                 = 1
     use_embedded_content   = False
     encoding               = 'utf8'
     publisher              = 'Al-Ahram'

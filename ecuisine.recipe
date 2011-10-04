@@ -14,9 +14,9 @@ class EcuisineRo(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Reinventeaz\u0103 pl\u0103cerea de a g\u0103ti'
     publisher             = 'eCuisine'
-    oldest_article = 7
+    oldest_article        = 50
     language              = 'ro'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'Ziare,Retete,Bucatarie'

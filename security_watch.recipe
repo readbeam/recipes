@@ -6,8 +6,8 @@ class SecurityWatch(BasicNewsRecipe):
     timefmt  = ' [%d %b %Y]'
     __author__ = 'Oliver Niesner'
     no_stylesheets = True
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 14
+    max_articles_per_feed = 100
     use_embedded_content = False
     filter_regexps = [r'feedads\.googleadservices\.com']
     filter_regexps = [r'ad\.doubleclick']

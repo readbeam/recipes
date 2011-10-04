@@ -5,7 +5,7 @@ class CapesnBabesRecipe(BasicNewsRecipe):
     language       = 'en'
     description = 'The Capes n Babes comic Blog'
     __author__     = 'skyhawker'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 31
+    max_articles_per_feed = 100
     use_embedded_content = True
     feeds          = [(u'Capes & Babes', u'feed://www.capesnbabes.com/feed/')]

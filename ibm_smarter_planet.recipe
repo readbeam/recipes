@@ -8,8 +8,8 @@ class AdvancedUserRecipe1293122276(BasicNewsRecipe):
     publisher             = 'IBM'
     language = 'en'
     category              = 'news, technology, IT, internet of things, analytics'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 14
+    max_articles_per_feed = 30
     no_stylesheets = True
     use_embedded_content = False
     masthead_url          = 'http://www.hellercd.com/wp-content/uploads/2010/09/hero.jpg'

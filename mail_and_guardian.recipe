@@ -5,7 +5,7 @@ class AdvancedUserRecipe1295081935(BasicNewsRecipe):
      __author__     = '77ja65'
      language = 'en_ZA'
      oldest_article = 7
-     max_articles_per_feed = 20
+     max_articles_per_feed = 30
      no_stylesheets = True
      masthead_url          =  'http://c1608832.cdn.cloudfiles.rackspacecloud.com/mg_logo.gif'
      remove_tags_after = [dict(id='content')]

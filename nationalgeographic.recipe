@@ -11,7 +11,7 @@ class NationalGeographicNews(BasicNewsRecipe):
     title          = u'National Geographic News'
     oldest_article = 7
     language = 'en'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     remove_javascript = True
     no_stylesheets = True
     use_embedded_content = False

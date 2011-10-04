@@ -8,7 +8,7 @@ class Cyberpresse(BasicNewsRecipe):
     language = 'fr'
 
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets = True
     remove_javascript     = True
     html2lrf_options = ['--left-margin=0','--right-margin=0','--top-margin=0','--bottom-margin=0']

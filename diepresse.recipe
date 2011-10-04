@@ -23,8 +23,8 @@ class DiePresseRecipe(BasicNewsRecipe):
     language = 'de'
 
     recursions = 0
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 1
+    max_articles_per_feed = 100
   
     html2lrf_options = [
                           '--comment'  , description

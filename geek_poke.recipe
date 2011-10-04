@@ -7,11 +7,11 @@ class AdvancedUserRecipe1307556816(BasicNewsRecipe):
     title          = u'Geek and Poke'
     __author__     = u'DrMerry'
     description    = u'Geek and Poke Cartoons'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 31
+    max_articles_per_feed = 100
     language       = u'en'
     simultaneous_downloads = 5
-    #delay = 1
+    #delay          = 1
     timefmt        = ' [%A, %d %B, %Y]'
     summary_length = -1
     no_stylesheets = True

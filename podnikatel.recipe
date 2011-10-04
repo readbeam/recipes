@@ -9,8 +9,8 @@ class PodnikatelCZ(BasicNewsRecipe):
     __version__             = '1.0'
     __date__                = '30 April 2011'
     description             = u'Aktuality a \u010dl\xe1nky z Podnikatel.cz'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article          = 1
+    max_articles_per_feed   = 10
     encoding                = 'utf8'
     publisher               = 'Internet Info s.r.o.'
     category                = 'podnikani, bussiness, CZ'

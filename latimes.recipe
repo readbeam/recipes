@@ -12,8 +12,8 @@ class LATimes(BasicNewsRecipe):
     description           = 'The Los Angeles Times is a leading source of news on Southern California, entertainment, movies, television, music, politics, business, health, technology, travel, sports, environment, economics, autos, jobs, real estate and other topics affecting California'
     publisher             = 'Tribune Company'
     category              = 'news, politics, USA, Los Angeles, world'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 2
+    max_articles_per_feed = 200
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False
@@ -46,7 +46,9 @@ class LATimes(BasicNewsRecipe):
     remove_tags_after=dict(name='p', attrs={'class':'copyright'})
     remove_tags = [
                      dict(name=['meta','link','iframe','object','embed'])
-                    ,dict(attrs={'class':['toolSet','articlerail','googleAd','entry-footer-left','entry-footer-right','entry-footer-social','google-ad-story-bottom','sphereTools']})
+                    ,dict(attrs={'class':['toolSet','articlerail','googleAd','entry-footer-left',
+                        'entry-footer-right','entry-footer-social','google-ad-story-bottom',
+                        'sphereTools', 'nextgen-share-tools']})
                     ,dict(attrs={'id':['article-promo','googleads','moduleArticleToolsContainer','gallery-subcontent']})
                   ]
     remove_attributes=['lang','xmlns:fb','xmlns:og','border','xtags','i','article_body']

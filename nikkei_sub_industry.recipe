@@ -18,7 +18,7 @@ class NikkeiNet_sub_industory(BasicNewsRecipe):
     cover_url       = 'http://parts.nikkei.com/parts/ds/images/common/logo_r1.svg'
     masthead_url    = 'http://parts.nikkei.com/parts/ds/images/common/logo_r1.svg'
     needs_subscription = True
-    oldest_article = 7
+    oldest_article  = 2
     max_articles_per_feed = 20
     language        = 'ja'
     remove_javascript = False

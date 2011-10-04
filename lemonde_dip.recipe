@@ -15,8 +15,8 @@ class LeMondeDiplomatiqueEn(BasicNewsRecipe):
     publisher              = 'Le Monde diplomatique'
     category               = 'news, politics, world'
     no_stylesheets         = True
-    oldest_article = 7
-    delay = 1
+    oldest_article         = 31
+    delay                  = 1
     encoding               = 'utf-8'
     needs_subscription     = True
     masthead_url           = 'http://mondediplo.com/squelettes/pics/logo-30.gif'

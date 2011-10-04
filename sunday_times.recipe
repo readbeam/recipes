@@ -14,12 +14,12 @@ class TimesOnline(BasicNewsRecipe):
     language              = 'en_GB'
     publisher             = 'Times Newspapers Ltd'
     category              = 'news, politics, UK'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 3
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'
-    delay = 1
+    delay                 = 1
     needs_subscription    = True
     publication_type      = 'newspaper'
     masthead_url          = 'http://www.thesundaytimes.co.uk/sto/public/images/logos/logo-home.gif'

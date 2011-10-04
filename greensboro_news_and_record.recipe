@@ -11,8 +11,8 @@ class NewsandRecord(BasicNewsRecipe):
     __author__     = 'Walt Anthony'
     publisher             = 'News & Record and Landmark Media Enterprises, LLC'
     category              = 'news, USA'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 3 #days
+    max_articles_per_feed = 25
     summary_length        = 150
     language              = 'en'
     encoding              = 'utf-8'

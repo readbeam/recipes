@@ -8,8 +8,8 @@ class TechnologyReview(BasicNewsRecipe):
     publisher = 'Technology Review Inc.'
     category = 'Technology, Innovation, R&D'
     language = 'en'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 14
+    max_articles_per_feed = 100
     No_stylesheets = True
     extra_css = """
     .ArticleBody {font: normal; text-align: justify}

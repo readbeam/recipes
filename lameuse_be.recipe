@@ -15,7 +15,7 @@ class LaMeuse(BasicNewsRecipe):
     description           = u'News from Belgium in French'
     publisher             = u'lameuse.be'
     category              = 'news, Belgium'
-    oldest_article = 7
+    oldest_article        = 3
     language              = 'fr'
     masthead_url          = 'http://www.lameuse.be/images/SPV3/logo_header_LM.gif'
 

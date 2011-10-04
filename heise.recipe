@@ -16,7 +16,7 @@ class heiseDe(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'de'
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 40
     no_stylesheets = True
 
     extra_css = '''

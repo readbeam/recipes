@@ -26,8 +26,8 @@ class pcMag(BasicNewsRecipe):
     encoding       = 'cp1252'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 15
+    max_articles_per_feed = 25
     use_embedded_content  = False
     recursion             = 10
 

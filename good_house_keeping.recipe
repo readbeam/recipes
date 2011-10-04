@@ -5,7 +5,7 @@ class AdvancedUserRecipe1305547242(BasicNewsRecipe):
     language = 'en'
     __author__ = 'Anonymous'
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets         = True
     use_embedded_content   = False
     remove_javascript      = True

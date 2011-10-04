@@ -5,8 +5,8 @@ class SmithsonianMagazine(BasicNewsRecipe):
     title          = u'Smithsonian Magazine'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 31#days
+    max_articles_per_feed = 50
     use_embedded_content = False
     #encoding = 'latin1'
     recursions = 1

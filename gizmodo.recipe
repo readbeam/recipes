@@ -13,8 +13,8 @@ class Gizmodo(BasicNewsRecipe):
     description           = "Gizmodo, the gadget guide. So much in love with shiny new toys, it's unnatural."
     publisher             = 'gizmodo.com'
     category              = 'news, IT, Internet, gadgets'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = True

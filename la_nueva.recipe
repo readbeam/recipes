@@ -19,8 +19,8 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     description           = 'Diario independiente de Asturias'
     cover_url     = 'http://estaticos00.lne.es//elementosWeb/mediaweb/images/iconos/logo2.jpg'
 
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 3
+    max_articles_per_feed = 100
 
     remove_javascript = True
     no_stylesheets        = True

@@ -16,8 +16,8 @@ class NewsMoldova(BasicNewsRecipe):
     description           = u'Agen\u0163ia de \u015ftiri Moldova'
     publisher             = 'Moldova'
     category              = 'Ziare,Stiri,Moldova'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 5
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

@@ -5,8 +5,8 @@ class SGhu(BasicNewsRecipe):
     __author__     = 'davotibarna'
     description    = u'Informatika \xe9s Tudom\xe1ny'
     language = 'hu'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 5
+    max_articles_per_feed = 100
     no_stylesheets = True
     encoding = 'ISO-8859-2'
 

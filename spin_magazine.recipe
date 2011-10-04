@@ -5,7 +5,7 @@ class AdvancedUserRecipe1296179411(BasicNewsRecipe):
     __author__     = 'Quistopher'
     language = 'en'
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
 
     feeds          = [
 			(u'Daily Noise Blog | SPIN.com', u'http://www.spin.com/blog/feed'),

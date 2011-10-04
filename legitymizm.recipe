@@ -14,7 +14,7 @@ class Legitymizm(BasicNewsRecipe):
     language = 'pl'
     oldest_article = 7
     __author__ = u'Tomasz D\u0142ugosz'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     cover_url      = 'http://www.legitymizm.org/img_omp/logo.gif'
     no_stylesheets = True
 

@@ -15,9 +15,9 @@ class SBNation(BasicNewsRecipe):
     title    = u'SBNation'
     __author__ = 'rylsfan'
     description           = u"More than 290 individual communities, each offering high quality year-round coverage and conversation led by fans who are passionate."
-    oldest_article = 7
+    oldest_article        = 3
     language = 'en'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
 

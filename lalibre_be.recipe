@@ -15,7 +15,7 @@ class LaLibre(BasicNewsRecipe):
     description           = u'News from Belgium in French'
     publisher             = u'lalibre.be'
     category              = 'news, Belgium'
-    oldest_article = 7
+    oldest_article        = 3
     language              = 'fr'
     masthead_url          = 'http://www.lalibre.be/img/logoLaLibre.gif'
 

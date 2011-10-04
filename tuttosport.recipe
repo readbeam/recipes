@@ -22,7 +22,7 @@ class tuttosport(BasicNewsRecipe):
     language       = 'it'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 7
+    oldest_article = 2
     max_articles_per_feed = 20
     use_embedded_content  = False
     recursion             = 10

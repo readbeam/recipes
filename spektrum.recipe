@@ -3,7 +3,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
     title          = u'Spektrum (der Wissenschaft)'
     __author__  = 'schuster'
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
     language               = 'de'
     cover_url = 'http://upload.wikimedia.org/wikipedia/de/3/3b/Spektrum_der_Wissenschaft_Logo.svg'
 

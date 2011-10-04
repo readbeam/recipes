@@ -22,7 +22,7 @@ class OSNewsRecipe(BasicNewsRecipe):
     use_embedded_content = False;
 
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 100
 
     extra_css = '''
         .news-heading {font-size:150%}

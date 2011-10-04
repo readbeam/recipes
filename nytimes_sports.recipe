@@ -27,8 +27,8 @@ class NYTimesSports(BasicNewsRecipe):
     description = 'Indepth sports from the New York Times'
     publisher = 'The New York Times'
     category = 'Sports'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article = 3
+    max_articles_per_feed = 25
     no_stylesheets = True
     language = 'en'
     #cover_url ='http://bit.ly/h8F4DO'

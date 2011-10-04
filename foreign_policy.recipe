@@ -12,8 +12,8 @@ class ForeignPolicy(BasicNewsRecipe):
     description           = 'International News'
     publisher             = 'Washingtonpost.Newsweek Interactive, LLC'
     category              = 'news, politics, USA'
-    oldest_article = 7
-    max_articles_per_feed = 20
+    oldest_article        = 31
+    max_articles_per_feed = 200
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False
