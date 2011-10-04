@@ -10,7 +10,7 @@ class NovinkyCZ(BasicNewsRecipe):
     __date__                = '30 April 2011'
     description             = 'News from server Novinky.cz'
     oldest_article          = 1
-    max_articles_per_feed   = 10
+    max_articles_per_feed = 30
     encoding                = 'utf8'
     publisher               = 'Novinky'
     category                = 'news, CZ'

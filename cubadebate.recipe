@@ -12,7 +12,7 @@ class CubaDebate(BasicNewsRecipe):
     description           = 'Contra el Terorismo Mediatico'
     oldest_article        = 15
     language              = 'es_CU'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     publisher             = 'Cubadebate'

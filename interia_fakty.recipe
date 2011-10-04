@@ -17,7 +17,7 @@ class InteriaFakty(BasicNewsRecipe):
     simultaneous_downloads = 2
     no_stylesheets = True
     remove_javascript = True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'Kraj', u'http://kanaly.rss.interia.pl/kraj.xml'),
                       (u'\u015awiat', u'http://kanaly.rss.interia.pl/swiat.xml'), 

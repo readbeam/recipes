@@ -16,7 +16,7 @@ class AccountancyAge(BasicNewsRecipe):
     publisher              = 'accountancyage.com'
     category               = 'news, politics, finances'
     oldest_article         = 2
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     simultaneous_downloads = 1

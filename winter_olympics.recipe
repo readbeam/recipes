@@ -20,7 +20,7 @@ class Olympics_2010(BasicNewsRecipe):
     remove_javascript = True
     # recursions = 3
     oldest_article        = 7
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
 
     keep_only_tags = [dict(name='div', attrs={'class':['Article ','ArticleGallery']}),
                       ]

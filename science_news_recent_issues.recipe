@@ -20,7 +20,7 @@ class ScienceNewsIssue(BasicNewsRecipe):
     publisher             = u'Society for Science & the Public'
     oldest_article        = 30
     language = 'en'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%A, %d %B, %Y]'

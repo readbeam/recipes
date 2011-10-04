@@ -14,7 +14,7 @@ class ElComercio(BasicNewsRecipe):
     publisher             = 'GRUPO EL COMERCIO C.A.'
     category              = 'news, Ecuador, politics'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = True

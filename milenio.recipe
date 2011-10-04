@@ -15,7 +15,7 @@ class Milenio(BasicNewsRecipe):
     language              = 'es_MX'
     description           = 'Milenio-diario'
     oldest_article        = 10
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = False
     index                 = 'http://impreso.milenio.com'
 

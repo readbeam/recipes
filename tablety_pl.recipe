@@ -8,5 +8,5 @@ class Tablety_pl(BasicNewsRecipe):
     category       = 'IT'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     feeds          = [(u'Najnowsze posty', u'http://www.tablety.pl/feed/')]

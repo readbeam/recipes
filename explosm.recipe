@@ -11,7 +11,7 @@ class Explosm(BasicNewsRecipe):
     oldest_article    = 24
     remove_javascript   = True
     remove_empty_feeds  = True
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
 
     feeds = [
              (u'Explosm Feed', u'http://feeds.feedburner.com/Explosm')

@@ -7,7 +7,7 @@ class DaytonBeachNewsJournal(BasicNewsRecipe):
     description           = 'Daytona Beach, Florida, Newspaper'
     category              = 'News, Daytona Beach, Florida'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript = True
     use_embedded_content   = False
     no_stylesheets = True

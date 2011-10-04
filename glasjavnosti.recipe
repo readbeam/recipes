@@ -14,7 +14,7 @@ class GlasJavnosti(BasicNewsRecipe):
     publisher             = 'Glas Javnosti'
     category              = 'news, politics, Serbia'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = False
     use_embedded_content  = False
     language              = 'sr'

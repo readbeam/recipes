@@ -10,7 +10,7 @@ class BrasilDeFato(BasicNewsRecipe):
     publisher             = u'SOCIEDADE EDITORIAL BRASIL DE FATO'
     category              = 'news, politics, Brazil, rss, Portuguese'
     oldest_article = 10
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     summary_length        = 1000
     language              = 'pt_BR'
 

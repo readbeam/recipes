@@ -12,7 +12,7 @@ class Futurismic(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     description           = 'Near-future science fiction and fact since 2001'
     oldest_article        = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'en'
     encoding              = 'utf-8'
     no_stylesheets        = True

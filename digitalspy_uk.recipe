@@ -14,7 +14,7 @@ class DigitalSpyUK(BasicNewsRecipe):
     publisher             = 'Digital Spy Limited.'
     category              = 'news, showbiz, big brother, x factor, torchwood, doctor who, tv, media, sky, freeview, cable'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

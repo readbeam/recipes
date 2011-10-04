@@ -5,7 +5,7 @@ class Tijolaco(BasicNewsRecipe):
     __author__             = u'Diniz Bortolotto'
     description            = u'Posts do Blog Tijola\xe7o.com'
     oldest_article         = 7
-    max_articles_per_feed  = 50
+    max_articles_per_feed = 30
     encoding               = 'utf8'
     publisher              = u'Brizola Neto'
     category               = 'politics, Brazil'

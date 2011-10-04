@@ -17,7 +17,7 @@ class Hoy(BasicNewsRecipe):
     publisher             = 'HOY'
     category              = 'news, politics, Spain, Extremadura'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     delay                 = 1

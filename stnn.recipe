@@ -12,7 +12,7 @@ class SingtaoSTNN(BasicNewsRecipe):
     __author__             = 'Larry Chan, larry1chan'
     description            = 'Chinese News'
     oldest_article         = 2
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     simultaneous_downloads = 5
     no_stylesheets         = True
     #delay                  = 1

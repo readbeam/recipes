@@ -8,7 +8,7 @@ class Dzieje(BasicNewsRecipe):
     category       = 'history'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript=True
     no_stylesheets= True
     remove_tags_before= dict(name='h1', attrs={'class':'title'})

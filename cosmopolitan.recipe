@@ -22,7 +22,7 @@ class General(BasicNewsRecipe):
     conversion_options = {'linearize_tables': True}
 
     oldest_article        = 180
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     keep_only_tags = [
              dict(id=['contenido']),
              dict(name='td', attrs={'class':['contentheading', 'txt_articulo']})

@@ -15,7 +15,7 @@ class SCMP(BasicNewsRecipe):
     category              = 'SCMP, Online news, Hong Kong News, China news, Business news, English newspaper, daily newspaper, Lifestyle news, Sport news, Audio Video news, Asia news, World news, economy news, investor relations news, RSS Feeds'
     oldest_article        = 2
     delay                 = 1
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

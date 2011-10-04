@@ -10,7 +10,7 @@ class MMCRTV(BasicNewsRecipe):
     __author__ = u'BlonG'
     description = u"Prvi interaktivni multimedijski portal, MMC RTV Slovenija"
     oldest_article = 3
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     language = 'sl'
     no_stylesheets = True
     use_embedded_content = False

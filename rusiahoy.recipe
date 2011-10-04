@@ -13,7 +13,7 @@ class RusiaHoy(BasicNewsRecipe):
     publisher             = 'rusiahoy.com'
     category              = 'news, politics, Russia'
     oldest_article        = 7
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

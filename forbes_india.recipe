@@ -8,7 +8,7 @@ class AdvancedUserRecipe1276934715(BasicNewsRecipe):
     publisher             = 'Forbes India'
     category              = 'Business News, Economy, India'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript = True
     use_embedded_content   = False
     no_stylesheets = True

@@ -15,7 +15,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
     use_embedded_content = False
     remove_empty_feeds = True
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     no_stylesheets = True
     remove_javascript = True
@@ -100,7 +100,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
                                         day = int(dateParts[0]), hour = int(timeParts[0]),
                                         minute = int(timeParts[1]))
 
-            if self.pubTime >= self.minTime and self.articleCount <= self.max_articles_per_feed:
+            if self.pubTime >= self.minTime and self.articleCount <= self.max_articles_per_feed = 30
                 articles.append({'title': title, 'date': self.pubTime, 'url': url, 'description': description})
                 self.articleCount += 1
             else:

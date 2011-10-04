@@ -16,7 +16,7 @@ class GlasSrpske(BasicNewsRecipe):
     publisher             = 'GLAS SRPSKE'
     category              = 'Novine, Dnevne novine, Vijesti, Novosti, Ekonomija, Sport, Crna Hronika, Banja Luka,, Republika Srpska, Bosna i Hercegovina'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

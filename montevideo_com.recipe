@@ -21,7 +21,7 @@ class Noticias(BasicNewsRecipe):
     no_stylesheets = True
 
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     keep_only_tags = [dict(id=['txt'])]
     remove_tags = [
              dict(name=['object','link'])

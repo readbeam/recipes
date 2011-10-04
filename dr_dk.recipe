@@ -13,7 +13,7 @@ class dr_dk(BasicNewsRecipe):
     publisher             = 'Nyhedsbureauet DR Nyheder'
     category              = 'news, politics, Denmark'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     delay                 = 1
     encoding              = 'utf8'

@@ -14,7 +14,7 @@ class LondonReviewOfBooks(BasicNewsRecipe):
     category              = 'news, literature, UK'
     publisher             = 'LRB ltd.'
     oldest_article        = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'en_GB'
     no_stylesheets        = True
     use_embedded_content  = False

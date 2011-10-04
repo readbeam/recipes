@@ -6,7 +6,7 @@ class NewYorkTimesBookReview(BasicNewsRecipe):
     language       = 'en'
     __author__     = 'Krittika Goyal'
     oldest_article = 8 #days
-    max_articles_per_feed = 1000
+    max_articles_per_feed = 30
     recursions = 2
     #encoding = 'latin1'
 

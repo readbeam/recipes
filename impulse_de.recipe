@@ -4,7 +4,7 @@ class AdvancedUserRecipe1305470859(BasicNewsRecipe):
     language              = 'de'
     __author__            = 'schuster'
     oldest_article        =14
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     remove_javascript     = True
     use_embedded_content  = False

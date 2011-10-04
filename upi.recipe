@@ -10,7 +10,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class UnitedPressInternational(BasicNewsRecipe):
 
     title = 'United Press International'
-    max_articles_per_feed = 15
+    max_articles_per_feed = 30
     html2lrf_options = ['--override-css= "H1 {font-family: Arial; font-weight: bold; color: #000000; size: 10pt;}"']
     language = 'en'
 

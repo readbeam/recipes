@@ -17,7 +17,7 @@ class LaPrensa_ni(BasicNewsRecipe):
     publisher             = 'La Prensa'
     category              = 'Nicaragua, nicaragua, la prensa, La Prensa, prensa, Prensa, diario, Diario, periodico, noticias, internacional, economia, dinero, opinion, ultimas noticias, deportes, politica, managua, Managua, ultima hora, daily, newspaper, news, breaking news, urgente, tecnologia, tiempo, weather, buscador, magazine, Magazine, nosotras, Nosotras, journalism, clasificados, avisos, classified, ads, media, publicidad, arroba, arroba de oro'
     oldest_article        = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'cp1252'

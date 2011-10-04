@@ -20,7 +20,7 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     cover_url     = 'http://estaticos.20minutos.es/mmedia/especiales/corporativo/css/img/logotipos_grupo20minutos.gif'
 
     oldest_article = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     remove_javascript = True
     no_stylesheets        = True

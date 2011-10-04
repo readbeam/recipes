@@ -14,7 +14,7 @@ class theluminouslandscape(BasicNewsRecipe):
     publisher             = 'The Luminous Landscape '
     category              = 'news, blog, photograph, international'
     oldest_article        = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     remove_empty_feeds    = True
     use_embedded_content  = True

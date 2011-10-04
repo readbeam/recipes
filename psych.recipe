@@ -7,7 +7,7 @@ class AdvancedUserRecipe1275708473(BasicNewsRecipe):
     _author__ = 'rty'
     publisher = u'www.psychologytoday.com'
     category = u'Psychology'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript = True
     use_embedded_content   = False
     no_stylesheets = True

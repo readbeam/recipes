@@ -27,7 +27,7 @@ class ChristianScienceMonitor(BasicNewsRecipe):
     timefmt        = '[%a, %d %b, %Y]'
 
     oldest_article        = 16
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     use_embedded_content  = False
     recursion             = 10
 

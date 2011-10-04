@@ -10,7 +10,7 @@ class DigiZoneCZ(BasicNewsRecipe):
     __date__                = '30 April 2011'
     description             = u'Aktuality a \u010dl\xe1nky z DigiZone.cz'
     oldest_article          = 1
-    max_articles_per_feed   = 10
+    max_articles_per_feed = 30
     encoding                = 'iso-8859-2'
     publisher               = 'Internet Info s.r.o.'
     category                = 'digitalni vysilani, televize, CZ'

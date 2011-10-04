@@ -12,7 +12,7 @@ class UniNoHimituKichiBlog(BasicNewsRecipe):
     __author__     = 'Hiroshi Miura'
     oldest_article = 2
     publication_type = 'blog'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     description    = 'Japanese famous Cat blog'
     publisher      = ''
     category       = 'cat, pet, japan'

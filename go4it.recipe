@@ -16,7 +16,7 @@ class Go4ITro(BasicNewsRecipe):
     publisher                   = 'go4it'
     oldest_article              = 5
     language                    = 'ro'
-    max_articles_per_feed   = 100
+    max_articles_per_feed = 30
     no_stylesheets          = True
     use_embedded_content        = False
     category                                = 'Reviste,Ziare,IT'

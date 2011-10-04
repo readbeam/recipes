@@ -16,7 +16,7 @@ class FastCompany(BasicNewsRecipe):
     publisher              = 'fastcompany.com'
     category               = 'news, technology, gadgets, games'
     oldest_article         = 15
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = True
     simultaneous_downloads = 1

@@ -15,7 +15,7 @@ class Blic(BasicNewsRecipe):
     publisher             = 'RINGIER d.o.o.'
     category              = 'news, politics, Serbia'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     masthead_url          = 'http://www.blic.rs/resources/images/header/header_back.png'

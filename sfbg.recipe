@@ -5,7 +5,7 @@ class SanFranciscoBayGuardian(BasicNewsRecipe):
     language = 'en'
     __author__ = 'Krittika Goyal'
     oldest_article = 31 #days
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
 
     no_stylesheets = True
     remove_tags = [

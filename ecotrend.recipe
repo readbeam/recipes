@@ -13,7 +13,7 @@ class GlobalEconomicAnalysis(BasicNewsRecipe):
     publisher             = 'Mike Shedlock'
     category              = 'news, politics, economy, banking'
     oldest_article        = 7
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = True

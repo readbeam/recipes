@@ -15,7 +15,7 @@ class TheHeiseOnline(BasicNewsRecipe):
     description    = 'In association with Heise Online'
     publisher      = 'Heise Media UK Ltd.'
     category       = 'news, technology, security, OSS, internet'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language       = 'en'
     encoding       = 'utf-8'
     conversion_options = {

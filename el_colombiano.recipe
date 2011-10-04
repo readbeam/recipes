@@ -11,7 +11,7 @@ class AdvancedUserRecipe1311790237(BasicNewsRecipe):
     remove_tags_after  = dict(id='enviaTips')
     remove_tags_after  = dict(id='zonaPata')
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript = True
     no_stylesheets        = True
     use_embedded_content  = False

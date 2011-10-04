@@ -3,7 +3,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class ElFaroDeVigo(BasicNewsRecipe):
     title          = u'El Faro de Vigo'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     __author__  = 'Jefferson Frantz'
     description = 'Noticias de Vigo'
     timefmt = ' [%d %b, %Y]'

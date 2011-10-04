@@ -9,7 +9,7 @@ class Ubuntu_pl(BasicNewsRecipe):
     language       = 'pl'
     no_stylesheets = True
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     extra_css      = '#main {text-align:left;}'
     keep_only_tags= [dict(name='td', attrs={'class':'teaser-node-mc'}), dict(name='h3', attrs={'class':'entry-title'}), dict(name='div', attrs={'class':'entry-content'})]
     remove_tags_after= [dict(name='div' , attrs={'class':'content'})]

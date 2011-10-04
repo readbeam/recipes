@@ -15,7 +15,7 @@ class HLN_be(BasicNewsRecipe):
     publisher             = 'Het Belang Van Limburg'
     category              = 'news, politics, Belgium'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

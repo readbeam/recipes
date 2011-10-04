@@ -5,7 +5,7 @@ class MainichiDailyITNews(BasicNewsRecipe):
     title          = u'\u6bce\u65e5\u65b0\u805e(IT&\u5bb6\u96fb)'
     __author__     = 'Hiroshi Miura'
     oldest_article = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     description    = 'Japanese traditional newspaper Mainichi Daily News - IT and electronics'
     publisher      = 'Mainichi Daily News'
     category       = 'news, Japan, IT, Electronics'

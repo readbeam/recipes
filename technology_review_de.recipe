@@ -9,7 +9,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
                dict(id=['footer', 'toolsRight', 'articleInline', 'navigation', 'archive', 'side_search', 'blog_sidebar', 'side_tool', 'side_index']),
                dict(name=['script', 'noscript', 'style'])]
     oldest_article = 4
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

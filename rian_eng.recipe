@@ -15,7 +15,7 @@ class Ria_eng(BasicNewsRecipe):
     publisher             = 'en.rian.ru'
     category              = 'news, politics, Russia'
     oldest_article        = 3
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

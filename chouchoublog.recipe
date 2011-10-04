@@ -12,7 +12,7 @@ class SakuraBlog(BasicNewsRecipe):
     __author__     = 'Hiroshi Miura'
     oldest_article = 4
     publication_type = 'blog'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     description    = 'Japanese popular dog blog'
     publisher      = ''
     category       = 'dog, pet, japan'

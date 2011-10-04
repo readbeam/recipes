@@ -4,7 +4,7 @@ class AdvancedUserRecipe(BasicNewsRecipe):
     title          = u'Frankfurter Rundschau'
     __author__  = 'schuster'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

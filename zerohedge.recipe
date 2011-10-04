@@ -11,7 +11,7 @@ class ZeroHedge(BasicNewsRecipe):
     __author__             = 'Darko Miletic'
     description            = 'On a long enough timeline the survival rate for everyone drops to zero'
     oldest_article         = 10
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = True
     encoding               = 'utf8'

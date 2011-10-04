@@ -21,7 +21,7 @@ class IlSole24Ore(BasicNewsRecipe):
     timefmt        = '[%a, %d %b, %Y]'
 
     oldest_article = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content  = False
     extra_css      = '.headline {font-size: x-large;} \n .fact { padding-top: 10pt  }'
 

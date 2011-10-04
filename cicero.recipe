@@ -11,7 +11,7 @@ class BasicUserRecipe1316245412(BasicNewsRecipe):
     __author__ = 'Armin Geller' # Upd. 2011-09-23
 
     oldest_article        = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     auto_cleanup = False
 

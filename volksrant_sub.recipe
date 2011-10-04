@@ -19,7 +19,7 @@ class Volkskrant_full(BasicNewsRecipe):
     __author__ = u'Selcal'
     description = u"Volkskrant"
     oldest_article = 30
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     language = 'nl'
     use_embedded_content = False

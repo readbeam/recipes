@@ -6,7 +6,7 @@ class DilemaVeche(BasicNewsRecipe):
     description           = '"Sint vechi, domnule!" (I.L. Caragiale)'
     publisher             = 'Adevarul Holding'
     oldest_article        = 7
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     encoding              = 'utf8'
     language = 'ro'
     masthead_url = 'http://www.dilemaveche.ro/sites/all/themes/dilema/theme/dilema_two/layouter/dilema_two_homepage/logo.png'

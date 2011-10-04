@@ -16,7 +16,7 @@ class Fronda(BasicNewsRecipe):
     language = 'pl'
     __author__ = u'Tomasz D\u0142ugosz'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     feeds          = [(u'Infformacje', u'http://fronda.pl/news/feed')]

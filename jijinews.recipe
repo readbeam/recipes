@@ -13,7 +13,7 @@ class JijiDotCom(BasicNewsRecipe):
     publisher      = 'Jiji Press Ltd.'
     category       = 'news'
     oldest_article = 6
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     encoding       = 'euc_jisx0213'
     language       = 'ja'
     masthead_url   = 'http://jen.jiji.com/images/logo_jijipress.gif'

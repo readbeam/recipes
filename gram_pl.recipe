@@ -7,7 +7,7 @@ class Gram_pl(BasicNewsRecipe):
     category       = 'games'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets= True
     cover_url=u'http://www.gram.pl/www/01/img/grampl_zima.png'
     remove_tags= [dict(name='p', attrs={'class':['extraText', 'must-log-in']}), dict(attrs={'class':['el', 'headline', 'post-info']}), dict(name='div', attrs={'class':['twojaOcena', 'comment-body', 'comment-author vcard', 'comment-meta commentmetadata', 'tw_button']}), dict(id=['igit_rpwt_css', 'comments', 'reply-title', 'igit_title'])]

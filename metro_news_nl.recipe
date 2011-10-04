@@ -5,7 +5,7 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
 # Version 1.2, updated cover image to match the changed website.
 # added info date on title
     oldest_article = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     __author__     = u'DrMerry'
     description    = u'Metro Nederland'
     language       = u'nl'

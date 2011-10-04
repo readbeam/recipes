@@ -16,7 +16,7 @@ class NOAA(BasicNewsRecipe):
     publisher              = 'NOAA'
     category               = 'news, science, US, ocean'
     oldest_article         = 15
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     simultaneous_downloads = 1

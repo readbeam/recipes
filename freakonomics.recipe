@@ -18,7 +18,7 @@ class Freakonomics(BasicNewsRecipe):
     oldest_article      = 30
     remove_javascript   = True
     remove_empty_feeds    = True
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
 
     feeds = [(u'Freakonomics Blog', u'http://www.freakonomics.com/feed/')]
     keep_only_tags = [dict(name='div', attrs={'id':['content']})]

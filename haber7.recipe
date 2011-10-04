@@ -8,7 +8,7 @@ class Haber7 (BasicNewsRecipe):
     __author__            = u'thomass'
     description            =  ' Haber 7 sitesinden haberler '
     oldest_article         =2
-    max_articles_per_feed  =100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     #delay                  = 1
     #use_embedded_content   = False

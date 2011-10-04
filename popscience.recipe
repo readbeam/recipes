@@ -9,7 +9,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'Popular Science'
     category = 'gadgets,science'
     oldest_article = 7 # change this if you want more current articles. I like to go a week in
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content = True

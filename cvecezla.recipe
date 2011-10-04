@@ -13,7 +13,7 @@ class CveceZla(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     description           = 'Haoticnost razmisljanja poradja haoticnost pisanja. Muzika, stripovi, igre, knjige, generalno glupiranje...'
     oldest_article        = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'sr'
     encoding              = 'utf-8'
     no_stylesheets        = True

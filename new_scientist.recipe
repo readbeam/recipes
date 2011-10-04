@@ -16,7 +16,7 @@ class NewScientist(BasicNewsRecipe):
     publisher             = 'Reed Business Information Ltd.'
     category              = 'science news, science articles, science jobs, drugs, cancer, depression, computer software'
     oldest_article        = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     cover_url             = 'http://www.newscientist.com/currentcover.jpg'

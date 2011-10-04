@@ -17,7 +17,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'Neal Boortz'
     category = 'news, politics, USA, talkshow'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     no_stylesheets = True
     remove_javascript   = True

@@ -15,7 +15,7 @@ class LaStampa(BasicNewsRecipe):
  language = 'it'
  __author__ = 'Gabriele Marini'
  oldest_article        = 15
- max_articles_per_feed = 50
+ max_articles_per_feed = 30
  recursion             = 100
  cover_url             = 'http://www.lastampa.it/edicola/PDF/1.pdf'
  use_embedded_content  = False

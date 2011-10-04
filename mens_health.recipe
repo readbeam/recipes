@@ -5,6 +5,6 @@ class AdvancedUserRecipe1305636254(BasicNewsRecipe):
     language = 'en'
     __author__ = 'Anonymous'
     oldest_article = 14
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'News', u'http://blogs.menshealth.com/health-headlines/feed')]

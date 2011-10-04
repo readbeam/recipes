@@ -13,7 +13,7 @@ class TelegraphUK(BasicNewsRecipe):
     oldest_article        = 2
     category              = 'news, politics, UK'
     publisher             = 'Telegraph Media Group ltd.'    
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     language              = 'en_GB'
     remove_empty_feeds    = True

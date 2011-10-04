@@ -18,7 +18,7 @@ class VecernjiList(BasicNewsRecipe):
     publisher             = 'Vecernji.hr'
     category              = 'news, politics, Croatia'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     delay                 = 1
     no_stylesheets        = True
     encoding              = 'utf-8'

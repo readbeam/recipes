@@ -7,7 +7,7 @@ class AdvancedUserRecipe1315899507(BasicNewsRecipe):
     publisher             = 'Tribune Company'
     category              = 'news, politics, USA, San Diego, California, world'
     oldest_article = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     timefmt = ' [%b %d, %Y]'
     no_stylesheets        = True
     encoding              = 'utf8'

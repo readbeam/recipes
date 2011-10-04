@@ -17,7 +17,7 @@ class Salon_com(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     remove_tags = [dict(name='div', attrs={'class':['ad_content', 'clearfix']}), dict(name='hr'), dict(name='img')]
 

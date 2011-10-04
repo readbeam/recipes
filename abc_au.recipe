@@ -14,7 +14,7 @@ class ABCNews(BasicNewsRecipe):
     cover_url              = 'http://www.abc.net.au/news/assets/v5/images/common/logo-news.png'
 
     oldest_article         = 2
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = False
     #delay                  = 1
     use_embedded_content   = False

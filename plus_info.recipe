@@ -25,7 +25,7 @@ class PlusInfo(BasicNewsRecipe):
     use_embedded_content  = False
     remove_empty_feeds    = True
     oldest_article        = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     keep_only_tags = [dict(name='div', attrs={'class': 'vest'})]
     remove_tags = [dict(name='div', attrs={'class':['komentari_holder', 'objava']})]

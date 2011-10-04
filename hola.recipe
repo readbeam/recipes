@@ -12,7 +12,7 @@ class Hackaday(BasicNewsRecipe):
     __author__            = 'bmsleight'
     description           = 'diario de actualidad, moda y belleza.'
     oldest_article        = 10
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     language              = 'es'
 

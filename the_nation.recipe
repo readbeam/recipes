@@ -13,7 +13,7 @@ class Thenation(BasicNewsRecipe):
     category              = 'news, politics, USA'
     oldest_article        = 120
     encoding              = 'utf-8'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     language              = 'en'
     use_embedded_content  = False

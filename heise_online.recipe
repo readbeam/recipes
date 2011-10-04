@@ -7,7 +7,7 @@ class AdvancedUserRecipe(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'de'
     oldest_article = 2
-    max_articles_per_feed = 35
+    max_articles_per_feed = 30
     rescale_images = True
     remove_empty_feeds = True
     timeout = 5

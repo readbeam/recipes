@@ -6,7 +6,7 @@ class BasicUserRecipe1257093186(BasicNewsRecipe):
     language = 'de'
     no_stylesheets = True
     __author__ = 'Kovid Goyal'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_tags = [dict(id=['respond', 'ackt', 'nav', 'commentblock',
         'l_sidebar', 'r_sidebar']), dict(attrs={'class':['widgettitle',
             'bt-links', 'navigation']})]

@@ -12,7 +12,7 @@ class SinfestBig(BasicNewsRecipe):
     description            = 'Sinfest'
     reverse_article_order = False
     oldest_article         = 5
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = True
     encoding               = 'utf-8'

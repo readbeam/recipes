@@ -6,7 +6,7 @@ class AdvancedUserRecipe1297291961(BasicNewsRecipe):
     language = 'en'
     __author__ = 'DTM'
     oldest_article = 2
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets = True
     conversion_options = {
                                      'linearize_tables' : True,

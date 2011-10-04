@@ -16,7 +16,7 @@ class HaaretzPrint_en(BasicNewsRecipe):
     publisher             = 'Haaretz'
     category              = "news, Haaretz, Israel news, Israel newspapers, Israel business news, Israel financial news, Israeli news,Israeli newspaper, Israeli newspapers, news from Israel, news in Israel, news Israel, news on Israel, newspaper Israel, Israel sports news, Israel diplomacy news"
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

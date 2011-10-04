@@ -8,7 +8,7 @@ class AdvancedUserRecipe1307556816(BasicNewsRecipe):
     __author__     = u'DrMerry'
     description    = u'Geek and Poke Cartoons'
     oldest_article = 31
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language       = u'en'
     simultaneous_downloads = 5
     #delay          = 1

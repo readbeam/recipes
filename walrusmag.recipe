@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'Tony Stegall'
     category = 'Canada, news'
     oldest_article = 365
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     masthead_url = 'http://www.walrusmagazine.com/images/wordmark.png'
     keep_only_tags    = [

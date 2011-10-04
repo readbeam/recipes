@@ -12,7 +12,7 @@ class ElUniversal(BasicNewsRecipe):
     __author__             = 'Darko Miletic'
     description            = 'Noticias de Venezuela'
     oldest_article         = 2
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     remove_empty_feeds     = True    

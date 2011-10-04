@@ -14,7 +14,7 @@ class WaPoCartoonsRecipe(BasicNewsRecipe):
     description = u'Cartoons from the Washington Post'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
     no_stylesheets = True
 

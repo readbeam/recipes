@@ -22,7 +22,7 @@ class elperiodicodearagon(BasicNewsRecipe):
     category              = u'news, politics, Spain, Aragon'
     oldest_article        = 2
     delay                 = 0
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     language              = 'es'

@@ -11,7 +11,7 @@ class AjiajinBlog(BasicNewsRecipe):
     __author__     = 'Hiroshi Miura'
     oldest_article = 5
     publication_type = 'blog'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     description    = 'The next generation internet trends in Japan and Asia'
     publisher      = ''
     category       = 'internet, asia, japan'

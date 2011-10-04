@@ -18,7 +18,7 @@ class MonitorCG(BasicNewsRecipe):
     publisher             = 'MONITOR d.o.o. Podgorica'
     category              = 'news, politics, Montenegro'
     oldest_article        = 15
-    max_articles_per_feed = 150
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

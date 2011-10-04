@@ -23,7 +23,7 @@ class HunMilNews(BasicNewsRecipe):
 
 
     __author__ = 'Devilinside'
-    max_articles_per_feed = 16
+    max_articles_per_feed = 30
     no_stylesheets = True
 
 

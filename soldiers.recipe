@@ -12,7 +12,7 @@ class Soldiers(BasicNewsRecipe):
     __author__             = 'Darko Miletic'
     description            = 'The Official U.S. Army Magazine'
     oldest_article         = 30
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     simultaneous_downloads = 1

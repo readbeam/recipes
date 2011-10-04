@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'MDJ'
     category = 'news,politics,Georgia,USA'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
 

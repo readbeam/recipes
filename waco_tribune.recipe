@@ -7,7 +7,7 @@ class AdvancedUserRecipe1278773519(BasicNewsRecipe):
     description           = 'Waco, Texas, Newspaper'
     category              = 'News, Texas, Waco'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [
 	(u'News', u'http://www.wacotrib.com/news/index.rss2'),

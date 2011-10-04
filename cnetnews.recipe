@@ -19,7 +19,7 @@ class CnetNews(BasicNewsRecipe):
     publisher             = 'CNET'
     category              = 'news, IT, USA'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

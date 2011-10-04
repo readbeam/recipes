@@ -11,7 +11,7 @@ class FSP(BasicNewsRecipe):
     INDEX = 'http://www1.folha.uol.com.br/fsp/indices/'
     language = 'pt'
     no_stylesheets = True
-    max_articles_per_feed  = 40
+    max_articles_per_feed = 30
     remove_javascript     = True
     needs_subscription = True
     remove_tags_before = dict(name='b')

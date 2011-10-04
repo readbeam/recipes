@@ -6,7 +6,7 @@ class SGhu(BasicNewsRecipe):
     description    = u'Informatika \xe9s Tudom\xe1ny'
     language = 'hu'
     oldest_article = 5
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     encoding = 'ISO-8859-2'
 

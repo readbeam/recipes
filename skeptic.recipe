@@ -10,7 +10,7 @@ class Skeptic(BasicNewsRecipe):
     cover_url           = 'http://www.skeptricks.com/images/Skeptic_Magazine.jpg'
     remove_empty_feeds    = True
     remove_javascript   = True
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
     no_stylesheets = True
 
     remove_tags = [dict(name='div', attrs={'class':['Introduction','divider']}),

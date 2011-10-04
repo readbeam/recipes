@@ -6,7 +6,7 @@ class TimesOfIndia(BasicNewsRecipe):
     language       = 'en_IN'
     __author__     = 'Kovid Goyal'
     oldest_article = 1 #days
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
 
     no_stylesheets = True
     remove_attributes = ['style']

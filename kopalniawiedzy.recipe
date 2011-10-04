@@ -13,7 +13,7 @@ class KopalniaWiedzy(BasicNewsRecipe):
 		__author__     = 'Attis'
 		language       = 'pl'
 		oldest_article = 7
-		max_articles_per_feed = 100
+		max_articles_per_feed = 30
 		INDEX          = u'http://kopalniawiedzy.pl/'
 		remove_javascript     = True    
 		no_stylesheets        = True

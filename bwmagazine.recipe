@@ -13,7 +13,7 @@ class BusinessWeek(BasicNewsRecipe):
     publisher             = 'Bloomberg L.P.'
     category              = 'Business, business news, stock market, stock market news, financial advice, company profiles, financial advice, global economy, technology news'
     oldest_article        = 7
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

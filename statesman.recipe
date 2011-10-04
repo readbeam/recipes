@@ -8,7 +8,7 @@ class AdvancedUserRecipe1278049615(BasicNewsRecipe):
     __author__            = 'rty'
     oldest_article = 3
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'News',
         u'http://www.statesman.com/section-rss.do?source=news&includeSubSections=true'),

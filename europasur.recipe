@@ -14,7 +14,7 @@ class Europasur(BasicNewsRecipe):
     publisher             = 'Joly Digital'
     category              = 'news, politics, Spanish'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content  = False
     remove_empty_feeds    = True
     delay                 = 2

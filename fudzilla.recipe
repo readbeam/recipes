@@ -17,7 +17,7 @@ class Fudzilla(BasicNewsRecipe):
     description           = 'Tech news'
     oldest_article        = 7
     remove_javascript = True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
 

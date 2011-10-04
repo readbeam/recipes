@@ -6,7 +6,7 @@ class AdvancedUserRecipe1282093204(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 1
-    max_articles_per_feed = 15
+    max_articles_per_feed = 30
     masthead_url = 'http://farm5.static.flickr.com/4118/4929686950_0e22e2c88a.jpg'
 
     feeds          = [

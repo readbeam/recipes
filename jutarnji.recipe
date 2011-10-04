@@ -17,7 +17,7 @@ class Jutarnji(BasicNewsRecipe):
     publisher             = 'Jutarnji.hr'
     category              = 'news, politics, Croatia'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     delay                 = 1
     language = 'hr'
 

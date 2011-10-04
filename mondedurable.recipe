@@ -18,7 +18,7 @@ class AdventureGamers(BasicNewsRecipe):
     category              = 'environnement, developpement durable, science & vie, science et vie'    
     oldest_article        = 30
     delay                 = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     remove_javascript     = True

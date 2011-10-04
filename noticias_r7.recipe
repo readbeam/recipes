@@ -6,7 +6,7 @@ class PortalR7(BasicNewsRecipe):
     __author__             = 'Diniz Bortolotto'
     description            = 'Noticias Portal R7'
     oldest_article         = 2
-    max_articles_per_feed  = 20
+    max_articles_per_feed = 30
     encoding               = 'utf8'
     publisher              = 'Rede Record'
     category               = 'news, Brazil'

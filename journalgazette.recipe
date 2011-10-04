@@ -12,7 +12,7 @@ class AdvancedUserRecipe1283666183(BasicNewsRecipe):
     __author__     = 'cynvision'
     oldest_article = 1
     language = 'en'
-    max_articles_per_feed = 8
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript     = True
     use_embedded_content  = False

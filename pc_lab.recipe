@@ -9,7 +9,7 @@ class PCLab(BasicNewsRecipe):
     description           = u"Articles from PC Lab website"
     language              = 'pl'
     oldest_article        = 30.0
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     recursions            = 0
     encoding              = 'iso-8859-2'
     no_stylesheets        = True

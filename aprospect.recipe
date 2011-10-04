@@ -7,7 +7,7 @@ class AmericanProspect(BasicNewsRecipe):
 
     oldest_article        = 30
     language              = 'en'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     recursions            = 0
     no_stylesheets        = True
     remove_javascript     = True

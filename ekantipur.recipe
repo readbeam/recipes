@@ -7,7 +7,7 @@ class AdvancedUserRecipe1314326622(BasicNewsRecipe):
     description = 'News from the No.1 News Portal In Nepal'
     language = 'en_NP'
     oldest_article = 7
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
     masthead_url = 'http://kantipur.com.np/images/ekantipur_01.jpg'
     remove_empty_feeds = True
     remove_tags_before = dict(id='main-content')

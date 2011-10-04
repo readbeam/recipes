@@ -14,7 +14,7 @@ class TheWayTheFutureBlogs(BasicNewsRecipe):
     publisher             = 'Frederik Pohl'
     category              = 'news, SF, books'
     oldest_article        = 30
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

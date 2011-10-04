@@ -5,7 +5,7 @@ class AdvancedUserRecipe1295088390(BasicNewsRecipe):
      language = 'en'
      __author__ = '77ja65'
      oldest_article = 4
-     max_articles_per_feed = 50
+     max_articles_per_feed = 30
      no_stylesheets = True
      masthead_url          = 'http://heraldnet.com/images/hnet/jQueryComponents/jQueryNavigation/heraldnet_logo.png'
      extra_css      = '.headline {font-size: x-large;} \n .fact { padding-top: 10pt  }'

@@ -16,7 +16,7 @@ class Spiegel_ger(BasicNewsRecipe):
     publisher             = 'SPIEGEL ONLINE Gmbh'
     category              = 'SPIEGEL ONLINE, DER SPIEGEL, Nachrichten, News,Dienste, RSS, RSS, Feedreader, Newsfeed, iGoogle, Netvibes, Widget'
     oldest_article        = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'de'
     lang                  = 'de-DE'
     no_stylesheets        = True

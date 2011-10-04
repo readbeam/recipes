@@ -17,7 +17,7 @@ class AdvancedUserRecipe1287083651(BasicNewsRecipe):
     __author__ = 'Kovid Goyal'
     oldest_article = 2
     no_stylesheets = True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     encoding               = 'utf8'
     publisher              = 'Globe & Mail'
     language               = 'en_CA'

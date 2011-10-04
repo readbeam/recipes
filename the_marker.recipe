@@ -17,7 +17,7 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     remove_tags = [dict(name='div', attrs={'class':['social-nav article-social-nav','prsnlArticleEnvelope','cb']}) ,
                             dict(name='a', attrs={'href':['/misc/mobile']})  ,
                             dict(name='span', attrs={'class':['post-summ']}) ]
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     extra_css='body{direction: rtl;} .article_description{direction: rtl; } a.article{direction: rtl; } .calibre_feed_description{direction: rtl; }'
     feeds          = [(u'Head Lines', u'http://www.themarker.com/cmlink/1.144'),
                       (u'TA Market', u'http://www.themarker.com/cmlink/1.243'),

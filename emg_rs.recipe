@@ -14,7 +14,7 @@ class emportal_rs(BasicNewsRecipe):
     publisher             = 'Ekonom:east Media Group'
     category              = 'Ekonom:east Media Group, Ekonomist, Budelar, Bankar, EMportal, Preduzeca, Moja Posla, EU praktikum, ekonomija, Srbija, Beograd, investicije, finansije, energetika, berza'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

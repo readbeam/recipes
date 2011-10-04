@@ -10,7 +10,7 @@ class NikkeiNet_subscription(BasicNewsRecipe):
     description     = 'News and current market affairs from Japan, gather MAX articles'
     needs_subscription = True
     oldest_article  = 2
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
     language        = 'ja'
     remove_javascript = False
     temp_files = []

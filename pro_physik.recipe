@@ -4,7 +4,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
     title          = u'Pro Physik'
     __author__  = 'schuster'
     oldest_article = 4
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

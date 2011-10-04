@@ -16,7 +16,7 @@ class Prosport(BasicNewsRecipe):
     description           = u'\u0218tiri Sportive din Rom\u00e2nia'
     oldest_article        = 5
     language              = 'ro'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'Ziare,Stiri,Romania,Sport'

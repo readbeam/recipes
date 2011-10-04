@@ -7,7 +7,7 @@ class YeniUmit(BasicNewsRecipe):
     __author__            = u'thomass'
     description            = 'Aylık Dini İlimler ve Kültür Dergisi'
     oldest_article         = 45
-    max_articles_per_feed  =100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     #delay                  = 1
     #use_embedded_content   = False

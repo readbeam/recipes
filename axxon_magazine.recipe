@@ -14,7 +14,7 @@ class Axxon_news(BasicNewsRecipe):
     category              = 'SF, Argentina'
     oldest_article        = 31
     delay                 = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = False
     use_embedded_content  = False
     language              = 'es_AR'

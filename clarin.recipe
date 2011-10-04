@@ -14,7 +14,7 @@ class Clarin(BasicNewsRecipe):
     publisher             = 'Grupo Clarin'
     category              = 'news, politics, Argentina'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True
     encoding              = 'utf8'

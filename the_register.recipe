@@ -6,7 +6,7 @@ class TheRegister(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
           
     feeds          = [(u'Register', u'http://www.theregister.co.uk/headlines.atom')]

@@ -17,7 +17,7 @@ class GazetaPomorska(BasicNewsRecipe):
     __author__     = u'Richard z forum.eksiazki.org'
                       # # (dziekuje t3d z forum.eksiazki.org za testy)
     oldest_article = 2
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
     preprocess_regexps     = [

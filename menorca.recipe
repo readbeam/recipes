@@ -16,7 +16,7 @@ class Menorca(BasicNewsRecipe):
 
     no_stylesheets = True
     oldest_article = 5
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
 
 
     feeds = [   (u'Principal',u'http://www.menorca.info/rss'),

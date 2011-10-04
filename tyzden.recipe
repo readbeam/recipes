@@ -34,7 +34,7 @@ class TyzdenRecipe(BasicNewsRecipe):
     base_url = base_url_path + '.html'
 
     oldest_article = 20
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript = True
 
     use_embedded_content    = False

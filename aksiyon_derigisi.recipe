@@ -8,7 +8,7 @@ class Aksiyon (BasicNewsRecipe):
     __author__            = u'thomass'
     description            = 'Haftalık haber dergisi '
     oldest_article         =13
-    max_articles_per_feed  =100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     #delay                  = 1
     #use_embedded_content   = False

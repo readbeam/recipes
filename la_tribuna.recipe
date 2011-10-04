@@ -19,7 +19,7 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     description   = 'Varios diarios locales del grupo PROMECAL'
 
     oldest_article = 3
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
 
     remove_javascript = True
     no_stylesheets        = True

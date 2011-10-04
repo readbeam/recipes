@@ -8,7 +8,7 @@ class AdvancedUserRecipe1308572538(BasicNewsRecipe):
     language  = 'en_BG'
     encoding = 'utf-8'
     oldest_article = 7
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
     keep_only_tags    = [dict(name='div', attrs={'id':'content'})]
     remove_tags = [dict(name='a', attrs={'class':'twitter-share-button'})]
     remove_tags_after  = dict(id='textsize')

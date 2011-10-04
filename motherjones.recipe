@@ -14,7 +14,7 @@ class MotherJonesRecipe(BasicNewsRecipe):
     description = u'Independent investigative, political, and social justice reporting. Takes no prisoners, cleaves to no dogma, and tells it like it is.'
 
     oldest_article = 14
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     remove_empty_feeds = True

@@ -12,7 +12,7 @@ class Orsai(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     language = 'es'
     oldest_article        = 35
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     encoding              = 'utf-8'
     no_stylesheets        = True
     use_embedded_content  = False

@@ -17,7 +17,7 @@ class Cinebel(BasicNewsRecipe):
     oldest_article        = 15
     language              = 'fr'
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

@@ -9,7 +9,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'BuckMasters.com'
     category = 'food,cooking,recipes'
     oldest_article = 365
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     conversion_options = {'linearize_tables' : True}
     masthead_url = 'http://www.buckmasters.com/Portals/_default/Skins/BM_10/images/header_bg.jpg'
     keep_only_tags    = [

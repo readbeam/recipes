@@ -12,7 +12,7 @@ class PravdaSlovakiaRecipe(BasicNewsRecipe):
     description = u'News from Slovakia'
 
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
     remove_empty_feeds = True
 

@@ -14,7 +14,7 @@ class LosTiempos_Bol(BasicNewsRecipe):
     publisher             = 'Los Tiempos'
     category              = 'news, politics, Bolivia'
     oldest_article        = 1
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

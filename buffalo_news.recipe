@@ -15,7 +15,7 @@ class AdvancedUserRecipe1298680852(BasicNewsRecipe):
     oldest_article = 2
     language = 'en'
     __author__ = 'ChappyOnIce'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     encoding = 'utf-8'
     masthead_url = 'http://www.buffalonews.com/buffalonews/skins/buffalonews/images/masthead/the_buffalo_news_logo.png'
     remove_javascript = True

@@ -13,7 +13,7 @@ class AdvancedUserRecipe1306061239(BasicNewsRecipe):
 
 
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_empty_feeds = True
     remove_javascript     = True
     no_stylesheets = True

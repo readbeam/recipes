@@ -7,7 +7,7 @@ class PajamasMedia(BasicNewsRecipe):
     language       = 'en'
     __author__     = 'Krittika Goyal'
     oldest_article = 1 #days
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
     recursions = 1
     match_regexps = [r'http://pajamasmedia.com/blog/.*/2/$']
     #encoding = 'latin1'

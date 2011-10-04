@@ -10,7 +10,7 @@ class Trv(BasicNewsRecipe):
      language = 'ru'
      __author__ = 'Vadim Dyadkin'
      oldest_article = 30
-     max_articles_per_feed = 100
+     max_articles_per_feed = 30
      recursion = 4
      no_stylesheets = True
      simultaneous_downloads = 1

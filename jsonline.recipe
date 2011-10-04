@@ -6,7 +6,7 @@ class JSOnline(BasicNewsRecipe):
     language       = 'en'
     __author__     = 'Krittika Goyal'
     oldest_article = 2 #days
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
 
 
     no_stylesheets = True

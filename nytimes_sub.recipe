@@ -59,7 +59,7 @@ class NYTimes(BasicNewsRecipe):
     one_picture_per_article = False
 
     # The maximum number of articles that will be downloaded
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     # Whether to omit duplicates of articles (typically arsing when articles are indexed in
     # more than one section). If True, only the first occurance will be downloaded.

@@ -5,7 +5,7 @@ class AdvancedUserRecipe(BasicNewsRecipe):
     title          = u'Brigitte.de'
     __author__  = 'schuster'
     oldest_article = 14
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

@@ -17,7 +17,7 @@ class ZeitDe(BasicNewsRecipe):
     __author__ = 'Martin Pitt, Sujata Raman, Ingo Paschke and Marc Toensing'
     no_stylesheets = True
 
-    max_articles_per_feed = 40
+    max_articles_per_feed = 30
 
     remove_tags = [
                         dict(name='iframe'),

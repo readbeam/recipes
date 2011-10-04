@@ -12,7 +12,7 @@ class YahooNews(BasicNewsRecipe):
     oldest_article      = 24
     remove_javascript   = True
     remove_empty_feeds    = True
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
 
     feeds = [#There are dozens of other feeds at http://news.yahoo.com/rss
              (u'Top Stories', u'http://rss.news.yahoo.com/rss/topstories'),

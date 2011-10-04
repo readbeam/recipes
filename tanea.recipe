@@ -4,7 +4,7 @@ class TaNea(BasicNewsRecipe):
     title          = u'Ta Nea'
     __author__             = 'Pan'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     language = 'el'
 

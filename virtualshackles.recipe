@@ -12,7 +12,7 @@ class Virtualshackles(BasicNewsRecipe):
     description            = "The adventures of Orion and Jack, making games they'd never play for people they don't like."
     category               = 'virtual shackles, virtualshackles, games, webcomic, comic, video game, orion, jack'
     oldest_article         = 10
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = True
     encoding               = 'cp1252'

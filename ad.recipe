@@ -14,7 +14,7 @@ class ADRecipe(BasicNewsRecipe):
     description = u'News and Sports from the Netherlands'
 
     oldest_article = 1.2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     remove_empty_feeds = True

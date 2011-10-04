@@ -19,7 +19,7 @@ class LaMeuse(BasicNewsRecipe):
     language              = 'fr'
     masthead_url          = 'http://www.lameuse.be/images/SPV3/logo_header_LM.gif'
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

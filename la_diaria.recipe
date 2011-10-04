@@ -21,7 +21,7 @@ class General(BasicNewsRecipe):
     no_stylesheets = True
 
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     keep_only_tags = [dict(id=['article'])]
     remove_tags = [
              dict(name='div', attrs={'class':['byline', 'hr', 'titlebar', 'volver-arriba-right']}),

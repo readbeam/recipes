@@ -5,7 +5,7 @@ class AdvancedUserRecipe1290412756(BasicNewsRecipe):
     title          = u'Matichon'
     oldest_article = 7
     language = 'th'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content = False

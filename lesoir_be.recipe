@@ -19,7 +19,7 @@ class LeSoirBe(BasicNewsRecipe):
     language              = 'fr'
     masthead_url          = 'http://pdf.lesoir.be/pdf/images/SOIR//logo.gif'
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

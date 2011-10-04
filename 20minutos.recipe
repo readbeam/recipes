@@ -13,7 +13,7 @@ class t20Minutos(BasicNewsRecipe):
     publisher             = '20 Minutos Online SL'
     category              = 'news, politics, Spain'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = True

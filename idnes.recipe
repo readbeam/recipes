@@ -6,7 +6,7 @@ class iHeuteRecipe(BasicNewsRecipe):
     publisher = u'MAFRA a.s.'
     description = 'iDNES.cz Zprávy, Technet, Komiksy a další'
     oldest_article = 3
-    max_articles_per_feed = 2
+    max_articles_per_feed = 30
 
     feeds = [
             (u'Zprávy', u'http://servis.idnes.cz/rss.asp?c=zpravodaj'),

@@ -18,7 +18,7 @@ class DiscoverMagazine(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 33
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content  = False

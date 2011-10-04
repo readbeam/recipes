@@ -17,7 +17,7 @@ class FinancialTimes(BasicNewsRecipe):
     category              = 'news, finances, politics, UK, World'
     oldest_article        = 2
     language              = 'en_GB'
-    max_articles_per_feed = 250
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     needs_subscription    = True

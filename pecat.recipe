@@ -13,7 +13,7 @@ class Pecat_rs(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     description           = 'Internet portal slobodne Srbije'    
     oldest_article        = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'sr'
     encoding              = 'utf-8'
     no_stylesheets        = True

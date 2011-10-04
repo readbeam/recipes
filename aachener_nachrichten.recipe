@@ -4,7 +4,7 @@ class AdvancedUserRecipe(BasicNewsRecipe):
     title          = u'Aachener Nachrichten'
     __author__  = 'schuster'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content   = False
     language               = 'de'
     remove_javascript      = True

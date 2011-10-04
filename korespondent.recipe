@@ -15,7 +15,7 @@ class KorespondentPL(BasicNewsRecipe):
     __author__     = 'Attis'
     language       = 'pl'
     oldest_article = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_javascript     = True
     no_stylesheets        = True
 

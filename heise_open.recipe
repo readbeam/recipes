@@ -15,7 +15,7 @@ class HeiseOpenDe(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'de'
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 40
+    max_articles_per_feed = 30
     no_stylesheets = True
 
     feeds =  [ ('Heise Open', 'http://www.heise.de/open/news/news-atom.xml') ]

@@ -16,7 +16,7 @@ class LaPrensaHn(BasicNewsRecipe):
     publisher             = 'La Prensa'
     category              = 'news, politics, Honduras'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True
     remove_javascript     = True

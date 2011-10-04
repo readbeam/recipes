@@ -5,7 +5,7 @@ class TodaysZaman_en(BasicNewsRecipe):
     __author__            = u'thomass'
     description            = 'a Turkey based daily for national and international news in the fields of business, diplomacy, politics, culture, arts, sports and economics, in addition to commentaries, specials and features'
     oldest_article         = 2
-    max_articles_per_feed  =100
+    max_articles_per_feed = 30
     no_stylesheets         = True
     #delay                  = 1
     #use_embedded_content   = False

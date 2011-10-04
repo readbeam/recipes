@@ -20,7 +20,7 @@ class NYTimesTechnology(BasicNewsRecipe):
     publisher = 'The New York Times'
     category = 'Technology'
     oldest_article = 14
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
     no_stylesheets = True
     language = 'en'
     cover_url ='http://bit.ly/g0SKJT'

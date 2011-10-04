@@ -8,7 +8,7 @@ class Elektroda(BasicNewsRecipe):
     cover_url      = 'http://demotywatory.elektroda.pl/Thunderpic/logo.gif'
     category       = 'electronics'
     language       = 'pl'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     remove_tags_before=dict(name='span', attrs={'class':'postbody'})
     remove_tags_after=dict(name='td', attrs={'class':'spaceRow'})
     remove_tags=[dict(name='a', attrs={'href':'#top'})]

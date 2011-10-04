@@ -16,7 +16,7 @@ class Viva(BasicNewsRecipe):
     publisher             = u'Viva'
     oldest_article        = 25
     language              = 'ro'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'Ziare,Reviste,Femei'

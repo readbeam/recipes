@@ -9,8 +9,8 @@ class GoogleReader(BasicNewsRecipe):
     __author__ = 'davec, rollercoaster, Starson17'
     base_url = 'http://www.google.com/reader/atom/'
     oldest_article = 365
-    max_articles_per_feed = 250
-    get_options = '?n=%d&xt=user/-/state/com.google/read' % max_articles_per_feed
+    max_articles_per_feed = 30
+    get_options = '?n=%d&xt=user/-/state/com.google/read' % max_articles_per_feed = 30
     use_embedded_content = True
 
     def get_browser(self):

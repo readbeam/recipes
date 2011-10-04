@@ -6,7 +6,7 @@ class TriCityHeraldRecipe(BasicNewsRecipe):
     language = 'en'
     __author__     = 'Laura Gjovaag'
     oldest_article        = 1.5
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     remove_javascript     = True
     keep_only_tags = [

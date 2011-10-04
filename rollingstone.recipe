@@ -14,7 +14,7 @@ class RollingStone(BasicNewsRecipe):
     publisher             = 'Werner Media inc.'
     category              = 'news, music, USA, world'
     oldest_article        = 15
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

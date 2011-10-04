@@ -24,7 +24,7 @@ class DiePresseRecipe(BasicNewsRecipe):
 
     recursions = 0
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
   
     html2lrf_options = [
                           '--comment'  , description

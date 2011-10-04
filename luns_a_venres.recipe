@@ -12,7 +12,7 @@ class LV_gl(BasicNewsRecipe):
     direction             = 'ltr'
     cover_url             = 'http://lv.galiciae.com/new_estilos/lv/logo.gif'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     center_navbar         = False
 
     feeds                 = [

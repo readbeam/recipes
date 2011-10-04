@@ -8,7 +8,7 @@ class AdvancedUserRecipe1306061239(BasicNewsRecipe):
     remove_javascript     = True
     no_stylesheets = True
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     cover_url = 'http://tawanda3000.files.wordpress.com/2011/02/nme-logo.jpg'
 
     remove_tags = [

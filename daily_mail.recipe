@@ -7,7 +7,7 @@ class TheDailyMail(BasicNewsRecipe):
 
     author = 'RufusA and Sujata Raman'
     simultaneous_downloads= 1
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
 
     extra_css = '''#js-article-text{font-family:Arial,Helvetica,sans-serif;}
                     h1{font-size:x-large; font-weight:bold;}

@@ -5,7 +5,7 @@ class AdvancedUserRecipe1312361378(BasicNewsRecipe):
     __author__ = 'Pablo Aldama'
     language = 'pt_BR'
     oldest_article = 9
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'Politica', u'http://www.cartacapital.com.br/category/politica/feed')
                       ,(u'Economia', u'http://www.cartacapital.com.br/category/economia/feed')

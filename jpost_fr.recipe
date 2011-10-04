@@ -8,7 +8,7 @@ class JerusalemPost(BasicNewsRecipe):
     publisher = 'jpost'
     category = 'news'
     oldest_article = 30
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     linearize_tables = True
     no_stylesheets = True
     remove_javascript   = True

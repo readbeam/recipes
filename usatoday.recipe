@@ -15,7 +15,7 @@ class USAToday(BasicNewsRecipe):
     oldest_article = 1
     publication_type = 'newspaper'
     timefmt  = ''
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     language = 'en'
     no_stylesheets = True
     extra_css = '.headline      {text-align:    left;}\n    \

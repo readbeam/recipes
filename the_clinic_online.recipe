@@ -8,7 +8,7 @@ class AdvancedUserRecipe1313555075(BasicNewsRecipe):
     publisher             = u'The Clinic'
     category              = 'news, politics, Chile, rss'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     summary_length        = 1000
     language              = 'es_CL'
 

@@ -5,7 +5,7 @@ class EuropeanVoice(BasicNewsRecipe):
     title          = u'European Voice'
     __author__     = 'malfi'
     oldest_article = 14
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     cover_url = 'http://www.europeanvoice.com/Css/images/logo.gif'
     language = 'en'

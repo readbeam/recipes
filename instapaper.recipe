@@ -6,7 +6,7 @@ class AdvancedUserRecipe1299694372(BasicNewsRecipe):
     publisher                     = 'Instapaper.com'
     category                      = 'info, custom, Instapaper'
     oldest_article               = 365
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     remove_javascript     = True
     remove_tags              = [

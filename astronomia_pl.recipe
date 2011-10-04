@@ -8,7 +8,7 @@ class Astronomia_pl(BasicNewsRecipe):
     category       = 'astronomy, science'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     #no_stylesheets=True
     remove_tags_before=dict(name='div', attrs={'id':'a1'})
     keep_only_tags=[dict(name='div', attrs={'id':['a1', 'h2']})]

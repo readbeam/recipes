@@ -15,7 +15,7 @@ class swiatczytnikow(BasicNewsRecipe):
     language = 'pl'
     __author__ = u'Tomasz D\u0142ugosz'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds       = [(u'Świat Czytników - wpisy', u'http://swiatczytnikow.pl/feed')]
 

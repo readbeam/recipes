@@ -14,7 +14,7 @@ class ReadersDigest(BasicNewsRecipe):
     no_stylesheets        = True
     use_embedded_content  = False
     oldest_article = 60
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
 
     language = 'en'
     remove_javascript     = True

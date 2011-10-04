@@ -13,7 +13,7 @@ class TagesspiegelRSS(BasicNewsRecipe):
     __author__ = 'Ingo Paschke'
     language = 'de'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     extra_css = '''
                 .hcf-overline{color:#990000; font-family:Arial,Helvetica,sans-serif;font-size:xx-small;display:block}

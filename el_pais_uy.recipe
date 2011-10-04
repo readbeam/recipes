@@ -25,7 +25,7 @@ class General(BasicNewsRecipe):
     no_stylesheets = True
 
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     keep_only_tags = [
                       dict(name='h1'),
                       dict(name='div', attrs={'id':'Contenido'})

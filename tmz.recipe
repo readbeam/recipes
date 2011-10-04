@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'The TMZ'
     category = 'news, celebrity, USA'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True
     masthead_url = 'http://t0.gstatic.com/images?q=tbn:t43QkABe_BmaWM:http://www.thetreymoore.com/logos/TMZ%20logo%20(crop).JPG'

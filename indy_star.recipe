@@ -6,7 +6,7 @@ class AdvancedUserRecipe1234144423(BasicNewsRecipe):
     language = 'en'
 
     __author__     = 'Owen Kelly'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     cover_url  = u'http://www2.indystar.com/frontpage/images/today.jpg'
     

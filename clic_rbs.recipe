@@ -5,7 +5,7 @@ class ClicRBS(BasicNewsRecipe):
     language = 'pt'
     __author__ = 'arvoredo'
     oldest_article = 3
-    max_articles_per_feed = 9
+    max_articles_per_feed = 30
     cover_url             = 'http://www.publicidade.clicrbs.com.br/clicrbs/imgs/logo_clic.gif'
 
     remove_tags = [

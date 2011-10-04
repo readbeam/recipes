@@ -13,7 +13,7 @@ class Consumerist(BasicNewsRecipe):
     publisher             = 'consumerist.com'
     category              = 'news, consumer news, consumer rights'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

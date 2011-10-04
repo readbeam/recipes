@@ -14,7 +14,7 @@ class TheTorontoStar(BasicNewsRecipe):
     description           = "Canada's largest daily newspaper"
     oldest_article        = 2
     language              = 'en_CA'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     delay                 = 2

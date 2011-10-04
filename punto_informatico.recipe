@@ -24,7 +24,7 @@ class PuntoInformatico(BasicNewsRecipe):
     timefmt        = '[%a, %d %b, %Y]'
 
     oldest_article = 15
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
     use_embedded_content  = False
 
     remove_javascript  = True

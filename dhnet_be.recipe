@@ -19,7 +19,7 @@ class DHNetBe(BasicNewsRecipe):
     language              = 'fr'
     masthead_url          = 'http://www.dhnet.be/images/homepage_logo_dh.gif'
 
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

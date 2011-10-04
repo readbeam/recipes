@@ -15,7 +15,7 @@ class infomotori(BasicNewsRecipe):
     title          = u'Infomotori'
     cover          = 'http://www.infomotori.com/content/files/anniversario_01.gif'
     oldest_article        = 31
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     recursion             = 100
     use_embedded_content  = False
 

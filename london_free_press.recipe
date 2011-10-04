@@ -4,7 +4,7 @@ class LondonFreePress(BasicNewsRecipe):
     title          = u'London Free Press'
     __author__            = 'rty'
     oldest_article = 4
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     pubisher  = 'lfpress.com'
     description           = 'Ontario Canada Newspaper'

@@ -11,7 +11,7 @@ class Siol(BasicNewsRecipe):
     description = "Multimedijski portal z aktualnimi vsebinami, intervjuji, komentarji iz Slovenije in sveta, sportal, trendi, avtomoto, blogos"
     oldest_article = 3
     language = 'sl'
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     no_stylesheets = True
     use_embedded_content = False
 

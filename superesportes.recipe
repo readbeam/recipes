@@ -17,7 +17,7 @@ class SuperEsportesRecipe(BasicNewsRecipe):
     oldest_article = 7
 
     use_embedded_content=0
-    max_articles_per_feed = 10
+    max_articles_per_feed = 30
     cover_url = 'http://imgs.mg.superesportes.com.br/superesportes_logo.png'
 
     extra_css = 'div.info_noticias h1 { font-size: 100% }'

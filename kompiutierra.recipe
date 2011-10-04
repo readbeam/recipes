@@ -11,7 +11,7 @@ class Computerra(BasicNewsRecipe):
     title = u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0440\u0430'
     oldest_article = 100
     __author__  = 'Vadim Dyadkin (edited by A. Chewi)'
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
     use_embedded_content  = False
     remove_javascript = True
     no_stylesheets = True

@@ -16,7 +16,7 @@ class CreditSlips(BasicNewsRecipe):
     description = u'A discussion on credit and bankruptcy'
     cover_url = 'http://bit.ly/eAKNCB'
     oldest_article = 15
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = True
     no_stylesheets = True
     remove_javascript = True

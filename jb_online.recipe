@@ -15,7 +15,7 @@ class JBOnline(BasicNewsRecipe):
     publisher             = 'Jornal Brasileiro'
     category              = 'news, politics, Brasil'
     oldest_article        = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'cp1252'

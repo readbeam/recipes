@@ -10,7 +10,7 @@ class LevanteRecipe(BasicNewsRecipe):
     title = u'Levante'
 
     oldest_article = 2
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     encoding = 'latin1'
     no_stylesheets = True
     remove_javascript = True

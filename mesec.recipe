@@ -10,7 +10,7 @@ class MesecCZ(BasicNewsRecipe):
     __date__                = '30 April 2011'
     description             = u'Zpr\xe1vi\u010dky a \u010dl\xe1nky z Mesec.cz'
     oldest_article          = 1
-    max_articles_per_feed   = 10
+    max_articles_per_feed = 30
     encoding                = 'utf8'
     publisher               = 'Internet Info s.r.o.'
     category                = 'finance,CZ'

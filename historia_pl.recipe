@@ -8,6 +8,6 @@ class Historia_org_pl(BasicNewsRecipe):
     category       = 'history'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'Artykuły', u'http://www.historia.org.pl/index.php?format=feed&type=rss')]

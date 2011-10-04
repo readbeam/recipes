@@ -12,7 +12,7 @@ class TheEconomicCollapse(BasicNewsRecipe):
     publisher             = 'The Economic Collapse'
     category              = 'news, politics, USA, economy'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

@@ -20,7 +20,7 @@ class weblogssl(BasicNewsRecipe):
     language       = 'es'
     timefmt        = '[%a, %d %b, %Y]'
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     encoding       = 'utf-8'
     use_embedded_content  = False
     remove_empty_feeds    = True

@@ -6,7 +6,7 @@ class TheForce(BasicNewsRecipe):
     language       = 'en'
     __author__     = 'Krittika Goyal'
     oldest_article = 1 #days
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
     encoding = 'cp1252'
 
     remove_stylesheets = True

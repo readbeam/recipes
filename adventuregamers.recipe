@@ -15,7 +15,7 @@ class AdventureGamers(BasicNewsRecipe):
     category              = 'news, games, adventure, technology'
     oldest_article        = 10
     delay                 = 10
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'
     remove_javascript     = True

@@ -9,7 +9,7 @@ class AdvancedUserRecipe1312886443(BasicNewsRecipe):
     category       = 'economy'
     language       = 'pl'
     oldest_article = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets= True
     keep_only_tags = dict(name='div', attrs={'id':'contentText'})
     feeds          = [(u'Wiadomości gospodarcze', u'http://www.wnp.pl/rss/serwis_rss.xml'),

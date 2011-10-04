@@ -23,7 +23,7 @@ class wvHooligan(BasicNewsRecipe):
     cover_url = 'http://wvhooligan.com/wp-content/themes/urbanelements/images/logo3.png'
 
     oldest_article = 15
-    max_articles_per_feed = 150
+    max_articles_per_feed = 30
     use_embedded_content = True
     no_stylesheets = True
     remove_javascript = True

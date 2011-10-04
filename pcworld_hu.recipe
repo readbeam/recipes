@@ -13,7 +13,7 @@ class Index(BasicNewsRecipe):
 
     title = u'PCWORLD.HU'
     oldest_article = 3
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
     language = 'hu'
 
     __author__ = 'Ezmegaz'

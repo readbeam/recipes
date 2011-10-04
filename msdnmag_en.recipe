@@ -16,7 +16,7 @@ class MSDNMagazine_en(BasicNewsRecipe):
     publisher             = 'Microsoft Press'
     category              = 'news, IT, Microsoft, programming, windows'
     oldest_article        = 31
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

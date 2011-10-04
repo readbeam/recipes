@@ -15,7 +15,7 @@ class OpenLeft(BasicNewsRecipe):
 
     # Fetch no more than 100 articles
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     # Fetch the articles from the RSS feed
 

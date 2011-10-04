@@ -9,7 +9,7 @@ class SBM(BasicNewsRecipe):
     __author__            = 'BuzzKill'
     description           = 'Exploring issues and controversies in the relationship between science and medicine'
     oldest_article        = 5
-    max_articles_per_feed = 15
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

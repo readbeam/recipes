@@ -108,7 +108,7 @@ class ZAOBAO(BasicNewsRecipe):
                                     })
 
             pfeeds = feeds_from_index([(title, articles)], oldest_article=self.oldest_article,
-                                     max_articles_per_feed=self.max_articles_per_feed)
+                                     max_articles_per_feed = 30
 
             self.log(_('adding %s to feed')%(title))
             for feed in pfeeds:

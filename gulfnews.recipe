@@ -13,7 +13,7 @@ class GulfNews(BasicNewsRecipe):
     publisher             = 'Al Nisr Publishing LLC'
     category              = 'news, politics, UAE, world'
     oldest_article        = 2
-    max_articles_per_feed = 200
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

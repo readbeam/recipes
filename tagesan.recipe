@@ -5,7 +5,7 @@ class AdvancedUserRecipe1284927619(BasicNewsRecipe):
     publisher = u'Tamedia AG'
     oldest_article = 2
     __author__ = 'noxxx'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     description = 'tagesanzeiger.ch: Nichts verpassen'
     category = 'News, Politik, Nachrichten, Schweiz, Zuerich'
     language = 'de'

@@ -16,7 +16,7 @@ class IrishTimes(BasicNewsRecipe):
 
 
     oldest_article = 1.0
-    max_articles_per_feed  = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     simultaneous_downloads= 5
 

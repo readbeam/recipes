@@ -11,7 +11,7 @@ class NatGeo(BasicNewsRecipe):
     description = 'Daily news articles from The National Geographic'
     language = 'en'
     oldest_article = 20
-    max_articles_per_feed = 25
+    max_articles_per_feed = 30
     encoding              = 'utf8'
     publisher              = 'nationalgeographic.com'
     category               = 'science, nat geo'

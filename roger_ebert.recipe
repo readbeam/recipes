@@ -10,7 +10,7 @@ class Ebert(BasicNewsRecipe):
     publisher             = 'Chicago Sun Times'
     category              = 'movies'
     oldest_article        = 8
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

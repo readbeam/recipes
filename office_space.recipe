@@ -9,7 +9,7 @@ class OfficeSpaceBlogHu(BasicNewsRecipe):
     title                   = u'Office Space Blog'
     description             = u"officespace.blog.hu"
     oldest_article          = 10000
-    max_articles_per_feed   = 10000
+    max_articles_per_feed = 30
     reverse_article_order   = True
     language                = 'hu'
     remove_javascript       = True
