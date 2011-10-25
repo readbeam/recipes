@@ -14,11 +14,11 @@ class SueddeutcheZeitung(BasicNewsRecipe):
     publisher              = 'Sueddeutche Zeitung'
     category               = 'news, politics, Germany'
     no_stylesheets         = True
-    oldest_article         = 2
+    oldest_article = 7
     encoding               = 'cp1252'
     needs_subscription     = True
     remove_empty_feeds     = True
-    delay                  = 1
+    delay = 1
     PREFIX                 = 'http://www.sueddeutsche.de'
     INDEX                  = PREFIX + '/app/epaper/textversion/'
     use_embedded_content   = False

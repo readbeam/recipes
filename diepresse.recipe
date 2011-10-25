@@ -23,7 +23,7 @@ class DiePresseRecipe(BasicNewsRecipe):
     language = 'de'
 
     recursions = 0
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
   
     html2lrf_options = [

@@ -10,7 +10,7 @@ import re
 class YOLNews(BasicNewsRecipe):
     title          = u'Yomiuri Online (Latest)'
     __author__     = 'Hiroshi Miura'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     description    = 'Japanese traditional newspaper Yomiuri Online News'
     publisher      = 'Yomiuri Online News'

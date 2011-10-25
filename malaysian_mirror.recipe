@@ -20,7 +20,7 @@ class MalaysianMirror(BasicNewsRecipe):
     category            = 'news'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article      = 24
+    oldest_article = 7
 
     remove_javascript   = True
     remove_empty_feeds  = True

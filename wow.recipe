@@ -4,7 +4,7 @@ class WoW(BasicNewsRecipe):
     title          = u'WoW Insider'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content = False
 

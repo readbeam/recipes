@@ -14,7 +14,7 @@ class Psychologies(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Psihologie \u015fi Dezvoltare Personal\u0103..'
     publisher             = u'Psychologies'
-    oldest_article        = 25
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

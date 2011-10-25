@@ -12,7 +12,7 @@ class StrategyBusinessRecipe(BasicNewsRecipe):
     description = (u'Business magazine for senior business executives and the people who influence them.'
             'Go to http://www.strategy-business.com/registration to sign up for a free account')
 
-    oldest_article = 13 * 7 # 3 months
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content = False
     remove_empty_feeds = True

@@ -14,7 +14,7 @@ class HotcityRo(BasicNewsRecipe):
     __author__                    = u'Silviu Cotoar\u0103'
     description                   = u'Cultura urban\u0103 feminin\u0103'
     publisher                     = 'Hotcity'
-    oldest_article            = 5
+    oldest_article = 7
     language                     = 'ro'
     max_articles_per_feed = 30
     no_stylesheets           = True

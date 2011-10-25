@@ -6,7 +6,7 @@ class nprmusic(BasicNewsRecipe):
     timefmt = ' [%b %d, %Y]'
     language = 'en'
 
-    oldest_article = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets = True
 

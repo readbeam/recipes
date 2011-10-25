@@ -14,7 +14,7 @@ class Azstarnet(BasicNewsRecipe):
     language              = 'en'
     publisher             = 'azstarnet.com'
     category              = 'news, politics, Arizona, USA'
-    oldest_article        = 3
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

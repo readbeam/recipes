@@ -14,7 +14,7 @@ class FHMro(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Pentru c\u0103 noi putem'
     publisher             = 'FHM'
-    oldest_article        = 5
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

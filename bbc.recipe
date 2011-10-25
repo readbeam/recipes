@@ -10,10 +10,10 @@ class BBC(BasicNewsRecipe):
     title                  = 'BBC News'
     __author__             = 'Darko Miletic, Starson17'
     description            = 'News from UK. '
-    oldest_article         = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
-    #delay                  = 1
+    #delay = 1
     use_embedded_content   = False
     encoding               = 'utf8'
     publisher              = 'BBC'

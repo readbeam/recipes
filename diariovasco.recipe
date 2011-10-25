@@ -12,7 +12,7 @@ class DiarioVasco(BasicNewsRecipe):
     description           = 'Noticias de pais Vasco y el resto del mundo'
     publisher             = 'Diario Vasco'
     category              = 'news, politics, Spain'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'

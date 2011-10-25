@@ -11,7 +11,7 @@ class TheEconomicCollapse(BasicNewsRecipe):
     description           = 'Are You Prepared For The Coming Economic Collapse And The Next Great Depression?'
     publisher             = 'The Economic Collapse'
     category              = 'news, politics, USA, economy'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

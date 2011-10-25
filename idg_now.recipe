@@ -4,7 +4,7 @@ class IDGNow(BasicNewsRecipe):
     title                  = 'IDG Now!'
     __author__             = 'Diniz Bortolotto'
     description            = 'Posts do IDG Now!'
-    oldest_article         = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     encoding               = 'utf8'
     publisher              = 'Now!Digital Business Ltda.'

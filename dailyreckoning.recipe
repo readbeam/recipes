@@ -13,7 +13,7 @@ class dailyreckoning_us(BasicNewsRecipe):
     description           = 'Worldwide business and financial news and articles'
     publisher             = 'Agora Financial, LLC.'
     category              = 'news, business, finances, money, banking'
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

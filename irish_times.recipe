@@ -15,7 +15,7 @@ class IrishTimes(BasicNewsRecipe):
     timefmt = ' (%A, %B %d, %Y)'
 
 
-    oldest_article = 1.0
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets = True
     simultaneous_downloads= 5

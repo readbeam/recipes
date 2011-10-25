@@ -14,7 +14,7 @@ class Nspm(BasicNewsRecipe):
     description           = 'Casopis za politicku teoriju i drustvena istrazivanja'
     publisher             = 'NSPM'
     category              = 'news, politics, Serbia'
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

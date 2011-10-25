@@ -6,8 +6,8 @@ class FriaTidningen_SE(BasicNewsRecipe):
     description           = 'Nyheter fr\xc3\xa5n Fria Tidningen'
     publisher             = 'Fria Tidningen'
     category              = 'news, politics, Sweden'
-    oldest_article        = 7
-    delay                 = 1
+    oldest_article = 7
+    delay = 1
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

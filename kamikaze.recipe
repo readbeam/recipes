@@ -14,7 +14,7 @@ class Kamikaze(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'S\u0103pt\u0103m\u00e2nal sc\u0103pat de sub control'
     publisher             = 'Kamikaze'
-    oldest_article        = 5
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

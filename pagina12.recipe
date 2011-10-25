@@ -14,7 +14,7 @@ class Pagina12(BasicNewsRecipe):
     description           = 'Noticias de Argentina y el resto del mundo'
     publisher             = 'La Pagina S.A.'
     category              = 'news, politics, Argentina'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'

@@ -8,7 +8,7 @@ class TechnologyReview(BasicNewsRecipe):
     publisher = 'Technology Review Inc.'
     category = 'Technology, Innovation, R&D'
     language = 'en'
-    oldest_article = 14
+    oldest_article = 7
     max_articles_per_feed = 30
     No_stylesheets = True
     extra_css = """

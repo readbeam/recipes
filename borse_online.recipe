@@ -3,7 +3,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
 
     title          = u'Börse-online'
     __author__  = 'schuster'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False

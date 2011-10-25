@@ -14,7 +14,7 @@ class Cotidianul(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u''
     publisher             = u'Cotidianul'
-    oldest_article        = 25
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

@@ -13,7 +13,7 @@ class Slashdot(BasicNewsRecipe):
     of content and may result in your IP being banned from slashdot.org'''
     oldest_article = 7
     simultaneous_downloads = 1
-    delay = 3
+    delay = 1
     max_articles_per_feed = 30
     language = 'en'
 

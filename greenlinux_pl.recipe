@@ -6,7 +6,7 @@ class GreenLinux(BasicNewsRecipe):
     category       = 'IT'
     language       = 'pl'
     cover_url = 'http://lh5.ggpht.com/_xd_6Y9kXhEc/S8tjyqlfhfI/AAAAAAAAAYU/zFNTp07ZQko/top.png'
-    oldest_article = 15
+    oldest_article = 7
     max_articles_per_feed = 30
     auto_cleanup = True
 

@@ -19,7 +19,7 @@ class MarcTVde(BasicNewsRecipe):
 
     max_articles_per_feed = 30
 
-    oldest_article = 665
+    oldest_article = 7
 
     use_embedded_content = False
 

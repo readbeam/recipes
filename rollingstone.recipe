@@ -13,7 +13,7 @@ class RollingStone(BasicNewsRecipe):
     description           = 'Rolling Stone Magazine features music, album and artist news, movie reviews, political, economic and pop culture commentary, videos, photos, and more.'
     publisher             = 'Werner Media inc.'
     category              = 'news, music, USA, world'
-    oldest_article        = 15
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

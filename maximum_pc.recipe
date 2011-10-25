@@ -8,7 +8,7 @@ class AdvancedUserRecipe1276930924(BasicNewsRecipe):
     publisher             = 'http://www.maximumpc.com'
     category              = 'news, computer, technology'
     language = 'en'
-    oldest_article = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     remove_javascript = True
     use_embedded_content   = False

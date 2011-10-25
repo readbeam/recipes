@@ -13,7 +13,7 @@ class Tweakers(BasicNewsRecipe):
      title          = u'Tweakers.net'
      __author__     = 'Kovid Goyal'
      language       = 'nl'
-     oldest_article = 4
+     oldest_article = 7
      max_articles_per_feed = 30
 
      keep_only_tags = [dict(name='div', attrs={'class':'columnwrapper news'})]

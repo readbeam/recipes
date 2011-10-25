@@ -12,7 +12,7 @@ class ProPublicaRecipe(BasicNewsRecipe):
     category = u'Political blog'
     description = u'Independent investigative journalism in the public interest.'
 
-    oldest_article = 14
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content = False
 

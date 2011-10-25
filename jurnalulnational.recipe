@@ -14,7 +14,7 @@ class JurnalulNational(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'\u0218tiri din Rom\u00e2nia'
     publisher             = 'Jurnalul National'
-    oldest_article        = 5
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

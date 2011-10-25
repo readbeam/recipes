@@ -19,7 +19,7 @@ class ColombiaElEspectador(BasicNewsRecipe):
     #                      dict(name='div', attrs={'class':'ico-mail2'}),
       #                    dict(name='div', attrs={'id':'caja-instapaper'}),
        #                   dict(name='div', attrs={'class':'modulo herramientas'})]
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     remove_javascript = True
     no_stylesheets        = True

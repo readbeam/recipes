@@ -10,7 +10,7 @@ class TelegraphUK(BasicNewsRecipe):
     title                 = 'Telegraph.co.uk'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = 'News from United Kingdom'
-    oldest_article        = 2
+    oldest_article = 7
     category              = 'news, politics, UK'
     publisher             = 'Telegraph Media Group ltd.'    
     max_articles_per_feed = 30

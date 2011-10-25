@@ -23,7 +23,7 @@ class HBR(BasicNewsRecipe):
     remove_tags_after = dict(id='articleBody')
     remove_tags_before = dict(id='pageFeature')
     feeds = [('Blog','http://feeds.harvardbusiness.org/harvardbusiness')]
-    oldest_article = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content = False
 

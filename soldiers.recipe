@@ -11,12 +11,12 @@ class Soldiers(BasicNewsRecipe):
     title                  = 'Soldiers'
     __author__             = 'Darko Miletic'
     description            = 'The Official U.S. Army Magazine'
-    oldest_article         = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     simultaneous_downloads = 1
-    delay                  = 4
+    delay = 1
     max_connections        = 1    
     encoding               = 'utf-8'
     publisher              = 'U.S. Army'

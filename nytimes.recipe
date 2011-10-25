@@ -17,9 +17,9 @@ class NYTimes(BasicNewsRecipe):
     # set headlinesOnly to True for the headlines-only version. If True, webEdition is ignored.
     headlinesOnly = True
 
-    # set webEdition to True for the Web edition of the newspaper. Set oldest_article to the
-    # number of days old an article can be for inclusion. If oldest_article = 0 all articles
-    # will be included. Note: oldest_article is ignored if webEdition = False
+    # set webEdition to True for the Web edition of the newspaper. Set oldest_article = 7
+    # number of days old an article can be for inclusion. If oldest_article = 7
+    # will be included. Note: oldest_article = 7
     webEdition = False
     oldest_article = 7
 
@@ -116,7 +116,7 @@ class NYTimes(BasicNewsRecipe):
             d = date.today
         return d
 
-    earliest_date = date.today() - timedelta(days=oldest_article)
+    earliest_date = date.today() - timedelta(days=oldest_article = 7
 
     __author__  = 'GRiker/Kovid Goyal/Nick Redding'
     language = 'en'
@@ -561,7 +561,7 @@ class NYTimes(BasicNewsRecipe):
 
     def preprocess_html(self, soup):
 
-        if self.webEdition & (self.oldest_article>0):
+        if self.webEdition & (self.oldest_article = 7
             date_tag = soup.find(True,attrs={'class': ['dateline','date']})
             if date_tag:
                 date_str = self.tag_to_string(date_tag,use_alt=False)

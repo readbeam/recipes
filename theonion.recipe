@@ -11,7 +11,7 @@ class TheOnion(BasicNewsRecipe):
     title                 = 'The Onion'
     __author__            = 'Darko Miletic'
     description           = "America's finest news source"
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     publisher             = 'Onion, Inc.'
     category              = 'humor, news, USA'

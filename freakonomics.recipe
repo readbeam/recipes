@@ -15,7 +15,7 @@ class Freakonomics(BasicNewsRecipe):
     cover_url           = 'http://ilkerugur.files.wordpress.com/2009/04/freakonomics.jpg'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article      = 30
+    oldest_article = 7
     remove_javascript   = True
     remove_empty_feeds    = True
     max_articles_per_feed = 30

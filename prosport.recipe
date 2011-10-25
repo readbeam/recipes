@@ -14,7 +14,7 @@ class Prosport(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     publisher             = 'Prosport'
     description           = u'\u0218tiri Sportive din Rom\u00e2nia'
-    oldest_article        = 5
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

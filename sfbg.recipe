@@ -4,7 +4,7 @@ class SanFranciscoBayGuardian(BasicNewsRecipe):
     title = u'San Francisco Bay Guardian'
     language = 'en'
     __author__ = 'Krittika Goyal'
-    oldest_article = 31 #days
+    oldest_article = 7
     max_articles_per_feed = 30
 
     no_stylesheets = True

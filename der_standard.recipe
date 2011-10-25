@@ -21,7 +21,7 @@ class DerStandardRecipe(BasicNewsRecipe):
     encoding = 'utf-8'
     language = 'de'
 
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
 
     extra_css = '''

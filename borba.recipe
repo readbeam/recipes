@@ -19,7 +19,7 @@ class Borba(BasicNewsRecipe):
     language = 'sr'
 
     lang                  = _('sr-Latn-RS')
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

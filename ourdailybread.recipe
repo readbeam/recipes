@@ -10,7 +10,7 @@ class OurDailyBread(BasicNewsRecipe):
     title                 = 'Our Daily Bread'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = "Our Daily Bread is a daily devotional from RBC Ministries which helps readers spend time each day in God's Word."
-    oldest_article        = 15
+    oldest_article = 7
     language              = 'en'
     max_articles_per_feed = 30
     no_stylesheets        = True

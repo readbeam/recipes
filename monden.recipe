@@ -14,7 +14,7 @@ class Monden(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Arti\u015fti, interviuri, concerte.. MUZIC\u0102'
     publisher             = u'Monden'
-    oldest_article        = 25
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

@@ -16,7 +16,7 @@ class DivaHair(BasicNewsRecipe):
     description           = u'Coafuri, frizuri, tunsori ..'
     publisher             = u'Diva Hair'
     category              = u'Ziare,Stiri,Coafuri,Femei'
-    oldest_article        = 5
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

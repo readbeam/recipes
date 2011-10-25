@@ -10,7 +10,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class KahokuShinpoNews(BasicNewsRecipe):
     title          = u'\u6cb3\u5317\u65b0\u5831'
     __author__     = 'Hiroshi Miura'
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     description    = 'Tohoku regional news paper in Japan'
     publisher      = 'Kahoku Shinpo Sha'

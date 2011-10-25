@@ -13,7 +13,7 @@ class Akter(BasicNewsRecipe):
     description           = 'AKTER - nedeljni politicki magazin savremene Srbije'
     publisher             = 'Akter Media Group d.o.o.'
     category              = 'vesti, online vesti, najnovije vesti, politika, sport, ekonomija, biznis, finansije, berza, kultura, zivot, putovanja, auto, automobili, tehnologija, politicki magazin, dogadjaji, desavanja, lifestyle, zdravlje, zdravstvo, vest, novine, nedeljnik, srbija, novi sad, vojvodina, svet, drustvo, zabava, republika srpska, beograd, intervju, komentar, reportaza, arhiva vesti, news, serbia, politics'
-    oldest_article        = 8
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

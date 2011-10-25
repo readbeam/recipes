@@ -6,7 +6,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'Daily Computer Tips and Tricks'
     publisher = 'Howtogeek'
     category = 'PC,tips,tricks'
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     linearize_tables = True
     no_stylesheets = True

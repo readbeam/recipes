@@ -11,7 +11,7 @@ class ElUniversal(BasicNewsRecipe):
     title                  = 'El Universal'
     __author__             = 'Darko Miletic'
     description            = 'Noticias de Venezuela'
-    oldest_article         = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False

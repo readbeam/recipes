@@ -27,7 +27,7 @@ class StandardMediaKeRecipe(BasicNewsRecipe):
     masthead_url = cover_img_url
 
     max_articles_per_feed = 30
-    oldest_article = 3
+    oldest_article = 7
 
     use_embedded_content = False
     remove_empty_feeds = True

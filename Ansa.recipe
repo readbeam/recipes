@@ -21,7 +21,7 @@ class Ansa(BasicNewsRecipe):
     language       = 'it'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content  = False
     recursion             = 10

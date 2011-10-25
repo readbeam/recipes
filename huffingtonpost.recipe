@@ -12,7 +12,7 @@ class HuffingtonPostRecipe(BasicNewsRecipe):
     category = u'News, Politics'
     description = u'Political Blog'
 
-    oldest_article = 1.1
+    oldest_article = 7
     max_articles_per_feed = 30
     #use_embedded_content = True
 

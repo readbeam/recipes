@@ -12,7 +12,7 @@ class Lanacion(BasicNewsRecipe):
     description           = "lanacion.com - Informacion actualizada las 24 horas, con noticias de Argentina y del mundo"
     publisher             = 'La Nacion S.A.'
     category              = 'news, politics, Argentina'
-    oldest_article        = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True

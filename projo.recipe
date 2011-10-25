@@ -4,7 +4,7 @@ class ProvidenceJournal(BasicNewsRecipe):
     title          = u'Providence Journal'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7 #days
+    oldest_article = 7
     max_articles_per_feed = 30
 
     no_stylesheets = True

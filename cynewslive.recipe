@@ -56,7 +56,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
             table = soup.find('table', attrs = {'id': 'ctl00_cp_ctl01_listp'})
             if table:
                 self.pubTime = datetime.now()
-                self.minTime = self.pubTime - timedelta(days = self.oldest_article)
+                self.minTime = self.pubTime - timedelta(days = self.oldest_article = 7
 
                 self.find_articles(table, articles)
 

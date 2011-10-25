@@ -5,7 +5,7 @@ class Aftenposten(BasicNewsRecipe):
      __author__     = 'davotibarna'
      description    = 'Norske nyheter'
      language = 'no'
-     oldest_article = 5
+     oldest_article = 7
      max_articles_per_feed = 30
      recipe_disabled = ('The recipe to download Aftenposten has been '
              'temporarily disabled at the publisher\'s request, while '

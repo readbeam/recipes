@@ -17,7 +17,7 @@ class HackerNews(BasicNewsRecipe):
     category              = 'news, programming, it, technology'
     masthead_url          = 'http://img585.imageshack.us/img585/5011/hnle.png'
     cover_url             = 'http://img585.imageshack.us/img585/5011/hnle.png'
-    delay                 = 1
+    delay = 1
     max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True

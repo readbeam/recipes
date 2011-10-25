@@ -12,7 +12,7 @@ class Jezebel(BasicNewsRecipe):
     description           = "Jezebel, Celebrity, Sex, Fashion for Women. Without Airbrushing."
     publisher             = 'jezebel.com'
     category              = 'news, cars, spyshots'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

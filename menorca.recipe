@@ -15,7 +15,7 @@ class Menorca(BasicNewsRecipe):
     enconding   = 'cp1252'
 
     no_stylesheets = True
-    oldest_article = 5
+    oldest_article = 7
     max_articles_per_feed = 30
 
 

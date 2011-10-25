@@ -8,7 +8,7 @@ class Explosm(BasicNewsRecipe):
     language            = 'en'
     use_embedded_content = False
     no_stylesheets    = True
-    oldest_article    = 24
+    oldest_article = 7
     remove_javascript   = True
     remove_empty_feeds  = True
     max_articles_per_feed = 30

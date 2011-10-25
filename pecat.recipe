@@ -12,7 +12,7 @@ class Pecat_rs(BasicNewsRecipe):
     title                 = 'Pecat'
     __author__            = 'Darko Miletic'
     description           = 'Internet portal slobodne Srbije'    
-    oldest_article        = 15
+    oldest_article = 7
     max_articles_per_feed = 30
     language              = 'sr'
     encoding              = 'utf-8'

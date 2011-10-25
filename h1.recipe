@@ -7,7 +7,7 @@ class hu168ora(BasicNewsRecipe):
     __author__            = u'István Papp'
     description           = u'A 168 óra friss hírei'
     timefmt               = ' [%Y. %b. %d., %a.]'
-    oldest_article        = 7
+    oldest_article = 7
     language              = 'hu'
 
     max_articles_per_feed = 30

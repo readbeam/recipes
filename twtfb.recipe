@@ -13,7 +13,7 @@ class TheWayTheFutureBlogs(BasicNewsRecipe):
     description           = "Frederik Pohl's blog"
     publisher             = 'Frederik Pohl'
     category              = 'news, SF, books'
-    oldest_article        = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

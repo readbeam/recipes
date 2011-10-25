@@ -16,7 +16,7 @@ class MoldovaAzi(BasicNewsRecipe):
     description           = u'Moldova pe internet'
     publisher             = 'Moldova Azi'
     category              = 'Ziare,Stiri,Moldova'
-    oldest_article        = 5
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

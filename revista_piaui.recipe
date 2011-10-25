@@ -5,7 +5,7 @@ class RevistaPiaui(BasicNewsRecipe):
     title          = u'Revista piau\xed'
     language = 'pt_BR'
     __author__ = u'Eduardo Gustini Simões'
-    oldest_article = 31
+    oldest_article = 7
     max_articles_per_feed = 30
     auto_cleanup = True
 

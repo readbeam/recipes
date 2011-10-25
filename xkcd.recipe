@@ -20,7 +20,7 @@ class XkcdCom(BasicNewsRecipe):
     language = 'en'
 
     use_embedded_content   = False
-    oldest_article = 60
+    oldest_article = 7
     keep_only_tags = [dict(id='middleContent')]
     remove_tags = [dict(name='ul'), dict(name='h3'), dict(name='br')]
     no_stylesheets = True

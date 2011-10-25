@@ -7,7 +7,7 @@ class JerusalemPost(BasicNewsRecipe):
     description = 'The Jerusalem Post (in French)'
     publisher = 'jpost'
     category = 'news'
-    oldest_article = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     linearize_tables = True
     no_stylesheets = True

@@ -17,7 +17,7 @@ class DiscoverMagazine(BasicNewsRecipe):
     __author__ = 'Starson17'
     language = 'en'
 
-    oldest_article = 33
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript = True

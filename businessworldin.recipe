@@ -13,7 +13,7 @@ class BusinessWorldMagazine(BasicNewsRecipe):
     description          = 'News from India'
     publisher            = 'ABP Pvt Ltd Publication'
     category             = 'news, politics, finances, India, Asia'
-    delay                = 1
+    delay = 1
     no_stylesheets       = True
     INDEX                = 'http://www.businessworld.in/businessworld/magazine_latest_issue.php'
     ROOT                 = 'http://www.businessworld.in'

@@ -6,7 +6,7 @@ class VioMundo(BasicNewsRecipe):
     __author__             = 'Diniz Bortolotto'
     description            = 'Posts do Blog VioMundo'
     publisher              = 'Luiz Carlos Azenha'
-    oldest_article         = 5
+    oldest_article = 7
     max_articles_per_feed = 30
     category               = 'news, politics, Brazil'
     language               = 'pt_BR'

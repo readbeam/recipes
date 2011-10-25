@@ -7,14 +7,14 @@ class Comics(BasicNewsRecipe):
     language            = 'en'
     use_embedded_content= False
     no_stylesheets      = True
-    oldest_article      = 24
+    oldest_article = 7
     remove_javascript   = True
     cover_url           = 'http://www.bsb.lib.tx.us/images/comics.com.gif'
     recursions          = 0
     max_articles_per_feed = 30
     num_comics_to_get = 7
     simultaneous_downloads = 1
-    # delay = 3
+    # delay = 1
 
     keep_only_tags     = [dict(name='a', attrs={'class':'STR_StripImage'}),
                           dict(name='div', attrs={'class':'STR_Date'})

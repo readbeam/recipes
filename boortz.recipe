@@ -16,7 +16,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'Neal Boortz Show Radio Notes'
     publisher = 'Neal Boortz'
     category = 'news, politics, USA, talkshow'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
 
     no_stylesheets = True

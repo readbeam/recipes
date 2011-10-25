@@ -15,7 +15,7 @@ class SanFranciscoChronicle(BasicNewsRecipe):
     description           = u'San Francisco news'
     language = 'en'
 
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

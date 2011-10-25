@@ -12,7 +12,7 @@ class BusinessWeek(BasicNewsRecipe):
     description           = 'Read the latest international business news & stock market news. Get updated company profiles, financial advice, global economy and technology news.'
     publisher             = 'Bloomberg L.P.'
     category              = 'Business, business news, stock market, stock market news, financial advice, company profiles, financial advice, global economy, technology news'
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

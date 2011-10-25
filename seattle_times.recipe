@@ -14,7 +14,7 @@ class SeattleTimes(BasicNewsRecipe):
     description           = 'News from Seattle and USA'
     publisher             = 'The Seattle Times'
     category              = 'news, politics, USA'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

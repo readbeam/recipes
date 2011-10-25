@@ -9,7 +9,7 @@ class AdvancedUserRecipe1292550626(BasicNewsRecipe):
  villages within.  The counties of Leduc and Wetaskiwin provide news
  coverage of agriculture, sports, government, family, events and opinion.
  This publication updated weekly every Thursday.'''
-     oldest_article = 13
+     oldest_article = 7
      max_articles_per_feed = 30
      no_stylesheets = True
      #delay = 1

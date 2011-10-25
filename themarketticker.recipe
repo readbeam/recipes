@@ -12,7 +12,7 @@ class Themarketticker(BasicNewsRecipe):
     title                 = 'The Market Ticker'
     __author__            = 'Darko Miletic'
     description           = 'Commentary On The Capital Markets'    
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     language = 'en'
 

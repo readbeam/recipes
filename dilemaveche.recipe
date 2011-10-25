@@ -5,7 +5,7 @@ class DilemaVeche(BasicNewsRecipe):
     __author__            = 'song2' # inspirat din scriptul pentru Le Monde. Inspired from the Le Monde script
     description           = '"Sint vechi, domnule!" (I.L. Caragiale)'
     publisher             = 'Adevarul Holding'
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     encoding              = 'utf8'
     language = 'ro'

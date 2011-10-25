@@ -6,7 +6,7 @@ class AdvancedUserRecipe1315899507(BasicNewsRecipe):
     description           = 'Local news stories from The San Diego Union-Tribune; breaking news, business and technology, local and national sports coverage, entertainment news and reviews.'
     publisher             = 'Tribune Company'
     category              = 'news, politics, USA, San Diego, California, world'
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     timefmt = ' [%b %d, %Y]'
     no_stylesheets        = True

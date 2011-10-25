@@ -5,7 +5,7 @@ class AmericanProspect(BasicNewsRecipe):
     __author__     = u'Michael Heinz, a.peter'
     version        = 2
 
-    oldest_article        = 30
+    oldest_article = 7
     language              = 'en'
     max_articles_per_feed = 30
     recursions            = 0

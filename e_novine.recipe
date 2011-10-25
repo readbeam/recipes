@@ -14,7 +14,7 @@ class E_novine(BasicNewsRecipe):
     description           = 'News from Serbia'
     publisher             = 'E-novine'
     category              = 'news, politics, Balcans'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

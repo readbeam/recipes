@@ -7,7 +7,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'national general interest magazine about Canada and its place in the world'
     publisher = 'Tony Stegall'
     category = 'Canada, news'
-    oldest_article = 365
+    oldest_article = 7
     max_articles_per_feed = 30
 
     masthead_url = 'http://www.walrusmagazine.com/images/wordmark.png'

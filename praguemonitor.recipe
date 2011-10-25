@@ -13,7 +13,7 @@ class PragueDailyMonitor(BasicNewsRecipe):
     description           = u'Czech news in English'
     category              = 'news, politics, Czech republic'
     publisher             = 'Prague Daily Monitor'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     language              = 'en'
     no_stylesheets        = True

@@ -12,7 +12,7 @@ class i09(BasicNewsRecipe):
     description           = "io9, We Come From the Future."
     publisher             = 'io9.com'
     category              = 'news, science, education'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

@@ -9,7 +9,7 @@ class TheHindu(BasicNewsRecipe):
     title                 = u'The Hindu'
     language = 'en_IN'
 
-    oldest_article        = 7
+    oldest_article = 7
     __author__            = 'Kovid Goyal'
     max_articles_per_feed = 30
     no_stylesheets = True

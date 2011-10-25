@@ -15,7 +15,7 @@ class HaaretzPrint_en(BasicNewsRecipe):
     description           = "Haaretz.com is the world's leading English-language Website for real-time news and analysis of Israel and the Middle East."
     publisher             = 'Haaretz'
     category              = "news, Haaretz, Israel news, Israel newspapers, Israel business news, Israel financial news, Israeli news,Israeli newspaper, Israeli newspapers, news from Israel, news in Israel, news Israel, news on Israel, newspaper Israel, Israel sports news, Israel diplomacy news"
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

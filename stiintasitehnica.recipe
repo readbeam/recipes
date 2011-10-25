@@ -14,7 +14,7 @@ class Stiintasitehnica(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'\u0218tiin\u021b\u0103 \u015fi Tehnic\u0103'
     publisher             = u'\u0218tiin\u021b\u0103 \u015fi Tehnic\u0103'
-    oldest_article        = 50
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

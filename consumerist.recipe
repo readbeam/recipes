@@ -12,7 +12,7 @@ class Consumerist(BasicNewsRecipe):
     description           = "Consumerist, Shoppers Bite Back."
     publisher             = 'consumerist.com'
     category              = 'news, consumer news, consumer rights'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

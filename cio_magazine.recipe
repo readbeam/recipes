@@ -14,7 +14,7 @@ import string, re
 
 class CIO_Magazine(BasicNewsRecipe):
     title      = 'CIO Magazine'
-    oldest_article = 14
+    oldest_article = 7
     max_articles_per_feed = 30
     auto_cleanup = True
     __author__ = 'Julio Map'

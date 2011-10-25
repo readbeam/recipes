@@ -25,7 +25,7 @@ class RollingStones(BasicNewsRecipe):
     language       = 'en'
     timefmt        = '[%a, %d %b, %Y]'
 
-    oldest_article        = 15
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets = True

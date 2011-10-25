@@ -13,7 +13,7 @@ class TheWest(BasicNewsRecipe):
     description           = 'News from Australia'
     publisher             = 'thewest.com.au'
     category              = 'news, politics, Australia'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

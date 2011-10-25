@@ -12,7 +12,7 @@ class Chetnixploitation(BasicNewsRecipe):
     title                 = 'Chetnixploitation'
     __author__            = 'Darko Miletic'
     description           = 'Filmski blog'    
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     language              = 'sr'
     publication_type      = 'blog'    

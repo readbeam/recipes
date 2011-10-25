@@ -10,7 +10,7 @@ class Physicstoday(BasicNewsRecipe):
     category              = 'Physics'
     language              = 'en'
     cover_url = strftime('http://ptonline.aip.org/journals/doc/PHTOAD-home/jrnls/images/medcover%m_%Y.jpg')
-    oldest_article = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

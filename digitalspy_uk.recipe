@@ -13,7 +13,7 @@ class DigitalSpyUK(BasicNewsRecipe):
     description           = 'Entertainment news about the biggest TV shows, films and celebrities, updated around the clock.'
     publisher             = 'Digital Spy Limited.'
     category              = 'news, showbiz, big brother, x factor, torchwood, doctor who, tv, media, sky, freeview, cable'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'

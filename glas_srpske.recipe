@@ -15,7 +15,7 @@ class GlasSrpske(BasicNewsRecipe):
     description           = 'Latest news from republika srpska'
     publisher             = 'GLAS SRPSKE'
     category              = 'Novine, Dnevne novine, Vijesti, Novosti, Ekonomija, Sport, Crna Hronika, Banja Luka,, Republika Srpska, Bosna i Hercegovina'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

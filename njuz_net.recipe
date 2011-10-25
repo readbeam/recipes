@@ -13,7 +13,7 @@ class NjuzNet(BasicNewsRecipe):
     description           = 'Iscasene vesti iz Srbije, regiona i sveta'
     publisher             = 'njuz.net'
     category              = 'news, politics, humor, Serbia'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

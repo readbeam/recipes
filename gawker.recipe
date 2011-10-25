@@ -12,7 +12,7 @@ class Gawker(BasicNewsRecipe):
     description           = "Gawker, Gossip from Manhattan and the Beltway to Hollywood and the Valley."
     publisher             = 'gawker.com'
     category              = 'news, gossip'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

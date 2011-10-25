@@ -16,7 +16,7 @@ class LondonReviewOfBooksPayed(BasicNewsRecipe):
     max_articles_per_feed = 30
     language              = 'en_GB'
     no_stylesheets        = True
-    delay                 = 1
+    delay = 1
     use_embedded_content  = False
     encoding              = 'utf-8'
     INDEX                 = 'http://www.lrb.co.uk'

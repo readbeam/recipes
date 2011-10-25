@@ -12,7 +12,7 @@ class ElUniverso_Ecuador(BasicNewsRecipe):
     description           = 'Noticias del Ecuador y el resto del mundo'
     publisher             = 'El Universo'
     category              = 'news, politics, Ecuador'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

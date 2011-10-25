@@ -17,9 +17,9 @@ class Cro24Sata(BasicNewsRecipe):
     description           = "News Portal from Croatia"
     publisher             = '24sata.hr'
     category              = 'news, politics, Croatia'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
-    delay                 = 4
+    delay = 1
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

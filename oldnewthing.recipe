@@ -11,7 +11,7 @@ class OldNewThing(BasicNewsRecipe):
     title                 = 'The Old New Thing'
     __author__            = 'Darko Miletic'
     description           = 'Famous blog by Windows guru Raymond Chen'
-    oldest_article        = 15
+    oldest_article = 7
     max_articles_per_feed = 30
     language              = 'en'
     encoding              = 'utf-8'

@@ -12,7 +12,7 @@ class Kommersant_ru(BasicNewsRecipe):
     description           = 'News from Russia'
     publisher             = 'Kommersant'
     category              = 'news, politics, Russia'
-    oldest_article        = 5
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

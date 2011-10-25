@@ -19,7 +19,7 @@ class DerSpiegel(BasicNewsRecipe):
     encoding               = 'cp1252'
     needs_subscription     = True
     remove_empty_feeds     = True
-    delay                  = 1
+    delay = 1
     PREFIX                 = 'http://m.spiegel.de'
     INDEX                  = PREFIX + '/spiegel/print/epaper/index-heftaktuell.html'
     use_embedded_content   = False

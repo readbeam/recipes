@@ -10,7 +10,7 @@ import re
 class Toyokeizai(BasicNewsRecipe):
     title          = u'ToyoKeizai News'
     __author__     = 'Hiroshi Miura'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     description    = 'Japanese traditional economy and business magazine, only for advanced subscribers supported'
     publisher      = 'Toyokeizai Shinbun Sha'

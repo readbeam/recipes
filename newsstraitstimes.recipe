@@ -13,7 +13,7 @@ class Newstraitstimes(BasicNewsRecipe):
     description           = 'Learning Curve, Sunday People, New Straits Times from Malaysia'
     publisher             = 'nst.com.my'
     category              = 'news, politics, Malaysia'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'

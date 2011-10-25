@@ -5,7 +5,7 @@ class AdvancedUserRecipe1265145870(BasicNewsRecipe):
     language = 'de'
     __author__ = 'JSuer'
     cover_url    = 'http://www.g-o.de/grafiken/web_scinexx/head2.gif'
-    oldest_article = 14
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets = True
     use_embedded_content  = False

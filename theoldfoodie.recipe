@@ -13,7 +13,7 @@ class TheOldFoodie(BasicNewsRecipe):
     __author__            = 'Darko Miletic'
     description           = 'Food blog'
     category              = 'cuisine, food, blog'
-    oldest_article        = 30
+    oldest_article = 7
     max_articles_per_feed = 30
     use_embedded_content  = True
     no_stylesheets        = True

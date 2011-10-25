@@ -12,7 +12,7 @@ class emportal_en(BasicNewsRecipe):
     description           = 'Daily business news from Serbia.'
     publisher             = 'Ekonom:east Media Group'
     category              = 'Business, SEE, Serbia, Belgrade, news, Ekonomist, EMportal'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

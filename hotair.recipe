@@ -12,7 +12,7 @@ class hotair(BasicNewsRecipe):
     description           = "The world's first, full-service conservative Internet broadcast network"
     publisher             = 'Hot Air'
     category              = 'news, politics, USA'
-    oldest_article = 3
+    oldest_article = 7
     max_articles_per_feed = 30
     summary_length = 150
     language              = 'en'

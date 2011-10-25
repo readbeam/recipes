@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     description = 'Learn how to cook all those outdoor varments'
     publisher = 'BuckMasters.com'
     category = 'food,cooking,recipes'
-    oldest_article = 365
+    oldest_article = 7
     max_articles_per_feed = 30
     conversion_options = {'linearize_tables' : True}
     masthead_url = 'http://www.buckmasters.com/Portals/_default/Skins/BM_10/images/header_bg.jpg'

@@ -8,7 +8,7 @@ class AdvancedUserRecipe(BasicNewsRecipe):
     __author__ = 'schuster'
     use_embedded_content   = False
     language = 'de'
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     rescale_images = True
     remove_empty_feeds = True

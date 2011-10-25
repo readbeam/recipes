@@ -12,7 +12,7 @@ class Infobae(BasicNewsRecipe):
     description           = 'Infobae.com es el sitio de noticias con mayor actualizacion de Latinoamérica. Noticias actualizadas las 24 horas, los 365 días del año.'
     publisher             = 'Infobae.com'
     category              = 'news, politics, Argentina'
-    oldest_article        = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

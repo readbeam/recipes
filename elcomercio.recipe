@@ -13,7 +13,7 @@ class ElComercio(BasicNewsRecipe):
     description           = "Gizmodo, the gadget guide. So much in love with shiny new toys, it's unnatural."
     publisher             = 'GRUPO EL COMERCIO C.A.'
     category              = 'news, Ecuador, politics'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

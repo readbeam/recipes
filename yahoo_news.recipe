@@ -9,7 +9,7 @@ class YahooNews(BasicNewsRecipe):
     use_embedded_content= False
     no_stylesheets      = True
     linearize_tables      = True
-    oldest_article      = 24
+    oldest_article = 7
     remove_javascript   = True
     remove_empty_feeds    = True
     max_articles_per_feed = 30

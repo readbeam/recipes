@@ -12,7 +12,7 @@ class TheBudgetFashionista(BasicNewsRecipe):
     title                  = 'The Budget Fashionista'
     __author__             = 'Darko Miletic'
     description            = 'Saving your money since 2003'
-    oldest_article         = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False

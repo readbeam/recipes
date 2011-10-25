@@ -6,7 +6,7 @@ class TheSkepticalInquirer(BasicNewsRecipe):
     description    = 'Investigation of fringe science and paranormal claims.'
     language       = 'en'
     __author__     = 'Starson17'
-    oldest_article = 31
+    oldest_article = 7
     cover_url           = 'http://www.skeptricks.com/images/Skeptical_Inquirer_Magazine.jpg'
     remove_empty_feeds    = True
     remove_javascript   = True

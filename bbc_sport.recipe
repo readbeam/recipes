@@ -10,7 +10,7 @@ class BBC(BasicNewsRecipe):
     title                  = 'BBC Sport'
     __author__             = 'limawhiskey, Darko Miletic, Starson17'
     description            = 'Sports news from UK. A fast version that does not download pictures'
-    oldest_article         = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False

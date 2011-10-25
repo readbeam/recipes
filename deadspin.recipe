@@ -12,7 +12,7 @@ class Deadspin(BasicNewsRecipe):
     description           = "Deadspin, Sports News without Access, Favor, or Discretion."
     publisher             = 'deadspin.com'
     category              = 'news, sports, meltdowns'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

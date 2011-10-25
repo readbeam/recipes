@@ -7,7 +7,7 @@ class HVG(BasicNewsRecipe):
     __author__            = u'István Papp'
     description           = u'Friss hírek a HVG-től'
     timefmt               = ' [%Y. %b. %d., %a.]'
-    oldest_article        = 4
+    oldest_article = 7
     language              = 'hu'
 
     max_articles_per_feed = 30

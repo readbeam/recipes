@@ -9,7 +9,7 @@ class LevanteRecipe(BasicNewsRecipe):
     description = u'El Mercantil Valenciano'
     title = u'Levante'
 
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     encoding = 'latin1'
     no_stylesheets = True

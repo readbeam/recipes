@@ -12,7 +12,7 @@ class BigHollywood(BasicNewsRecipe):
     description           = 'News and articles from the media world'
     publisher             = 'Big Hollywood'
     category              = 'news, media, art, literature, movies, politics, USA, Hollywood'
-    oldest_article        = 7
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

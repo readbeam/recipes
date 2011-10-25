@@ -20,7 +20,7 @@ class General(BasicNewsRecipe):
     remove_javascript = True
     no_stylesheets = True
 
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     keep_only_tags = [dict(id=['article'])]
     remove_tags = [

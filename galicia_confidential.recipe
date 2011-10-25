@@ -12,7 +12,7 @@ class GC_gl(BasicNewsRecipe):
     language              = 'gl'
     direction             = 'ltr'
     cover_url             = 'http://galiciaconfidencial.com/imagenes/header/logo_gc.gif'
-    oldest_article        = 5
+    oldest_article = 7
     max_articles_per_feed = 30
     center_navbar         = False
 

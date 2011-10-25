@@ -14,7 +14,7 @@ class Felicia(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'O revist\u0103 pentru sufletul t\u0103u'
     publisher             = u'Revista Felicia'
-    oldest_article        = 25
+    oldest_article = 7
     language              = 'ro'
     max_articles_per_feed = 30
     no_stylesheets        = True

@@ -24,7 +24,7 @@ class PlusInfo(BasicNewsRecipe):
     no_stylesheets        = True
     use_embedded_content  = False
     remove_empty_feeds    = True
-    oldest_article        = 1
+    oldest_article = 7
     max_articles_per_feed = 30
 
     keep_only_tags = [dict(name='div', attrs={'class': 'vest'})]

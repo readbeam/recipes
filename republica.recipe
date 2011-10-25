@@ -6,7 +6,7 @@ class AdvancedUserRecipe1316862613(BasicNewsRecipe):
     description = 'News from the Republica'
     language = 'en_NP'
     masthead_url = 'http://blog.nyayahealth.org/wp-content/uploads/2011/03/myrepublica1.gif'
-    oldest_article = 1
+    oldest_article = 7
     max_articles_per_feed = 30
     auto_cleanup = True
     cover_url = 'http://www.myrepublica.com/repub_front.jpg'

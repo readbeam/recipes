@@ -4,13 +4,13 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
     title = u'Metro Nieuws NL'
 # Version 1.2, updated cover image to match the changed website.
 # added info date on title
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     __author__     = u'DrMerry'
     description    = u'Metro Nederland'
     language       = u'nl'
     simultaneous_downloads = 5
-    #delay          = 1
+    #delay = 1
     auto_cleanup = True
     auto_cleanup_keep = '//div[@class="article-image-caption-2column"]|//div[@id="date"]'
     timefmt        = ' [%A, %d %b %Y]'

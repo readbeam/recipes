@@ -16,7 +16,7 @@ class Wired_UK(BasicNewsRecipe):
     description           = 'Gaming news'
     publisher             = 'Conde Nast Digital'
     category              = 'news, games, IT, gadgets'
-    oldest_article        = 40
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'

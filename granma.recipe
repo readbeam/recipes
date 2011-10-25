@@ -14,7 +14,7 @@ class Granma(BasicNewsRecipe):
     description           = 'Organo oficial del Comite Central del Partido Comunista de Cuba'
     publisher             = 'Granma'
     category              = 'news, politics, Cuba'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False

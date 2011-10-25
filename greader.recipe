@@ -8,7 +8,7 @@ class GoogleReader(BasicNewsRecipe):
     needs_subscription = True
     __author__ = 'davec, rollercoaster, Starson17'
     base_url = 'http://www.google.com/reader/atom/'
-    oldest_article = 365
+    oldest_article = 7
     max_articles_per_feed = 30
     get_options = '?n=%d&xt=user/-/state/com.google/read' % max_articles_per_feed = 30
     use_embedded_content = True

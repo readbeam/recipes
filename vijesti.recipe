@@ -15,7 +15,7 @@ class Vijesti(BasicNewsRecipe):
     description           = 'News from Montenegro'
     publisher             = 'Daily Press Vijesti'
     category              = 'news, politics, Montenegro'
-    oldest_article        = 2
+    oldest_article = 7
     max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'

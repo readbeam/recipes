@@ -10,7 +10,7 @@ class CubaDebate(BasicNewsRecipe):
     title                 = 'CubaDebate'
     __author__            = 'Darko Miletic'
     description           = 'Contra el Terorismo Mediatico'
-    oldest_article        = 15
+    oldest_article = 7
     language              = 'es_CU'
     max_articles_per_feed = 30
     no_stylesheets        = True

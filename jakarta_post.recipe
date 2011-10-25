@@ -20,7 +20,7 @@ class JakartaPost(BasicNewsRecipe):
     description    = u'Indonesian Newspaper in English from Jakarta Post Online Edition'
     category       = 'breaking news, national, business, international, Indonesia'
     language       = 'en_ID'
-    oldest_article = 2
+    oldest_article = 7
     max_articles_per_feed = 30
 
     no_stylesheets        = True
