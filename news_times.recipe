@@ -6,8 +6,8 @@ class NewsTimes(BasicNewsRecipe):
     description           = 'news from USA'
     language = 'en'
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 1
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

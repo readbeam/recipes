@@ -19,8 +19,8 @@ class AdvancedUserRecipe1294946868(BasicNewsRecipe):
     description           = 'spanish web about money and bussiness, free edition'
 
     cover_url     = 'http://www.prisa.com/images/logos/logo_cinco_dias.gif'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 2
+    max_articles_per_feed = 100
 
     remove_javascript = True
     no_stylesheets        = True

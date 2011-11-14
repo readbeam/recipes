@@ -5,7 +5,7 @@ class AdvancedUserRecipe1298137661(BasicNewsRecipe):
   __author__ = 'oneillpt'
   language              = 'fi'
   oldest_article = 7
-  max_articles_per_feed = 30
+  max_articles_per_feed = 100
   no_stylesheets = True
   remove_javascript     = True
   conversion_options = {

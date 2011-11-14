@@ -6,10 +6,10 @@ class TodaysZaman_en(BasicNewsRecipe):
     title          = u'Sızıntı Dergisi'
     __author__            = u'thomass'
     description            = 'a Turkey based daily for national and international news in the fields of business, diplomacy, politics, culture, arts, sports and economics, in addition to commentaries, specials and features'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 30
+    max_articles_per_feed  =80
     no_stylesheets         = True
-    #delay = 1
+    #delay                  = 1
     #use_embedded_content   = False
     encoding               = 'utf-8'
     #publisher              = '  '

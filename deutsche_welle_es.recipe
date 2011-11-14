@@ -12,11 +12,11 @@ class DeutscheWelle_es(BasicNewsRecipe):
     description           = 'Noticias desde Alemania y mundo'
     publisher             = 'Deutsche Welle'
     category              = 'news, politics, Germany'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 1
+    max_articles_per_feed = 100
     use_embedded_content  = False
     no_stylesheets        = True
-    language              = 'de_ES'
+    language              = 'de'
     publication_type      = 'newsportal'
     remove_empty_feeds    = True
     masthead_url          = 'http://www.dw-world.de/skins/std/channel1/pics/dw_logo1024.gif'

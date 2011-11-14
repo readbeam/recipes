@@ -15,7 +15,7 @@ class Histmag(BasicNewsRecipe):
 	no_stylesheets = True
 	language = 'pl'
 	remove_javascript = True
-	#max_articles_per_feed = 30
+	#max_articles_per_feed = 1
 	remove_tags_before = dict(dict(name = 'div', attrs = {'id' : 'article'}))
 	remove_tags_after = dict(dict(name = 'h2', attrs = {'class' : 'komentarze'}))
 	#keep_only_tags =[]

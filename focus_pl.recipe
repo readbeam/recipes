@@ -3,8 +3,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class Focus_pl(BasicNewsRecipe):
     title          = u'Focus.pl'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 15
+    max_articles_per_feed = 100
     __author__        = 'fenuks'
     language       = 'pl'
     description ='polish scientific monthly magazine'

@@ -15,7 +15,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
     use_embedded_content = False
     remove_empty_feeds = True
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
 
     no_stylesheets = True
     remove_javascript = True
@@ -56,7 +56,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
             table = soup.find('table', attrs = {'id': 'ctl00_cp_ctl01_listp'})
             if table:
                 self.pubTime = datetime.now()
-                self.minTime = self.pubTime - timedelta(days = self.oldest_article = 7
+                self.minTime = self.pubTime - timedelta(days = self.oldest_article)
 
                 self.find_articles(table, articles)
 
@@ -94,7 +94,7 @@ class CyNewsLiveRecipe(BasicNewsRecipe):
                                         day = int(dateParts[0]), hour = int(timeParts[0]),
                                         minute = int(timeParts[1]))
 
-            if self.pubTime >= self.minTime and self.articleCount <= self.max_articles_per_feed = 30
+            if self.pubTime >= self.minTime and self.articleCount <= self.max_articles_per_feed:
                 articles.append({'title': title, 'date': self.pubTime, 'url': url, 'description': description})
                 self.articleCount += 1
             else:

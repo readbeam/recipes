@@ -10,8 +10,8 @@ class PressThink(BasicNewsRecipe):
     title                  = 'PressThink'
     __author__             = 'Darko Miletic'
     description            = 'Ghost of democracy in the media machine'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 60
+    max_articles_per_feed  = 100
     no_stylesheets         = True
     use_embedded_content   = False
     encoding               = 'utf8'

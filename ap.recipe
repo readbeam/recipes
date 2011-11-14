@@ -10,7 +10,7 @@ class AssociatedPress(BasicNewsRecipe):
     use_embedded_content   = False
     language = 'en'
     no_stylesheets = True
-    max_articles_per_feed = 30
+    max_articles_per_feed = 15
     html2lrf_options = ['--force-page-break-before-tag="chapter"']
 
 

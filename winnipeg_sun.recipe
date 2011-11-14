@@ -4,11 +4,11 @@ class AdvancedUserRecipe1277647803(BasicNewsRecipe):
     title          = u'Winnipeg Sun'
     __author__            = 'rty'
     __version__            = '1.0'
-    oldest_article = 7
+    oldest_article = 2
     pubisher  = 'www.winnipegsun.com'
     description           = 'Winnipeg Newspaper'
     category              = 'News, Winnipeg, Canada'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'UTF-8'
     remove_javascript     = True

@@ -6,8 +6,8 @@ class Adventure_zone(BasicNewsRecipe):
     description   = 'Adventure zone - adventure games from A to Z'
     category       = 'games'
     language       = 'pl'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 15
+    max_articles_per_feed = 100
     no_stylesheets = True
     remove_tags_before= dict(name='td', attrs={'class':'main-bg'})
     remove_tags_after= dict(name='td', attrs={'class':'main-body middle-border'})

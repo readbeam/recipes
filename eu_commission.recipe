@@ -9,7 +9,7 @@ def feedlink(num):
 class EUCommissionPress(BasicNewsRecipe):
     title          = u'Pressemitteilungen der EU Kommission pro Politikbereich'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     cover_url = 'http://ec.europa.eu/wel/template_2007/images/banners/banner-background.jpg'
     __author__ = 'malfi'

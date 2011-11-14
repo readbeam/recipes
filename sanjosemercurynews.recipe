@@ -14,8 +14,8 @@ class MercuryNews(BasicNewsRecipe):
     description           = 'News from San Jose'
     publisher             = 'San Jose Mercury News'
     category              = 'news, politics, USA, San Jose, California'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

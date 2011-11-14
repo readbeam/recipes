@@ -126,8 +126,8 @@ class MPRecipe(BasicNewsRecipe):
                               lambda match: ''),
                              ]
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     __author__            = 'Eddie Lau'
     publisher             = 'MingPao'
     remove_javascript = True

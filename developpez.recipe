@@ -6,7 +6,7 @@ class AdvancedUserRecipe1301849956(BasicNewsRecipe):
     publisher = u'Developpez.com'
     timefmt = ' [%a, %d %b, %Y]'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     encoding = 'ISO-8859-1'
     language = 'fr'

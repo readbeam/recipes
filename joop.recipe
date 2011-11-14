@@ -15,7 +15,7 @@ class JoopRecipe(BasicNewsRecipe):
     description = u'Political blog from the Netherlands'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     use_embedded_content = False
 
     no_stylesheets = True

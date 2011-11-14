@@ -5,7 +5,7 @@ class Alternet(BasicNewsRecipe):
     title          = u'Alternet'
     __author__= 'rty'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     publisher = 'alternet.org'
     category = 'News, Magazine'
     description = 'News magazine and online community'

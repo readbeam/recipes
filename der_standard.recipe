@@ -21,8 +21,8 @@ class DerStandardRecipe(BasicNewsRecipe):
     encoding = 'utf-8'
     language = 'de'
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
 
     extra_css = '''
                 .artikelBody{font-family:Arial,Helvetica,sans-serif;}

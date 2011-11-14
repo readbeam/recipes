@@ -17,9 +17,9 @@ class darknet(BasicNewsRecipe):
 
     use_embedded_content   = False
     timefmt = ' [%b %d %Y]'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 40
     no_stylesheets = True
-    oldest_article = 7
+    oldest_article = 180
 
     remove_tags = [dict(id='navi_top'),
 		   dict(id='navi_bottom'),

@@ -6,15 +6,15 @@ class Ekathimerini(BasicNewsRecipe):
     __author__ = 'Thomas Scholl'
     description            = 'News from Greece, English edition'
     masthead_url           = 'http://wwk.kathimerini.gr/webadmin/EnglishNew/gifs/logo.gif'
-    max_articles_per_feed = 30
-    oldest_article = 7
+    max_articles_per_feed  = 100
+    oldest_article         = 100
     publisher              = 'Kathimerini'
     category               = 'news, GR'
     language               = 'en_GR'
     encoding               = 'windows-1253'
     conversion_options     = { 'linearize_tables': True}
     no_stylesheets         = True
-    delay = 1
+    delay                  = 1
     keep_only_tags         = [dict(name='td', attrs={'class':'news'})]
 
     rss_url = 'http://ws.kathimerini.gr/xml_files/latestnews.xml'

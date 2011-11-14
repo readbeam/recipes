@@ -21,7 +21,7 @@ class cdnet(BasicNewsRecipe):
 
     use_embedded_content   = False
     timefmt                = ' [%d %b %Y]'
-    max_articles_per_feed = 30
+    max_articles_per_feed  = 25
     no_stylesheets         = True
     remove_empty_feeds     = True
     filterDuplicates       = True

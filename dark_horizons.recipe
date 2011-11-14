@@ -7,7 +7,7 @@ class AdvancedUserRecipe1317580312(BasicNewsRecipe):
     description ='News, images, video clips and reviews of current and upcoming blockbuster films. '
     category               = 'movies, tv, news'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     cover_url          = 'http://a4.sphotos.ak.fbcdn.net/hphotos-ak-ash2/164168_148419801879765_148410081880737_225532_464073_n.jpg'
     masthead_url          = 'http://www.darkhorizons.com/graphics/2/logo_print.png'
     auto_cleanup = True

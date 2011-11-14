@@ -13,8 +13,8 @@ class JP_dk(BasicNewsRecipe):
     description           = 'News from Denmark'
     publisher             = 'jp.dk'
     category              = 'news, politics, Denmark'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'cp1252'

@@ -13,8 +13,8 @@ class Slashdot(BasicNewsRecipe):
     of content and may result in your IP being banned from slashdot.org'''
     oldest_article = 7
     simultaneous_downloads = 1
-    delay = 1
-    max_articles_per_feed = 30
+    delay = 3
+    max_articles_per_feed = 100
     language = 'en'
 
     __author__ = 'floweros edited by Huan T'

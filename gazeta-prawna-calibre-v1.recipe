@@ -15,7 +15,7 @@ class gazetaprawna(BasicNewsRecipe):
     __author__ = u'Vroo'
     publisher      = u'Infor Biznes'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     no_stylesheets = True
     remove_javascript = True
     description = 'Polski dziennik gospodarczy'

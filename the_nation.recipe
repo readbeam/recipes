@@ -11,13 +11,13 @@ class Thenation(BasicNewsRecipe):
     description           = 'Unconventional Wisdom Since 1865'
     publisher             = 'The Nation'
     category              = 'news, politics, USA'
-    oldest_article = 7
+    oldest_article        = 120
     encoding              = 'utf-8'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     language              = 'en'
     use_embedded_content  = False
-    delay = 1
+    delay                 = 1
     masthead_url          = 'http://www.thenation.com/sites/default/themes/thenation/images/logo-main.gif'
     login_url             = 'http://www.thenation.com/user?destination=%3Cfront%3E'
     publication_type      = 'magazine'

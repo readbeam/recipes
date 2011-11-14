@@ -23,7 +23,7 @@ class UtrinskiVesnik(BasicNewsRecipe):
     remove_javascript     = True
     publication_type      = 'newspaper'
     category              = 'news, Macedonia'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     preprocess_regexps    = [(re.compile(i[0], re.IGNORECASE | re.DOTALL), i[1]) for i in

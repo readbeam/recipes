@@ -13,9 +13,9 @@ class SVD_se(BasicNewsRecipe):
     description           = 'News from Sweden'
     publisher             = 'Svenska Dagbladet'
     category              = 'news, politics, Sveden'
-    oldest_article = 7
-    delay = 1
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    delay                 = 1
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

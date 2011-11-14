@@ -14,7 +14,7 @@ class Vreme(BasicNewsRecipe):
     description          = 'Politicki Nedeljnik Srbije'
     publisher            = 'NP Vreme d.o.o.'
     category             = 'news, politics, Serbia'
-    delay = 1
+    delay                = 1
     no_stylesheets       = True
     needs_subscription   = True
     INDEX                = 'http://www.vreme.com'

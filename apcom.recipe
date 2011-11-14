@@ -23,7 +23,7 @@ class Apcom(BasicNewsRecipe):
     timefmt        = '[%a, %d %b, %Y]'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 50
     use_embedded_content  = False
     recursion             = 100
 

@@ -6,11 +6,11 @@ class Skeptic(BasicNewsRecipe):
     description         = 'Discussions with leading experts and investigation of fringe science and paranormal claims.'
     language       = 'en'
     __author__     = 'Starson17'
-    oldest_article = 7
+    oldest_article = 31
     cover_url           = 'http://www.skeptricks.com/images/Skeptic_Magazine.jpg'
     remove_empty_feeds    = True
     remove_javascript   = True
-    max_articles_per_feed = 30
+    max_articles_per_feed = 50
     no_stylesheets = True
 
     remove_tags = [dict(name='div', attrs={'class':['Introduction','divider']}),

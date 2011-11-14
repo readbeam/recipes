@@ -13,12 +13,12 @@ class ScienceAAS(BasicNewsRecipe):
     language = 'en'
 
     description           = u'The best in science news, commentary, and research'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     simultaneous_downloads = 1
-    delay = 1
+    delay                  = 1
     timefmt                = ' [%A, %d %B, %Y]'
     needs_subscription     = True
     LOGIN = 'http://www.sciencemag.org/cgi/login?uri=%2Findex.dtl'
@@ -27,12 +27,12 @@ class ScienceAAS(BasicNewsRecipe):
         br = BasicNewsRecipe.get_browser()
         if self.username is not None and self.password is not None:
             br.open(self.LOGIN)
-            br.select_form(name='registered_users_form')
+            br.select_form(nr=1)
             br['username'] = self.username
             br['code'    ] = self.password
             br.submit()
         return br
 
-    keep_only_tags = [ dict(name='div', attrs={'id':'LegacyContent'}) ]
+    keep_only_tags = [ dict(name='div', attrs={'id':'content-block'}) ]
 
     feeds       = [(u"Science: Current Issue", u'http://www.sciencemag.org/rss/current.xml')]

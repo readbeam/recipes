@@ -13,8 +13,8 @@ class JapanTimes(BasicNewsRecipe):
     language              = 'en_JP'
     category              = 'news, politics, japan'
     publisher             = 'The Japan Times'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 5
+    max_articles_per_feed = 150
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf8'
@@ -44,7 +44,11 @@ class JapanTimes(BasicNewsRecipe):
         return rurl.partition('?')[0]
 
     def print_version(self, url):
-        return url.replace('/cgi-bin/','/print/')
+        if '/rss/' in url:
+            return url.replace('.jp/rss/','.jp/print/')
+        if '/text/' in url:
+            return url.replace('.jp/text/','.jp/print/')
+        return url
 
     def preprocess_html(self, soup):
         for item in soup.findAll(style=True):

@@ -6,7 +6,7 @@ class AdvancedUserRecipe1290013720(BasicNewsRecipe):
     language = 'en_CA'
     description = 'Hockey News'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 25
     no_stylesheets = True
     remove_tags = [dict(name='div', attrs={'id':'rdsWrap'}),
 		            dict(name='table', attrs={'id':'aVoir'}),

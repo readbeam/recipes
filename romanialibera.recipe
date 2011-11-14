@@ -14,9 +14,9 @@ class RomaniaLibera(BasicNewsRecipe):
     __author__            = u'Silviu Cotoar\u0103'
     description           = u'Rom\u00e2nia Liber\u0103'
     publisher             = u'Rom\u00e2nia Liber\u0103'
-    oldest_article = 7
+    oldest_article        = 5
     language              = 'ro'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     category              = 'Ziare,Stiri'

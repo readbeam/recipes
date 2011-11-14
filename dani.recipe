@@ -16,7 +16,7 @@ class BHDani(BasicNewsRecipe):
     publisher              = 'd.o.o. CIVITAS'
     category               = 'dani, bh, bhdani, magazin, sarajevo, bosna, novine, mediji, listovi, news, magazines, weekly'
     no_stylesheets         = True
-    oldest_article = 7
+    oldest_article         = 15
     encoding               = 'cp1250'
     needs_subscription     = True
     remove_empty_feeds     = True

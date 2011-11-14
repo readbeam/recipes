@@ -10,7 +10,7 @@ class KANewsRecipe(BasicNewsRecipe):
     no_stylesheets = True
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
 
     feeds = [
                 (u'News aus Karlsruhe', 'http://www.ka-news.de/storage/rss/rss/karlsruhe.xml'),

@@ -14,8 +14,8 @@ import string, re
 
 class CIO_Magazine(BasicNewsRecipe):
     title      = 'CIO Magazine'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 14
+    max_articles_per_feed = 100
     auto_cleanup = True
     __author__ = 'Julio Map'
     description = 'CIO is the leading information brand for today-s busy Chief information Officer - CIO Magazine bi-monthly '

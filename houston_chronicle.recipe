@@ -14,7 +14,7 @@ class HoustonChronicle(BasicNewsRecipe):
     use_embedded_content = False
     remove_attributes = ['style']
 
-    oldest_article = 7
+    oldest_article = 2.0
 
     keep_only_tags = {'class':lambda x: x and ('hst-articletitle' in x or
         'hst-articletext' in x or 'hst-galleryitem' in x)}

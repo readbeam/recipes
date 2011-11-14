@@ -6,8 +6,8 @@ class AdvancedUserRecipe1268409464(BasicNewsRecipe):
     title = u'The Sun'
     __author__ = 'Chaz Ralph'
     description = 'News from The Sun'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     language = 'en'
     no_stylesheets = True
     extra_css = '.headline {font-size: x-large;} \n .fact { padding-top: 10pt }'

@@ -12,12 +12,12 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     simultaneous_downloads = 5
 #    remove_javascript     = True
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
  #   remove_attributes = ['width']
     keep_only_tags =dict(name='div', attrs={'class':'wp-0-b w3'})
     remove_tags = [dict(name='div', attrs={'class':'tagsContainer'})]
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
 #    preprocess_regexps = [
 #        (re.compile(r'<p>&nbsp;</p>', re.DOTALL|re.IGNORECASE), lambda match: '')
 #        ]

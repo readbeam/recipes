@@ -15,7 +15,7 @@ class TelepolisArtikel(BasicNewsRecipe):
     description = 'Telepolis Artikel'
     language = 'de_AT'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     recursion = 0
     no_stylesheets = True
 

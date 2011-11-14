@@ -15,11 +15,11 @@ class Harpers_full(BasicNewsRecipe):
     description           = "Harper's Magazine: Founded June 1850."
     publisher             = "Harpers's"
     category              = 'news, politics, USA'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
-    delay = 1
+    delay                 = 1
     language              = 'en'
     needs_subscription    = True
     masthead_url          = 'http://www.harpers.org/media/image/Harpers_305x100.gif'

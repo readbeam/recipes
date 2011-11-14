@@ -13,9 +13,9 @@ class Diariosur(BasicNewsRecipe):
     title                 = u'Diario Cordoba'
     __author__            = u'Francisco'
     description           = u'News Cordoba'
-    oldest_article = 7
-    max_articles_per_feed = 30
-    delay = 1
+    oldest_article        = 5
+    max_articles_per_feed = 100
+    delay                 = 0
     timeout               = 120
     no_stylesheets        = True
     use_embedded_content  = False

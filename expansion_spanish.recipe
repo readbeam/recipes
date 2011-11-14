@@ -14,8 +14,8 @@ class Publico(BasicNewsRecipe):
     __author__      ='Gerardo Diez'
     publisher       =u'Unidad Editorial Información Económica, S.L.'
     category                ='finances, catalunya'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article      =1
+    max_articles_per_feed   =100
     simultaneous_downloads  =10
     cover_url       =u'http://estaticos01.expansion.com/iconos/v2.x/v2.0/cabeceras/logo_expansion.png'
     timefmt         ='[%A, %d %B, %Y]'

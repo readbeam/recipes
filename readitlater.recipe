@@ -18,8 +18,8 @@ class Readitlater(BasicNewsRecipe):
                                username, and optionally you can add password.'''
     publisher             = 'readitlater.com'
     category              = 'news, custom'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     needs_subscription    = True

@@ -9,7 +9,7 @@ class AdvancedUserRecipe1316944753(BasicNewsRecipe):
     language              = 'en'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     auto_cleanup = True
 
     no_stylesheets        = True

@@ -11,10 +11,10 @@ class recipeMagic(BasicNewsRecipe):
     __author__             = 'Marcin Urban 2011'
     description            = 'legenda wśród magazynów z historią sięgającą 120 lat'
     cover_url      	       = 'http://www.guj.pl/var/guj/storage/images/media/nasze_magazyny/national_geographic/logo/ng_logo/2606-1-pol-PL/ng_logo.jpg'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 7
+    max_articles_per_feed  = 100
     no_stylesheets         = True
-    #delay = 1
+    #delay                 = 1
     use_embedded_content   = False
     encoding               = 'utf8'
     publisher              = 'G+J Gruner+Jahr Polska'

@@ -13,7 +13,7 @@ class EndgadgetJapan(BasicNewsRecipe):
     cover_url      = 'http://skins18.wincustomize.com/1/49/149320/29/7578/preview-29-7578.jpg'
     masthead_url   = 'http://www.blogsmithmedia.com/japanese.engadget.com/media/eng-jp-logo-t.png'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     language = 'ja'
     encoding = 'utf-8'

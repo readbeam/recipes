@@ -17,9 +17,9 @@ class VecernjiList(BasicNewsRecipe):
     description           = "Vecernji.hr je vodeci hrvatski news portal. Cilj je biti prvi u objavljivanju svih vijesti iz Hrvatske, svijeta, sporta, gospodarstva, showbiza i jos mnogo vise. Uz cjelodnevni rad, novinari objavljuju preko 300 raznih vijesti svakoga dana. Vecernji.hr prati sve vaznije dogadaje specijalnim izvjestajima, video specijalima i foto galerijama."
     publisher             = 'Vecernji.hr'
     category              = 'news, politics, Croatia'
-    oldest_article = 7
-    max_articles_per_feed = 30
-    delay = 1
+    oldest_article        = 2
+    max_articles_per_feed = 100
+    delay                 = 1
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

@@ -24,7 +24,7 @@ class Guardian(BasicNewsRecipe):
     language = 'en_GB'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     remove_javascript = True
 
     # List of section titles to ignore

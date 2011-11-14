@@ -10,8 +10,8 @@ class Spiegel_int(BasicNewsRecipe):
     title                 = 'Spiegel Online International'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = "Daily news, analysis and opinion from Europe's leading newsmagazine and Germany's top news Web site"
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     language              = 'en_DE'
     no_stylesheets        = True
     use_embedded_content  = False

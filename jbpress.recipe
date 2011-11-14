@@ -8,7 +8,7 @@ class JBPress(BasicNewsRecipe):
     __author__	= 'Ado Nishimura'
     needs_subscription = True
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     remove_tags_before = dict(id='wrapper')
     no_stylesheets         = True
 

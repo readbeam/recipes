@@ -8,11 +8,11 @@ class AdvancedUserRecipe1307556816(BasicNewsRecipe):
     description    = u'Geek and Poke Cartoons'
     publisher      = u'Oliver Widder'
     author         = u'Oliver Widder, DrMerry (calibre-code), calibre'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 31
+    max_articles_per_feed = 100
     language       = u'en'
     simultaneous_downloads = 1
-    #delay = 1
+    #delay          = 1
     timefmt        = ' [%a, %d %B, %Y]'
     summary_length = -1
     no_stylesheets = True

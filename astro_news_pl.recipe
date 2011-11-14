@@ -6,8 +6,8 @@ class AstroNEWS(BasicNewsRecipe):
     description   = 'AstroNEWS- astronomy every day'
     category       = 'astronomy, science'
     language       = 'pl'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 8
+    max_articles_per_feed = 100
     auto_cleanup = True
     cover_url='http://news.astronet.pl/img/logo_news.jpg'
    # no_stylesheets= True

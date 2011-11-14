@@ -12,13 +12,13 @@ class Nspm_int(BasicNewsRecipe):
     description           = 'Magazine dedicated to political theory and sociological research'
     publisher             = 'NSPM'
     category              = 'news, politics, Serbia'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'
     language              = 'en'
-    delay = 1
+    delay                 = 2
     publication_type      = 'magazine'    
     masthead_url          = 'http://www.nspm.rs/templates/jsn_epic_pro/images/logol.jpg'
     extra_css             = """ 

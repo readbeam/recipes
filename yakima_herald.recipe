@@ -5,8 +5,8 @@ class YakimaHeraldRepublicRecipe(BasicNewsRecipe):
     description    = 'The Yakima Herald-Republic.'
     language = 'en'
     __author__     = 'Laura Gjovaag'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 1.5
+    max_articles_per_feed = 100
     no_stylesheets        = True
     remove_javascript     = True
     keep_only_tags = [

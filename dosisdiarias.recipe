@@ -10,8 +10,8 @@ class DosisDiarias(BasicNewsRecipe):
     title                  = 'Alberto Montt en dosis diarias'
     __author__             = 'Darko Miletic'
     description            = 'Mire sin compromiso y si le gusta vuelva'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 5
+    max_articles_per_feed  = 100
     no_stylesheets         = True
     use_embedded_content   = True
     encoding               = 'utf-8'

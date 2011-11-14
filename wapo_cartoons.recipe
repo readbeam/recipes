@@ -14,7 +14,7 @@ class WaPoCartoonsRecipe(BasicNewsRecipe):
     description = u'Cartoons from the Washington Post'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     use_embedded_content = False
     no_stylesheets = True
 
@@ -38,7 +38,7 @@ class WaPoCartoonsRecipe(BasicNewsRecipe):
 
     def parse_index(self):
         index = []
-        oldestDate = date.today() - timedelta(days = self.oldest_article = 7
+        oldestDate = date.today() - timedelta(days = self.oldest_article)
         oldest = oldestDate.strftime('%Y%m%d')
         for feed in self.feeds:
             cartoons = []

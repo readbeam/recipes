@@ -8,7 +8,7 @@ class Nowa_Fantastyka(BasicNewsRecipe):
     language       = 'pl'
     description ='site for fantasy readers'
     category='fantasy'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     INDEX='http://www.fantastyka.pl/'
     remove_tags_before=dict(attrs={'class':'belka1-tlo-md'})
     #remove_tags_after=dict(name='span', attrs={'class':'naglowek-oceny'})

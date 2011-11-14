@@ -12,12 +12,12 @@ class TheTorontoStar(BasicNewsRecipe):
     title                 = 'The Toronto Star'
     __author__            = 'Darko Miletic'
     description           = "Canada's largest daily newspaper"
-    oldest_article = 7
+    oldest_article        = 2
     language              = 'en_CA'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
-    delay = 1
+    delay                 = 2
     publisher             = 'The Toronto Star'
     category              = "Toronto Star,Canada's largest daily newspaper,breaking news,classifieds,careers,GTA,Toronto Maple Leafs,sports,Toronto,news,editorial,The Star,Ontario,information,columnists,business,entertainment,births,deaths,automotive,rentals,weather,archives,Torstar,technology,Joseph Atkinson"
     encoding              = 'utf-8'

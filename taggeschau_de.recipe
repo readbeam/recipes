@@ -8,7 +8,7 @@ class Tagesschau(BasicNewsRecipe):
 
      __author__     = 'Florian Andreas Pfaff'
      oldest_article = 7
-     max_articles_per_feed = 30
+     max_articles_per_feed = 100
      no_stylesheets = True
 
      feeds          = [('Tagesschau', 'http://www.tagesschau.de/xml/rss2')]

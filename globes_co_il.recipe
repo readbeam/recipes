@@ -11,8 +11,8 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     simultaneous_downloads = 5
     remove_javascript     = True
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     remove_attributes = ['width','style']
 
 
