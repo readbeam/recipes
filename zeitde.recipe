@@ -1,4 +1,4 @@
-__license__   = 'GPL v3'
+__license__ = 'GPL v3'
 __copyright__ = '2008, Kovid Goyal <kovid at kovidgoyal.net>'
 
 '''
@@ -7,28 +7,32 @@ Fetch Die Zeit.
 
 from calibre.web.feeds.news import BasicNewsRecipe
 
+
 class ZeitDe(BasicNewsRecipe):
 
     title = 'Zeit Online'
     description = 'Zeit Online'
     language = 'de'
     encoding = 'UTF-8'
+    publication_type = 'newspaper'
 
     __author__ = 'Martin Pitt, Sujata Raman, Ingo Paschke and Marc Toensing'
     no_stylesheets = True
+    remove_javascript = True
+    remove_attributes = ['style', 'font']
 
     max_articles_per_feed = 40
-
-    remove_tags = [
-                        dict(name='iframe'),
-                        dict(name='div', attrs={'class':["response","pagination block","pagenav","inline link", "copyright"] }),
-                        dict(name='p', attrs={'class':["ressortbacklink", "copyright"] }),
-                        dict(name='div', attrs={'id':["place_5","place_4","comments"]})
-                      ]
+    simultaneous_downloads = 10
 
     keep_only_tags = [dict(id=['main'])]
+    remove_tags = [
+        dict(name='iframe'),
+        dict(name='div', attrs={'class':["response", "pagination block", "pagination", "pagenav", "inline link", "copyright"]}),
+        dict(name='p', attrs={'class':["ressortbacklink", "copyright"]}),
+        dict(name='div', attrs={'id':["place_5", "place_4", "comments", "relatedArticles", "teasermosaic"]})
+    ]
 
-    feeds =  [
+    feeds = [
                ('Seite 1', 'http://newsfeed.zeit.de/index_xml'),
                ('Politik', 'http://newsfeed.zeit.de/politik/index'),
                ('Wirtschaft', 'http://newsfeed.zeit.de/wirtschaft/index'),
@@ -45,31 +49,40 @@ class ZeitDe(BasicNewsRecipe):
                ('Sport', 'http://newsfeed.zeit.de/sport/index'),
              ]
 
-    extra_css = '.excerpt{font-size:1em}.reaktion,.taglist,.comments,.reponse,.responsetitle,.responsebody,.reponse,.inline,.date{display:none;}li.date{display:block}'
+    extra_css = '.excerpt{font-size:1em}.reaktion,.taglist,.comments,.reponse,.responsetitle,.responsebody,.reponse,.inline,.date{display:none;}li.date{display:block}span.supertitle{text-transform: uppercase;font-size:0.5em;display:block;}.caption{font-style:italic;}ul.tools{list-style:none}.bibliografie{margin-bottom:1em;}.bibliografie p{margin-bottom:0;}'
 
     #filter_regexps = [r'ad.de.doubleclick.net/']
 
     def get_article_url(self, article):
-        ans = article.get('link',None)
-        ans += "?page=all&print=true"
+        ans = article.get('link', None)
+        ans += "/komplettansicht?print=true"
 
-        if 'video' in ans or 'quiz' in ans or 'blog' in ans :
-              ans = None
+        if 'video' in ans or 'quiz' in ans or 'blog' in ans:
+            ans = None
         return ans
 
     def preprocess_html(self, soup):
-        for tag in soup.findAll(name=['ul','li']):
-            tag.name = 'div'
+        # for tag in soup.findAll(name=['ul', 'li']):
+        #     tag.name = 'div'
+        for tag in soup.findAll('span', {'class': 'supertitle'}):
+            tag.contents[0].replaceWith(tag.contents[0] + ":")
 
         soup.html['xml:lang'] = self.language.replace('_', '-')
-        soup.html['lang']     = self.language.replace('_', '-')
+        soup.html['lang'] = self.language.replace('_', '-')
         mtag = '<meta http-equiv="Content-Type" content="text/html; charset=' + self.encoding + '">'
-        soup.head.insert(0,mtag)
+        soup.head.insert(0, mtag)
         return soup
+
+    def populate_article_metadata(self, article, soup, first):
+        author = soup.find("a", {"rel": "author"})
+        if author:
+            article.author = author.contents[0].strip()
+        else:
+            article.author = "Zeit Redaktion"
 
     def get_cover_url(self):
         try:
             inhalt = self.index_to_soup('http://www.zeit.de/inhalt')
-            return inhalt.find('div', attrs={'class':'singlearchive clearfix'}).img['src'].replace('icon_','')
+            return inhalt.find('div', attrs={'class': 'singlearchive clearfix'}).img['src'].replace('icon_', '')
         except:
             return 'http://images.zeit.de/bilder/titelseiten_zeit/1946/001_001.jpg'
