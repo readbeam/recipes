@@ -36,7 +36,7 @@ class Economist(BasicNewsRecipe):
 
     # economist.com has started throttling after about 60% of the total has
     # downloaded with connection reset by peer (104) errors.
-    delay = 1
+    delay = 2
 
     def get_cover_url(self):
         soup = self.index_to_soup('http://www.economist.com/printedition/covers')

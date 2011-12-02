@@ -21,8 +21,9 @@ class ZeitDe(BasicNewsRecipe):
     remove_javascript = True
     remove_attributes = ['style', 'font']
 
-    max_articles_per_feed = 40
-    simultaneous_downloads = 10
+    oldest_article = 1
+    max_articles_per_feed = 50
+    simultaneous_downloads = 5
 
     keep_only_tags = [dict(id=['main'])]
     remove_tags = [
