@@ -11,7 +11,7 @@ class LeMonde(BasicNewsRecipe):
     __author__             = 'veezh'
     description            = 'Actualités'
     oldest_article         = 1
-    max_articles_per_feed  = 100
+    max_articles_per_feed  = 50
     no_stylesheets         = True
     #delay                  = 1
     use_embedded_content   = False

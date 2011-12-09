@@ -24,9 +24,9 @@ class GoComics(BasicNewsRecipe):
 
     ####### USER PREFERENCES - COMICS, IMAGE SIZE AND NUMBER OF COMICS TO RETRIEVE ########
     # num_comics_to_get - I've tried up to 99 on Calvin&Hobbes
-    num_comics_to_get = 7
+    num_comics_to_get = 1
     # comic_size 300 is small, 600 is medium, 900 is large, 1500 is extra-large
-    comic_size = 900
+    comic_size = 600
     # CHOOSE COMIC STRIPS BELOW - REMOVE COMMENT '# ' FROM IN FRONT OF DESIRED STRIPS
     # Please do not overload their servers by selecting all comics and 1000 strips from each!
 
