@@ -15,8 +15,7 @@ class FazNet(BasicNewsRecipe):
     use_embedded_content  = False
     language = 'de'
 
-    max_articles_per_feed = 50
-    oldest_article = 1
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     remove_javascript     = True

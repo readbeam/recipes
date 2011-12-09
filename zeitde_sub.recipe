@@ -1,16 +1,16 @@
-#!/usr/bin/env  python
+#!/usr/bin/env  python2
 # -*- coding: utf-8 mode: python -*-
 
 __license__   = 'GPL v3'
 __copyright__ = '2010, Steffen Siebert <calibre at steffensiebert.de>'
 __docformat__ = 'restructuredtext de'
-__version__   = '1.6'
+__version__   = '1.5'
 
 """
 Die Zeit EPUB
 """
 
-import os, urllib2, zipfile, re, string, cStringIO
+import os, zipfile, re, cStringIO
 from calibre.web.feeds.news import BasicNewsRecipe
 from calibre.ptempfile import PersistentTemporaryFile
 from calibre import walk
@@ -52,15 +52,13 @@ class ZeitEPUBAbo(BasicNewsRecipe):
         # the next two lines not only fix errors but also create new ones. this is due to additional errors in
         # the typesetting such as missing commas or wrongly placed dashes. but more is fixed than broken.
         (re.compile(r'(?<!und|der|\w\w,) -(?=\w)'), lambda match: '-'), # space too much before a connecting dash
-        (re.compile(r'(?<=\w)- (?!und\b|oder\b|wie\b|als\b|aber\b|auch\b|sondern\b|bis\b|&amp;|&\s|bzw\.|auf\b|eher\b|noch\b)'), lambda match: '-'), # space too much after a connecting dash
+        (re.compile(r'(?<=\w)- (?!und\b|oder\b|wie\b|aber\b|auch\b|sondern\b|bis\b|&amp;|&\s|bzw\.|auf\b|eher\b)'), lambda match: '-'), # space too much after a connecting dash
         # filtering for missing spaces before the month in long dates
         (re.compile(u'(?<=\d)\.(?=(Januar|Februar|M\u00E4rz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember))'), lambda match: '. '),
         # filtering for other missing spaces
         (re.compile(r'Stuttgart21'), lambda match: 'Stuttgart 21'), # the obvious
         (re.compile(u'(?<=\d)(?=\u20AC)'), lambda match: u'\u2013'), # Zahl[no space]Euro
         (re.compile(r':(?=[^\d\s</])'), lambda match: ': '), # missing space after colon
-        (re.compile(u'(?<=\S)\u0022 '), lambda match: u'\u00AB '), # wrong closing quotation
-        (re.compile(u' \u0022(?=\S)'), lambda match: u' \u00BB'), # wrong opening quotation
         (re.compile(u'\u00AB(?=[^\-\.:;,\?!<\)\s])'), lambda match: u'\u00AB '), # missing space after closing quotation
         (re.compile(u'(?<=[^\s\(>])\u00BB'), lambda match: u' \u00BB'), # missing space before opening quotation
         (re.compile(r'(?<=[a-z])(?=(I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)\.)'), lambda match: ' '), # missing space before Roman numeral
@@ -83,8 +81,8 @@ class ZeitEPUBAbo(BasicNewsRecipe):
         (re.compile(u'(?<=[\u00BB\u203A]) \.\.\.'), lambda match: '...'), # fix special cases of ... after a quotation mark
         (re.compile(u'\.\.\. (?=[\u00AB\u2039,])'), lambda match: '...'), # fix special cases of ... before a quotation mark or comma
         # fix missing spaces between numbers and any sort of units, possibly with dot
-        (re.compile(r'(?<=\d)(?=(Femto|Piko|Nano|Mikro|Milli|Zenti|Dezi|Hekto|Kilo|Mega|Giga|Tera|Peta|Tausend|Trilli|Kubik|Quadrat|Meter|Uhr|Jahr|Schuljahr|Seite|Division|Kompanie|Armee))'), lambda match: ' '),
-        (re.compile(r'(?<=\d\.)(?=(Femto|Piko|Nano|Mikro|Milli|Zenti|Dezi|Hekto|Kilo|Mega|Giga|Tera|Peta|Tausend|Trilli|Kubik|Quadrat|Meter|Uhr|Jahr|Schuljahr|Seite|Division|Kompanie|Armee))'), lambda match: ' '),
+        (re.compile(r'(?<=\d)(?=(Femto|Piko|Nano|Mikro|Milli|Zenti|Dezi|Hekto|Kilo|Mega|Giga|Tera|Peta|Tausend|Trilli|Kubik|Quadrat|Meter|Uhr|Jahr|Schuljahr|Seite))'), lambda match: ' '),
+        (re.compile(r'(?<=\d\.)(?=(Femto|Piko|Nano|Mikro|Milli|Zenti|Dezi|Hekto|Kilo|Mega|Giga|Tera|Peta|Tausend|Trilli|Kubik|Quadrat|Meter|Uhr|Jahr|Schuljahr|Seite))'), lambda match: ' '),
         # fix wrong spaces
         (re.compile(r'(?<=<p class="absatz">[A-ZÄÖÜ]) (?=[a-zäöü\-])'), lambda match: ''), # at beginning of paragraphs
         (re.compile(u' \u00AB'), lambda match: u'\u00AB '), # before closing quotation
@@ -108,17 +106,7 @@ class ZeitEPUBAbo(BasicNewsRecipe):
         (re.compile(u'\u2087'), lambda match: '<span style="font-size: 40%;">7</span>'), # subscript-7
         (re.compile(u'\u2088'), lambda match: '<span style="font-size: 40%;">8</span>'), # subscript-8
         (re.compile(u'\u2089'), lambda match: '<span style="font-size: 40%;">9</span>'), # subscript-9
-        (re.compile(u'\u2070'), lambda match: '^0'), # superscript-0
-        (re.compile(u'\u2071'), lambda match: '^1'), # superscript-1
-        (re.compile(u'\u2072'), lambda match: '^2'), # superscript-2
-        (re.compile(u'\u2073'), lambda match: '^3'), # superscript-3
-        (re.compile(u'\u2074'), lambda match: '^4'), # superscript-4
-        (re.compile(u'\u2075'), lambda match: '^5'), # superscript-5
-        (re.compile(u'\u2076'), lambda match: '^6'), # superscript-6
-        (re.compile(u'\u2077'), lambda match: '^7'), # superscript-7
-        (re.compile(u'\u2078'), lambda match: '^8'), # superscript-8
-        (re.compile(u'\u2079'), lambda match: '^9'), # superscript-9
-        # always change CO2
+        # always chance CO2
         (re.compile(r'CO2'), lambda match: 'CO<span style="font-size: 40%;">2</span>'), # CO2
         # remove *** paragraphs
         (re.compile(r'<p class="absatz">\*\*\*</p>'), lambda match: ''),
@@ -126,16 +114,6 @@ class ZeitEPUBAbo(BasicNewsRecipe):
         (re.compile(u'(?<=DIE ZEIT N\u00B0 \d /) (?=\d\d)'), lambda match: ' 20'), # proper year in edition number
         (re.compile(u'(?<=DIE ZEIT N\u00B0 \d\d /) (?=\d\d)'), lambda match: ' 20'), # proper year in edition number
         (re.compile(u'(?<=>)(?=DIE ZEIT N\u00B0 \d\d / 20\d\d)'), lambda match: u' \u2014 '), # m-dash between category and DIE ZEIT
-        (re.compile(r'(?<=ZEIT Nr\. \d\d/)(?=[01234]\d)'), lambda match: '20'), # DIE ZEIT number with full year
-        (re.compile(r'(?<=ZEIT Nr\. \d/)(?=[01234]\d)'), lambda match: '20'),    # DIE ZEIT number with full year
-        (re.compile(r'(?<=ZEIT Nr\. \d\d/)(?=[56789]\d)'), lambda match: '19'), # DIE ZEIT number with full year
-        (re.compile(r'(?<=ZEIT Nr\. \d/)(?=[56789]\d)'), lambda match: '19'),    # DIE ZEIT number with full year
-        (re.compile(r'(?<=ANALYSE UND MEINUNG) '), lambda match: ': '), # "ANALYSE UND MEINUNG" with following colon
-        # better layout and saving space for the bottom of each article
-        (re.compile(r"]</span>\n[ ]*</a>\n[ ]*<br />\n[ ]*(?=<a href='[\w]*.xhtm[#\w_]*' class='toc_link'>)"), lambda match: ']</span>\n</a>\n'), # remove line breaks for navi links
-        (re.compile(r'\[zum Inhaltsverzeichnis]'), lambda match: '[Inhalt]'), # shorten Inhaltsverzeichnis
-        (re.compile(r'\[zum Ressort '), lambda match: '['), # shorten Ressort
-        (re.compile(u'\[zur Übersicht '), lambda match: '['), # shorten Übersicht
     ]
 
     def build_index(self):
@@ -145,16 +123,15 @@ class ZeitEPUBAbo(BasicNewsRecipe):
 
         # new login process
         response = browser.open(url)
-        # get rid of nested form
+        # Get rid of nested form
         response.set_data(response.get_data().replace('<div><form action="/abo/zeit_digital?destination=node%2F94"  accept-charset="UTF-8" method="post" id="user-login-form" class="zol_inlinelabel">', ''))
         browser.set_response(response)
-        # find correct form and submit
         browser.select_form(nr=2)
         browser.form['name']=self.username
         browser.form['pass']=self.password
         browser.submit()
         # now find the correct file, we will still use the ePub file
-        epublink = browser.find_link(text_regex=re.compile('.*Ausgabe als Datei im ePub-Format.*'))
+        epublink = browser.find_link(text_regex=re.compile('.*Download als Datei im ePub-Format für eReader.*'))
         response = browser.follow_link(epublink)
         self.report_progress(1,_('next step'))
 
@@ -176,7 +153,7 @@ class ZeitEPUBAbo(BasicNewsRecipe):
 
         # doing regular expression filtering
         for path in walk('.'):
-            (shortname, extension) = os.path.splitext(path)  
+            (shortname, extension) = os.path.splitext(path)
             if extension.lower() in ('.html', '.htm', '.xhtml'):
                 with open(path, 'r+b') as f:
                     raw = f.read()
@@ -204,11 +181,11 @@ class ZeitEPUBAbo(BasicNewsRecipe):
             browser = self.get_browser()
 
             # new login process
-            response = browser.open(url)
-            # get rid of nested form
+            response=browser.open(url)
+            # Get rid of nested form
             response.set_data(response.get_data().replace('<div><form action="/abo/zeit_digital?destination=node%2F94"  accept-charset="UTF-8" method="post" id="user-login-form" class="zol_inlinelabel">', ''))
             browser.set_response(response)
-            # find correct form and submit
+
             browser.select_form(nr=2)
             browser.form['name']=self.username
             browser.form['pass']=self.password
