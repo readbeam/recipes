@@ -63,3 +63,4 @@ class Zaman (BasicNewsRecipe):
                         ]
     def print_version(self, url):
      return url.replace('http://www.zaman.com.tr/haber.do?haberno=', 'http://www.zaman.com.tr/yazdir.do?haberno=')
+

@@ -11,7 +11,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class TheCND(BasicNewsRecipe):
 
-	title	  = 'CND'
+	title	  = 'CND Weekly'
 	__author__ = 'Derek Liang'
 	description = ''
 	INDEX = 'http://cnd.org'
@@ -46,21 +46,22 @@ class TheCND(BasicNewsRecipe):
 			if url.startswith('/'):
 				url = 'http://cnd.org'+url
 			title = self.tag_to_string(a)
-			self.log('\tFound article: ', title, 'at', url)
 			date = a.nextSibling
-			if re.search('cm', date):
+			if not re.search('cm', date):
 				continue
+			self.log('\tFound article: ', title, 'at', url, '@', date)
 			if (date is not None) and len(date)>2:
 				if not articles.has_key(date):
 					articles[date] = []
 				articles[date].append({'title':title, 'url':url, 'description': '', 'date':''})
 				self.log('\t\tAppend to : ', date)
 
-		#self.log('log articles', articles)
-		mostCurrent = sorted(articles).pop()
-		self.title = 'CND ' + mostCurrent		
 		
-		feeds.append((self.title, articles[mostCurrent]))
+		sorted_articles = sorted(articles)
+		while sorted_articles:
+			mostCurrent = sorted_articles.pop()
+			self.title = 'CND ' + mostCurrent
+			feeds.append((self.title, articles[mostCurrent]))
 
 		return feeds
 
