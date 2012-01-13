@@ -11,8 +11,6 @@ class AppleDaily(BasicNewsRecipe):
     masthead_url = 'http://hk.apple.nextmedia.com/template/common/header/2009/images/atnextheader_logo_appledaily.gif'
     language = 'zh_TW'
     encoding = 'UTF-8'
-    oldest_article = 1
-    max_articles_per_feed = 50
     timefmt = ' [%a, %d %b, %Y]'
     needs_subscription = False
     remove_javascript = True

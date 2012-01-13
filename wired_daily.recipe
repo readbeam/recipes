@@ -14,8 +14,6 @@ class Wired_Daily(BasicNewsRecipe):
     description = 'Technology news'
     timefmt  = ' [%Y%b%d  %H%M]'
     language = 'en'
-    oldest_article = 1
-    max_articles_per_feed = 50
 
     no_stylesheets = True
 

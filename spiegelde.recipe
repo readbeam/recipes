@@ -15,8 +15,8 @@ class Spiegel_ger(BasicNewsRecipe):
     description           = "Immer die neueste Meldung auf dem Schirm, sekundenaktuell und uebersichtlich: Mit dem RSS-Angebot von SPIEGEL ONLINE entgeht Ihnen keine wichtige Meldung mehr, selbst wenn Sie keinen Internet-Browser geoeffnet haben. Sie koennen unsere Nachrichten-Feeds ganz einfach abonnieren - unkompliziert, kostenlos und nach Ihren persoenlichen Themen-Vorlieben."
     publisher             = 'SPIEGEL ONLINE Gmbh'
     category              = 'SPIEGEL ONLINE, DER SPIEGEL, Nachrichten, News,Dienste, RSS, RSS, Feedreader, Newsfeed, iGoogle, Netvibes, Widget'
-    oldest_article        = 1
-    max_articles_per_feed = 50
+    oldest_article        = 7
+    max_articles_per_feed = 100
     language              = 'de'
     lang                  = 'de-DE'
     no_stylesheets        = True
