@@ -84,8 +84,8 @@ class TheIndependentNew(BasicNewsRecipe):
                                .pictureContainer img { max-width: 400px; max-height: 400px;}
                             """
 
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     _processed_urls = []
 

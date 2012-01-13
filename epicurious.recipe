@@ -20,8 +20,8 @@ class Epicurious(BasicNewsRecipe):
     no_stylesheets        = True
     remove_javascript = True
     recursions = 3
-    oldest_article        = 14
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     keep_only_tags = [dict(name='div', attrs={'class':['mainconsolewrapper','videoheader','content_unit','entry-content','see_more_block']}),
                       dict(name='div', attrs={'id':['headline','introBlock','ingredients','preparation','articleContent','in_categories_block']})

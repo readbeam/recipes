@@ -19,9 +19,9 @@ class expansion_spanish(BasicNewsRecipe):
     title           =u'Expansion'
     publisher       =u'Unidad Editorial Internet, S.L.'
     category        ='news, finances, Spain'
-    oldest_article  = 2
+    oldest_article = 7
     simultaneous_downloads = 10
-    max_articles_per_feed   =100
+    max_articles_per_feed = 30
     timefmt         = '[%a, %d %b, %Y]'
     encoding        ='iso-8859-15'
     language        ='es'

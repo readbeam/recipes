@@ -8,7 +8,7 @@ class AdvancedUserRecipe1274742400(BasicNewsRecipe):
 
     oldest_article = 7
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     keep_only_tags = [dict(id='content-main')]
     remove_tags = [dict(id=['right-col-content', 'trending-topics']),
             {'class':['ppy-outer']}

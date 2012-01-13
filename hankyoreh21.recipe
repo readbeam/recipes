@@ -10,9 +10,9 @@ class Hankyoreh21(BasicNewsRecipe):
     language = 'ko'
     description = u'The Hankyoreh21 Magazine articles'
     __author__	= 'Seongkyoun Yoo'
-    oldest_article = 20
+    oldest_article = 7
     recursions = 1
-    max_articles_per_feed = 120
+    max_articles_per_feed = 30
     no_stylesheets         = True
     remove_javascript     = True
     keep_only_tags    = [

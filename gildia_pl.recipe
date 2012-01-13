@@ -7,8 +7,8 @@ class Gildia(BasicNewsRecipe):
     cover_url      = 'http://www.film.gildia.pl/_n_/portal/redakcja/logo/logo-gildia.pl-500.jpg'
     category       = 'culture'
     language       = 'pl'
-    oldest_article = 8
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets=True
     remove_tags=[dict(name='div', attrs={'class':'backlink'}), dict(name='div', attrs={'class':'im_img'}), dict(name='div', attrs={'class':'addthis_toolbox addthis_default_style'})]
     keep_only_tags=dict(name='div', attrs={'class':'widetext'})

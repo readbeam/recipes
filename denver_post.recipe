@@ -5,8 +5,8 @@ class DenverPost(BasicNewsRecipe):
     title          = u'Denver Post'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     conversion_options = {'linearize_tables':True}
 

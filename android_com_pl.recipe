@@ -7,6 +7,6 @@ class Android_com_pl(BasicNewsRecipe):
     category       = 'Android, mobile'
     language       = 'pl'
     cover_url =u'http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/220px-Android_robot.svg.png'
-    oldest_article = 8
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     feeds          = [(u'Android', u'http://android.com.pl/component/content/frontpage/frontpage.feed?type=rss')]

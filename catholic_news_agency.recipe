@@ -4,8 +4,8 @@ class AdvancedUserRecipe1301972345(BasicNewsRecipe):
     title          = u'Catholic News Agency'
     language = 'en'
     __author__ = 'Jetkey'
-    oldest_article = 5
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     feeds          = [(u'U.S. News', u'http://feeds.feedburner.com/catholicnewsagency/dailynews-us'),
 		(u'Vatican', u'http://feeds.feedburner.com/catholicnewsagency/dailynews-vatican'),

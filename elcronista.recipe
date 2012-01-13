@@ -12,8 +12,8 @@ class Pagina12(BasicNewsRecipe):
     description           = 'El Cronista Comercial es el Diario economico-politico mas valorado. Es la fuente mas confiable de informacion en temas de economia, finanzas y negocios enmarcados politicamente.'
     publisher             = 'Cronista.com'
     category              = 'news, politics, economy, finances, Argentina'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

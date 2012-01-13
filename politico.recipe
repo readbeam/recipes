@@ -18,8 +18,8 @@ class Politico(BasicNewsRecipe):
     description           = 'Political news from USA'
     publisher             = 'Capitol News Company, LLC'
     category              = 'news, politics, USA'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True
     remove_javascript     = True

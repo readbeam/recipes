@@ -20,7 +20,7 @@ class ProspectMagUK(BasicNewsRecipe):
 	masthead_url            = 'http://www.prospectmagazine.co.uk/wp-content/themes/prospect/images/titleMain.jpg'
 	category                = 'news, UK'
 	language                = 'en_GB'
-	max_articles_per_feed   = 100
+	max_articles_per_feed = 30
 	auto_cleanup            = True
 	needs_subscription      = True
 

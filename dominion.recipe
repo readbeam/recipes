@@ -5,8 +5,8 @@ class stuffconz(BasicNewsRecipe):
     title          = u'stuff.co.nz'
     language       = 'en_NZ'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     #encoding = 'latin1'
 
     remove_stylesheets = True

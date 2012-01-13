@@ -16,8 +16,8 @@ class Adevarul(BasicNewsRecipe):
     description           = u'\u0218tiri din Rom\u00e2nia'
     publisher             = 'Adevarul'
     category              = 'Ziare,Stiri,Romania'
-    oldest_article        = 5
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

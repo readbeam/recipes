@@ -8,7 +8,7 @@ class Nowa_Fantastyka(BasicNewsRecipe):
     encoding='latin2'
     description ='site for fantasy readers'
     category='fantasy'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     INDEX='http://www.fantastyka.pl/'
     no_stylesheets=True
     needs_subscription = 'optional'

@@ -11,8 +11,8 @@ class SinfestBig(BasicNewsRecipe):
     __author__             = 'nadid'
     description            = 'Sinfest'
     reverse_article_order = False
-    oldest_article         = 5
-    max_articles_per_feed  = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = True
     encoding               = 'utf-8'

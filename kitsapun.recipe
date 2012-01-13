@@ -14,8 +14,8 @@ class Kitsapsun(BasicNewsRecipe):
     publisher             = 'Scripps Interactive Newspapers Group'
     category              = 'news, Kitsap county, USA'    
     language              = 'en'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'cp1252'
     use_embedded_content  = False

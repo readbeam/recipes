@@ -6,8 +6,8 @@ class NoticiasUnB(BasicNewsRecipe):
     title                  = 'Noticias UnB'
     __author__             = 'Diniz Bortolotto'
     description            = 'Noticias da UnB'
-    oldest_article         = 5
-    max_articles_per_feed  = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
     category               = 'news, educational, Brazil'
     language               = 'pt_BR'
     publication_type       = 'newsportal'

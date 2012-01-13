@@ -12,7 +12,7 @@ class RT_eng(BasicNewsRecipe):
     description           = 'RT is the first Russian 24/7 English-language news channel which brings the Russian view on global news.'
     publisher             = 'Autonomous Nonprofit Organization "TV-Novosti"'
     category              = 'news, politics, economy, finances, Russia, world'
-    oldest_article        = 2
+    oldest_article = 7
     no_stylesheets        = True
     encoding              = 'utf8'
     masthead_url          = 'http://rt.com/s/css/img/printlogo.gif'

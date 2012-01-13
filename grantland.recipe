@@ -6,12 +6,12 @@ class GrantLand(BasicNewsRecipe):
 	description    = 'Writings on Sports & Pop Culture'
 	language       = 'en'
 	__author__     = 'barty on mobileread.com forum'
-	max_articles_per_feed = 100
+	max_articles_per_feed = 30
 	no_stylesheets = False
 	# auto_cleanup is too aggressive sometimes and we end up with blank articles
 	auto_cleanup   = False
 	timefmt        = ' [%a, %d %b %Y]'
-	oldest_article = 365
+	oldest_article = 7
 
 	cover_url      = 'http://cdn0.sbnation.com/imported_assets/740965/blog_grantland_grid_3.jpg'
 	masthead_url   = 'http://a1.espncdn.com/prod/assets/grantland/grantland-logo.jpg'

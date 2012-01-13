@@ -19,8 +19,8 @@ class NewJournalOfPhysics(BasicNewsRecipe):
     category       = 'physics, journal, science'
     language       = 'en'
 
-    oldest_article = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     keep_only_tags = [dict(id=['fulltextContainer'])]
     no_stylesheets=True

@@ -8,7 +8,7 @@ class eioba(BasicNewsRecipe):
     language       = 'pl'
     oldest_article = 7
     remove_empty_feeds= True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     extra_css = '#ctl0_body_Topic {font-weight: bold; font-size:30px;}'
     keep_only_tags=[dict(id=['ctl0_body_Topic', 'articleContent'])]
     feeds          = [(u'Wszyskie kategorie', u'http://feeds.eioba.pl/eioba-pl-top'),

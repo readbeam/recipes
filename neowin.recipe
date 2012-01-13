@@ -3,13 +3,13 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class Neowin(BasicNewsRecipe):
     title                 = u'Neowin.net'
-    oldest_article        = 5
+    oldest_article = 7
     language              = 'en'
     description           = 'News from IT'
     publisher             = 'Neowin'
     category              = 'news, IT, Microsoft, Apple, hardware, software, games'
     __author__            = 'Darko Miletic'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
 

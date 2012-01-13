@@ -10,9 +10,9 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class AdvancedUserRecipe1283666183(BasicNewsRecipe):
     title          = u'Journal Gazette Ft. Wayne IN'
     __author__     = 'cynvision'
-    oldest_article = 1
+    oldest_article = 7
     language = 'en'
-    max_articles_per_feed = 8
+    max_articles_per_feed = 30
     no_stylesheets = True
     remove_javascript     = True
     use_embedded_content  = False

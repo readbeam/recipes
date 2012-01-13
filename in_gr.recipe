@@ -4,8 +4,8 @@ class ingr(BasicNewsRecipe):
     title                  = 'in.gr'
     __author__             = 'Stelios'
     description            = 'News from Greece'
-#    max_articles_per_feed  = 100
-    oldest_article         = 4
+#    max_articles_per_feed = 30
+    oldest_article = 7
     publisher              = 'in.gr'
     category               = 'news, GR'
     language               = 'el'

@@ -23,7 +23,7 @@ class AdvancedUserRecipe1249039563(BasicNewsRecipe):
     title          = u'De Volkskrant'
     __author__     = 'acidzebra'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
     language = 'nl'
 

@@ -9,8 +9,8 @@ class Twitchfilm(BasicNewsRecipe):
     title                 = 'Twitch Films'
     __author__            = 'Darko Miletic'
     description           = 'Twitch specializes in spreading the news on strange little films from around the world.'
-    oldest_article        = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

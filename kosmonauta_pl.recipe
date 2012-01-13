@@ -10,5 +10,5 @@ class Kosmonauta(BasicNewsRecipe):
     cover_url='http://bi.gazeta.pl/im/4/10393/z10393414X,Kosmonauta-net.jpg'
     no_stylesheets = True
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     feeds          = [(u'Kosmonauta.net', u'http://www.kosmonauta.net/index.php/feed/rss.html')]

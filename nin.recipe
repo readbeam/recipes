@@ -16,7 +16,7 @@ class Nin(BasicNewsRecipe):
     category               = 'news, politics, Serbia'
     no_stylesheets         = True
     delay                  = 1
-    oldest_article         = 15
+    oldest_article = 7
     encoding               = 'utf-8'
     needs_subscription     = True
     remove_empty_feeds     = True

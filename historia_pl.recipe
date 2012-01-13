@@ -7,9 +7,9 @@ class Historia_org_pl(BasicNewsRecipe):
     cover_url      = 'http://lh3.googleusercontent.com/_QeRQus12wGg/TOvHsZ2GN7I/AAAAAAAAD_o/LY1JZDnq7ro/logo5.jpg'
     category       = 'history'
     language       = 'pl'
-    oldest_article = 8
+    oldest_article = 7
     remove_empty_feeds=True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'Wszystkie', u'http://www.historia.org.pl/index.php?format=feed&type=rss'),
 		(u'Wiadomości', u'http://www.historia.org.pl/index.php/wiadomosci.feed?type=rss'),

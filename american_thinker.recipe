@@ -11,8 +11,8 @@ class AmericanThinker(BasicNewsRecipe):
     __author__     = 'Walt Anthony'
     publisher             = 'Thomas Lifson'
     category              = 'news, politics, USA'
-    oldest_article        = 7 #days
-    max_articles_per_feed = 50
+    oldest_article = 7
+    max_articles_per_feed = 30
     summary_length        = 150
     language              = 'en'
 

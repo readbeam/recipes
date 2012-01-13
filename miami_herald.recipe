@@ -11,8 +11,8 @@ class TheMiamiHerald(BasicNewsRecipe):
     title                 = 'The Miami Herald'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = "Miami-Dade and Broward's source for the latest breaking local news on sports, weather, business, jobs, real estate, shopping, health, travel, entertainment, & more."
-    oldest_article        = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     publisher             = u'The Miami Herald'
     category              = u'miami herald, weather, dolphins, news, miami news, local news, miamiherald, miami newspaper, miamiherald.com, miami, the miami herald, broward, miami-dade'
     language              = 'en'

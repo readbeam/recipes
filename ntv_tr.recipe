@@ -6,8 +6,8 @@ class NTVMSNBC(BasicNewsRecipe):
     description           = 'News from Turkey'
     publisher             = 'NTV'
     category              = 'news, politics, Turkey'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     masthead_url          = 'http://www.ntvmsnbc.com/images/MSNBC/msnbc_ban.gif'

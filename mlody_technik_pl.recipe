@@ -10,6 +10,6 @@ class Mlody_technik(BasicNewsRecipe):
     cover_url='http://science-everywhere.pl/wp-content/uploads/2011/10/mt12.jpg'
     no_stylesheets = True
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     #keep_only_tags=[dict(id='container')]
     feeds          = [(u'Artyku\u0142y', u'http://www.mt.com.pl/feed')]

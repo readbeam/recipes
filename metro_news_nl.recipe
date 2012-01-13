@@ -32,7 +32,7 @@ except:
     Removed links in html
     Removed extre white characters
     changed handling of self closing span
- Version 1.7 11-11-2011 Changed oldest_article back to 1.5
+ Version 1.7 11-11-2011 Changed oldest_article = 7
     changed è into &egrave;
     updated remove tags
     removed keep_only tags
@@ -42,8 +42,8 @@ except:
 
 class AdvancedUserRecipe1306097511(BasicNewsRecipe):
     title = u'Metro Nieuws NL'
-    oldest_article = 10
-    max_articles_per_feed = 15
+    oldest_article = 7
+    max_articles_per_feed = 30
     __author__     = u'DrMerry'
     description    = u'Metro Nederland'
     language       = u'nl'

@@ -4,8 +4,8 @@ class NewsAndObserver(BasicNewsRecipe):
     title          = u'News And Observer'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     #encoding = 'latin1'
 
     no_stylesheets = True

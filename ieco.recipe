@@ -11,8 +11,8 @@ class iEco(BasicNewsRecipe):
     title                 = 'iEco Clarin'
     __author__            = 'Darko Miletic'
     description           = 'iEco, el suplemento economico de Clarin. Las ultimas noticias de Empresas y Negocios, Mercados y Finanzas, Economia y Tecnologia de la Argentina y el mundo.'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

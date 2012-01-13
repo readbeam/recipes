@@ -20,8 +20,8 @@ class AdvancedUserRecipe1296604369(BasicNewsRecipe):
     __author__            = 'Ricardo Jurado'
     description           = 'Noticias de Spain y el mundo'
     category              = 'News,Spain,National,International,Economy'
-    oldest_article = 2
-    max_articles_per_feed = 10
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     no_stylesheets = True
     use_embedded_content = False

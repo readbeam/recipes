@@ -4,8 +4,8 @@ class AdvancedUserRecipe1295265555(BasicNewsRecipe):
     title          = u'Pro-Linux.de'
     language = 'de'
     __author__ = 'Bobus'
-    oldest_article = 3
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
 
     feeds          = [(u'Pro-Linux', u'http://www.pro-linux.de/backend/pro-linux.rdf')]
 

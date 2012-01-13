@@ -12,7 +12,7 @@ class Ambito(BasicNewsRecipe):
     description           = 'Ambito.com con noticias del Diario Ambito Financiero de Buenos Aires'
     publisher             = 'Editorial Nefir S.A.'
     category              = 'news, politics, economy, finances, Argentina'
-    oldest_article        = 2
+    oldest_article = 7
     no_stylesheets        = True
     encoding              = 'cp1252'
     masthead_url          = 'http://www.ambito.com/img/logo_.jpg'

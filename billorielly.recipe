@@ -10,8 +10,8 @@ class BillOReilly(BasicNewsRecipe):
     __author__ 	          = 'Rob Lammert - rob.lammert[at]gmail.com'
     description		        = u"Articles from Bill O'Reilly's website and his Fox New's website"
     language = 'en'
-    oldest_article        = 7.0
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     recursions            = 0
     encoding              = 'utf8'
     no_stylesheets        = True

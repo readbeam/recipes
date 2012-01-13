@@ -33,7 +33,7 @@ class WeeklyLWN(BasicNewsRecipe):
 
     conversion_options = { 'linearize_tables' : True }
 
-    oldest_article = 7.0
+    oldest_article = 7
     needs_subscription = 'optional'
 
     def get_browser(self):

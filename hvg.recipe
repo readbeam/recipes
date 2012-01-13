@@ -10,8 +10,8 @@ class hvg(BasicNewsRecipe):
     title          = u'HVG'
     __author__     = 'Bigpapa'
     language = 'hu'
-    oldest_article = 5		# Hany napos legyen a legregebbi cikk amit leszedjen.
-    max_articles_per_feed = 5	# Az adott e-bookban tarolt cikkek feedenkenti maximalis szamat adja meg.
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets = True
     encoding = 'utf8'
     extra_css = ' h2 { font:bold 28px} '

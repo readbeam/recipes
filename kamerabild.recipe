@@ -13,8 +13,8 @@ class Kamerabild(BasicNewsRecipe):
     description           = 'Photo News from Sweden'
     publisher             = 'politiken.dk'
     category              = 'news, photograph, Sweden'
-    oldest_article        = 7
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     remove_empty_feeds    = True
     use_embedded_content  = False

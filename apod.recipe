@@ -10,7 +10,7 @@ class APOD(BasicNewsRecipe):
     cover_url     = 'http://apod.nasa.gov/apod/image/1003/m78_torregrosa.jpg'
     remove_javascript = True
     recursions = 0
-    oldest_article        = 14
+    oldest_article = 7
     remove_attributes = ['onmouseover', 'onmouseout']
 
     feeds = [

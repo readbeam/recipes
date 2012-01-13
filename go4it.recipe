@@ -14,9 +14,9 @@ class Go4ITro(BasicNewsRecipe):
     __author__              = u'Silviu Cotoar\u0103'
     description                 = 'Gadgeturi, Lifestyle, Tehnologie'
     publisher                   = 'go4it'
-    oldest_article              = 5
+    oldest_article = 7
     language                    = 'ro'
-    max_articles_per_feed   = 100
+    max_articles_per_feed = 30
     no_stylesheets          = True
     use_embedded_content        = False
     category                                = 'Reviste,Ziare,IT'

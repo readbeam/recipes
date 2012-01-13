@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'Tony Stegall'
     category = 'news, politics, USA, kansascity'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets = True
 
     masthead_url = 'http://media.kansascity.com/images/site_logo_340x60.gif'

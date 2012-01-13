@@ -7,8 +7,8 @@ class Filmweb_pl(BasicNewsRecipe):
     cover_url      = 'http://userlogos.org/files/logos/crudus/filmweb.png'
     category       = 'movies'
     language       = 'pl'
-    oldest_article = 8
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets= True
     extra_css      = '.hdrBig {font-size:22px;}'
     remove_tags= [dict(name='div', attrs={'class':['recommendOthers']}), dict(name='ul', attrs={'class':'fontSizeSet'})]

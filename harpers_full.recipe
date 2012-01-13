@@ -15,8 +15,8 @@ class Harpers_full(BasicNewsRecipe):
     description           = "Harper's Magazine: Founded June 1850."
     publisher             = "Harpers's"
     category              = 'news, politics, USA'
-    oldest_article        = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     delay                 = 1

@@ -12,10 +12,10 @@ class DeMorganBe(BasicNewsRecipe):
     title                 = u'De Morgen'
     __author__            = u'Darko Miletic'
     description           = u'News from Belgium in Dutch'
-    oldest_article        = 7
+    oldest_article = 7
     language = 'nl_BE'
 
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
 

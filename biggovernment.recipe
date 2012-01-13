@@ -11,8 +11,8 @@ class BigGovernmentRecipe(BasicNewsRecipe):
     category = u'Political blog'
     description = u'Political news from the USA'
 
-    oldest_article = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content = True
 
     feeds = [(u'Big Government', u'http://feeds.feedburner.com/BigGovernment')]

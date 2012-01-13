@@ -11,9 +11,9 @@ class Thenation(BasicNewsRecipe):
     description           = 'Unconventional Wisdom Since 1865'
     publisher             = 'The Nation'
     category              = 'news, politics, USA'
-    oldest_article        = 120
+    oldest_article = 7
     encoding              = 'utf-8'
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheets        = True
     language              = 'en'
     use_embedded_content  = False

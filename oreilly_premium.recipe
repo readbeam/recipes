@@ -13,12 +13,12 @@ class OReillyPremium(BasicNewsRecipe):
     encoding        = 'utf8'
     needs_subscription = True
     no_stylesheets  = True
-    oldest_article  = 20
+    oldest_article = 7
     remove_javascript = True
     remove_tags     = [dict(name='img', attrs={})]
     # Don't go down
     recursions      = 0
-    max_articles_per_feed = 2000
+    max_articles_per_feed = 30
     language = 'en'
 
     def get_browser(self):

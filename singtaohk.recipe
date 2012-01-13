@@ -60,8 +60,8 @@ class STHKRecipe(BasicNewsRecipe):
                           lambda match: '<br><br><font class="bodytext">'),
                          ]
 
-    oldest_article = 1
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     __author__            = 'Eddie Lau'
     publisher             = 'Sing Tao Ltd.'
     remove_javascript = True

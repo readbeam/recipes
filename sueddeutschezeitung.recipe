@@ -15,7 +15,7 @@ class SueddeutcheZeitung(BasicNewsRecipe):
     publisher              = 'Süddeutsche Zeitung'
     category               = 'news, politics, Germany'
     no_stylesheets         = True
-    oldest_article         = 2
+    oldest_article = 7
     encoding               = 'iso-8859-1'
     needs_subscription     = True
     remove_empty_feeds     = True

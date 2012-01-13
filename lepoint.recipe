@@ -18,7 +18,7 @@ class lepoint(BasicNewsRecipe):
 
     use_embedded_content   = False
     timefmt                = ' [%d %b %Y]'
-    max_articles_per_feed  = 15
+    max_articles_per_feed = 30
     no_stylesheets         = True
     remove_empty_feeds     = True
     filterDuplicates       = True

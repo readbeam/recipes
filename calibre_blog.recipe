@@ -4,8 +4,8 @@ class CalibreBlog(BasicNewsRecipe):
     title          = u'Calibre Blog'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 1000 #days
-    max_articles_per_feed = 5
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     no_stylesheets = True

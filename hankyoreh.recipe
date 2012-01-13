@@ -10,9 +10,9 @@ class Hankyoreh(BasicNewsRecipe):
     language = 'ko'
     description = u'The Hankyoreh News articles'
     __author__  = 'Seongkyoun Yoo'
-    oldest_article = 5
+    oldest_article = 7
     recursions = 1
-    max_articles_per_feed = 5
+    max_articles_per_feed = 30
     no_stylesheets         = True
     keep_only_tags    = [
                         dict(name='tr', attrs={'height':['60px']}),

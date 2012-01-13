@@ -4,7 +4,7 @@ class AdvancedUserRecipe1325758162(BasicNewsRecipe):
     title          = u'Wired'
     language = 'it'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     auto_cleanup = True
     remove_tags_after = [dict(name='div', attrs={'class':'article_content'})]
     feeds          = [(u'Wired', u'http://www.wired.it/rss.xml')]

@@ -8,8 +8,8 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
     #last update 3/12/11
     cover_url = 'http://profile.ak.fbcdn.net/hprofile-ak-snc4/276636_117118184990145_2132092232_n.jpg'
     no_stylesheets = True
-    oldest_article = 1
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
     remove_empty_feeds = True
     remove_javascript     = True
 

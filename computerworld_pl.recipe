@@ -9,7 +9,7 @@ class Computerworld_pl(BasicNewsRecipe):
     language       = 'pl'
     no_stylesheets=True
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     keep_only_tags=[dict(name='div', attrs={'id':'s'})]
     remove_tags_after=dict(name='div', attrs={'class':'rMobi'})
     remove_tags=[dict(name='div', attrs={'class':['nnav', 'rMobi']}), dict(name='table', attrs={'class':'ramka_slx'})]

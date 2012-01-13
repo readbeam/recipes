@@ -16,8 +16,8 @@ class Deia(BasicNewsRecipe):
 	publisher		='Editorial Iparraguirre, S.A'
 	category             	='news, politics, finances, world, spain, euskadi'
 	publication_type      	='newspaper'
-	oldest_article		=1
-	max_articles_per_feed	=100
+	oldest_article = 7
+	max_articles_per_feed = 30
 	simultaneous_downloads	=10
 	cover_url		='http://2.bp.blogspot.com/_RjrWzC6tI14/TM6jrPLaBZI/AAAAAAAAFaI/ayffwxidFEY/s1600/2009-10-13-logo-deia.jpg'
 	timefmt			='[%a, %d %b, %Y]'

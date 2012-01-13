@@ -6,8 +6,8 @@ class Birgun (BasicNewsRecipe):
 
     title                  = u'Birgün Gazetesi'
     __author__             = u'Osman Kaysan'
-    oldest_article         = 7
-    max_articles_per_feed  =150
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content  = False
     description           = 'Birgun gazatesi haberleri, kose yazarlari'
     publisher              = 'Birgün'

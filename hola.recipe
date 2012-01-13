@@ -11,8 +11,8 @@ class Hackaday(BasicNewsRecipe):
     title                 = u'Hola'
     __author__            = 'bmsleight'
     description           = 'diario de actualidad, moda y belleza.'
-    oldest_article        = 10
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     language              = 'es'
 

@@ -7,8 +7,8 @@ class Ksiazka_net_pl(BasicNewsRecipe):
     cover_url      = 'http://www.ksiazka.net.pl/fileadmin/templates/ksiazka.net.pl/images/1PortalKsiegarski-logo.jpg'
     category       = 'books'
     language       = 'pl'
-    oldest_article = 8
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets= True
     #extra_css      = 'img {float: right;}'
     preprocess_regexps = [(re.compile(ur'Podoba mi się, kupuję:'), lambda match: '<br />')]

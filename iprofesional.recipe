@@ -12,8 +12,8 @@ class iProfesional(BasicNewsRecipe):
     description           = 'Las ultimas noticias sobre profesionales'
     publisher             = 'Emprendimientos Corporativos S.A.'
     category              = 'news, IT, impuestos, negocios, politics, Argentina'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

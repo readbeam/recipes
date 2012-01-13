@@ -12,8 +12,8 @@ class Arabian_Business(BasicNewsRecipe):
     description           = 'Comprehensive Guide to Middle East Business & Gulf Industry News including,Banking & Finance,Construction,Energy,Media & Marketing,Real Estate,Transportation,Travel,Technology,Politics,Healthcare,Lifestyle,Jobs & UAE guide.Top Gulf & Dubai Business News.'
     publisher             = 'Arabian Business Publishing Ltd.'
     category              = 'ArabianBusiness.com,Arab Business News,Middle East Business News,Middle East Business,Arab Media News,Industry Events,Middle East Industry News,Arab Business Industry,Dubai Business News,Financial News,UAE Business News,Middle East Press Releases,Gulf News,Arab News,GCC Business News,Banking Finance,Media Marketing,Construction,Oil Gas,Retail,Transportation,Travel Hospitality,Photos,Videos,Life Style,Fashion,United Arab Emirates,UAE,Dubai,Sharjah,Abu Dhabi,Qatar,KSA,Saudi Arabia,Bahrain,Kuwait,Oman,Europe,South Asia,America,Asia,news'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

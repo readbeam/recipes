@@ -13,8 +13,8 @@ class TheScotsman(BasicNewsRecipe):
     description           = 'News from Scotland'
     publisher             = 'Johnston Publishing Ltd.'
     category              = 'news, politics, Scotland, UK'    
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     language              = 'en_GB'

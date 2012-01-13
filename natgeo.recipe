@@ -10,8 +10,8 @@ class NatGeo(BasicNewsRecipe):
     title          = u'National Geographic'
     description = 'Daily news articles from The National Geographic'
     language = 'en'
-    oldest_article = 20
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     encoding              = 'utf8'
     publisher              = 'nationalgeographic.com'
     category               = 'science, nat geo'

@@ -8,7 +8,7 @@ class NewZealandHerald(BasicNewsRecipe):
     description = 'Daily news'
     timefmt = ' [%d %b, %Y]'
     language = 'en_NZ'
-    oldest_article = 2.5
+    oldest_article = 7
 
     feeds = [
             ('Business',

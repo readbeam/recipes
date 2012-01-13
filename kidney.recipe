@@ -9,8 +9,8 @@ class JASN(BasicNewsRecipe):
     title          = u'Journal of the American Society of Nephrology'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 31 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     delay = 5
     needs_subscription = True
 

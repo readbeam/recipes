@@ -13,8 +13,8 @@ class FocusRecipe(BasicNewsRecipe):
     description = u'Informacje finansowe z kraju i ze świata. Aktualne i archiwalne: notowania giełdowe, kursy walut, wskaźniki gospodarcze.'
     remove_empty_feeds= True
     no_stylesheets=True
-    oldest_article = 1
-    max_articles_per_feed = 100000
+    oldest_article = 7
+    max_articles_per_feed = 30
     recursions = 0
 
     no_stylesheets = True

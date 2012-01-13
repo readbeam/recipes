@@ -13,8 +13,8 @@ class SlovoRecipe(BasicNewsRecipe):
     description = u'Politicko-spolo\u010densk\xfd t\xfd\u017edenn\xedk'
     encoding = 'Windows-1250'
 
-    oldest_article = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content = False
     remove_empty_feeds = True
 

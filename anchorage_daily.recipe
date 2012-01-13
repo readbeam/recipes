@@ -4,7 +4,7 @@ class AdvancedUserRecipe1278347258(BasicNewsRecipe):
     title          = u'Anchorage Daily News'
     __author__ = 'rty'
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
 
     feeds          = [(u'Alaska News', u'http://www.adn.com/news/alaska/index.xml'),
 	(u'Business', u'http://www.adn.com/money/index.xml'),

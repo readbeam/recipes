@@ -13,8 +13,8 @@ class TidBITS(BasicNewsRecipe):
     description           = 'Insightful news, reviews, and analysis of the Macintosh and Internet worlds'
     publisher             = 'TidBITS Publishing Inc.'
     category              = 'news, Apple, Macintosh, IT, Internet'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = True

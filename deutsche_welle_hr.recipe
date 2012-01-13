@@ -13,8 +13,8 @@ class DeutscheWelle_hr(BasicNewsRecipe):
     description           = 'Vesti iz Njemacke i svijeta'
     publisher             = 'Deutsche Welle'
     category              = 'news, politics, Germany'
-    oldest_article        = 1
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content  = False
     no_stylesheets        = True
     language              = 'hr'

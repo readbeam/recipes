@@ -15,7 +15,7 @@ class PublicoPT(BasicNewsRecipe):
     cover_url             = 'http://static.publico.pt/files/header/img/publico.gif'
     title                 = u'Publico.PT'
     category              = 'News, politics, culture, economy, general interest'
-    oldest_article        = 2
+    oldest_article = 7
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

@@ -9,8 +9,8 @@ class RBC_ru(BasicNewsRecipe):
     needs_subscription = False
     cover_url = 'http://pics.rbc.ru/img/fp_v4/skin/img/logo.gif'
     cover_margins = (80, 160, '#ffffff')
-    oldest_article = 10
-    max_articles_per_feed = 50
+    oldest_article = 7
+    max_articles_per_feed = 30
     summary_length = 200
     remove_empty_feeds = True
     no_stylesheets = True

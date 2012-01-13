@@ -13,8 +13,8 @@ class NoviList_Portal_hr(BasicNewsRecipe):
     description           = 'Portal Novog Lista'
     publisher             = 'NOVI LIST d.d.'
     category              = 'Novi list, politika, hrvatski dnevnik, Novine, Hrvatska, Croatia, News, newspaper, Hrvatski,Primorje, dnevni list, Rijeka'
-    oldest_article        = 2
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

@@ -10,7 +10,7 @@ class CGM(BasicNewsRecipe):
     language       = 'pl'
     use_embedded_content   = False
     remove_empty_feeds= True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     no_stylesheers=True
     extra_css      = 'div {color:black;} strong {color:black;} span {color:black;} p {color:black;} h2 {color:black;}'
     remove_tags_before=dict(id='mainContent')

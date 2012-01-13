@@ -17,7 +17,7 @@ class Echo_Online(BasicNewsRecipe):
     timefmt = ' [%a, %d %b %Y]'
 
     oldest_article = 7
-    max_articles_per_feed = 50 # 2011-12-28 AGe
+    max_articles_per_feed = 30
     no_stylesheets = True
     auto_cleanup = True
     remove_javascript = True

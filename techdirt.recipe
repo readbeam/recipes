@@ -4,8 +4,8 @@ class TechDirt(BasicNewsRecipe):
     title          = u'Tech Dirt'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7 #days
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     no_stylesheets = True

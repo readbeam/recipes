@@ -12,9 +12,9 @@ class Starbulletin(BasicNewsRecipe):
     description           = 'Latest national and local Hawaii sports news'
     publisher             = 'Honolulu Star-Advertiser'
     category              = 'news, Honolulu, Hawaii'
-    oldest_article        = 2
+    oldest_article = 7
     needs_subscription    = True
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     language              = 'en'
     no_stylesheets        = True
     use_embedded_content  = False

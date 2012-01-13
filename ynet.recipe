@@ -15,9 +15,9 @@ class AdvancedUserRecipe1283848012(BasicNewsRecipe):
     keep_only_tags =dict(name='div', attrs={'id':'articleContainer'})
     remove_javascript     = True
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 1
+    oldest_article = 7
     remove_tags = [dict(name='p', attrs={'text':['&nbsp;']})]
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     preprocess_regexps = [
         (re.compile(r'<p>&nbsp;</p>', re.DOTALL|re.IGNORECASE), lambda match: '')
         ]

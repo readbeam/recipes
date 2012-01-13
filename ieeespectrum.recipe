@@ -15,8 +15,8 @@ class IEEESpectrum(BasicNewsRecipe):
     description           = 'Electronics News from IEEE'
     publisher             = 'IEEE'
     category              = 'news, electronics, IT, computer science'
-    oldest_article        = 32
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     language              = 'en'

@@ -17,7 +17,7 @@ class Salon_com(BasicNewsRecipe):
     language = 'en'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     auto_cleanup = True
     auto_cleanup_keep = '//div[@class="art"]'
     remove_empty_feeds = True

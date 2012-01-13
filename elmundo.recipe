@@ -14,8 +14,8 @@ class ElMundo(BasicNewsRecipe):
     description           = 'Lider de informacion en espaniol'
     publisher             = 'Unidad Editorial Informacion General S.L.U.'
     category              = 'news, politics, Spain'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'iso8859_15'

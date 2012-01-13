@@ -5,7 +5,7 @@ class BasicUserRecipe1324913694(BasicNewsRecipe):
     language = 'tr'
     __author__ = 'asalet_r'
     oldest_article = 7
-    max_articles_per_feed = 20
+    max_articles_per_feed = 30
     auto_cleanup = True
 
     feeds          = [(u'Derin D\xfc\u015f\xfcnce', u'http://www.derindusunce.org/feed/')]

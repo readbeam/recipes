@@ -10,8 +10,8 @@ class BusinessStandard(BasicNewsRecipe):
     title                  = 'Business Standard'
     __author__             = 'Darko Miletic'
     description            = "India's most respected business daily"
-    oldest_article         = 7
-    max_articles_per_feed  = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets         = True
     use_embedded_content   = False
     encoding               = 'cp1252'

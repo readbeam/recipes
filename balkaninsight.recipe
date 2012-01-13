@@ -13,8 +13,8 @@ class BalkanInsight(BasicNewsRecipe):
     description           = 'Get exclusive news and in depth information on business, politics, events and lifestyle in the Balkans. Free and exclusive premium content.'
     publisher             = 'BalkanInsight.com'
     category              = 'news, politics, Balcans'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = False
     use_embedded_content  = False
     encoding              = 'utf-8'

@@ -12,9 +12,9 @@ class LWN(BasicNewsRecipe):
     title                 = u'lwn'
     __author__            = 'Oliver Niesner'
     description           = 'Linux Weekly News'
-    oldest_article        = 54
+    oldest_article = 7
     language = _('English')
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     needs_subscription    = True
     language = 'en'
     remove_javascript	  = True

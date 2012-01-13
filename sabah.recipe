@@ -4,8 +4,8 @@ class AdvancedUserRecipe1253477125(BasicNewsRecipe):
     title          = u'Sabah'
     __author__ = u'Deniz O\u011fuz'
     language = 'tr'
-    oldest_article = 1
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
     cover_url = 'http://www.sabah.com.tr/c/sb/i/sabah_logo.gif'
     no_stylesheets = True
     remove_tags = [dict(name='div', attrs={'style':['width: 200px', 'border-top: #d8d8d8 1px dotted', 'width: 200px; margin-right: 5px', 'padding-top: 1px']})]

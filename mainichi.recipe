@@ -10,8 +10,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class MainichiDailyNews(BasicNewsRecipe):
     title          = u'\u6bce\u65e5\u65b0\u805e'
     __author__     = 'Hiroshi Miura'
-    oldest_article = 2
-    max_articles_per_feed = 20
+    oldest_article = 7
+    max_articles_per_feed = 30
     description    = 'Japanese traditional newspaper Mainichi Daily News'
     publisher      = 'Mainichi Daily News'
     category       = 'news, japan'

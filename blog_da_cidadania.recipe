@@ -6,8 +6,8 @@ class BlogdaCidadania(BasicNewsRecipe):
     title                  = 'Blog da Cidadania'
     __author__             = 'Diniz Bortolotto'
     description            = 'Posts do Blog da Cidadania'
-    oldest_article         = 7
-    max_articles_per_feed  = 50
+    oldest_article = 7
+    max_articles_per_feed = 30
     encoding               = 'utf8'
     publisher              = 'Eduardo Guimaraes'
     category               = 'politics, Brazil'

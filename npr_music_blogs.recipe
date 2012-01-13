@@ -6,8 +6,8 @@ class nprmusic(BasicNewsRecipe):
     timefmt = ' [%b %d, %Y]'
     language = 'en'
 
-    oldest_article = 30
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets = True
 
     remove_tags = [dict(name='div', attrs={'id':['logo', 'comments', 'related_objects', 'inset module', 'footer', 'strip_control', 'header', 'navigation']}), dict(name='hr'), dict(name='img')]

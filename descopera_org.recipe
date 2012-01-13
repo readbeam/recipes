@@ -12,8 +12,8 @@ class Descopera(BasicNewsRecipe):
     publisher = 'descopera.org'
     category = 'science, technology, culture, history, earth'
     language = 'ro'
-    oldest_article = 14
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     encoding = 'utf8'
     no_stylesheets = True
     extra_css = ' body{ font-family: Verdana,Helvetica,Arial,sans-serif } .introduction{font-weight: bold} .story-feature{display: block; padding: 0; border: 1px solid; width: 40%; font-size: small} .story-feature h2{text-align: center; text-transform: uppercase} '

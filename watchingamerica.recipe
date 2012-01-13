@@ -13,7 +13,7 @@ class WatchingAmericaRecipe(BasicNewsRecipe):
     description = u'Global opinion about the United States'
 
     oldest_article = 7
-    max_articles_per_feed = 100
+    max_articles_per_feed = 30
     use_embedded_content = False
 
     no_stylesheets = True

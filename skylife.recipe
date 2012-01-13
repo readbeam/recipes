@@ -7,8 +7,8 @@ class THY (BasicNewsRecipe):
     title               = u'Skylife'
     __author__            = u'thomass'
     description            = ' Türk Hava Yollarının yayınladığı aylık kültür dergisi (Fotoğrafları da içermesini isterseniz keep_only_tag''da belirttiğim kodu da ekleyin) '
-    oldest_article         =32
-    max_articles_per_feed  =100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets         = True
     #delay                  = 1
     #use_embedded_content   = False

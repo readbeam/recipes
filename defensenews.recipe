@@ -12,8 +12,8 @@ class DefenseNews(BasicNewsRecipe):
     description           = 'Find late-breaking defense news from the leading defense news weekly'
     publisher             = 'Gannett Government Media Corporation'
     category              = 'defense news, defence news, defense, defence, defence budget, defence policy'
-    oldest_article        = 31
-    max_articles_per_feed = 200
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     encoding              = 'utf8'
     use_embedded_content  = False

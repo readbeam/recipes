@@ -6,8 +6,8 @@ class rynekzdrowia(BasicNewsRecipe):
     language = 'pl'
     masthead_url = 'http://k.rynekzdrowia.pl/images/headerLogo.png'
     cover_url = 'http://k.rynekzdrowia.pl/images/headerLogo.png'
-    oldest_article = 3
-    max_articles_per_feed = 25
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets = True
     auto_cleanup = True
     remove_empty_feeds=True

@@ -13,8 +13,8 @@ class B92(BasicNewsRecipe):
     description           = 'Najnovije vesti iz Srbije, regiona i sveta, aktuelne teme iz sveta politike, ekonomije, drustva, foto galerija, kolumne'    
     publisher             = 'B92'
     category              = 'news, politics, Serbia'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'cp1250'

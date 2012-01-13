@@ -3,7 +3,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 class WozDie(BasicNewsRecipe):
      title          = u'WOZ Die Wochenzeitung'
      oldest_article = 7
-     max_articles_per_feed = 100
+     max_articles_per_feed = 30
      language = 'de'
 
      no_stylesheets = True

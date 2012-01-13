@@ -4,8 +4,8 @@ class WinnipegFreePress(BasicNewsRecipe):
     title          = u'Winnipeg Free Press'
     __author__            = 'buyo'
     description           = 'News from Winnipeg, Manitoba, Canada'
-    oldest_article = 1
-    max_articles_per_feed = 15
+    oldest_article = 7
+    max_articles_per_feed = 30
     category              = 'News, Winnipeg, Canada'
     cover_url             = 'http://media.winnipegfreepress.com/designimages/winnipegfreepress_WFP.gif'
     no_stylesheets        = True

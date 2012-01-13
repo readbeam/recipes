@@ -7,8 +7,8 @@ class Adventure_zone(BasicNewsRecipe):
     category       = 'games'
     language       = 'pl'
     no_stylesheets = True
-    oldest_article = 20
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     use_embedded_content=False
     preprocess_regexps     = [(re.compile(r"<td class='capmain'>Komentarze</td>", re.IGNORECASE), lambda m: '')]
     remove_tags_before= dict(name='td', attrs={'class':'main-bg'})

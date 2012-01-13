@@ -17,7 +17,7 @@ class DailyTelegraph(BasicNewsRecipe):
             'http://www.theaustralian.com.au to get full articles.')
     language = 'en_AU'
 
-    oldest_article = 2
+    oldest_article = 7
     needs_subscription = 'optional'
     max_articles_per_feed = 30
     remove_javascript      = True

@@ -12,8 +12,8 @@ class DigitalJournal(BasicNewsRecipe):
     description           = 'A Global Citizen Journalism News Network'
     category              = 'news, politics, USA, world'
     publisher             = 'Digital Journal'
-    oldest_article        = 2
-    max_articles_per_feed = 100
+    oldest_article = 7
+    max_articles_per_feed = 30
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf8'
