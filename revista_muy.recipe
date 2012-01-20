@@ -13,6 +13,9 @@ class RevistaMuyInteresante(BasicNewsRecipe):
     no_stylesheets = True
     remove_javascript = True
 
+    oldest_article        = 1
+    max_articles_per_feed = 50
+    
     conversion_options = {'linearize_tables': True}
 
     extra_css              = ' .txt_articulo{ font-family: sans-serif; font-size: medium; text-align: justify } .contentheading{font-family: serif; font-size: large; font-weight: bold; color: #000000; text-align: center}'

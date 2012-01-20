@@ -146,7 +146,7 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # I've never seen more than about 70 articles in a single feed in the
     # BBC feeds.
     #
-    max_articles_per_feed = 100
+    max_articles_per_feed = 50
 
     # The max age of articles which may be downloaded from each feed. This is
     # specified in days - note fractions of days are allowed, Eg. 2.5 (2 and a
@@ -158,7 +158,7 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # as max_articles_per_feed remains set high (except for 'Click' which is
     # v. low volume and its currently oldest article is 4th Feb 2011).
     #
-    oldest_article = 1.5
+    oldest_article = 1
 
     # Number of simultaneous downloads. 20 is consistantly working fine on the
     # BBC News feeds with no problems. Speeds things up from the defualt of 5.
@@ -166,7 +166,7 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # then you may wish to try increasing simultaneous_downloads to 25-30,
     # Or, of course, if you are in a hurry. [I've not tried beyond 20.]
     #
-    simultaneous_downloads = 20
+    simultaneous_downloads = 5
 
     # Timeout for fetching files from the server in seconds. The default of
     # 120 seconds, seems somewhat excessive.

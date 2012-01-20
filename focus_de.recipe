@@ -4,8 +4,8 @@ class AdvancedUserRecipe1305567197(BasicNewsRecipe):
     title          = u'Focus (DE)'
     __author__  = 'Anonymous'
     language = 'de'
-    oldest_article = 7
-    max_articles_per_feed = 100
+    oldest_article = 1
+    max_articles_per_feed = 50
     no_stylesheets         = True
     use_embedded_content   = False
     remove_javascript      = True

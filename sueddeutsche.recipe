@@ -13,7 +13,7 @@ class Sueddeutsche(BasicNewsRecipe):
     __author__ = 'Oliver Niesner and Armin Geller' #Update AGe 2011-12-16
     use_embedded_content   = False
     timefmt = ' [%d %b %Y]'
-    oldest_article = 7
+    oldest_article = 1
     max_articles_per_feed = 50
     no_stylesheets = True
     language = 'de'

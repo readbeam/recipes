@@ -20,8 +20,8 @@ class elperiodicodearagon(BasicNewsRecipe):
     publisher             = u'elperiodicodearagon.com'
     category              = u'news, politics, Spain, Aragon'
     oldest_article        = 1
-    delay                 = 0
-    max_articles_per_feed = 100
+    delay                 = 1
+    max_articles_per_feed = 50
     no_stylesheets        = True
     use_embedded_content  = False
     language              = 'es'

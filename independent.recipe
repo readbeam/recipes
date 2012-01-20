@@ -33,6 +33,9 @@ class TheIndependentNew(BasicNewsRecipe):
     no_stylesheets          = True
     use_embedded_content    = False
     remove_empty_feeds      = True
+    oldest_article        = 1
+    max_articles_per_feed = 50
+
     language                = 'en_GB'
     publication_type        = 'newspaper'
     masthead_url            = 'http://www.independent.co.uk/independent.co.uk/editorial/logo/independent_Masthead.png'

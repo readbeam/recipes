@@ -13,7 +13,7 @@ class CourrierInternational(BasicNewsRecipe):
     title          = 'Courrier International'
     __author__ = 'Mathieu Godlewski <mathieu at godlewski.fr>'
     description = 'Global news in french from international newspapers'
-    oldest_article = 7
+    oldest_article = 1
     language = 'fr'
 
     max_articles_per_feed = 50

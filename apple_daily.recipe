@@ -12,6 +12,8 @@ class AppleDaily(BasicNewsRecipe):
     language = 'zh_TW'
     encoding = 'UTF-8'
     timefmt = ' [%a, %d %b, %Y]'
+    oldest_article        = 1
+    max_articles_per_feed = 50
     needs_subscription = False
     remove_javascript = True
     remove_tags_before = dict(name=['ul', 'h1'])

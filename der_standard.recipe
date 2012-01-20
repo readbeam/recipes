@@ -22,7 +22,7 @@ class DerStandardRecipe(BasicNewsRecipe):
     language = 'de'
 
     oldest_article = 1
-    max_articles_per_feed = 100
+    max_articles_per_feed = 50
 
     extra_css = '''
                 .artikelBody{font-family:Arial,Helvetica,sans-serif;}

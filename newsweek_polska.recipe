@@ -19,6 +19,9 @@ class Newsweek(BasicNewsRecipe):
 	description = 'Weekly magazine'
 	encoding = 'utf-8'
 	language = 'pl'
+    oldest_article        = 1
+    max_articles_per_feed = 50
+
 	remove_javascript = True
 
 	temp_files = [] 

@@ -13,8 +13,8 @@ class ReadersDigest(BasicNewsRecipe):
     description = 'Readers Digest Feeds'
     no_stylesheets        = True
     use_embedded_content  = False
-    oldest_article = 60
-    max_articles_per_feed = 200
+    oldest_article = 1
+    max_articles_per_feed = 50
 
     language = 'en'
     remove_javascript     = True

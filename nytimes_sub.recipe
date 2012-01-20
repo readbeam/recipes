@@ -21,7 +21,7 @@ class NYTimes(BasicNewsRecipe):
     # number of days old an article can be for inclusion. If oldest_article = 0 all articles
     # will be included. Note: oldest_article is ignored if webEdition = False
     webEdition = False
-    oldest_article = 7
+    oldest_article = 1
 
     # replace paid Kindle Version:  the name will be changed to "The New York Times" to cause
     # previous paid versions of the new york times to best sent to the back issues folder on the kindle
@@ -59,7 +59,7 @@ class NYTimes(BasicNewsRecipe):
     one_picture_per_article = False
 
     # The maximum number of articles that will be downloaded
-    max_articles_per_feed = 100
+    max_articles_per_feed = 50
 
     # Whether to omit duplicates of articles (typically arsing when articles are indexed in
     # more than one section). If True, only the first occurance will be downloaded.
