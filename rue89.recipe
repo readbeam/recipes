@@ -17,7 +17,7 @@ class Rue89(BasicNewsRecipe):
     title = u'Rue89'
     language = 'fr'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 50
 
     feeds = [(u'La Une', u'http://www.rue89.com/homepage/feed')]
 

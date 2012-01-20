@@ -14,10 +14,10 @@ class LAvenir(BasicNewsRecipe):
     description           = u'News from Belgium in French'
     publisher             = u'lavenir.net'
     category              = 'news, Belgium'
-    oldest_article = 7
+    oldest_article        = 3
     language              = 'fr'
 
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

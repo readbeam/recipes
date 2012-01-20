@@ -12,7 +12,7 @@ class SportsIllustratedRecipe(BasicNewsRecipe) :
     title         = u'Berliner Zeitung'
     timefmt       = ' [%d.%m.%Y]'
 
-    #oldest_article = 7
+    #oldest_article = 7.0
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content = False

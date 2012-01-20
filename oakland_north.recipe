@@ -3,8 +3,8 @@ import re
 
 class AdvancedUserRecipe1299640653(BasicNewsRecipe):
     title          = u'Oakland North'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 30
+    max_articles_per_feed = 100
 
     language = 'en'
     __author__ = 'noah'

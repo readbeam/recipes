@@ -19,9 +19,9 @@ class heraldo(BasicNewsRecipe):
     title                 = u'El Correo'
     publisher             = 'Vocento'
     category              = 'News, politics, culture, economy, general interest'
-    oldest_article = 7
+    oldest_article        = 2
     delay                 = 1
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     language              = 'es'

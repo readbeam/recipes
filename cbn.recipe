@@ -8,7 +8,7 @@ class CBN(BasicNewsRecipe):
     # the online site is only publishing at most 7 articles daily.
     # So, somehow this needs to be fixed it only downloads max 7 articles
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
 
     description = 'The Christian Broadcasting Network'
     publisher   = 'http://www.cbn.com/'

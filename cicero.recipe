@@ -10,8 +10,8 @@ class BasicUserRecipe1316245412(BasicNewsRecipe):
     encoding = 'UTF-8'
     __author__ = 'Armin Geller' # Upd. 2011-09-23
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets = True
     auto_cleanup = False
 

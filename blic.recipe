@@ -1,6 +1,6 @@
 
 __license__   = 'GPL v3'
-__copyright__ = '2008-2011, Darko Miletic <darko.miletic at gmail.com>'
+__copyright__ = '2008-2012, Darko Miletic <darko.miletic at gmail.com>'
 '''
 blic.rs
 '''
@@ -14,8 +14,8 @@ class Blic(BasicNewsRecipe):
     description           = 'Blic.rs online verzija najtiraznije novine u Srbiji donosi najnovije vesti iz Srbije i sveta, komentare, politicke analize, poslovne i ekonomske vesti, vesti iz regiona, intervjue, informacije iz kulture, reportaze, pokriva sve sportske dogadjaje, detaljan tv program, nagradne igre, zabavu, fenomenalni Blic strip, dnevni horoskop, arhivu svih dogadjaja'
     publisher             = 'RINGIER d.o.o.'
     category              = 'news, politics, Serbia'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     masthead_url          = 'http://www.blic.rs/resources/images/header/header_back.png'
@@ -73,7 +73,10 @@ class Blic(BasicNewsRecipe):
     def print_version(self, url):
         return url + '/print'
 
-    def preprocess_html(self, soup):
-        for item in soup.findAll(style=True):
-            del item['style']    
-        return soup
+    def get_cover_url(self):
+        soup = self.index_to_soup('http://www.blic.rs/')
+        alink = soup.find('a', attrs={'id':'blic_naslovna_print'})
+        if alink:
+           return 'http://www.blic.rs' + alink['href']
+        return None
+       

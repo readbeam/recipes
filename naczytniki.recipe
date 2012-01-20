@@ -9,7 +9,7 @@ class naczytniki(BasicNewsRecipe):
     category='readers'
     no_stylesheets=True
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     remove_tags_after= dict(name='div', attrs={'class':'sociable'})
     keep_only_tags=[dict(name='div', attrs={'class':'post'})]
     remove_tags=[dict(name='span', attrs={'class':'comments'}), dict(name='div', attrs={'class':'sociable'})]

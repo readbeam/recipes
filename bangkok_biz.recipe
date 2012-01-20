@@ -5,7 +5,7 @@ class AdvancedUserRecipe1290689337(BasicNewsRecipe):
     language = 'th'
     title          = u'Bangkok Biz News'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content = False

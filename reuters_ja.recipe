@@ -8,7 +8,7 @@ class ReutersJa(BasicNewsRecipe):
     __author__ = 'Hiroshi Miura'
     use_embedded_content   = False
     language = 'ja'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 10
     remove_javascript = True
 
     feeds = [ ('Top Stories', 'http://feeds.reuters.com/reuters/JPTopNews?format=xml'),

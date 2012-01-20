@@ -5,7 +5,7 @@ class AdvancedUserRecipe1326135591(BasicNewsRecipe):
     description = 'fashion magazine for professional people'
     language = 'it'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     auto_cleanup = True
 
     feeds          = [(u'Pambianco', u'http://feeds.feedburner.com/pambianconews/YGXu')]

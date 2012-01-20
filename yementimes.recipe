@@ -14,7 +14,7 @@ class YemenTimesRecipe(BasicNewsRecipe):
     description = u'Award winning weekly from Yemen, promoting press freedom, professional journalism and the defense of human rights.'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     use_embedded_content = False
     encoding = 'utf-8'
 

@@ -16,7 +16,7 @@ class FSP(BasicNewsRecipe):
 
     language = 'pt'
     no_stylesheets = True
-    max_articles_per_feed = 30
+    max_articles_per_feed  = 40
     remove_javascript     = True
     needs_subscription = True
 

@@ -9,8 +9,8 @@ class AdvancedUserRecipe1305984536(BasicNewsRecipe):
     description = 'Juventus'
     language = 'it'
     __author__ = 'faber1971'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
 
     feeds          = [(u'notizie', u'http://feeds.tuttojuve.com/rss/'), (u'da vinovo', u'http://feeds.tuttojuve.com/rss/?c=10'), (u'primo piano', u'http://feeds.tuttojuve.com/rss/?c=16'), (u'editoriale', u'http://feeds.tuttojuve.com/rss/?c=3'), (u'il punto', u'http://feeds.tuttojuve.com/rss/?c=8'), (u'pagelle', u'http://feeds.tuttojuve.com/rss/?c=9'), (u'avversario', u'http://feeds.tuttojuve.com/rss/?c=11')]
     def print_version(self, url):

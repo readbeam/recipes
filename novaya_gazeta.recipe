@@ -4,7 +4,7 @@ class AdvancedUserRecipe1286819935(BasicNewsRecipe):
     title = u'Novaya Gazeta'
     __author__ = 'muwa'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     conversion_options = {'linearize_tables' : True}
     remove_attributes = ['style']

@@ -8,7 +8,7 @@ class AdvancedUserRecipe1282101454(BasicNewsRecipe):
     publisher = 'West Hawaii '
     category = 'news,Hawaii,USA'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     remove_javascript = True
     use_embedded_content = True

@@ -9,7 +9,7 @@ class Konflikty(BasicNewsRecipe):
     description ='military news'
     category='military, history'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     auto_cleanup = True
 
     feeds          = [(u'Aktualności', u'http://www.konflikty.pl/rss_aktualnosci_10.xml'), (u'Artyku\u0142y', u'http://www.konflikty.pl/rss_artykuly_10.xml'), (u'Relacje', u'http://www.konflikty.pl/rss_relacje_10.xml'), (u'Recenzje', u'http://www.konflikty.pl/rss_recenzje_10.xml')]

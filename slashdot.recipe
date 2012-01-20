@@ -14,7 +14,7 @@ class Slashdot(BasicNewsRecipe):
     oldest_article = 7
     simultaneous_downloads = 1
     delay = 3
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     language = 'en'
 
     __author__ = 'floweros edited by Huan T'

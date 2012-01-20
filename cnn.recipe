@@ -17,10 +17,10 @@ class CNN(BasicNewsRecipe):
 
     no_stylesheets = True
     use_embedded_content   = False
-    oldest_article = 7
+    oldest_article        = 15
     #recursions = 1
     #match_regexps = [r'http://sportsillustrated.cnn.com/.*/[1-9].html']
-    max_articles_per_feed = 30
+    max_articles_per_feed = 25
 
     extra_css = '''
                     h1 {font-size:xx-large; font-family:Arial,Helvetica,sans-serif;}

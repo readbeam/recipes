@@ -35,8 +35,8 @@ class MWJournal(BasicNewsRecipe):
     publisher = 'Horizon House'
     publication_type = 'magazine'
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 31        # monthly published magazine. Some months are 31 days!
+    max_articles_per_feed = 100
     remove_empty_feeds = True
     auto_cleanup = True
 

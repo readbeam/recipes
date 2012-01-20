@@ -7,8 +7,8 @@ class IDGse(BasicNewsRecipe):
     __author__ = 'zapt0'
     language = 'sv'
     description = 'IDG.se'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 256
     no_stylesheets = True
     encoding = 'ISO-8859-1'
     remove_javascript = True

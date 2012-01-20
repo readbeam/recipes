@@ -13,8 +13,8 @@ class ScienceAAS(BasicNewsRecipe):
     language = 'en'
 
     description           = u'The best in science news, commentary, and research'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     simultaneous_downloads = 1

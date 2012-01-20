@@ -13,8 +13,8 @@ class JapanTimes(BasicNewsRecipe):
     language              = 'en_JP'
     category              = 'news, politics, japan'
     publisher             = 'The Japan Times'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 5
+    max_articles_per_feed = 150
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf8'

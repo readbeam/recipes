@@ -6,8 +6,8 @@ class TVXS(BasicNewsRecipe):
     title                  = 'TVXS'
     __author__             = 'hargikas'
     description            = 'News from Greece'
-    max_articles_per_feed = 30
-    oldest_article = 7
+    max_articles_per_feed  = 100
+    oldest_article         = 3
     simultaneous_downloads = 1
     publisher              = 'TVXS'
     category               = 'news, GR'

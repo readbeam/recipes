@@ -7,8 +7,8 @@ class Tablety_pl(BasicNewsRecipe):
     cover_url      = 'http://www.tablety.pl/wp-content/themes/kolektyw/img/logo.png'
     category       = 'IT'
     language       = 'pl'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 8
+    max_articles_per_feed = 100
     remove_tags_before=dict(name="h1", attrs={'class':'entry-title'})
     remove_tags_after=dict(name="div", attrs={'class':'snap_nopreview sharing robots-nocontent'})
     remove_tags=[dict(name='div', attrs={'class':'snap_nopreview sharing robots-nocontent'})]

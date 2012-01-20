@@ -15,8 +15,8 @@ class ClimateProgress(BasicNewsRecipe):
     description           = "An insider's view of climate science, politics and solutions"
     publisher             = 'Climate Progress'
     category              = 'news, ecology, climate, blog'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = True
     encoding              = 'utf-8'

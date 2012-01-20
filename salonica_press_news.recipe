@@ -4,8 +4,8 @@ class spn(BasicNewsRecipe):
     title          = u'Salonica Press News'
     language = 'gr'
     __author__ = "SteliosGero"
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 3
+    max_articles_per_feed = 100
     auto_cleanup = True
     category               = 'news, GR'
     language               = 'el'

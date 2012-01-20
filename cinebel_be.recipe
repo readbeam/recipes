@@ -14,10 +14,10 @@ class Cinebel(BasicNewsRecipe):
     description           = u'Cinema news from Belgium in French'
     publisher             = u'cinebel.be'
     category              = 'news, cinema, movie, Belgium'
-    oldest_article = 7
+    oldest_article        = 15
     language              = 'fr'
 
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     no_stylesheets        = True
     use_embedded_content  = False
     timefmt               = ' [%d %b %Y]'

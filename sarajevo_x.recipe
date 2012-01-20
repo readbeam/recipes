@@ -15,9 +15,9 @@ class SarajevoX(BasicNewsRecipe):
     description           = 'Sarajevo-x.com - najposjeceniji bosanskohercegovacki internet portal'
     publisher             = 'InterSoft d.o.o.'
     category              = 'news, politics, Bosnia and Herzegovina,Sarajevo-x.com, internet, portal, vijesti, bosna i hercegovina, sarajevo'
-    oldest_article = 7
+    oldest_article        = 2
     delay                 = 1
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'cp1250'
     use_embedded_content  = False

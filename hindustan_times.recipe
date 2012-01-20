@@ -5,8 +5,8 @@ class HindustanTimes(BasicNewsRecipe):
     title          = u'Hindustan Times'
     language       = 'en_IN'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1 #days
+    max_articles_per_feed = 25
     use_embedded_content = False
 
     no_stylesheets = True

@@ -10,8 +10,8 @@ class Gazeta_Wyborcza(BasicNewsRecipe):
     category='newspaper'
     INDEX='http://wyborcza.pl'
     remove_empty_feeds= True
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 3
+    max_articles_per_feed = 100
     remove_javascript=True
     no_stylesheets=True
     remove_tags_before=dict(id='k0')

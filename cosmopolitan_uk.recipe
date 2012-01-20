@@ -12,7 +12,7 @@ class AdvancedUserRecipe1306097511(BasicNewsRecipe):
     cover_url = 'http://www.cosmopolitan.magazine.co.uk/files/4613/2085/8988/Cosmo_Cover3.jpg'
     no_stylesheets = True
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     remove_empty_feeds = True
     remove_javascript     = True
 

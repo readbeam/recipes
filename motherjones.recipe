@@ -13,8 +13,8 @@ class MotherJonesRecipe(BasicNewsRecipe):
     category = u'News, Investigative journalism'
     description = u'Independent investigative, political, and social justice reporting. Takes no prisoners, cleaves to no dogma, and tells it like it is.'
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 14
+    max_articles_per_feed = 100
     use_embedded_content = False
 
     remove_empty_feeds = True

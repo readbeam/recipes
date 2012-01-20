@@ -3,8 +3,8 @@ from calibre.web.feeds.recipes import BasicNewsRecipe
 class TaNea(BasicNewsRecipe):
     title          = u'Ta Nea'
     __author__             = 'Pan'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     no_stylesheets         = True
     language = 'el'
 

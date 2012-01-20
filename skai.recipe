@@ -5,8 +5,8 @@ class SKAI(BasicNewsRecipe):
     title                  = 'SKAI'
     __author__             = 'Stelios'
     description            = 'News from Greece'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 2
+    max_articles_per_feed  = 100
     publisher              = 'skai.gr'
     category               = 'news, GR'
     language               = 'el'

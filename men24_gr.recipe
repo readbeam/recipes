@@ -4,8 +4,8 @@ class Men24(BasicNewsRecipe):
     title          = 'Men24.gr'
     __author__             = 'Stelios'
     description            = 'Greek Mens portal'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 14
+    max_articles_per_feed = 100
     language = 'el'
     cover_url = 'http://www.men24.gr/ast/img/men24Logo.jpg'
     category               = 'magazines, GR'

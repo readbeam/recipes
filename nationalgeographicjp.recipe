@@ -10,7 +10,7 @@ import re
 class NationalGeoJp(BasicNewsRecipe):
     title          = u'\u30ca\u30b7\u30e7\u30ca\u30eb\u30fb\u30b8\u30aa\u30b0\u30e9\u30d5\u30a3\u30c3\u30af\u30cb\u30e5\u30fc\u30b9'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
 
     feeds          = [(u'news', u'http://www.nationalgeographic.co.jp/news/rss.php')]

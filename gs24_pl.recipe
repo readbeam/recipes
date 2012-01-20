@@ -12,8 +12,8 @@ class AdvancedUserRecipe1322322819(BasicNewsRecipe):
     language       = 'pl'
     publisher      = 'Media Regionalne sp. z o.o.'
     category       = 'news, szczecin'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 2
+    max_articles_per_feed = 100
     auto_cleanup = True
     cover_url = "http://www.gs24.pl/images/top_logo.png"
 

@@ -19,7 +19,7 @@ class LaRepubblica(BasicNewsRecipe):
     category                = 'News, politics, culture, economy, general interest'
     language                = 'it'
     timefmt                 = '[%a, %d %b, %Y]'
-    oldest_article = 7
+    oldest_article          = 5
     encoding                = 'utf8'
     use_embedded_content    = False
     no_stylesheets          = True

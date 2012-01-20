@@ -6,9 +6,9 @@ class Ekot_SE(BasicNewsRecipe):
     description           = 'Nyheter fr\xc3\xa5n Ekot'
     publisher             = 'Ekot'
     category              = 'news, politics, Sweden'
-    oldest_article = 7
+    oldest_article        = 7
     delay                 = 1
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

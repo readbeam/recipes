@@ -16,7 +16,7 @@ class NoviStandard(BasicNewsRecipe):
     category               = 'news, politics, Serbia'
     no_stylesheets         = True
     delay                  = 1
-    oldest_article = 7
+    oldest_article         = 15
     encoding               = 'utf-8'
     publication_type       = 'magazine'
     needs_subscription     = 'optional'

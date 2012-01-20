@@ -6,8 +6,8 @@ class AdvancedUserRecipe1275798572(BasicNewsRecipe):
     language = 'en_CA'
     __author__ = 'rty'
     category              = 'news'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 4
+    max_articles_per_feed = 100
     remove_javascript = True
     use_embedded_content   = False
     no_stylesheets = True

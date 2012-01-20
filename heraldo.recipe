@@ -21,9 +21,9 @@ class heraldo(BasicNewsRecipe):
     category       = 'News, politics, culture, economy, general interest'
     language       = 'es'
     timefmt        = '[%a, %d %b, %Y]'
-    oldest_article = 7
+    oldest_article = 2
     delay          = 1
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     use_embedded_content  = False
     remove_javascript = True
     no_stylesheets = True

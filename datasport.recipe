@@ -8,8 +8,8 @@ class AdvancedUserRecipe1324114272(BasicNewsRecipe):
     title          = u'Datasport'
     language = 'it'
     __author__ = 'faber1971'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     auto_cleanup = True
 
     feeds          = [(u'Datasport', u'http://www.datasport.it/calcio/rss.xml')]

@@ -7,11 +7,11 @@ class VanityFair(BasicNewsRecipe):
 	description    = 'Vanity Fair Magazine (U.S.)'
 	language       = 'en'
 	__author__     = 'Barty'
-	max_articles_per_feed = 30
+	max_articles_per_feed = 100
 	no_stylesheets = False
 	auto_cleanup   = False
 	timefmt        = ' [%B %Y]'
-	oldest_article = 7
+	oldest_article = 365
 
 	masthead_url   = 'http://www.vanityfair.com/etc/designs/vanityfair/images/shell/print-logo.png'
 

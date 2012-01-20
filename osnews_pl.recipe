@@ -22,7 +22,7 @@ class OSNewsRecipe(BasicNewsRecipe):
     use_embedded_content = False;
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     cover_url='http://osnews.pl/wp-content/themes/osnews/img/logo.png'
     extra_css = '''
         .news-heading {font-size:150%}

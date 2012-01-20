@@ -5,8 +5,8 @@ class protagon(BasicNewsRecipe):
     title                  = 'Protagon'
     __author__             = 'Stelios'
     description            = 'Opinion articles in Greek'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article         = 7
+    max_articles_per_feed  = 100
     publisher              = 'Various'
     category               = 'GR'
     language               = 'el'

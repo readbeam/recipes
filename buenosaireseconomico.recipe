@@ -12,8 +12,8 @@ class BsAsEconomico(BasicNewsRecipe):
     description           = 'Diario BAE es el diario economico-politico con mas influencia en la Argentina. Fuente de empresarios y politicos del pais y el exterior. El pozo estaria aportando en periodos breves un volumen equivalente a 800m3 diarios. Pero todavia deben efectuarse otras perforaciones adicionales.'
     publisher             = 'Diario BAE'
     category              = 'news, politics, economy, Argentina'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

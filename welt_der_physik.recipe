@@ -10,7 +10,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
 	dict(id=['naservice', 'phservicemenu', '',]),
 	dict(name=['naservice'])]
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

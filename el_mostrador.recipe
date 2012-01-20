@@ -8,7 +8,7 @@ class AdvancedUserRecipe1313609361(BasicNewsRecipe):
     publisher             = u'La Plaza S.A.'
     category              = 'news, rss'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     summary_length        = 1000
     language              = 'es_CL'
     remove_javascript     = True

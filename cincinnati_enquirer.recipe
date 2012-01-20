@@ -10,7 +10,7 @@ class AdvancedUserRecipe1234144423(BasicNewsRecipe):
     language = 'en'
 
     __author__     = 'Joseph Kitzmiller and Sujata Raman'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     remove_javascript     = True

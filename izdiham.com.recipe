@@ -6,7 +6,7 @@ class BasicUserRecipe1324158549(BasicNewsRecipe):
     __author__ = 'asalet_r'
 
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 20
     auto_cleanup = True
 
     feeds          = [(u'\u0130zdiham', u'http://www.izdiham.com/index.php/feed')]

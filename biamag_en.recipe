@@ -13,8 +13,8 @@ class Radikal_tr(BasicNewsRecipe):
     description           = 'Independent News Network from Turkey(English)'
     publisher             = 'Bianet'
     category              = 'news, politics, Turkey'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 150
     masthead_url          = 'http://bianet.org/images/english_logo.gif'
     language              = 'en_TR'
     no_stylesheets        = True

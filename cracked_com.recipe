@@ -7,8 +7,8 @@ class Cracked(BasicNewsRecipe):
     description           = "America's Only HumorSite since 1958"
     publisher             = 'Cracked'
     category              = 'comedy, lists'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 3 #days
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'ascii'
     remove_javascript     = True

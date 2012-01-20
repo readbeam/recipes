@@ -7,7 +7,7 @@ class Bash_org_pl(BasicNewsRecipe):
     category       = 'funny quotations, humour'
     language       = 'pl'
     cover_url = u'http://userlogos.org/files/logos/dzikiosiol/none_0.png'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 50
     no_stylesheets= True
     keep_only_tags= [dict(name='a', attrs={'class':'qid click'}), 
 	          dict(name='div', attrs={'class':'quote post-content post-body'})]
@@ -31,7 +31,7 @@ class Bash_org_pl(BasicNewsRecipe):
 
     def random_articles(self):
          articles = []
-         for i in range(self.max_articles_per_feed = 30
+         for i in range(self.max_articles_per_feed):
              soup=self.index_to_soup(u'http://bash.org.pl/random/')
              #date=soup.find('div', attrs={'class':'right'}).string
              url=soup.find('a', attrs={'class':'qid click'})

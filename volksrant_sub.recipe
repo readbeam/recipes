@@ -18,8 +18,8 @@ class Volkskrant_full(BasicNewsRecipe):
     title = 'De Volkskrant (subscription)' # [za, 13 nov 2010]'
     __author__ = u'Selcal'
     description = u"Volkskrant"
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 30
+    max_articles_per_feed = 100
     no_stylesheets = True
     language = 'nl'
     use_embedded_content = False

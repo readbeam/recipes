@@ -21,8 +21,8 @@ class LentaRURecipe(BasicNewsRecipe):
         \u0440\u0443\u0441\u0441\u043a\u043e\u043c
         \u044f\u0437\u044b\u043a\u0435'''
     description = u'Ежедневная интернет-газета. Новости со всего мира на русском языке'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 3
+    max_articles_per_feed = 100
 
     masthead_url = u'http://img.lenta.ru/i/logowrambler.gif'
     cover_url = u'http://img.lenta.ru/i/logowrambler.gif'

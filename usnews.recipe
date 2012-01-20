@@ -13,8 +13,8 @@ class LaPrensa(BasicNewsRecipe):
     description           = 'News from USA and world'
     publisher             = 'U.S.News & World Report, L.P.'
     category              = 'news, politics, USA'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     encoding              = 'utf-8'

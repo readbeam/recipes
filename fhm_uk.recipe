@@ -8,8 +8,8 @@ class AdvancedUserRecipe1325006965(BasicNewsRecipe):
     __author__ = 'Dave Asbury'
     # last updated 27/12/11
     language = 'en_GB'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 28
+    max_articles_per_feed = 12
     remove_empty_feeds = True
     no_stylesheets = True
     #auto_cleanup = True

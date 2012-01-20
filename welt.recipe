@@ -16,7 +16,7 @@ class weltDe(BasicNewsRecipe):
     __author__ = 'Oliver Niesner'
     use_embedded_content   = False
     timefmt = ' [%d %b %Y]'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 15
     linearize_tables = True
     no_stylesheets = True
     remove_stylesheets = True

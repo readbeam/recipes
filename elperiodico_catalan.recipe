@@ -16,8 +16,8 @@ class ElPeriodico_cat(BasicNewsRecipe):
     description           = 'Noticies des de Catalunya'
     publisher             = 'elperiodico.cat'
     category              = 'news, politics, Spain, Catalunya'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 2
+    max_articles_per_feed = 100
     no_stylesheets        = True
     use_embedded_content  = False
     delay                 = 1

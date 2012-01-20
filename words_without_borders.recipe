@@ -7,7 +7,7 @@ class AdvancedUserRecipe1308302002(BasicNewsRecipe):
     title          = u'Words Without Borders'
     language = 'en'
     __author__ = 'sexymax15'
-    oldest_article = 7
+    oldest_article = 90
     max_articles_per_feed = 30
     use_embedded_content = False
 

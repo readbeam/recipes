@@ -15,8 +15,8 @@ class Opinion_Bol(BasicNewsRecipe):
     publisher             = 'Coboce Ltda - Editora Opinión'
     category              = 'news, politics, Bolivia'
     version               = 1
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 1
+    max_articles_per_feed = 20
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

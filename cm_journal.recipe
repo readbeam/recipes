@@ -6,7 +6,7 @@ class CMJornal_pt(BasicNewsRecipe):
     description           = 'As noticias de Portugal e do Mundo'
     publisher             = 'Cofina Media'
     category              = ''
-    oldest_article = 7
+    oldest_article        = 1
     no_stylesheets        = True
     encoding              = 'utf-8'
     use_embedded_content  = False

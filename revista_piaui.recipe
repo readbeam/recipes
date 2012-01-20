@@ -5,8 +5,8 @@ class RevistaPiaui(BasicNewsRecipe):
     title          = u'Revista piau\xed'
     language = 'pt_BR'
     __author__ = u'Eduardo Gustini Simões'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 31
+    max_articles_per_feed = 50
     auto_cleanup = True
 
     feeds          = [(u'Edi\xe7\xe3o Atual', u'http://revistapiaui.estadao.com.br/feed/rss/edicao-atual.xml')]

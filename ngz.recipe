@@ -9,7 +9,7 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
                 dict(id=['footer', 'toolsRight', 'articleInline', 'navigation', 'archive', 'side_search', 'blog_sidebar', 'side_tool', 'side_index', 'Verlinken', 'vorheriger', 'LESERKOMMENTARE', 'bei facebook', 'bei twitter', 'Schreiben Sie jetzt Ihre Meinung:', 'Thema', 'Ihr Beitrag', 'Ihr Name', 'Ich möchte über weitere Lesermeinungen zu diesem Artikel per E-Mail informiert werden.', 'banneroben', 'bannerrechts', 'inserieren', 'stellen', 'auto', 'immobilien', 'kleinanzeige', 'tiere', 'ferienwohnung', 'NGZ Card', 'Mediengruppe RP', 'Werben', 'Newsletter', 'Wetter', 'RSS', 'Abo', 'Anzeigen', 'Redaktion', 'Schulprojekte', 'Gast', 'Mein NGZ', 'Nachrichten', 'Sport', 'Wirtschaft', 'Stadt-Infos', 'Bilderserien', 'Bookmarken', 'del.icio.us', 'Mister Wong', 'YiGG', 'Webnews', 'Shortnews', 'Twitter', 'Newsider', 'Facebook', 'StudiVZ/MeinVZ', 'Versenden', 'Drucken']),
                 dict(name=['script', 'noscript', 'style'])]
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

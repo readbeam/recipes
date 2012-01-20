@@ -8,8 +8,8 @@ class AdvancedUserRecipe1303841067(BasicNewsRecipe):
     remove_tags = [dict(attrs={'class':['navi_oben_pvg', 'navi_oben_tarifr', 'navi_oben_itm', 'navi_oben_eve', 'navi_oben_whi', 'navi_oben_abo', 'navi_oben_shop', 'navi_top_logo', 'navi_top_abschnitt', 'first']}),
                dict(id=['footer', 'toolsRight', 'articleInline', 'navigation', 'archive', 'side_search', 'blog_sidebar', 'side_tool', 'side_index']),
                dict(name=['script', 'noscript', 'style'])]
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 4
+    max_articles_per_feed = 100
     no_stylesheets         = True
     use_embedded_content   = False
     language               = 'de'

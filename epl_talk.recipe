@@ -20,8 +20,8 @@ class EPLTalkRecipe(BasicNewsRecipe):
     description = u'News and Analysis from the English Premier League'
     cover_url = 'http://bit.ly/hJxZPu'
 
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 3
+    max_articles_per_feed = 100
     use_embedded_content = True
     remove_javascript = True
     encoding = 'utf8'

@@ -4,8 +4,8 @@ class ProvidenceJournal(BasicNewsRecipe):
     title          = u'Providence Journal'
     language       = 'en'
     __author__     = 'Krittika Goyal'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 7 #days
+    max_articles_per_feed = 25
 
     no_stylesheets = True
     remove_tags_before = dict(name='span', attrs={'class':'vitstorybody'})

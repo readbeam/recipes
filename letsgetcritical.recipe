@@ -6,10 +6,10 @@ class LetsGetCritical(BasicNewsRecipe):
     description    = 'Curation / aggregation of criticisms of the arts and culture '
     language = 'en'
     __author__     = 'barty on mobileread.com forum'
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets = False
     timefmt        = ' [%a, %d %b, %Y]'
-    oldest_article = 7
+    oldest_article = 365
     auto_cleanup   = True
     INDEX          = 'http://www.letsgetcritical.org'
     CATEGORIES     = [

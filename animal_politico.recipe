@@ -10,8 +10,8 @@ class AdvancedUserRecipe1290663986(BasicNewsRecipe):
     description    = u'Noticias Pol\u00EDticas'
     __author__     = 'leamsi'
     masthead_url   = 'http://www.animalpolitico.com/wp-content/themes/animal_mu/images/logo.png'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 1
+    max_articles_per_feed = 100
     language       = 'es_MX'
 
     #feeds          = [(u'Animal Politico', u'http://www.animalpolitico.com/feed/')]

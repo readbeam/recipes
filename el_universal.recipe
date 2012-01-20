@@ -10,8 +10,8 @@ class ElUniversal(BasicNewsRecipe):
     title                 = 'El Universal'
     __author__            = 'Darko Miletic and Sujata Raman'
     description           = 'News from Mexico'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 1
+    max_articles_per_feed = 100
     publisher             = 'El Universal'
     category              = 'news, politics, Mexico'
     no_stylesheets        = True

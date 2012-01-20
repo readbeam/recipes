@@ -13,8 +13,8 @@ class Esquire(BasicNewsRecipe):
     description           = 'Esquire: Man at His Best'
     publisher             = 'Hearst Communications, Inc.'
     category              = 'magazine, men, women we love, style, the guide, sex, screen'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'cp1250'
     use_embedded_content  = False

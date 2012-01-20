@@ -6,8 +6,8 @@ class AdvancedUserRecipe1289939440(BasicNewsRecipe):
   title       = u'Root.cz'
   description = u'Zprávičky a články z Root.cz'
   publisher   = u'Internet Info, s.r.o'
-  oldest_article = 7
-  max_articles_per_feed = 30
+  oldest_article = 2               #max stari clanku ve dnech
+  max_articles_per_feed = 50       #max pocet clanku na feed
 
   feeds = [
     (u'Články', u'http://www.root.cz/rss/clanky/'),

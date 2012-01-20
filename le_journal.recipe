@@ -11,7 +11,7 @@ class LeJournalDeMontrealRecipe(BasicNewsRecipe):
 
      oldest_article = 7
      use_embedded_content=0
-     max_articles_per_feed = 30
+     max_articles_per_feed = 15
 
      remove_tags = [
                         dict(name='ul',attrs={'id':'mainNav'}),

@@ -4,7 +4,7 @@ class sigmalive(BasicNewsRecipe):
     title          = u'SigmaLive'
     __author__ = 'Stelios'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     auto_cleanup = True
     category               = 'news, CY'
     description            = 'Cypriot News'

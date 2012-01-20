@@ -30,7 +30,7 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     #
     #  First select the feeds you want then scroll down below the feeds list
     #  and select the values you want for the other user preferences, like
-    #  oldest_article = 7
+    #  oldest_article and such like.
     #
     #
     #  Select the BBC rss feeds which you want in your ebook.
@@ -45,17 +45,17 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # Wales, Scotland Business), and 7 Welsh language feeds.
     #
     # Some of the feeds are low volume (Eg. blogs), or very low volume (Eg. Click)
-    # so if "oldest_article = 7
+    # so if "oldest_article = 1.5" (only articles published in the last 36 hours)
     # you may get some 'empty feeds' which will not then be included in the ebook.
     #
     # The 15 feeds currently selected below are simply my default ones.
     #
-    # Note: With all 68 feeds selected, oldest_article = 7
-    # max_articles_per_feed = 30
+    # Note: With all 68 feeds selected, oldest_article set to 2,
+    # max_articles_per_feed set to 100, and simultaneous_downloads set to 10,
     # the ebook creation took 29 minutes on my speedy 100 mbps net connection,
     # fairly high-end desktop PC running Linux (Ubuntu Lucid-Lynx).
-    # More realistically with 15 feeds selected, oldest_article = 7
-    # max_articles_per_feed = 30
+    # More realistically with 15 feeds selected, oldest_article set to 1.5,
+    # max_articles_per_feed set to 100, and simultaneous_downloads set to 20,
     # it took 6 minutes. If that's too slow increase 'simultaneous_downloads'.
     #
     # Select / de-select the feeds you want in your ebook.
@@ -146,7 +146,7 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # I've never seen more than about 70 articles in a single feed in the
     # BBC feeds.
     #
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
 
     # The max age of articles which may be downloaded from each feed. This is
     # specified in days - note fractions of days are allowed, Eg. 2.5 (2 and a
@@ -155,14 +155,14 @@ class BBCNewsSportBlog(BasicNewsRecipe):
     # so good for the blogs, technology, magazine, etc., and sports feeds.
     # You may wish to extend this to 2-5 but watch out ebook creation time will
     # increase as well. Setting this to 30 will get everything (AFAICT) as long
-    # as max_articles_per_feed = 30
+    # as max_articles_per_feed remains set high (except for 'Click' which is
     # v. low volume and its currently oldest article is 4th Feb 2011).
     #
-    oldest_article = 7
+    oldest_article = 1.5
 
     # Number of simultaneous downloads. 20 is consistantly working fine on the
     # BBC News feeds with no problems. Speeds things up from the defualt of 5.
-    # If you have a lot of feeds and/or have increased oldest_article = 7
+    # If you have a lot of feeds and/or have increased oldest_article above 2
     # then you may wish to try increasing simultaneous_downloads to 25-30,
     # Or, of course, if you are in a hurry. [I've not tried beyond 20.]
     #

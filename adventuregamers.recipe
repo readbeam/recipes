@@ -13,9 +13,9 @@ class AdventureGamers(BasicNewsRecipe):
     description           = 'Adventure games portal'
     publisher             = 'Adventure Gamers'
     category              = 'news, games, adventure, technology'
-    oldest_article = 7
+    oldest_article        = 10
     delay                 = 10
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     no_stylesheets        = True
     encoding              = 'cp1252'
     remove_javascript     = True

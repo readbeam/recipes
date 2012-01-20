@@ -14,8 +14,8 @@ class Axxon_news(BasicNewsRecipe):
     description           = 'Axxon, Ciencia Ficcion en Bits'
     publisher             = 'Axxon'
     category              = 'news, SF, Argentina, science, movies'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article        = 7
+    max_articles_per_feed = 100
     no_stylesheets        = False
     use_embedded_content  = False
     language = 'es_AR'

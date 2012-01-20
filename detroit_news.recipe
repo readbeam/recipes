@@ -5,8 +5,8 @@ class AdvancedUserRecipe1297291961(BasicNewsRecipe):
     title          = u'Detroit News'
     language = 'en'
     __author__ = 'DTM'
-    oldest_article = 7
-    max_articles_per_feed = 30
+    oldest_article = 2
+    max_articles_per_feed = 20
     no_stylesheets = True
     conversion_options = {
                                      'linearize_tables' : True,

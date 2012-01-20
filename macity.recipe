@@ -4,7 +4,7 @@ class AdvancedUserRecipe1325766771(BasicNewsRecipe):
     title          = u'Macity'
     language = 'it'
     oldest_article = 7
-    max_articles_per_feed = 30
+    max_articles_per_feed = 100
     auto_cleanup = True
 
     def get_article_url(self, article):
