@@ -34,7 +34,7 @@ class TheIndependentNew(BasicNewsRecipe):
     use_embedded_content    = False
     remove_empty_feeds      = True
     oldest_article        = 1
-    max_articles_per_feed = 50
+    max_articles_per_feed = 30
 
     language                = 'en_GB'
     publication_type        = 'newspaper'
