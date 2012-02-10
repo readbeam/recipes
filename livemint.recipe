@@ -1,0 +1,26 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+
+class LiveMint(BasicNewsRecipe):
+    title          = u'Live Mint'
+    language       = 'en_IN'
+    __author__     = 'Krittika Goyal'
+    #encoding = 'cp1252'
+    oldest_article = 1 #days
+    max_articles_per_feed = 25
+    use_embedded_content = True
+
+    no_stylesheets = True
+    auto_cleanup = True
+
+
+    feeds          = [
+('Latest News',
+ 'http://www.livemint.com/StoryRss.aspx?LN=Latestnews'),
+ ('Gallery',
+ 'http://www.livemint.com/GalleryRssfeed.aspx'),
+ ('Top Stories',
+ 'http://www.livemint.com/StoryRss.aspx?ts=Topstories'),
+ ('Banking',
+ 'http://www.livemint.com/StoryRss.aspx?Id=104'),
+]
+
