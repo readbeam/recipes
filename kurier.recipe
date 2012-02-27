@@ -29,9 +29,11 @@ class Kurier(BasicNewsRecipe):
                         , 'language'  : language
                         }
 
-    remove_tags = [dict(attrs={'class':['functionsleiste','functions','social_positionierung','contenttabs','drucken','versenden','leserbrief','kommentieren','addthis_button']})]
+    remove_tags = [ dict(attrs={'id':['artikel_expand_symbol2','imgzoom_close2']}), 
+                    dict(attrs={'class':['linkextern','functionsleiste','functions','social_positionierung','contenttabs','drucken','versenden','leserbrief','kommentieren','addthis_button']})
+                   ]
     keep_only_tags    = [dict(attrs={'id':'content'})]
-    remove_tags_after = dict(attrs={'id':'author'})
+    remove_tags_after = [dict(attrs={'id':'author'})]
     remove_attributes = ['width','height']
 
     feeds = [
@@ -41,7 +43,7 @@ class Kurier(BasicNewsRecipe):
               ,(u'Kultur'     , u'http://kurier.at/rss/kultur_kultur_rss.xml'   )
               ,(u'Freizeit'   , u'http://kurier.at/rss/freizeit_freizeit_rss.xml'   )
               ,(u'Wetter'     , u'http://kurier.at/rss/oewetter_rss.xml'   )
-              ,(u'Verkehr'    , u'http://kurier.at/rss/verkehr_rss.xml'   )
+              ,(u'Sport'      , u'http://kurier.at/newsfeed/detail/sport_rss.xml'   )
             ]
 
     def preprocess_html(self, soup):
